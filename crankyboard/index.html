@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#783AF5" />
+    
+    <title>Crankyboard - Playdate Scoreboards!!</title>
+    <meta property="og:title" content="Crankyboard - Playdate Scoreboards!!">
+    <meta name="twitter:title" content="Crankyboard - Playdate Scoreboards!!">
+    <meta name="description" content="Check out the scoreboards for Playdate games, right in your browser!">
+    <meta property="og:description" content="Check out the scoreboards for Playdate games, right in your browser!">
+    <meta name="twitter:description" content="Check out the scoreboards for Playdate games, right in your browser!">
+    <meta property="twitter:domain" content="stuffbyrae.neocities.org">
+    <meta property="og:url" content="https://stuffbyrae.neocities.org/crankyboard/">
+    <meta property="twitter:url" content="https://stuffbyrae.neocities.org/crankyboard/">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;family=Righteous&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet">
+
+    <script src="script.js"></script>
+    <script src="crankyboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/b793926a64.js" crossorigin="anonymous"></script>
+</head>
+<body class="f fc fac" onload="setup()">
+    <div class="f fac">
+        <img class="logo" src="logo.svg" />
+        <a class="menu_button f fac fjc" onclick="toggle_menu()"><i class="fa-solid fa-circle"></i></a>
+    </div>
+    <div class="stuff">
+    <div class="menu_holder">
+        <div class="menu f fc">
+            <a class="menu_button f fac fjc" onclick="toggle_menu()"><i class="fa-solid fa-times"></i></a>
+            <h2 class="menu_category"><i class="menu_icon fa-solid fa-gift"></i>Season Games</h2>
+            <a class="menu_game" id="ww" onclick="set_scoreboard(event, this)"><i class="menu_icon fa-solid fa-water"></i>Whitewater Wipeout</a>
+            <a class="menu_game" id="zp"  onclick="set_scoreboard(event, this)"><i class="menu_icon fa-solid fa-user-ninja"></i>Zipper</a>
+            <a class="menu_game" id="hm" onclick="set_scoreboard(event, this)"><i class="menu_icon fa-solid fa-location-arrow"></i>Hyper Meteor</a>
+            <details><summary><a class="menu_game"><i class="menu_icon fa-solid fa-apple-whole"></i>Snak</a></summary>
+            <a class="menu_game_cat" id="sn1" onclick="set_scoreboard(event, this)">Snak Class Scores</a>
+            <a class="menu_game_cat" id="sn2" onclick="set_scoreboard(event, this)">Snaak Class Scores</a>
+            <a class="menu_game_cat" id="sn3" onclick="set_scoreboard(event, this)">Snaaak Class Scores</a>
+            <a class="menu_game_cat" id="sn4" onclick="set_scoreboard(event, this)">Snaaaak Class Scores</a>
+            <a class="menu_game_cat" id="sn5" onclick="set_scoreboard(event, this)">Snaaaaak Class Scores</a></details>
+            <hr />
+            <h2 class="menu_category"><i class="menu_icon fa-solid fa-book-open"></i>Catalog Games</h2>
+            <a class="menu_game" id="cj" onclick="set_scoreboard(event, this)"><i class="menu_icon fa-solid fa-snowboarding"></i>Carve Jr</a>
+            <a class="menu_game" id="sk" onclick="set_scoreboard(event, this)"><i class="menu_icon fa-solid fa-box"></i>SKEW</a>
+            <details><summary><a class="menu_game"><i class="menu_icon fa-solid fa-gear"></i>Swap Machina</a></summary>
+            <a class="menu_game_cat" id="sw1" onclick="set_scoreboard(event, this)">Normal Scores</a>
+            <a class="menu_game_cat" id="sw2" onclick="set_scoreboard(event, this)">Mayhem Scores</a></details>
+            <details><summary><a class="menu_game"><i class="menu_icon fa-solid fa-biking"></i>Grand Tour Legends</a></summary>
+            <a class="menu_game_cat" id="gt1" onclick="set_scoreboard(event, this)">Castle Hill</a>
+            <a class="menu_game_cat" id="gt2" onclick="set_scoreboard(event, this)">Alpine Pass</a>
+            <a class="menu_game_cat" id="gt3" onclick="set_scoreboard(event, this)">Ocean Breeze</a></details>
+            <details><summary><a class="menu_game"><i class="menu_icon fa-solid fa-car-side"></i>Word Trip</a></summary>
+            <a class="menu_game_cat" id="wt1" onclick="set_scoreboard(event, this)">Easy Scores</a>
+            <a class="menu_game_cat" id="wt2" onclick="set_scoreboard(event, this)">Normal Scores</a>
+            <a class="menu_game_cat" id="wt3" onclick="set_scoreboard(event, this)">Hard Scores</a></details>
+        <hr />
+        <h2 class="menu_category"><i class="menu_icon fa-solid fa-rocket"></i>External Boards</h2>
+            <a class="menu_game" href="https://www.speedrun.com/games#platform=Playdate"><i class="menu_icon fa-solid fa-trophy"></i>Speedrun.com Boards</a>
+            <a class="menu_game" href="https://paulewers.com/loopsy/"><i class="menu_icon fa-solid fa-infinity"></i>Loopsy</a>
+      </div>
+    </div>
+    <div class="scoreboard">
+        <div class="sb_info">
+            <h2 class="sb_name">Welcome!</h2>
+            <p class="sb_cat">Open up a game from the menu to check out its scoreboards!</p>
+        </div>
+        <div class="sb_e">
+        </div>
+    </div>
+</div>
+    <p class="footer">2023, <a href="https://stuffbyrae.neocities.org">made by rae</a></p>
+    <p class="footer">scores last updated <span class="lastupdated">some time ago</span></p>
+    <p class="footer">relative time<a class="timestamp_toggle" onclick="toggle_timestamp_view(this)"></a>absolute time</p>
+    <br>
+    <p class="footer">found a bug? have an idea? need the scores updated?</p>
+    <p class="footer">DM me on discord (if you've got it), or <a href="mailto:linkisawakening@gmail.com">shoot me an e-mail</a></p>
+    <br>
+    <p class="footer"><a href="https://play.date">playdate</a> is a registered trademark of <a href="https://panic.com">panic</a> - this site isn't affiliated with or endorsed by panic.</p>
+</body>
+</html>

@@ -1,0 +1,64 @@
+:root {
+font-size: 10px; margin: 10px; padding: 10px; --width: 300px;
+--piw: #ffdce8; --pil: #f38eb2; --pid: #b94576; --pib: #601a37;
+--rew: #ffd9d9; --rel: #f26f6f; --red: #b84445; --reb: #571515;
+--orw: #ffebd3; --orl: #eb9e5a; --ord: #935117; --orb: #47280c;
+--yew: #fffad0; --yel: #f7ea78; --yed: #b7a71c; --yeb: #544407; 
+--sew: #ebfff6; --sel: #54ffc1; --sed: #20bd98; --seb: #24584c;
+--blw: #d8f0fc; --bll: #78c1e1; --bld: #559bcf; --blb: #325084;
+--puw: #f7e8ff; --pul: #9577d2; --pud: #5f419b; --pub: #231b34;}
+.pi {--w: var(--piw); --l: var(--pil); --d: var(--pid); --b: var(--pib);}
+.re {--w: var(--rew); --l: var(--rel); --d: var(--red); --b: var(--reb);}
+.or {--w: var(--orw); --l: var(--orl); --d: var(--ord); --b: var(--orb);}
+.ye {--w: var(--yew); --l: var(--yel); --d: var(--yed); --b: var(--yeb);}
+.se {--w: var(--sew); --l: var(--sel); --d: var(--sed); --b: var(--seb);}
+.bl {--w: var(--blw); --l: var(--bll); --d: var(--bld); --b: var(--blb);}
+.pu {--w: var(--puw); --l: var(--pul); --d: var(--pud); --b: var(--pub);}
+.l {background: var(--l); color: var(--b);}
+.d {background: var(--d); color: var(--w);}
+
+* {box-sizing: border-box;}
+html {background: var(--sel);}
+body {margin: 0; padding-bottom: 2rem; min-height: 100vh; display: flex; flex-direction: column; align-items: center;}
+
+.f {display: flex; width: 100%;}
+.fc {flex-direction: column;}
+.fle {align-items: flex-start; justify-content: flex-start;}
+.fce {align-items: center; justify-content: center;}
+.fri {align-items: flex-end; justify-content: flex-end;}
+
+.tal {text-align: left;}
+.tac {text-align: center;}
+.tar {text-align: right;}
+
+.howdy {background: 100% 100% / 100% 100% url('howdy.png'); width: var(--width); aspect-ratio: 2.6 / 1;}
+.howdy h1 {font-size: 6rem; transform: translateX(20%) skewY(7deg); font-family: 'Righteous', sans-serif; color: var(--seb); margin: 0;}
+
+.bubble {margin: -0.5rem 0 3rem 0; width: var(--width); background: var(--sew); border: 3px solid var(--seb); padding: 1rem 2rem; border-radius: 30px; font-family: 'Poppins', sans-serif; font-size: 1.5rem; line-height: 1; color: var(--seb); position: relative;}
+.bubble:before {content: ''; width: 0; height: 0; position: absolute; border: 10px solid transparent; border-bottom: 20px solid var(--seb); top: -30px; left: 70px; transform: skewX(25deg);}
+
+.i {margin-right: 10px;}
+
+.project {background: var(--l); border-radius: 15px; overflow: hidden; position: relative; width: calC(var(--width) - 30px); border: 3px solid;}
+.project:not(:last-child) {margin-bottom: 2rem;}
+.project_logo {width: 70%; margin: 1.5rem 0 0 1.5rem; z-index: 2;}
+.project_title {margin: 0; font-size: 2.3rem; font-family: 'Righteous', sans-serif; margin: 1.5rem 0 0 1.5rem; z-index: 2; line-height: 1;}
+.project_stats {margin: 0; margin-top: 0.5rem; background: var(--w); padding: 0.4rem 0.6rem; border-radius: 5px; font-size: 1.1rem; z-index: 2; font-family: 'Poppins', sans-serif; width: fit-content; margin-left: 1.5rem;}
+.project_preview {width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1; filter: grayscale(100%); opacity: 0.2; object-fit: cover;}
+.project_moreinfo {background: linear-gradient(180deg, var(--l) 0%, var(--d) 100%); margin: 0; padding: 1.5rem; z-index: 2;}
+.project_desc {background: var(--b); padding: 1rem; font-size: 1.3rem; font-family: 'Poppins', sans-serif; color: var(--w); z-index: 2; border-radius: 10px; margin: -0.5rem 0 1.5rem 0;}
+.project_desc a {color: var(--l);}
+.project_button {background: var(--w); padding: 0.5rem 1rem; font-family: 'Poppins', sans-serif; font-size: 1.5rem; border-radius: 5px; z-index: 2; text-decoration: none; color: var(--b); cursor: pointer;}
+.project_button:not(:last-child) {margin-right: 0.5rem;}
+.dc.project_button {background: var(--b); color: var(--w);}
+.project_button:not(.disabled):hover {transform: translateY(-3px);}
+.project_button:not(.disabled):active {transform: translateY(2px) scaleY(0.9);}
+.project_button.disabled {opacity: 0.7; cursor: not-allowed;}
+
+.footer {font-family: 'Righteous', sans-serif; font-size: 1.5rem; margin: 0; color: var(--seb);}
+
+@media only screen and (min-width: 400px) {:root {font-size: 12px; margin: 12px; --width: 380px;}}
+@media only screen and (min-width: 600px) {:root {font-size: 15px; margin: 15px; --width: 490px;}}
+@media only screen and (min-width: 800px) {:root {font-size: 15px; margin: 15px; --width: 530px;}}
+@media only screen and (min-width: 1000px) {:root {font-size: 15px; margin: 15px; --width: 530px;}}
+@media only screen and (min-width: 1200px) {:root {font-size: 17px; margin: 17px; --width: 600px;}}
