@@ -34,26 +34,39 @@ body {margin: 0; padding-bottom: 2rem; min-height: 100vh; display: flex; flex-di
 .howdy {background: 100% 100% / 100% 100% url('howdy.png'); width: var(--width); aspect-ratio: 2.6 / 1;}
 .howdy h1 {font-size: 6rem; transform: translateX(20%) skewY(7deg); font-family: 'Righteous', sans-serif; color: var(--seb); margin: 0;}
 
-.bubble {margin: -0.5rem 0 3rem 0; width: var(--width); background: var(--sew); border: 3px solid var(--seb); padding: 1rem 2rem; border-radius: 30px; font-family: 'Poppins', sans-serif; font-size: 1.5rem; line-height: 1; color: var(--seb); position: relative;}
+.bubble {margin: -0.5rem 0 2rem 0; width: var(--width); background: var(--sew); border: 3px solid var(--seb); padding: 1rem 2rem; border-radius: 30px; font-family: 'Poppins', sans-serif; font-size: 1.5rem; line-height: 1; color: var(--seb); position: relative;}
 .bubble:before {content: ''; width: 0; height: 0; position: absolute; border: 10px solid transparent; border-bottom: 20px solid var(--seb); top: -30px; left: 70px; transform: skewX(25deg);}
 
 .i {margin-right: 10px;}
 
-.project {background: var(--l); border-radius: 15px; overflow: hidden; position: relative; width: calC(var(--width) - 30px); border: 3px solid;}
+.project {background: var(--l); border-radius: 30px; overflow: hidden; position: relative; width: calc(var(--width) - 30px); border: 3px solid;}
+.long {width: calc(var(--width) + 30px);}
 .project:not(:last-child) {margin-bottom: 2rem;}
 .project_logo {width: 70%; margin: 1.5rem 0 0 1.5rem; z-index: 2;}
 .project_title {margin: 0; font-size: 2.3rem; font-family: 'Righteous', sans-serif; margin: 1.5rem 0 0 1.5rem; z-index: 2; line-height: 1;}
-.project_stats {margin: 0; margin-top: 0.5rem; background: var(--w); padding: 0.4rem 0.6rem; border-radius: 5px; font-size: 1.1rem; z-index: 2; font-family: 'Poppins', sans-serif; width: fit-content; margin-left: 1.5rem;}
-.project_preview {width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1; filter: grayscale(100%); opacity: 0.2; object-fit: cover;}
+.project_stats {margin: 0; margin-top: 0.5rem; background: var(--w); padding: 0.4rem 0.6rem; border-radius: 5px; font-size: 1.1rem; z-index: 2; font-family: 'Poppins', sans-serif; width: fit-content; margin-left: 1.5rem; height: fit-content; white-space: nowrap;}
+.project_preview {width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 1; filter: grayscale(100%); opacity: 0.15; object-fit: cover;}
 .project_moreinfo {background: linear-gradient(180deg, var(--l) 0%, var(--d) 100%); margin: 0; padding: 1.5rem; z-index: 2;}
 .project_desc {background: var(--b); padding: 1rem; font-size: 1.3rem; font-family: 'Poppins', sans-serif; color: var(--w); z-index: 2; border-radius: 10px; margin: -0.5rem 0 1.5rem 0;}
+.project_desc:last-child {margin: -0.5rem 0 0 0;}
 .project_desc a {color: var(--l);}
-.project_button {background: var(--w); padding: 0.5rem 1rem; font-family: 'Poppins', sans-serif; font-size: 1.5rem; border-radius: 5px; z-index: 2; text-decoration: none; color: var(--b); cursor: pointer;}
+.full_house {justify-content: space-around;}
+.full_house:not(:last-child) {margin-bottom: 0.5rem;}
+.full_house .project_button {flex-grow: 1;}
+.full_house .i {margin-right: 0;}
+.project_button {background: var(--w); padding: 0.5rem 1rem; font-family: 'Poppins', sans-serif; font-size: 1.5rem; border-radius: 5px; z-index: 2; text-decoration: none; color: var(--b); cursor: pointer; text-align: center;}
 .project_button:not(:last-child) {margin-right: 0.5rem;}
 .dc.project_button {background: var(--b); color: var(--w);}
 .project_button:not(.disabled):hover {transform: translateY(-3px);}
 .project_button:not(.disabled):active {transform: translateY(2px) scaleY(0.9);}
 .project_button.disabled {opacity: 0.7; cursor: not-allowed;}
+
+.slim .project_logo {width: 45%; margin: 1.5rem 0 0 1.5rem;}
+.slim .project_title {font-size: 2rem; margin: 1.5rem 1rem 0 1.5rem;}
+.slim .project_info {align-items: center; justify-content: space-between;}
+.slim .project_stats {margin: 1rem 1.5rem 0 0;}
+.slim .project_desc {line-height: 1;}
+.slim .project_button {font-size: 1.25rem;}
 
 .footer {font-family: 'Righteous', sans-serif; font-size: 1.5rem; margin: 0; color: var(--seb);}
 
