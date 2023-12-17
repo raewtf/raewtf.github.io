@@ -1,0 +1,105 @@
+* {font-family: 'Poppins', sans-serif;}
+html {font-size: 19px; overflow-x: hidden;}
+body {margin: 0px 20px; background: linear-gradient(180deg, rgba(50,80,131,1) 0%, rgba(50,80,131,1) 20%, rgba(107,135,173,1) 62%, rgba(50,80,131,1) 78%, rgba(50,80,131,1) 92%, rgba(107,135,173,1) 100%); display: flex; flex-direction: column; align-items: center;}
+
+@keyframes bob {
+    0, 100% {bottom: 3;}
+    50% {bottom: -2%;}
+}
+
+.banner {background: #78c1e1; width: 130%; height: 50vh; overflow: hidden; position: relative; display: none;}
+.wave {position: absolute; bottom: 0; width: 200%; background: url('wave.png') 0 0 / 20% 100% repeat-x; height: 5%; z-index: 5;}
+.chars {position: absolute; bottom: 0; left: 1%; max-width: 90%; max-height: 90%; z-index: 4; animation: bob 7s infinite;}
+.mob {position: absolute; bottom: 0; max-width: 80%; max-height: 80%; z-index: 3; animation: bob 7s infinite 2s;}
+.accent {z-index: 1; display: block; margin: 0 auto;}
+
+.logo {width: 90%; max-width: 800px; margin: 10px 0 20px 0;}
+
+.screenshot {border-radius: 20px; border: 5px solid #325083; box-shadow: 0 0 0 5px #f38db1; min-width: 70%; max-width: 90%; margin: 50px 0;}
+.art {width: 100%;}
+.hm {display: none;}
+
+.badges {display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;}
+.badge {text-align: center; display: block; margin: 0 auto; width: 100%;}
+.badge img {max-width: 50%; height: auto; max-height: 125px;}
+.badge:nth-child(odd) {transform: translateX(-20%) rotate(-2deg);}
+.badge:nth-child(even) {transform: translateX(20%) rotate(2deg);}
+.badge:not(:last-child) {margin: 0 0 10px 0;}
+
+.sidekick {display: flex; flex-direction: column; margin: 0;}
+.sidekick div:last-child {margin: 40px 0 0 0;}
+
+h1 {color: #fffffd; font-size: 1.8rem; line-height: 1; margin: 50px 10px 30px 10px; font-style: italic;}
+h2 {color: #fffffd; font-size: 1.7rem; margin: 0;}
+p {color: #fffffd; font-size: 1rem; line-height: 1.3; margin: 0;}
+a {color: #f38db1;}
+.info {max-width: 500px; font-size: 0.8rem; opacity: 0.75;}
+.footer {text-align: center; margin: 60px 0;}
+.emph {font-size: 1.2rem;}
+
+.awards {margin: 100px 0 0 0; text-align: center; color: #2f165a; background: #75fbb8; padding: 30px 20px; max-width: 450px; position: relative; border-radius: 20px; border: 8px solid #4c8e72;}
+.awards::before {content: ''; background: url('awards.png') 50% 50% / 100% 100%; width: 120px; height: 120px; top: -50%; left: -5%; position: absolute;}
+.awards a {background: #2f165a; color: #ffd866; padding: 10px 20px; cursor: pointer; margin: auto; display: block; transition: filter 0.2s cubic-bezier(.17,.67,.52,1.37), transform 0.2s cubic-bezier(.17,.67,.52,1.37);}
+.awards a:hover, .button:hover {transform: translateY(-3px); filter: brightness(125%);}
+.awards a:active, .button:active {transform: translateY(2px); filter: brightness(90%);}
+
+.buttons {display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 40px 0;}
+.button {background: #f38db1; color: #fffffd; padding: 10px; width: 100%; cursor: pointer; text-align: center; transition: filter 0.2s cubic-bezier(.17,.67,.52,1.37), transform 0.2s cubic-bezier(.17,.67,.52,1.37);}
+.button:not(:last-child) {margin-bottom: 10px;}
+.icon {font-size: 1rem; margin-right: 5px;}
+
+@media only screen and (min-width: 500px) {
+    .banner {display: block;}
+    body {margin: 0 40px;}
+    h1 {font-size: 2.1rem;}
+    h2 {font-size: 2.5rem;}
+    p {font-size: 1.1rem;}
+    .buttons {width: 400px;}
+    .button {font-size: 1.1rem;}
+    .icon {font-size: 1.3rem; margin-right: 10px;}
+}
+
+@media only screen and (min-width: 600px) {
+    .badges {flex-direction: row;}
+    .badge:nth-child(odd) {transform: rotate(-2deg);}
+    .badge:nth-child(even) {transform: rotate(2deg);}
+    .badge img {max-width: 175px;}
+    .badge:not(:last-child) {margin: 0 10px 0 0;}
+}
+
+@media only screen and (min-width: 750px) {
+    .wave {height: 8%;}
+    body {margin: 0 75px;}
+    .badge img {max-width: 200px;}
+}
+
+@media only screen and (min-width: 800px) {
+    .chars, .mob {left: 10%;}
+    .wave {height: 10%;}
+    h1 {margin: 50px 20px 20px 20px;}
+    body {margin: 0 35px;}
+    .sidekick {flex-direction: row; align-items: center; justify-content: space-around;}
+    .sidekick div:last-child {margin: 0 0 0 40px;}
+    .screenshot {min-width: 55%; border: 10px solid #325083; box-shadow: 0 0 0 10px #f38db1;}
+    p {font-size: 0.8rem;}
+    .footer {font-size: 1.2rem;}
+    .hm {display: block;}
+    .buttons {width: 600px;}
+    .button {font-size: 1.2rem;}
+    .icon {font-size: 1.3rem; margin-right: 15px;}
+}
+
+@media only screen and (min-width: 900px) {
+    .wave {background-size: 15% 100%;}
+    p {font-size: 1rem;}
+}
+
+@media only screen and (min-width: 1100px) {
+    body {margin: 0 95px;}
+    h1 {font-size: 2.5rem;}
+    .badge img {max-width: 225px;}
+}
+
+@media only screen and (min-width: 1300px) {
+    p {font-size: 1.1rem;}    
+}
