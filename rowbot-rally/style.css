@@ -3,14 +3,14 @@ html {font-size: 19px; overflow-x: hidden;}
 body {margin: 0px 20px; overflow-x: hidden; background: linear-gradient(180deg, rgba(50,80,131,1) 0%, rgba(50,80,131,1) 20%, rgba(107,135,173,1) 62%, rgba(50,80,131,1) 78%, rgba(50,80,131,1) 92%, rgba(107,135,173,1) 100%); display: flex; flex-direction: column; align-items: center;}
 
 @keyframes bob {
-    0, 100% {bottom: 3;}
-    50% {bottom: -2%;}
+    0, 100% {bottom: 0;}
+    50% {bottom: 3%;}
 }
 
-.banner {background: #78c1e1; width: 130%; height: 50vh; overflow: hidden; position: relative; display: none;}
+.banner {background: #78c1e1; width: 100%; height: 50vh; max-height: 200px; overflow: hidden; position: relative; display: none; border-radius: 0 0 20px 20px}
 .wave {position: absolute; bottom: 0; width: 200%; background: url('wave.png') 0 0 / 20% 100% repeat-x; height: 5%; z-index: 5;}
-.chars {position: absolute; bottom: 0; left: 1%; max-width: 90%; max-height: 90%; z-index: 4; animation: bob 7s infinite;}
-.mob {position: absolute; bottom: 0; max-width: 80%; max-height: 80%; z-index: 3; animation: bob 7s infinite 2s;}
+.chars {position: absolute; bottom: 0; margin: auto; left: 0%; right: 0%; max-width: 95%; max-height: 90%; z-index: 4; animation: bob 7s infinite;}
+.mob {position: absolute; bottom: 0; max-width: 70%; z-index: 3; animation: bob 7s infinite 2s;}
 
 .logo {width: 90%; max-width: 800px; margin: 10px 0 20px 0;}
 
@@ -21,8 +21,8 @@ body {margin: 0px 20px; overflow-x: hidden; background: linear-gradient(180deg, 
 .badges {display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;}
 .badge {text-align: center; display: block; margin: 0 auto; width: 100%;}
 .badge img {max-width: 50%; height: auto; max-height: 125px;}
-.badge:nth-child(odd) {transform: translateX(-20%) rotate(-2deg);}
-.badge:nth-child(even) {transform: translateX(20%) rotate(2deg);}
+.badge:not(:only-child):nth-child(odd) {transform: translateX(-20%) rotate(-2deg);}
+.badge:not(:only-child):nth-child(even) {transform: translateX(20%) rotate(2deg);}
 .badge:not(:last-child) {margin: 0 0 10px 0;}
 
 .sidekick {display: flex; flex-direction: column; margin: 0;}
@@ -66,6 +66,7 @@ li::marker {content: url("screwhead.svg");}
 }
 
 @media only screen and (min-width: 600px) {
+    .banner {max-height: 300px;}
     .badges {flex-direction: row;}
     .badge:nth-child(odd) {transform: rotate(-2deg);}
     .badge:nth-child(even) {transform: rotate(2deg);}
@@ -74,13 +75,13 @@ li::marker {content: url("screwhead.svg");}
 }
 
 @media only screen and (min-width: 750px) {
+    .banner {max-height: 400px;}
     .wave {height: 8%;}
     body {margin: 0 75px;}
     .badge img {max-width: 200px;}
 }
 
 @media only screen and (min-width: 800px) {
-    .chars, .mob {left: 10%;}
     .wave {height: 10%;}
     h1 {margin: 50px 20px 20px 20px;}
     body {margin: 0 35px;}
@@ -101,11 +102,14 @@ li::marker {content: url("screwhead.svg");}
 }
 
 @media only screen and (min-width: 1100px) {
+    .mob {max-height: 95%;}
     body {margin: 0 95px;}
     h1 {font-size: 2.5rem;}
     .badge img {max-width: 225px;}
 }
 
 @media only screen and (min-width: 1300px) {
-    p, li {font-size: 1.1rem;}    
+    .mob {left: 10%;}
+    .banner {max-height: 500px;}
+    p, li {font-size: 1.1rem;}
 }
