@@ -43,8 +43,8 @@ a {color: #f38db1;}
 
 li::marker {content: url("screwhead.svg");}
 
-.awards {margin: 100px 0 0 0; text-align: center; color: #2f165a; background: #75fbb8; padding: 30px 20px; max-width: 450px; position: relative; border-radius: 20px; border: 8px solid #4c8e72;}
-.awards::before {content: ''; background: url('awards.png') 50% 50% / 100% 100%; width: 120px; height: 120px; top: -50%; left: -5%; position: absolute;}
+.awards {margin: 50px 0 0 0; text-align: center; color: #2f165a; background: #75fbb8; padding: 30px 20px 30px 110px; max-width: 450px; position: relative; border-radius: 20px; border: 8px solid #4c8e72;}
+.awards::before {content: ''; background: url('nommy.png') 50% 50% / 100% 100%; width: 100px; height: 100px; top: -20%; left: 5px; position: absolute;}
 .awards a {background: #2f165a; color: #ffd866; padding: 10px 20px; cursor: pointer; margin: auto; display: block; transition: filter 0.2s cubic-bezier(.17,.67,.52,1.37), transform 0.2s cubic-bezier(.17,.67,.52,1.37);}
 .awards a:hover, .button:hover {transform: translateY(-3px); filter: brightness(125%);}
 .awards a:active, .button:active {transform: translateY(2px); filter: brightness(90%);}
