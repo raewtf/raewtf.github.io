@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+    <!-- HTML Meta Tags -->
+    <title>Rosie's Beach Vacation</title>
+    <meta name="description" content="Enjoy a nice relaxing evening by the seaside. A CSS jam toy made for a secret Santa project.">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://rae.wtf/beach">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rosie's Beach Vacation">
+    <meta property="og:description" content="Enjoy a nice relaxing evening by the seaside. A CSS jam toy made for a secret Santa project.">
+    <meta property="og:image" content="https://rae.wtf/beach/assets/images/og.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="rae.wtf">
+    <meta property="twitter:url" content="https://rae.wtf/beach">
+    <meta name="twitter:title" content="Rosie's Beach Vacation">
+    <meta name="twitter:description" content="Enjoy a nice relaxing evening by the seaside. A CSS jam toy made for a secret Santa project.">
+    <meta name="twitter:image" content="https://rae.wtf/beach/assets/images/og.png">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      @keyframes o_blue {
+        0%, 100% {transform: translateX(400px);}
+        50% {transform: translateX(50px);}
+      }
+      @keyframes o_foam_1 {
+        0%, 32%, 64%, 100% {transform: translateX(400px) scaleY(1.5); opacity: 0;}
+        15% {transform: translateX(50px) scaleY(1.1); opacity: 1;}
+        48% {transform: translateX(45px) scaleY(1.05); opacity: 0.3;}
+        80% {transform: translateX(50px) scaleY(1); opacity: 0;}
+      }
+      @keyframes o_foam_2 {
+        0%, 32%, 64%, 100% {transform: translateX(400px) scaleY(1.5); opacity: 0;}
+        16% {transform: translateX(45px) scaleY(1); opacity: 0.3;}
+        47% {transform: translateX(50px) scaleY(1.1); opacity: 0;}
+        79% {transform: translateX(50px) scaleY(1); opacity: 1;}
+      }
+      @keyframes o_foam_3 {
+        0%, 32%, 64%, 100% {transform: translateX(400px) scaleY(1.5); opacity: 0;}
+        14% {transform: translateX(50px) scaleY(1.05); opacity: 0;}
+        49% {transform: translateX(50px) scaleY(1.1); opacity: 1;}
+        80% {transform: translateX(45px) scaleY(1); opacity: 0.3;}
+      }
+      @keyframes o_wetsand {
+        0%, 25%, 100% {opacity: 0.3;}
+        50% {opacity: 1;}
+      }
+      @keyframes o_texture {
+        0%, 100% {transform: translateX(400px);}
+        40% {transform: translateX(50px);}
+      }
+      @keyframes t_wiggle_x {
+        0%, 100% {transform: rotate(0) skewX(0);}
+        20% {transform: rotate(5deg) skewX(3deg);}
+        40% {transform: rotate(-3deg) skewX(-2deg);}
+        60% {transform: rotate(2deg) skewX(1deg);}
+        80% {transform: rotate(-1deg) skewX(-1deg);}
+      }
+      @keyframes t_wiggle_y {
+        0%, 100% {transform: rotate(0) skewY(0);}
+        20% {transform: rotate(5deg) skewY(-3deg);}
+        40% {transform: rotate(-3deg) skewY(2deg);}
+        60% {transform: rotate(2deg) skewY(-1deg);}
+        80% {transform: rotate(-1deg) skewY(1deg);}
+      }
+      @keyframes cloud {
+        0% {left: -120%;}
+        100% {left: 120%;}
+      }
+
+      html {
+        overflow: hidden;
+        position: absolute;
+        margin: auto auto;
+        top: 0; bottom: 0; left: 0; right: 0;
+        background: #bfdcfc;
+        background: linear-gradient(180deg, rgba(191,220,252,1) 0%, rgba(255,219,239,1) 100%);
+      }
+
+      .sand {
+        z-index: 0;
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        background-image: url('assets/images/sand.png');
+        background-size: 550px 300%;
+        background-repeat: repeat;
+        clip-path: polygon(0 100%, 100% 100%, 100% 0, 93% 0, 86% 0, 85% 0, 78% 1%, 70% 1%, 63% 0, 61% 0, 54% 1%, 44% 1%, 37% 0, 31% 0, 25% 0, 22% 0, 17% 0, 11% 1%, 5% 1%, 0 0);
+      }
+      #s_base {
+        background-color: #ffeec4;
+        background-position: 50% 0;
+      }
+      #s_texture {
+        background-position: 50% 50%;
+      }
+      #s_shells {
+        background-position: 50% 100%;
+      }
+
+      .bg {
+        position: fixed;
+        z-index: -1;
+        background-image: url('assets/images/bg.png');
+        background-size: 200% 200%;
+        background-repeat: no-repeat;
+      }
+      #bg_trees {
+        background-position: 0 0;
+        width: 250px;
+        height: 110px;
+        margin: 0 0;
+        bottom: 295px; left: 0;
+      }
+      #bg_cloud_1 {
+        animation: cloud 165s 7s infinite both;
+        background-position: 0 100%;
+        width: 300px;
+        height: 150px;
+        margin: 0 auto;
+        bottom: 500px; left: 0; right: 0;
+      }
+      #bg_cloud_2 {
+        background-position: 100% 0;
+        animation: cloud 198s 13s infinite both;
+        width: 270px;
+        height: 130px;
+        margin: 0 auto;
+        bottom: 430px; left: 0; right: 0;
+      }
+      #bg_cloud_3 {
+        animation: cloud 140s infinite both;
+        background-position: 100% 100%;
+        width: 260px;
+        height: 110px;
+        margin: 0 auto;
+        bottom: 330px; left: 0; right: 0;
+      }
+
+      .ocean {
+        z-index: 1;
+        width: 520px;
+        height: 300px;
+        margin: 0 auto;
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        background-image: url('assets/images/ocean.png');
+        background-size: 200% 301%;
+        background-repeat: no-repeat;
+      }
+      #o_base {
+        background-image: none;
+      }
+      #o_wetsand {
+        animation: o_wetsand 10s infinite both cubic-bezier(0.37, 0, 0.63, 1);
+        transform: translateX(50px);
+        background-position: 100% 100%;
+      }
+      #o_blue {
+        animation: o_blue 10s infinite both cubic-bezier(0.45, 0, 0.55, 1);
+        background-position: 0 100%;
+      }
+      #o_texture {
+        animation: o_texture 10s infinite both cubic-bezier(0.45, 0, 0.55, 1);
+        background-position: 100% 50%;
+      }
+      #o_foam_1 {
+        transform-origin: 50% 0;
+        animation: o_foam_1 30s infinite both cubic-bezier(0.45, 0, 0.55, 1);
+        background-position: 0 50%;
+      }
+      #o_foam_2 {
+        transform-origin: 50% 0;
+        animation: o_foam_2 30s infinite both cubic-bezier(0.45, 0, 0.55, 1);
+        background-position: 100% 0;
+      }
+      #o_foam_3 {
+        transform-origin: 50% 0;
+        animation: o_foam_3 30s infinite both cubic-bezier(0.45, 0, 0.55, 1);
+        background-position: 0 0;
+      }
+
+      .tree, .tree_2 {
+        position: fixed;
+        margin: 0 auto;
+        transform-origin: 48% 25%;
+        background-image: url('assets/images/tree.png');
+        background-size: 200% 200%;
+        background-repeat: no-repeat;
+      }
+      .tree {
+        z-index: 3;
+        bottom: 150px; left: -165px; right: 0;
+        width: 210px;
+        height: 250px;
+      }
+      .tree_2 {
+        z-index: 2;
+        bottom: 250px; left: 135px; right: 0;
+        width: 150px;
+        height: 180px;
+      }
+      #t_base {
+        background-position: 0 0;
+      }
+      #t_back {
+        animation: t_wiggle_x 10s infinite both cubic-bezier(0.37, 0, 0.63, 1);
+        background-position: 100% 0;
+      }
+      #t_front_1 {
+        animation: t_wiggle_y 8s infinite both cubic-bezier(0.37, 0, 0.63, 1);
+        background-position: 0 100%;
+      }
+      #t_front_2 {
+        animation: t_wiggle_x 7s infinite both cubic-bezier(0.37, 0, 0.63, 1);
+        background-position: 100% 100%;
+      }
+      .rosie {
+        z-index: 4;
+        position: fixed;
+        margin: 0 auto;
+        bottom: 60px; left: 0; right: 10px;
+        width: 180px;
+        height: 190px;
+        background-image: url('assets/images/rosie.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      .tree_fg {
+        z-index: 5;
+        animation: t_wiggle_x 10s infinite both cubic-bezier(0.37, 0, 0.63, 1);
+        position: fixed;
+        margin: 0 auto;
+        bottom: -15px; left: -60px; right: 0;
+        width: 290px;
+        height: 100px;
+        background-image: url('assets/images/treefg.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        filter: blur(2px);
+      }
+
+      @media only screen and (min-width: 0px) and (max-width: 480px) {
+        .ocean {
+          left: 0;
+        }
+      }
+      @media only screen and (min-width: 480px) {
+        .sand {
+          background-size: 650px 300%;
+          height: 350px;
+        }
+        .ocean {
+          height: 350px;
+          margin: 0 0;
+          right: -200px;
+        }
+        #bg_trees {
+          bottom: 345px;
+          width: 330px;
+          height: 140px;
+        }
+        #bg_cloud_1 {
+          animation: cloud 75s 17s infinite both;
+          bottom: 600px;
+        }
+        #bg_cloud_2 {
+          animation: cloud 78s 23s infinite both;
+          bottom: 530px;
+        }
+        #bg_cloud_3 {
+          animation: cloud 70s infinite both;
+          bottom: 430px;
+        }
+        .tree {
+          bottom: 190px; left: -265px; right: 0;
+          width: 225px;
+          height: 270px;
+        }
+        .tree_2 {
+          bottom: 280px; left: 235px; right: 0;
+          width: 180px;
+          height: 230px;
+        }
+        .rosie {
+          bottom: 75px; left: 0; right: -15px;
+          width: 215px;
+          height: 235px;
+        }
+        .tree_fg {
+          bottom: -15px; left: -90px; right: 0;
+          width: 320px;
+          height: 100px;
+        }
+      }
+      @media only screen and (min-width: 720px) {
+        .sand {
+          background-size: 750px 300%;
+          height: 380px;
+        }
+        .ocean {
+          height: 380px;
+          margin: 0 0;
+          right: -100px;
+        }
+        #bg_trees {
+          bottom: 375px;
+          width: 330px;
+          height: 140px;
+        }
+        #bg_cloud_1 {
+          animation: cloud 85s 27s infinite both;
+          bottom: 600px;
+        }
+        #bg_cloud_2 {
+          animation: cloud 88s 33s infinite both;
+          bottom: 530px;
+        }
+        #bg_cloud_3 {
+          animation: cloud 80s infinite both;
+          bottom: 430px;
+        }
+        .tree {
+          bottom: 205px; left: -345px; right: 0;
+          width: 245px;
+          height: 290px;
+        }
+        .tree_2 {
+          bottom: 300px; left: 340px; right: 0;
+          width: 180px;
+          height: 230px;
+        }
+        .rosie {
+          bottom: 85px; left: 0; right: -20px;
+          width: 235px;
+          height: 255px;
+        }
+        .tree_fg {
+          bottom: -15px; left: -90px; right: 0;
+          width: 320px;
+          height: 90px;
+        }
+      }
+      @media only screen and (min-width: 1024px) {
+        .sand {
+          background-size: 750px 300%;
+          height: 400px;
+        }
+        .ocean {
+          height: 400px;
+          margin: 0 0;
+          right: 0px;
+        }
+        #bg_trees {
+          bottom: 395px;
+          width: 370px;
+          height: 140px;
+        }
+        #bg_cloud_1 {
+          animation: cloud 95s 37s infinite both;
+          bottom: 600px;
+        }
+        #bg_cloud_2 {
+          animation: cloud 98s 43s infinite both;
+          bottom: 530px;
+        }
+        #bg_cloud_3 {
+          animation: cloud 90s infinite both;
+          bottom: 430px;
+        }
+        .tree {
+          bottom: 205px; left: -495px; right: 0;
+          width: 265px;
+          height: 310px;
+        }
+        .tree_2 {
+          bottom: 340px; left: 445px; right: 0;
+          width: 200px;
+          height: 250px;
+        }
+        .rosie {
+          bottom: 85px; left: 0; right: -20px;
+          width: 255px;
+          height: 275px;
+        }
+        .tree_fg {
+          bottom: -15px; left: -290px; right: 0;
+          width: 320px;
+          height: 90px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg">
+      <div class="bg" id="bg_cloud_1"></div>
+      <div class="bg" id="bg_cloud_2"></div>
+      <div class="bg" id="bg_cloud_3"></div>
+      <div class="bg" id="bg_trees"></div>
+    </div>
+    <div class="sand" id="s_base">
+      <div class="sand" id="s_texture"></div>
+      <div class="sand" id="s_shells"></div>
+    </div>
+    <div class="ocean" id="o_base">
+      <div class="ocean" id="o_wetsand"></div>
+      <div class="ocean" id="o_blue"></div>
+      <div class="ocean" id="o_texture"></div>
+      <div class="ocean" id="o_foam_1"></div>
+      <div class="ocean" id="o_foam_2"></div>
+      <div class="ocean" id="o_foam_3"></div>
+    </div>
+    <div class="tree_2" id="t_base">
+      <div class="tree_2" id="t_back"></div>
+      <div class="tree_2" id="t_front_1"></div>
+      <div class="tree_2" id="t_front_2"></div>
+    </div>
+    <div class="tree" id="t_base">
+      <div class="tree" id="t_back"></div>
+      <div class="tree" id="t_front_1"></div>
+      <div class="tree" id="t_front_2"></div>
+    </div>
+    <div class="rosie"></div>
+    <div class="tree_fg"></div>
+  </body>
+</html>

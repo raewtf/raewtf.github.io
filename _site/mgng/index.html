@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/x-icon" href="favicon.png">
+      <!-- HTML Meta Tags -->
+      <title>Mobile Game Name Generator</title>
+      <meta name="description" content="Looking for the perfect name for your medieval mobile game?">
+
+      <!-- Facebook Meta Tags -->
+      <meta property="og:url" content="https://rae.wtf/mgng">
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="Mobile Game Name Generator">
+      <meta property="og:description" content="Looking for the perfect name for your medieval mobile game?">
+      <meta property="og:image" content="https://rae.wtf/mgng/images/og.png">
+
+      <!-- Twitter Meta Tags -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta property="twitter:domain" content="rae.wtf">
+      <meta property="twitter:url" content="https://rae.wtf/mgng">
+      <meta name="twitter:title" content="Mobile Game Name Generator">
+      <meta name="twitter:description" content="Looking for the perfect name for your medieval mobile game?">
+      <meta name="twitter:image" content="https://rae.wtf/mgng/images/og.png">
+
+      <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+      <link href="style.css" rel="stylesheet" />
+      <script src="name.js"></script>
+      <meta name="theme-color" content="#502B1B">
+      <script src="https://kit.fontawesome.com/b793926a64.js" crossorigin="anonymous"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Carter+One&amp;family=Roboto+Slab:wght@400;800&amp;family=Texturina:wght@300;900&amp;display=swap" rel="stylesheet">
+    </head>
+    <body class="page-center">
+      <center>
+        <div style="width: 0; height; 0; transform: translate(-1000px, -1000px); background-image: url('./mgng/images/box.png');"></div>
+        <div id="modal">
+          <div class="msgbox">
+            <div class="close" onclick="document.getElementById('modal').style.display = 'none';"><i class="fas fa-times"></i></div>
+            <h2>Has this ever<br>happened to you?:</h2>
+            <p id="quote">"I have a billion-dollar idea for a viking and/or medieval-type civilization building game, but I just can't think of a good name for it!"</p>
+            <h2>Well fear no longer!</h2>
+            <p id="desc">Just click the Random Name button, and our automated process will randomly generate the perfect name for your new mobile game! With over 10,000 possible combinations, you're sure to find the right one!<br>Didn't get a good name? Just hit the button again to generate a brand new one!</p>
+          </div>
+          <div class="darken" onclick="document.getElementById('modal').style.display = 'none';">
+          </div>
+        </div>
+        <div class="logothing">
+          <h1>Mobile Game<br>Name Generator</h1>
+        </div>
+        <div class="title">
+          <h1 id="name">Generate a Name!</h1>
+          <h2 id="subtitle">(Click on the button!)</h2>
+        </div>
+        <a id="btn" onclick="document.getElementById('name').innerHTML = name1[Math.floor(Math.random() * name1.length)] + ' of ' + name2[Math.floor(Math.random() * name2.length)]; document.getElementById('subtitle').innerHTML = name3[Math.floor(Math.random() * name3.length)]; document.getElementById('btn').innerHTML = 'Another One!';">Random Name...</a>
+        <br>
+        <p class="footer">2020-2021&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<a href="https://rae.wtf">made by rae</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<a onclick="document.getElementById('modal').style.display = 'block';" style="cursor: pointer;">What is this?</a></p>
+        <p class="footer" style="font-size: 0.8em; margin-top: 4px;">(Any names that resemble actual games are both<br>purely coincidental, as well as absolutely fucking hilarious.)</p>
+      </center>
+    </body>
+  </html>

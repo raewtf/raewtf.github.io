@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <!-- HTML Meta Tags -->
+    <title>Rev Checker for Playdate</title>
+    <meta name="description" content="A super simple one-time tool that tells you your Playdate's hardware revision.">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://rae.wtf/revchecker">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rev Checker for Playdate">
+    <meta property="og:description" content="A super simple one-time tool that tells you your Playdate's hardware revision.">
+    <meta property="og:image" content="https://rae.wtf/revchecker/og.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="rae.wtf">
+    <meta property="twitter:url" content="https://rae.wtf/revchecker">
+    <meta name="twitter:title" content="Rev Checker for Playdate">
+    <meta name="twitter:description" content="A super simple one-time tool that tells you your Playdate's hardware revision.">
+    <meta name="twitter:image" content="https://rae.wtf/revchecker/og.png">
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,600;0,800;1,600;1,800&display=swap" rel="stylesheet">
+    <style>
+        html {font-size: 15px;}
+        body {background: #ffea7f; margin: 40px 15px 50px 15px;}
+        .logo {width: 700px; max-width: 100%; transform: rotate(-5deg);}
+        * {font-family: 'Poppins', sans-serif;}
+        h1 {line-height: 1; max-width: 750px; font-size: 1.8rem;}
+        h2 {line-height: 1; max-width: 600px; font-size: 1.3rem; color: #ba3636; margin: 40px 0 20px 0;}
+        p {line-height: 1.2; max-width: 700px; font-size: 1rem; text-align: left;}
+        a {color: #ba3636;}
+        .emph {color: #ba3636; font-size: 1.3rem;}
+        .quiet {font-size: 0.8rem; opacity: 0.5;}
+        .button {background: #ba3636; padding: 10px 15px; font-size: 1.5rem; color: white; border-radius: 0 20px 20px 20px; text-decoration: none; display: block; margin: 0px 5px 60px 0; transition: filter 0.2s, transform 0.2s, box-shadow 0.2s; cursor: pointer; max-width: 300px; box-shadow: 0 0 0 #000000;}
+        .button:hover {filter: brightness(150%); transform: translateY(-5px); box-shadow: 0 5px 0 #000000;}
+        .button:active {filter: brightness(100%); transform: translateY(3px); box-shadow: 0 -3px 0 #000000;}
+        .button span {font-size: 0.9rem; margin-left: 5px; color: white; font-style: italic; opacity: 0.75; white-space: nowrap;}
+        .footer {margin-top: 50px; opacity: 0.5; text-align: center;}
+        .screenshot {width: 350px; max-width: 100%;}
+
+        @media screen and (min-width: 500px) {
+            html {font-size: 18px;}
+            body {margin: 40px 25px 50px 25px;}
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <img class="logo" alt="Rev Checker" src="logo.png" />
+        <h1>A super simple one-time tool that tells you your Playdate's hardware revision.</h1>
+        <a class="button" href="RevChecker.pdx.zip">Download<span>Only 65K!!</span></a>
+        <p>Some time in early-ish 2023, Playdate underwent a hardware revision, with a different underlying CPU. Early Playdates are known as <span class="emph">Rev A</span>, and later Playdates <span class="quiet">(those shipped roughly after pre-order Group 4 started)</span> are known as <span class="emph">Rev B</span>. This app lets you check once-and-for-all which revision your Playdate is!</p>
+        <div class="gallery">
+            <img class="screenshot" src="reva.png" />
+            <img class="screenshot" src="revb.png" />
+        </div>
+        <h2>What does that mean for me? What changes if I'm on a specific revision?</h2>
+        <p>Hopefully...nothing! By design, both hardware revisions are intended to function exactly the same. No one is more powerful than the other, and no one has more features than the other. It's just a new chip, to make production easier and faster.<br><br>However, there have been some stray cases of disparity between the two hardware revs. For optimal testing, it would be good for a dev to know which revision some player's experiencing an issue on, as that could help to narrow it down. Currently, there's no native way to check — and that's where Rev Checker steps in!</p>
+        <p class="footer"><a href="https://play.date">Playdate</a> is a registered trademark of <a href="https://panic.com">Panic</a>.<br>This app isn't affiliated with Panic or Playdate.<br><br>2023 • made by <a href="https://rae.wtf">rae</a> and <a href="https://github.com/scratchminer">scratchminer</a></p>
+    </center>
+</body>
+</html>
