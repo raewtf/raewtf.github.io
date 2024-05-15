@@ -12,7 +12,7 @@ desc: How to get started and break a leg!
 
 This play is running super behind schedule, and to make it even worse, the lead had to bail! You're the back-up actor, so you've gotta step in and perform in his place. Problem is, You Forgot Something... YOUR LINES!! No time to rehearse, just memorize them as well as you can and get out there! The show must go on!
 
-In this endless game featuring multiple modes, pass and "play" between 2 people, and on-line leaderboards, take to the stage and try not to anger the crowd too much as you fill in for the lead role, only finding out the lines as you go! Compete for a high score, and break a leg while you shoot for the prestige spot in back-up actor stardom!
+In this endless game featuring multiple modes, pass and "play" between 2 people, and more, take to the stage and try not to anger the crowd too much as you fill in for the lead role, only finding out the lines as you go! Compete for a high score, and break a leg while you shoot for the prestige spot in back-up actor stardom!
 
 # Gameplay Basics
 
