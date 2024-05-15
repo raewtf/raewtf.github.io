@@ -49,7 +49,7 @@ Multi Mode is a variant of Arcade Mode, adjusted to best optimize pass and *"pla
 
 Multi Mode plays similarly to Arcade Mode. However, two players take turns completing rounds, back and forth. Each player will get an attempt at the same line before the game progresses. The last player to get caned off-stage is the winner!
 
-> ⚠️ *Scores are not saved or submitted to on-line leaderboards in Multi Mode.*
+<!--\> ⚠️ *Scores are not saved or submitted to on-line leaderboards in Multi Mode.*-->
 
 ## One-Shot Mode
 
@@ -87,7 +87,7 @@ In Hard difficulty...
 
 > 💡 †*You'll only receive a heckle if you've just completed a successful input. You also won't be heckled if you're only one Miss away from losing.*
 
-# On-line Capability
+<!--\# On-line Capability
 
 ## About on-line play
 
@@ -107,7 +107,7 @@ You can view global scores using two primary methods:
 
 1. Visit the *First in... Line?* game page on Catalog, at [play.date/games/first-in-line](https://play.date/games/first-in-line/). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
 
-2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch the Mode. *(On device, you can only view leaderboards for modes and difficulties you've already unlocked.)* From here, you can see the top 10 scores for the currently-highlighted board, as well as your own score and ranking (if available).
+2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch the Mode. *(On device, you can only view leaderboards for modes and difficulties you've already unlocked.)* From here, you can see the top 10 scores for the currently-highlighted board, as well as your own score and ranking (if available).-->
 
 <br>
-<a href="https://play.date/games/first-in-line" class="button">Buy <i>First in... Line?</i> on Catalog</a>
+<a href="https://stuffbyrae.itch.io/first-in-line" class="button">Buy <i>First in... Line?</i> on Itch.io</a>
