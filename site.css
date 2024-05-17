@@ -143,6 +143,10 @@ body {
 	margin-bottom: 0.5rem;
 }
 
+.expert p {
+	margin-bottom: 0;
+}
+
 .main hr, .sides hr {
 	width: 70%;
 	margin: 1.5rem auto;
@@ -288,6 +292,11 @@ body.blog .main img, .image {
 .first-in-line h1, .first-in-line p {color: var(--yeb);}
 .first-in-line h3.post_container {color: var(--red);}
 .first-in-line.post_container::before, .first-in-line.post_container::after {color: var(--orl);}
+
+i {
+	width: 40px;
+	text-align: center;
+}
 
 @media only screen and (min-width: 600px) {
 	.nav {
