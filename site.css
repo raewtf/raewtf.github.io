@@ -104,6 +104,9 @@ body {
 
 .main {
 	border-top: 4px solid var(--sed);
+}
+
+.blog .main {
 	border-bottom: 4px solid var(--sed);
 }
 
