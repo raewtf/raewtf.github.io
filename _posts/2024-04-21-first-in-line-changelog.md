@@ -39,13 +39,19 @@ desc: What's new?
 	- Credits screen has been moved in here, too.
 - Bumped up the Hard difficulty threshold from 10 to 24 (completing an entire page in Easy).
 - Changed the pause image to reflect new behavior.
-<!--\- Added support for on-line leaderboards in Catalog, in sneakret. -->
+<!--\- Added support for on-line leaderboards in Catalog -->
 
 ## Version 2.0.1
 
-<!--\- First build submitted to Catalog!-->
 - Reduced sensitivity of console shaking to acceptable levels
 <!--\- Catalog - removed debug print statements in High Scores scene-->
+
+## Version 2.0.2
+
+- Added directional arrows to title screen <!--and High Scores scene-->
+- Reduced sensitivity of microphone input
+- Fixed a bug where the One-Shot unlock toast wouldn't display properly
+<!--\- Catalog - fixed leaderboards to scream at proper endpoints-->
 
 <br>
 <a href="https://stuffbyrae.itch.io/first-in-line" class="button">Buy <i>First in... Line?</i> on Itch.io</a>
