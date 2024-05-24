@@ -6,7 +6,7 @@ desc: What's new?
 ---
 ## Version 1.0.0
 
-- Initial release, for PlayJam 5
+- Initial release, for PlayJam 5.
 
 ## Version 1.1.0
 
