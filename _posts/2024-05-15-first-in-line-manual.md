@@ -112,12 +112,12 @@ You can view global scores using two primary methods:
 # Credits
 
 - Art n' Code — [Rae](https://rae.wtf)
-- Music — [Kevin MacLeod](https://incompetech.com/)
-- SFX — [pixabay.com](https://pixabay.com/) & Rae
-- Sasser Slab — [Neven Mrgan](https://mrgan.com/)
-- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) & [Schyzo](https://twitter.com/Schyzo99)
+- Music — [Kevin MacLeod](https://incompetech.com/); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
+- Addtl. SFX — Rae
+- Sasser Slab — [Neven Mrgan](https://mrgan.com/); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) & [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
 - [Shaker](https://devforum.play.date/t/shaker-a-class-for-shake-detection/1977) library — [Dustin](https://bento.me/rau) & [Dave](https://pdx.social/@dave)
-
 - Thanx — Paul, Voxy, Mag, Toad, Axo, 3D
 
 <br>

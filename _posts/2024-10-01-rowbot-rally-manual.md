@@ -108,19 +108,16 @@ The options screen allows you to change various settings and accessibility featu
 
 # Credits
 
-- Art, Code, & Story — Rae
-- Asst. Code, V/A — Voxy
-- Asst. Story, Collisions — Toad
-
-- Music — Kevin MacLeod
-- SFX — pixabay.com
-- Kapel — Font End Dev
-- Pedallica — Neven Mrgan
-
-- PDV conversion tool — Dave Hayden
-- Tanuk library — Toad & Schyzo
-- pdParticles library — PossiblyAxolotl
-
+- Art, Code, & Story — [Rae](https://rae.wtf)
+- Asst. Code, V/A — [Voxy](https://voxy.space)
+- Asst. Story, Collisions — [Toad](https://toadley.space)
+- Music — [Kevin MacLeod](https://incompetech.com/); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
+- Kapel — [Font End Dev](https://fontenddev.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Pedallica — [Neven Mrgan](https://mrgan.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [PDV conversion](https://devforum.play.date/t/video-encoder-work-in-progress-mac-only/1390) tool — [Dave](https://pdx.social/@dave)
+- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) & [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
+- [pdParticles](https://github.com/PossiblyAxolotl/pdParticles) library — [PossiblyAxolotl](https://www.possiblyaxolotl.com); [MIT](https://github.com/PossiblyAxolotl/pdParticles/blob/main/LICENSE)
 - Big helps — superfunc, TheMediocritist, Neven, Nic, Voxy, Toad, Scratch
 - Playtesters — TBD
 - Bugsmashers — Nick, orkn, Toad, superfunc

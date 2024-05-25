@@ -5,6 +5,7 @@ tag: rowbot rally
 desc: What's new?
 ---
 ## Version 1.0.0
+### October 1st, 2024
 
 - Initial release.
 
