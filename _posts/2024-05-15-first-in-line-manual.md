@@ -109,5 +109,16 @@ You can view global scores using two primary methods:
 
 2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch the Mode. *(On device, you can only view leaderboards for modes and difficulties you've already unlocked.)* From here, you can see the top 10 scores for the currently-highlighted board, as well as your own score and ranking (if available).-->
 
+# Credits
+
+- Art n' Code — [Rae](https://rae.wtf)
+- Music — [Kevin MacLeod](https://incompetech.com/)
+- SFX — [pixabay.com](https://pixabay.com/) & Rae
+- Sasser Slab — [Neven Mrgan](https://mrgan.com/)
+- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) & [Schyzo](https://twitter.com/Schyzo99)
+- [Shaker](https://devforum.play.date/t/shaker-a-class-for-shake-detection/1977) library — [Dustin](https://bento.me/rau) & [Dave](https://pdx.social/@dave)
+
+- Thanx — Paul, Voxy, Mag, Toad, Axo, 3D
+
 <br>
 <a href="https://stuffbyrae.itch.io/first-in-line" class="button">Buy <i>First in... Line?</i> on Itch.io</a>

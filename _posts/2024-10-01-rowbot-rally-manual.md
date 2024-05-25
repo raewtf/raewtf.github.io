@@ -119,6 +119,7 @@ The options screen allows you to change various settings and accessibility featu
 
 - PDV conversion tool — Dave Hayden
 - Tanuk library — Toad & Schyzo
+- pdParticles library — PossiblyAxolotl
 
 - Big helps — superfunc, TheMediocritist, Neven, Nic, Voxy, Toad, Scratch
 - Playtesters — TBD
