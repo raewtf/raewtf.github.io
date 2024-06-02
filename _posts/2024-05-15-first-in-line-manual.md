@@ -107,7 +107,24 @@ You can view global scores using two primary methods:
 
 1. Visit the *First in... Line?* game page on Catalog, at [play.date/games/first-in-line](https://play.date/games/first-in-line/). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
 
-2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch the Mode. *(On device, you can only view leaderboards for modes and difficulties you've already unlocked.)* From here, you can see the top 10 scores for the currently-highlighted board, as well as your own score and ranking (if available).-->
+2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch the Mode. *(On device, you can only view leaderboards for modes and difficulties you've already unlocked.)* From here, you can see the top 10 scores for the currently-highlighted board, as well as your own score and ranking (if available).
+
+## Control schemes
+
+Different control combinations are allowed for accessibility reasons (see Controls for more info.) Within the on-line leaderboards, you can see which control combination a player used to attain their best score.
+
+On the Catalog game page, refer to the final digit of a player's score. This indicates their control method. The digits represent the controls as follows:
+
+- 0 - Buttons only
+- 1 - Buttons and Crank
+- 2 - Buttons and Accelerometer
+- 3 - Buttons and Microphone
+- 4 - Buttons, Crank, and Accelerometer
+- 5 - Buttons, Crank, and Microphone
+- 6 - Buttons, Accelerometer, and Microphone
+- 7 - All inputs enabled.
+
+Within the game, these control methods will be automatically printed out in a human-readable format next to a player's score.-->
 
 # Credits
 

@@ -4,6 +4,18 @@ title: First in... Line? Changelog
 tag: first in... line?
 desc: What's new?
 ---
+<!--## Version 2.1.0
+
+### June 18th, 2024
+
+- First version release on Catalog!
+- Dampened the punishment for an erroneous dock/undock. Now, either action provides a maximum of one miss between correct dock/undock inputs.
+- Added default username check when fetching leaderboards
+- Added results images for Multi Mode. Honestly a complete oversight.
+- Re-enabled crank docking SFX.
+- Added controls indicators to leaderboards & scores.
+- Adjusted directional arrow behavior in the title screen.-->
+
 ## Version 2.0.2
 
 ### May 21st, 2024
@@ -31,6 +43,7 @@ desc: What's new?
 - Shortened the time you gotta wait for hints and heckles to show up.
 - You can now see missed inputs as whispers in your line. Now you'll never have to wonder what the hell you just pressed instead of what you meant to.
 - More inputs were added to the game — cranking forwards, cranking backwards, docking, undocking, shaking the Playdate, and screaming into the microphone.
+- Disabled crank docking SFX.
 - Added a Settings menu, for changing game options.
 	- Music and SFX are now toggle-able.
 	- All new control inputs are toggle-able.
