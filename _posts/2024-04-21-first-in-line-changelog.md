@@ -16,6 +16,8 @@ desc: What's new?
 - Added controls indicators to leaderboards & scores.
 - Bugsmash: In Hard Mode, the timer will now pause if you trigger the Back to Title prompt, instead of continuing in the background.
 - If a scene transition happens while the Back to Title prompt is open, the game will now patiently wait until and unless you hit "Keep Playing" to trigger the transition.
+- In Multi Mode, the music will now fade properly when starting a new game from the results.
+- Fixed brief "Player 2 Wins!" display bug in Multi Mode's results, as well.
 - Adjusted directional arrow behavior in the title screen.-->
 
 ## Version 2.0.2
