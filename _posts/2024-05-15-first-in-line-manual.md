@@ -103,17 +103,15 @@ To submit a new score to the global leaderboard, simply complete a game. When yo
 
 ## Viewing global scores
 
-You can view global scores using two primary methods:
+You can view global scores by entering the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch the Mode. From here, you can see the top 10 scores for the currently-highlighted board, as well as your own score and ranking (if available).
 
-1. Visit the *First in... Line?* game page on Catalog, at [play.date/games/first-in-line](https://play.date/games/first-in-line/). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
-
-2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch the Mode. *(On device, you can only view leaderboards for modes and difficulties you've already unlocked.)* From here, you can see the top 10 scores for the currently-highlighted board, as well as your own score and ranking (if available).
+> ⚠️ *You can only view leaderboards for modes and difficulties you've already unlocked.)*
 
 ## Control schemes
 
-Different control combinations are allowed for accessibility reasons (see Controls for more info.) Within the on-line leaderboards, you can see which control combination a player used to attain their best score.
+Different control combinations are allowed for accessibility reasons (see Controls for more info.) Within the on-line leaderboards, you can see which control combination a player used to attain their best score. Just take a look next to a player's score to see what inputs they used!
 
-On the Catalog game page, refer to the final digit of a player's score. This indicates their control method. The digits represent the controls as follows:
+Here's a pro tip! If you wanna take the edge on a leaderboard but a score seems insurmountable, in some cases you don't actually have to *beat* it to take a higher rank! By using a bigger combination of buttons, you can obtain a decimal "bonus" that will eke your score over an opponent's. Here's a handy guide:
 
 - 0 - Buttons only
 - 1 - Buttons and Crank
@@ -124,7 +122,7 @@ On the Catalog game page, refer to the final digit of a player's score. This ind
 - 6 - Buttons, Accelerometer, and Microphone
 - 7 - All inputs enabled.
 
-Within the game, these control methods will be automatically printed out in a human-readable format next to a player's score.-->
+Don't worry if you can't or don't wanna use any of these more involved inputs, by the way! They only make the difference in the event of a tie. If you definitively beat someone's score, you'll get a higher rank no matter what.-->
 
 # Credits
 
