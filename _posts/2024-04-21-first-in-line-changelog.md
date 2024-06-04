@@ -14,6 +14,8 @@ desc: What's new?
 - Added results images for Multi Mode. Honestly a complete oversight.
 - Re-enabled crank docking SFX.
 - Added controls indicators to leaderboards & scores.
+- Bugsmash: In Hard Mode, the timer will now pause if you trigger the Back to Title prompt, instead of continuing in the background.
+- If a scene transition happens while the Back to Title prompt is open, the game will now patiently wait until and unless you hit "Keep Playing" to trigger the transition.
 - Adjusted directional arrow behavior in the title screen.-->
 
 ## Version 2.0.2
