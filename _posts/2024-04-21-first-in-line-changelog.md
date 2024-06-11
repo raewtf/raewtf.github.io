@@ -4,21 +4,21 @@ title: First in... Line? Changelog
 tag: first in... line?
 desc: What's new?
 ---
-<!--## Version 2.1.0
+## Version 2.1.0
 
 ### June 18th, 2024
 
-- First version release on Catalog!
+<!--- First version release on Catalog!-->
 - Dampened the punishment for an erroneous dock/undock. Now, either action provides a maximum of one miss between correct dock/undock inputs.
-- Added default username check when fetching leaderboards
+<!--- Added default username check when fetching leaderboards-->
 - Added results images for Multi Mode. Honestly a complete oversight.
 - Re-enabled crank docking SFX.
-- Added controls indicators to leaderboards & scores.
+<!--- Added controls indicators to leaderboards & scores.-->
 - Bugsmash: In Hard Mode, the timer will now pause if you trigger the Back to Title prompt, instead of continuing in the background.
 - If a scene transition happens while the Back to Title prompt is open, the game will now patiently wait until and unless you hit "Keep Playing" to trigger the transition.
 - In Multi Mode, the music will now fade properly when starting a new game from the results.
 - Fixed brief "Player 2 Wins!" display bug in Multi Mode's results, as well.
-- Adjusted directional arrow behavior in the title screen.-->
+- Adjusted directional arrow behavior in the title screen.
 
 ## Version 2.0.2
 

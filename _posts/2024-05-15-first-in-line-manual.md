@@ -103,9 +103,11 @@ To submit a new score to the global leaderboard, simply complete a game. When yo
 
 ## Viewing global scores
 
-You can view global scores by entering the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch the Mode. From here, you can see the top 10 scores for the currently-highlighted board, as well as your own score and ranking (if available).
+You can view global scores using two primary methods:
 
-> ⚠️ *You can only view leaderboards for modes and difficulties you've already unlocked.)*
+1. Visit the *First in... Line?* game page in your Web browser, at [play.date/games/first-in-line](https://play.date/games/first-in-line/). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
+
+2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch the Mode. *(On device, you can only view leaderboards for modes and difficulties you've already unlocked.)* From here, you can see the top 10 scores for the currently-highlighted board, as well as your own score and ranking (if available).
 
 ## Control schemes
 
@@ -122,7 +124,9 @@ Here's a pro tip! If you wanna take the edge on a leaderboard but a score seems 
 - 6 - Buttons, Accelerometer, and Microphone
 - 7 - All inputs enabled.
 
-Don't worry if you can't or don't wanna use any of these more involved inputs, by the way! They only make the difference in the event of a tie. If you definitively beat someone's score, you'll get a higher rank no matter what.-->
+Don't worry if you can't or don't wanna use any of these more involved inputs, by the way! They only make the difference in the event of a tie. If you definitively beat someone's score, you'll get a higher rank no matter what.
+
+> 💡 *When viewing scores in your Web browser, you can also determine what control combination was used. Take the last digit, and refer to the chart above to see what they used. For example, a score read-out of "304" would be a score of 30, using Buttons, Crank, and Accelerometer.*-->
 
 # Credits
 
@@ -134,6 +138,8 @@ Don't worry if you can't or don't wanna use any of these more involved inputs, b
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) & [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
 - [Shaker](https://devforum.play.date/t/shaker-a-class-for-shake-detection/1977) library — [Dustin](https://bento.me/rau) & [Dave](https://pdx.social/@dave)
 - Thanx — Paul, Voxy, Mag, Toad, Axo, 3D
+
+2024, made by rae
 
 <br>
 <a href="https://stuffbyrae.itch.io/first-in-line" class="button">Buy <i>First in... Line?</i> on Itch.io</a>
