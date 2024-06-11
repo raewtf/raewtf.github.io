@@ -41,13 +41,15 @@ If you complete the sequence of lines without losing, take a bow — you just de
 
 Arcade Mode is the basic gameplay mode in *First in... Line?*.
 
-In this mode, you have a maximum of three Misses per round before you lose the game. A Miss is added to your total whenever you press an incorrect button.
+In this mode, you have a maximum of three Misses per round before you lose the game. A Miss is added to your total whenever you press an incorrect button. When you make it through a round successfully, your Miss total is reset for the next round.
 
 ## Multi Mode
 
 Multi Mode is a variant of Arcade Mode, adjusted to best optimize pass and *"play"* local multiplayer with 2 people.
 
 Multi Mode plays similarly to Arcade Mode. However, two players take turns completing rounds, back and forth. Each player will get an attempt at the same line before the game progresses. The last player to get caned off-stage is the winner!
+
+> ⚠️ *Scores are not saved in Multi Mode.*
 
 <!--\> ⚠️ *Scores are not saved or submitted to on-line leaderboards in Multi Mode.*-->
 
@@ -68,7 +70,7 @@ In Easy difficulty...
 - You have as much time as you want to review your line before heading on-stage.
 - Lines are preserved between rounds — one new input is added onto the end in each new round.
 - When you reach a line length of 24, the game will keep going. You'll be presented with a new line of 4 inputs in the next round, and the game will continue from there.
-- If you pause for too long†, you'll receive a hint from the director, standing off frame-right. There's an unlimited number of hints you can use. *(Hints are only allowed in Arcade Mode and Multi Mode.)*
+- If you wait around for too long†, you'll receive a hint from the director, standing off frame-right. There's an unlimited number of hints you can use. *(Hints are only allowed in Arcade Mode and Multi Mode.)*
 
 > 💡 †*You'll only receive a hint if you've just completed a successful input.*
 
@@ -80,10 +82,10 @@ If you manage to complete an entire page of lines without flubbing it majorly, y
 
 In Hard difficulty...
 
-- You only have a limited amount of time to review your lines. This timer starts at 10 seconds, but increases by +10 sec. for every 10 points on your score.
-- On top of the length increasing by one, the entire line is randomized and re-generated in each round.
-- When you reach a line length of 24, the game will keep going. You'll be presented with a new page of 24 inputs for every round afterwards.
-- If you pause for too long, you'll get heckled from a particularly rude member of the audience. This counts as a Miss on your score.† *(Hints are only allowed in Arcade Mode and Multi Mode.)*
+- You only have a limited amount of time to review your lines. This timer starts at 10 seconds, but increases by +10 seconds for every 10 points on your score, up to a maximum of 30 seconds.
+- On top of the line's length increasing by one input, the entire line is randomized and re-generated in each round.
+- When you reach a line length of 24, the game will keep going. You'll be presented with an entirely randomized page of 24 inputs for every round afterwards.
+- If you wait around for too long, you'll get heckled from a particularly rude member of the audience. This counts as a Miss on your score.† *(Heckles will only happen in Arcade Mode and Multi Mode.)*
 
 > 💡 †*You'll only receive a heckle if you've just completed a successful input. You also won't be heckled if you're only one Miss away from losing.*
 
@@ -139,7 +141,17 @@ Don't worry if you can't or don't wanna use any of these more involved inputs, b
 - [Shaker](https://devforum.play.date/t/shaker-a-class-for-shake-detection/1977) library — [Dustin](https://bento.me/rau) & [Dave](https://pdx.social/@dave)
 - Thanx — Paul, Voxy, Mag, Toad, Axo, 3D
 
-2024, made by rae
+# Additional Notes
+
+This game was originally made for [PlayJam 5](https://itch.io/jam/playjam-5), hosted by [PossiblyAxolotl](https://possiblyaxolotl.itch.io).
+
+The original version was completed in just a weekend, being first published on itch.io on April 21st, 2024; and wound up winning 4th place overall in the jam.
+
+<!--The game was originally submitted to Catalog on May 1st, 2024. It was approved for release on May 6th, and was initially slated for Catalog release on June 4th; though I pushed it back to the following drop on June 18th.-->
+
+It was super fun being able to prove to myself that I can actually complete and release a quality game that I feel confident people will enjoy, let alone under such a strict timeframe. I hope to participate in more jams in the future!
+
+From me to you, thanks for playing, and break a leg! 💖
 
 <br>
 <a href="https://stuffbyrae.itch.io/first-in-line" class="button">Buy <i>First in... Line?</i> on Itch.io</a>
