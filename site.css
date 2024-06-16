@@ -236,6 +236,14 @@ body.blog .main img, .image {
 	line-height: 1;
 }
 
+code {
+	padding: 1rem;
+	line-height: 1;
+	background: var(--sel);
+	border-radius: 5px;
+	display: block;
+}
+
 .post_container:any-link {
 	padding: 1rem 1.5rem;
 	border-radius: 5px;
