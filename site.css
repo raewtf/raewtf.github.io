@@ -301,17 +301,17 @@ code {
 }
 
 .blog.post_container {background: var(--sel);}
-.blog h1, .blog p {color: var(--seb);}
+.blog h1, .blog p, .blog ul, .blog ul li {color: var(--seb);}
 .blog h3.post_container {color: var(--rel);}
 .blog.post_container::before, .blog.post_container::after {color: var(--sed);}
 
 .rowbot-rally.post_container {background: var(--bll);}
-.rowbot-rally h1, .rowbot-rally p {color: var(--blb);}
+.rowbot-rally h1, .rowbot-rally p, .rowbot-rally ul, .rowbot-rally ul li {color: var(--blb);}
 .rowbot-rally.post_container h3 {color: var(--yew);}
 .rowbot-rally.post_container::before, .rowbot-rally.post_container::after {color: var(--bld);}
 
 .first-in-line.post_container {background: var(--yel);}
-.first-in-line h1, .first-in-line p {color: var(--yeb);}
+.first-in-line h1, .first-in-line p, .first-in-line ul, .first-in-line ul li {color: var(--yeb);}
 .first-in-line h3.post_container {color: var(--red);}
 .first-in-line.post_container::before, .first-in-line.post_container::after {color: var(--orl);}
 
