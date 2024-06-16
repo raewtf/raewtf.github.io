@@ -1,5 +1,4 @@
 ---
-layout: article
 title: Try the Demo - Out Today!
 tag: rowbot rally
 desc: Try the RowBot Rally demo today!

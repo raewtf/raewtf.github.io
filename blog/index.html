@@ -43,11 +43,13 @@
 	<div class="sides">
 		<div class="side_left">
 			{% for post in site.posts %}
-				<a href="{{ post.url }}" class="post_container {{ post.tag | slugify }}">
-					<h1>{{ post.title }}</h1>
-					<h3>{{ post.date | date_to_string: "ordinal", "US" }}&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;{{ post.tag }}</h3>
-					<p>{{ post.desc }}</p>
-				</a>
+				{% if post.visible == 1  %}
+					<a href="{{ post.url }}" class="post_container {{ post.tag | slugify }}">
+						<h1>{{ post.title }}</h1>
+						<h3>{{ post.date | date_to_string: "ordinal", "US" }}&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;{{ post.tag }}</h3>
+						<p>{{ post.desc }}</p>
+					</a>
+				{% endif %}
 			{% endfor %}
 		</div>
 		<div class="side_right">

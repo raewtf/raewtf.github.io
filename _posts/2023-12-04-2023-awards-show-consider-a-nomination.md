@@ -1,5 +1,4 @@
 ---
-layout: article
 title: 2023 Awards Show - Consider a Nomination!
 tag: rowbot rally
 desc: Give me a nommy for Most Anticipated Game!

@@ -1,9 +1,8 @@
 ---
-layout: article
 title: First in... Line? Manual
 tag: first in... line?
 desc: How to get started and break a leg!
-hidden: true
+visible: 0
 ---
 # First in... Line?
 

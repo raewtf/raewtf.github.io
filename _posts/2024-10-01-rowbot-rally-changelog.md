@@ -1,5 +1,4 @@
 ---
-layout: article
 title: RowBot Rally Changelog
 tag: rowbot rally
 desc: What's new?

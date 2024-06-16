@@ -1,5 +1,4 @@
 ---
-layout: article
 title: RowBot Rally Manual
 tag: rowbot rally
 desc: Manual, credits, and tips for RowBot Rally!

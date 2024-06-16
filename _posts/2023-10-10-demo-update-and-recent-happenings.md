@@ -1,5 +1,4 @@
 ---
-layout: article
 title: Demo Update, and Recent Happenings!
 tag: rowbot rally
 desc: What's new in the world of RowBot?

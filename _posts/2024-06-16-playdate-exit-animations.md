@@ -1,5 +1,4 @@
 ---
-layout: article
 title: Playdate Exit Animations
 tag: blog
 desc: How to abuse the termination callback for your own personal gain.
