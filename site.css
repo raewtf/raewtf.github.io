@@ -237,11 +237,11 @@ body.blog .main img, .image {
 }
 
 code {
-	padding: 1rem;
+	padding: 0.5rem;
 	line-height: 1;
 	background: var(--sel);
 	border-radius: 5px;
-	display: block;
+	display: inline-block;
 }
 
 .post_container:any-link {
