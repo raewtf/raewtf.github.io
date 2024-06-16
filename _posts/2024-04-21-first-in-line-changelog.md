@@ -3,6 +3,7 @@ layout: article
 title: First in... Line? Changelog
 tag: first in... line?
 desc: What's new?
+hidden: true
 ---
 ## Version 2.1.0
 
