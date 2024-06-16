@@ -144,6 +144,7 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1rem;
 	margin-bottom: 0.5rem;
+	color: var(--seb);
 }
 
 .expert p {
@@ -166,7 +167,7 @@ body {
 	margin-bottom: 0.5rem;
 }
 
-.box a, .main p a, .sides p a, .footer p a {
+.box a, .main p a, .sides p a, .footer p a, .main ul li a, .sides ul li a {
 	color: var(--red);
 }
 
