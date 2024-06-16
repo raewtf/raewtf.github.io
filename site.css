@@ -247,7 +247,8 @@ code {
 }
 
 .code-span {
-	padding: 0.5rem;
+	font-family: monospace;
+	padding: 0.25rem 0.5rem;
 	line-height: 1;
 	background: var(--sel);
 	border-radius: 5px;
