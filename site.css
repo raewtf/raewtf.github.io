@@ -246,7 +246,7 @@ code {
 	overflow-x: scroll;
 }
 
-.code-inline {
+.code-span {
 	padding: 0.5rem;
 	line-height: 1;
 	background: var(--sel);
