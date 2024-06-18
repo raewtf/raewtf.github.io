@@ -8,12 +8,12 @@ visible: 0
 
 ### June 18th, 2024
 
-<!--- First version release on Catalog!-->
+- First version release in Catalog!
 - Dampened the punishment for an erroneous dock/undock. Now, either action provides a maximum of one miss between correct dock/undock inputs.
-<!--- Added default username check when fetching leaderboards-->
+- Added default username check when fetching leaderboards
 - Added results images for Multi Mode. Honestly a complete oversight.
 - Re-enabled crank docking SFX.
-<!--- Added controls indicators to leaderboards & scores.-->
+- Added controls indicators to leaderboards & scores.
 - Bugsmash: In Hard Mode, the timer will now pause if you trigger the Back to Title prompt, instead of continuing in the background.
 - If a scene transition happens while the Back to Title prompt is open, the game will now patiently wait until and unless you hit "Keep Playing" to trigger the transition.
 - In Multi Mode, the music will now fade properly when starting a new game from the results.
@@ -24,17 +24,17 @@ visible: 0
 
 ### May 21st, 2024
 
-- Added directional arrows to title screen <!--and High Scores scene-->
+- Added directional arrows to title screen and High Scores scene
 - Reduced sensitivity of microphone input
 - Fixed a bug where the One-Shot unlock toast wouldn't display properly
-<!--\- Catalog - fixed leaderboards to scream at proper endpoints-->
+- Catalog - fixed leaderboards to scream at proper endpoints
 
 ## Version 2.0.1
 
 ### May 17th, 2024
 
 - Reduced sensitivity of console shaking to acceptable levels
-<!--\- Catalog - removed debug print statements in High Scores scene-->
+- Catalog - removed debug print statements in High Scores scene
 
 ## Version 2.0.0
 
@@ -54,7 +54,7 @@ visible: 0
 	- Credits screen has been moved in here, too.
 - Bumped up the Hard difficulty threshold from 10 to 24 (completing an entire page in Easy).
 - Changed the pause image to reflect new behavior.
-<!--\- Added support for on-line leaderboards in Catalog -->
+- Added support for on-line leaderboards
 
 ## Version 1.2.0
 
@@ -84,4 +84,4 @@ visible: 0
 
 
 <br>
-<a href="https://stuffbyrae.itch.io/first-in-line" class="button">Buy <i>First in... Line?</i> on Itch.io</a>
+<a href="https://play.date/games/first-in-line" class="button">Buy <i>First in... Line?</i> in Catalog</a>

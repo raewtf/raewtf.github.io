@@ -12,7 +12,7 @@ visible: 0
 
 This play is running super behind schedule, and to make it even worse, the lead had to bail! You're the back-up actor, so you've gotta step in and perform in his place. Problem is, You Forgot Something... YOUR LINES!! No time to rehearse, just memorize them as well as you can and get out there! The show must go on!
 
-In this endless game featuring multiple modes, pass and "play" between 2 people, and more, take to the stage and try not to anger the crowd too much as you fill in for the lead role, only finding out the lines as you go! Compete for a high score, and break a leg while you shoot for the prestige spot in back-up actor stardom!
+In this endless game featuring multiple modes, pass and "play" between 2 people, and on-line leaderboards, take to the stage and try not to anger the crowd too much as you fill in for the lead role, only finding out the lines as you go! Compete for a high score, and break a leg while you shoot for the prestige spot in back-up actor stardom!
 
 # Gameplay Basics
 
@@ -49,9 +49,7 @@ Multi Mode is a variant of Arcade Mode, adjusted to best optimize pass and *"pla
 
 Multi Mode plays similarly to Arcade Mode. However, two players take turns completing rounds, back and forth. Each player will get an attempt at the same line before the game progresses. The last player to get caned off-stage is the winner!
 
-> ⚠️ *Scores are not saved in Multi Mode.*
-
-<!--\> ⚠️ *Scores are not saved or submitted to on-line leaderboards in Multi Mode.*-->
+> ⚠️ *Scores are not saved or submitted to on-line leaderboards in Multi Mode.*
 
 ## One-Shot Mode
 
@@ -89,7 +87,7 @@ In Hard difficulty...
 
 > 💡 †*You'll only receive a heckle if you've just completed a successful input. You also won't be heckled if you're only one Miss away from losing.*
 
-<!--\# On-line Capability
+# On-line Capability
 
 ## About on-line play
 
@@ -128,7 +126,7 @@ Here's a pro tip! If you wanna take the edge on a leaderboard but a score seems 
 
 Don't worry if you can't or don't wanna use any of these more involved inputs, by the way! They only make the difference in the event of a tie. If you definitively beat someone's score, you'll get a higher rank no matter what.
 
-> 💡 *When viewing scores in your Web browser, you can also determine what control combination was used. Take the last digit, and refer to the chart above to see what they used. For example, a score read-out of "304" would be a score of 30, using Buttons, Crank, and Accelerometer.*-->
+> 💡 *When viewing scores in your Web browser, you can also determine what control combination was used. Take the last digit, and refer to the chart above to see what they used. For example, a score read-out of "304" would be a score of 30, using Buttons, Crank, and Accelerometer.*
 
 # Credits
 
@@ -147,11 +145,11 @@ This game was originally made for [PlayJam 5](https://itch.io/jam/playjam-5), ho
 
 The original version was completed in just a weekend, being first published on itch.io on April 21st, 2024; and wound up winning 4th place overall in the jam.
 
-<!--The game was originally submitted to Catalog on May 1st, 2024. It was approved for release on May 6th, and was initially slated for Catalog release on June 4th; though I pushed it back to the following drop on June 18th.-->
+The game was originally submitted to Catalog on May 1st, 2024. It was approved for release on May 6th, and was initially slated for Catalog release on June 4th; though I pushed it back to the following drop where it eventually released on June 18th.
 
 It was super fun being able to prove to myself that I can actually complete and release a quality game that I feel confident people will enjoy, let alone under such a strict timeframe. I hope to participate in more jams in the future!
 
 From me to you, thanks for playing, and break a leg! 💖
 
 <br>
-<a href="https://stuffbyrae.itch.io/first-in-line" class="button">Buy <i>First in... Line?</i> on Itch.io</a>
+<a href="https://play.date/games/first-in-line" class="button">Buy <i>First in... Line?</i> in Catalog</a>
