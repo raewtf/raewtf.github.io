@@ -4,6 +4,39 @@ tag: first in... line?
 desc: What's new?
 visible: 0
 ---
+## Version 2.2.0
+
+### July 1st, 2024
+
+- New Mode — "Timed Mode"! You're on the clock; get as far as you can before time's up.
+- Fixes and adjustments to controls
+	- Mic input is now less sensitive
+	- Crank input deadzone was adjusted, to make switching directions easier
+	- Consecutive cranking in one direction will now only count as a max of one input
+- Meta adjustments
+	- Barrier to unlock Hard difficulty has been reduced from 24 score to 21 (a full page of lines)
+	- Barrier to unlock One-Shot mode has been reduced from 10 Arcade plays to 5
+	- The game will attempt to send an on-line score on game over, regardless of if the obtained score is a new high.
+	- Your score (if applicable) is now shown in rehearsal as what Act you're on (current score plus one)
+	- Locked modes now appear in the Title screen, with instructions on how to obtain them.
+- Bug fixes & tweaks
+	- SFX button in Settings had its corresponding sound flipped from the actual setting
+	- Removed some extra fonts that weren't being used in game
+	- Added some memory optimization to prevent piled-up garbage
+	- Removed some extra white-space in the Buttony font
+	- Removed the "Miss" graphic in One-Shot Mode
+	- Moved the timer graphic down in Multi Mode (Hard), so it won't get obscured by the banner
+	- Removed version read-out from the Credits screen
+	- In Multi Mode's end screen, the "back to title" slide menu option was accidentally labeled "to settings"
+	- "back to title" in-game pop up is disabled if the scene is currently transitioning
+- Misc.
+	- Lowered score barrier for a "good ending" image in the Game Over screen
+	- Added game manual nudge to Settings screen
+	- Added an extra screen in Multi Mode, prompting the player to pass the console
+	- Added cast members: "tree", "wet floor", "frog", "bubbles", "sunglasses", "dog", "cat", "rowbot", "cast", "horse"
+	- Added costumes: "magician", "bowtie", "trick glasses", "sunglasses", "baseball", "propeller", "queen"
+	- Removed cast members: "airplane" and "argument"
+
 ## Version 2.1.0
 
 ### June 18th, 2024

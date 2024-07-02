@@ -22,18 +22,18 @@ The D-pad and A and B buttons are required to play this game. These buttons are 
 
 During gameplay, there are additional control methods you can enable, to be used randomly:
 - Crank — These inputs include cranking clockwise, cranking counter-clockwise, docking the crank, and undocking the crank. *(This option is enabled by default.)*
-- Accelerometer — This input requires shaking the console. *(This option is disabled by default.)*
-- Microphone — This input requires yelling into the microphone, the ••• port located at the bottom of the Playdate. *(This option is disabled by default.)*
+- Shake — This input requires shaking the Playdate, and utilizes the console's accelerometer. *(This option is disabled by default.)*
+- Mic — This input requires yelling into the microphone, the ••• port located at the bottom of the Playdate. *(This option is disabled by default.)*
 
 You can toggle any of these input methods via the in-game Settings menu.
 
 ## Playing the game
 
-When you start a new game, you'll be presented with a page of lines — a sequence of buttons. Memorize 'em, and memorize 'em good! When you think you have your lines down, press the A button to begin the round.
+When you start a new play, you'll be presented with a page of lines — a sequence of buttons. Memorize 'em, and memorize 'em good! When you think you have your lines down, press the A button to go on stage.
 
-As the round starts, you'll walk on-stage from frame left. When the spotlight turns on over your head, that's your cue to speak your line! Repeat the sequence of buttons you just memorized, and try not to make any mistakes.
+As the act starts, you'll walk on-stage from frame left. When the spotlight turns on over your head, that's your cue to speak your line! Repeat the sequence of buttons you just memorized, and try not to make any mistakes.
 
-If you complete the sequence of lines without losing, take a bow — you just delivered a great performance! But there's not much time to celebrate, because you've gotta get ready for the next act! You'll be presented with a new set of lines, and the game repeats until you lose.
+If you complete the sequence of lines without losing, take a bow — you just delivered a great performance! But there's not much time to celebrate, because you've gotta get ready for the next act! You'll be presented with a new set of lines, and you'll keep performing until you lose.
 
 # Modes
 
@@ -41,49 +41,59 @@ If you complete the sequence of lines without losing, take a bow — you just de
 
 Arcade Mode is the basic gameplay mode in *First in... Line?*.
 
-In this mode, you have a maximum of three Misses per round before you lose the game. A Miss is added to your total whenever you press an incorrect button. When you make it through a round successfully, your Miss total is reset for the next round.
+In this mode, you have a maximum of three Misses per act before you lose. A Miss is added to your total whenever you make an incorrect input. If you make it through successfully, your Miss total is reset for the next act.
+
+## One-Shot Mode
+
+> 💡 *This Mode is only unlocked after playing Arcade Mode five times in total.*
+
+One-Shot Mode plays similarly to Arcade Mode, with a couple key differences. Hints are not allowed in this mode, and — crucially — you're only permitted one miss before losing in this mode. This is the ultimate test of your back-up acting skills! See how far you can go without making a single mistake.
+
+## Timed Mode
+
+> 💡 *This Mode is only unlocked after playing Arcade Mode ten times in total.*
+
+Timed Mode essentially plays just like Arcade Mode, but with one huge difference: you're on the clock! There's a constantly running timer, and you've gotta try and get as far as you can before it hits 0. When it does (or if you flub the normal way), you'll get caned off the stage and it's game over.
+
+For every round you successfully complete, you'll earn some additional time on the timer to keep you afloat. See how far you can go in this time-based sprint!
 
 ## Multi Mode
 
 Multi Mode is a variant of Arcade Mode, adjusted to best optimize pass and *"play"* local multiplayer with 2 people.
 
-Multi Mode plays similarly to Arcade Mode. However, two players take turns completing rounds, back and forth. Each player will get an attempt at the same line before the game progresses. The last player to get caned off-stage is the winner!
+Multi Mode plays similarly to Arcade Mode. However, two players take turns completing acts, back and forth. Each player will get an attempt at the same line before the play progresses. The player who doesn't get caned off-stage is the winner!
 
-> ⚠️ *Scores are not saved or submitted to on-line leaderboards in Multi Mode.*
-
-## One-Shot Mode
-
-> 💡 *This Mode is only unlocked after playing Arcade Mode ten times in total.*
-
-One-Shot Mode plays similarly to Arcade Mode, with a couple key differences. Hints are not allowed in this mode, and — crucially — you're only permitted one miss before losing in this mode. This is the ultimate test of your back-up acting skills! See how far you can go without making a single mistake.
+> ⚠️ *Scores are not saved or submitted to any on-line leaderboards in Multi Mode.*
 
 # Difficulties
 
 ## Easy
 
-Easy is the default difficulty in the game, and is unlocked from the start.
+Easy is the default difficulty, and is unlocked from the start.
 
 In Easy difficulty...
 
 - You have as much time as you want to review your line before heading on-stage.
-- Lines are preserved between rounds — one new input is added onto the end in each new round.
-- When you reach a line length of 24, the game will keep going. You'll be presented with a new line of 4 inputs in the next round, and the game will continue from there.
-- If you wait around for too long†, you'll receive a hint from the director, standing off frame-right. There's an unlimited number of hints you can use. *(Hints are only allowed in Arcade Mode and Multi Mode.)*
+- Lines are preserved between acts — one new input is added onto the end in each new act.
+- When you reach a line length of 24, the show will keep going. You'll be presented with a new line of 4 inputs in the next act, and the play will continue from there.
+- If you wait around for too long†, you'll receive a hint from the director, standing off frame-right. There's an unlimited number of hints you can use. *(Hints are not enabled in One-Shot Mode.)*
+- In Timed Mode, you start with 60 seconds on the clock. Every successful act gives you an additional 20 seconds.
 
 > 💡 †*You'll only receive a hint if you've just completed a successful input.*
 
 ## Hard
 
-> 💡 *This difficulty is only unlocked after reaching a score of 24 in Arcade Mode.*
+> 💡 *This difficulty is only unlocked after reaching a score of 21 or greater in Arcade Mode.*
 
 If you manage to complete an entire page of lines without flubbing it majorly, you've proven that you're the ultimate back-up actor! It's time for an extreme challenge. Relative to Easy, Hard difficulty features a lot of changes to punch up the challenge.
 
 In Hard difficulty...
 
-- You only have a limited amount of time to review your lines. This timer starts at 10 seconds, but increases by +10 seconds for every 10 points on your score, up to a maximum of 30 seconds.
-- On top of the line's length increasing by one input, the entire line is randomized and re-generated in each round.
-- When you reach a line length of 24, the game will keep going. You'll be presented with an entirely randomized page of 24 inputs for every round afterwards.
-- If you wait around for too long, you'll get heckled from a particularly rude member of the audience. This counts as a Miss on your score.† *(Heckles will only happen in Arcade Mode and Multi Mode.)*
+- You only have a limited amount of time to review your lines. This timer starts at 10 seconds, but increases by +10 seconds for every 10 points on your score, up to a maximum of 30 seconds. *(You won't see this when playing in Timed Mode, though — the whole game's timed then!)*
+- On top of the line's length increasing by one input, the entire line is randomized and re-generated in each act.
+- When you reach a line length of 24, the show will keep going. You'll be presented with an entirely randomized page of 24 inputs for every act afterwards.
+- If you wait around for too long, you'll get heckled from a particularly rude member of the audience. This counts as a Miss on your score.† *(Heckles are not enabled in One-Shot Mode.)*
+- In Timed Mode, you start with 45 seconds on the clock. Every successful act gives you an additional 15 seconds.
 
 > 💡 †*You'll only receive a heckle if you've just completed a successful input. You also won't be heckled if you're only one Miss away from losing.*
 
@@ -97,8 +107,6 @@ This game connects to Playdate's on-line leaderboard API, to enable sending and 
 
 To submit a new score to the global leaderboard, simply complete a game. When you reach the 'Game Over' screen, your score will be submitted to the proper leaderboard automatically.
 
-> 💡 *For a score to be eligible for submission, it must be a higher score than one you've achieved before.*
-
 > ⚠️ *Scores are not saved or submitted to on-line leaderboards in Multi Mode.*
 
 ## Viewing global scores
@@ -107,7 +115,7 @@ You can view global scores using two primary methods:
 
 1. Visit the *First in... Line?* game page in your Web browser, at [play.date/games/first-in-line](https://play.date/games/first-in-line/). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
 
-2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch the Mode. *(On device, you can only view leaderboards for modes and difficulties you've already unlocked.)* From here, you can see the top 10 scores for the currently-highlighted board, as well as your own score and ranking (if available).
+2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch between Modes. *(On device, you can only view leaderboards for modes and difficulties you've already unlocked.)* From here, you can see the top 9 scores for the currently-highlighted board, as well as your own score and ranking (if available).
 
 ## Control schemes
 
