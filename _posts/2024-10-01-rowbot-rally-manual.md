@@ -8,7 +8,7 @@ visible: 0
 
 ## Synopsis
 
-> *"Team up with a mechanical pal and row for the gold in the annual Fish Bowl!"*
+> *Team up with a mechanical pal and row for the gold in the annual Fish Bowl!*
 
 Not too long ago, boat racing was a sport for everybody! Whether you were a rowing pro or just a novice, it was an activity that anyone could celebrate. The annual Fish Bowl was a town institution, pitting the best rowers up against each other in a high-stakes racing tournament - the winner bringing home a big trophy, and of course, infinite bragging rights.
 
