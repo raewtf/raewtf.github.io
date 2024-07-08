@@ -2,7 +2,7 @@
 title: HEXA Manual
 tag: hexa
 desc: How to get started with HEXA and conquer the universe!
-visible: 0
+visible: 1
 ---
 # HEXA
 
