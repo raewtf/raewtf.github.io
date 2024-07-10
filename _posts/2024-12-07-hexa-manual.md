@@ -8,11 +8,11 @@ visible: 0
 
 ## Synopsis
 
-> *Board the helm of starship HEXA, and conquer the universe the only way you know how: shapes.*
+> *Board the helm of Starship HEXA, and conquer the universe the only way you know how: shapes.*
 
 You're the commander of Starship HEXA, the head of an evil space fleet dead set on taking over the universe. You're well on your way to assuming control of everything that is and shall be; however, your attack methods are a bit unorthodox... We can't dwell on it for too long, though, so get out there and match those hexagons!
 
-HEXA is a triangle-matching puzzle game with gameplay that's dead-simple, but tons of fun. Try for a high score in the action-packed Arcade Mode, packed with power-ups and a looming timer; or kick back in the low-stakes Zen Mode and hone your skills! With on-line leaderboards, addictive puzzle gameplay, and a banger soundtrack; see if you can't master the HEXAPLEX, wrangle those Power-ups, and just maybe become ruler of the universe along the way!
+HEXA is a triangle-matching puzzle game with gameplay that's dead-simple, but tons of fun. Try for a high score in the action-packed Arcade Mode, with power-ups and a looming timer; or kick back in the low-stakes Zen Mode and hone your skills! With on-line leaderboards, addictive puzzle gameplay, and a banger soundtrack; see if you can't conquer the HEXAPLEX, wrangle those Power-ups, and maybe even become ruler of the universe along the way! Give it a try... it's HEXA-good!
 
 # Gameplay Basics
 
@@ -52,6 +52,8 @@ You can also score HEXA Combos, mostly by luck — if you match a HEXA, and the 
 
 An unmodified HEXA is worth 100 points, but if you make good use of 2x Tiles and get lucky with Combos, you'll be well on your way to becoming master of the universe!
 
+HEXAs will also earn you more time: +5 seconds for an unmodified match, and +7.5 seconds for a match with a 2x Tile inside, up to a maximum of 60 seconds.
+
 The game will end when the timer reaches zero. If you wanna end it early, open the Slide menu and just select "end game". The game will end from the current point, and any high scores will be saved.
 
 ## Zen Mode
@@ -70,9 +72,10 @@ To end the game, open the Slide menu and select "i'm done!" to wrap up.
 - Music by [Watson at MusMus](https://musmus.main.jp); [Terms](https://musmus.main.jp/info.html)
 - SFX made with [JSFXR](https://sfxr.me)
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library by [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
-- Full Circle font made by Panic; [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Full Circle and Mikodacs Clock fonts provided by Panic; [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Righteous font made by Astigmatic; [OFL](https://openfontlicense.org)
 
-- Thank you to Voxy, Toad, scizzorz, superfunc, mag, hunty, and everyone at Panic!
+- Thank you to Voxy, Toad, scizzorz, superfunc, mag, hunty, Scenic Route, and everyone at Panic!
 
 # Additional Notes
 
