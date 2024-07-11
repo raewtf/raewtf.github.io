@@ -79,7 +79,7 @@ To end the game, open the Slide menu and select "i'm done!" to wrap up.
 
 # Additional Notes
 
-This game started life on the 4th of July, 2024. It came together pretty much over the weekend — initially being sent to the Catalog on July 7th, and
+This game started life on the 4th of July, 2024. It came together pretty much over the weekend — initially being sent to the Catalog on July 7th, and approved on the 10th. That means over the span of just a week, the game went from "thought in my head" to "approved for Catalog"! By all accounts, this is a freak accident.
 
 <br>
 <a href="https://play.date/games/hexa" class="button">Buy <i>HEXA</i> in Catalog</a>
