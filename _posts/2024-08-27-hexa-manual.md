@@ -4,15 +4,15 @@ tag: hexa
 desc: How to get started with HEXA and conquer the universe!
 visible: 0
 ---
-# HEXA
+![HEXA](/blog/images/2024-08-27-1.png)
 
 ## Synopsis
 
 > *Board the helm of Starship HEXA, and conquer the universe the only way you know how: shapes.*
 
-You're the commander of Starship HEXA, the head of an evil space fleet dead set on taking over the universe. You're well on your way to assuming control of everything that is and shall be; however, your attack methods are a bit unorthodox... We can't dwell on it for too long, though, so get out there and match those hexagons!
+YYou're the commander of Starship HEXA, the head of an evil space fleet dead set on taking over the universe. You're well on your way to assuming control of everything that is and shall be; however, your attack methods are a bit unorthodox... We can't dwell on it for too long, though, so get out there and match those hexagons!
 
-HEXA is a triangle-matching puzzle game with gameplay that's dead-simple, but tons of fun. Try for a high score in the action-packed Arcade Mode, with power-ups and a looming timer; or kick back in the low-stakes Zen Mode and hone your skills! With on-line leaderboards, addictive puzzle gameplay, and a banger soundtrack; see if you can't conquer the HEXAPLEX, wrangle those Power-ups, and maybe even become ruler of the universe along the way! Give it a try... it's HEXA-good!
+HEXA is a unique match-six puzzle game with gameplay that's dead-simple, but tons of fun. Try for a high score in the action-packed Arcade Mode, kick back in the low-stakes Chill Mode, or take on the seeded Daily Run with a dynamic leaderboard! With addictive puzzle gameplay, on-line leaderboards, and a banger soundtrack; see if you can't conquer the HEXAPLEX, wrangle those Power-ups, and maybe even become ruler of the universe along the way. Give it a try... it's HEXA-good!
 
 # Gameplay Basics
 
@@ -56,13 +56,45 @@ HEXAs will also earn you more time: +5 seconds for an unmodified match, and +7.5
 
 The game will end when the timer reaches zero. If you wanna end it early, open the Slide menu and just select "end game". The game will end from the current point, and any high scores will be saved.
 
-## Zen Mode
+## Chill Mode
 
-Zen Mode is a more chill experience, meant for casual play.
+Chill Mode is a more relaxed experience, meant for casual play.
 
 In this mode, there's no score-keeping, Power-ups, or timers. The goal is just to chill out, and have a good time creating HEXA matches at your own pace!
 
 To end the game, open the Slide menu and select "i'm done!" to wrap up.
+
+## Daily Run
+
+Daily Run plays a lot like Arcade Mode, but with one big catch: you only get one shot per day!
+
+In this mode, the board is *seeded* — every day, you play with the same starting layout as everyone else. From here, it plays just like Arcade Mode!
+
+When you end the game, you won't be able to play again until tomorrow. The Daily Run refreshes automatically at 00:00 midnight GMT, after which you'll be able to play another game with a new layout.
+
+> 💡 *There's also a handy timer on the Title screen to let you know when the next run will appear!*
+
+# On-line Capability
+
+## About on-line play
+
+This game connects to Playdate's on-line leaderboard API, to enable sending and receiving of high scores among players across the globe. To use on-line functionality in this game, make sure your Playdate has an active Wireless connection.
+
+## Submitting your scores
+
+To submit a new score to a global leaderboard, simply complete a game. When you reach the end results screen, your score will be submitted to the proper leaderboard automatically.
+
+> ⚠️ *Be careful — if you close out of the game without properly ending your run, your score won't be saved or submitted!*
+
+## Viewing global scores
+
+You can view global scores using two primary methods:
+
+1. Visit the *HEXA* game page in your Web browser, at [play.date/games/hexa](https://play.date/games/hexa/). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
+
+2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle between the Arcade Mode and Daily Run leaderboards. From here, you can see the top 9 scores for the currently-highlighted board, as well as your own score and ranking (if available).
+
+The Daily Run leaderboard refreshes automatically at 00:00 midnight GMT, clearing all scores from the past day. When viewing scores in-game, there's also a handy timer to tell you when the boards will be cleared.
 
 # Credits
 
