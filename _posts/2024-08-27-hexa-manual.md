@@ -106,6 +106,7 @@ The Daily Run leaderboard refreshes automatically at 00:00 midnight GMT, clearin
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library by [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
 - Full Circle and Mikodacs Clock fonts provided by Panic; [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - Righteous font made by Astigmatic; [OFL](https://openfontlicense.org)
+- Some formatting code used from the [lua-users wiki](http://lua-users.org/wiki/FormattingNumbers).
 
 - Thank you to Voxy, Toad, scizzorz, superfunc, mag, hunty, Scenic Route, and everyone at Panic!
 
