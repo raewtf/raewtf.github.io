@@ -18,7 +18,7 @@ In this endless game featuring multiple modes, pass and "play" between 2 people,
 
 ## Controls
 
-The D-pad and A and B buttons are required to play this game. These buttons are used to navigate menus, and are mandatory in main gameplay.
+The d-pad and A and B buttons are required to play this game. These buttons are used to navigate menus, and are mandatory in main gameplay.
 
 During gameplay, there are additional control methods you can enable, to be used randomly:
 - Crank — These inputs include cranking clockwise, cranking counter-clockwise, docking the crank, and undocking the crank. *(This option is enabled by default.)*

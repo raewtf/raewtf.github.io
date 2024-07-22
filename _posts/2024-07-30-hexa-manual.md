@@ -4,23 +4,25 @@ tag: hexa
 desc: How to get started with HEXA and conquer the universe!
 visible: 0
 ---
-![HEXA](/blog/images/2024-08-13-1.png)
+![HEXA](/blog/images/2024-07-30-1.png)
 
 ## Synopsis
 
 > *Board the helm of Starship HEXA, and conquer the universe the only way you know how: shapes.*
 
-YYou're the commander of Starship HEXA, the head of an evil space fleet dead set on taking over the universe. You're well on your way to assuming control of everything that is and shall be; however, your attack methods are a bit unorthodox... We can't dwell on it for too long, though, so get out there and match those hexagons!
+You're the commander of Starship HEXA, the head of a space fleet dead-set on taking over the universe. You're well on your way to assuming control of everything that is and shall be, but your attack methods are a bit...unorthodox. We can't dwell on it for too long, though, so get out there and match those hexagons!
 
-HEXA is a unique match-six puzzle game with gameplay that's dead-simple, but tons of fun. Try for a high score in the action-packed Arcade Mode, kick back in the low-stakes Chill Mode, or take on the seeded Daily Run with a dynamic leaderboard! With addictive puzzle gameplay, on-line leaderboards, and a banger soundtrack; see if you can't conquer the HEXAPLEX, wrangle those Power-ups, and maybe even become ruler of the universe along the way. Give it a try... it's HEXA-good!
+HEXA is a unique, quick to pick up, and super fun logic puzzle game based on everybody's favorite polygon. Try for a high score in Arcade Mode, kick back in the low-stakes Chill Mode, or take on the seeded, dynamic Daily Run! See if you can't conquer the HEXAPLEX, wrangle those Power-ups, and maybe even become ruler of the universe along the way.
+
+Give it a try... it's *HEXA-good!*
 
 # Gameplay Basics
 
 ## Controls
 
-The D-pad and A and B buttons are required to play this game. These buttons are used to navigate menus, and are mandatory in main gameplay.
+The d-pad and A and B buttons are required to play this game. These buttons are used to navigate menus, and are mandatory in main gameplay.
 
-You can also optionally use the Crank to perform the turning action usually done by the A and B buttons. This can be toggled in the Options menu, or in-game via the Slide menu. (The Crank can also be used to navigate menus.)
+You can also optionally use the crank to perform the turning action usually done by the A and B buttons. This can be toggled in the Options menu, or in-game via the Slide menu. (The crank can also be used to navigate menus.)
 
 ## Playing the game
 
@@ -30,9 +32,9 @@ Use the D-pad to navigate your Cursor along the HEXAPLEX, and the A and B button
 
 A full hexagon of similarly-colored triangles is called a HEXA. These are the main way to earn points — create a HEXA match, and BOOM!! You gain points, and the triangles involved are replaced with all new colors.
 
-When the game ends, you'll get a read-out of how many Swap you've made, and how many HEXAs you've matched.
+When the game ends, you'll get a read-out of how many Swaps you've made, and how many HEXAs you've matched.
 
-As far as basic gameplay is concerned...that's all you need to know! But, depending on the mode you're playing, there are a few more things you need to know...
+As far as basic gameplay is concerned...that's all you gotta know to get started! But, depending on the mode you're playing, there are a few more things you need to learn...
 
 # Modes
 
@@ -40,19 +42,17 @@ As far as basic gameplay is concerned...that's all you need to know! But, depend
 
 Arcade Mode is the basic gameplay mode in *HEXA*.
 
-In this mode, you start out with 45 seconds on the clock. As you match HEXAs, you'll earn points, as well as more time on the timer! Your goal is to match as many HEXAs, and thus, earn as many points, as you can before time runs out.
+In this mode, you start out with 45 seconds on the clock. As you match HEXAs, you'll earn points, as well as more time on the timer! Your goal is to match as many HEXAs, and thus, earn as many points, as you can before time runs out. White tiles earn you 100 points, gray tiles earn you 150 points, and black tiles earn you 200 points.
 
-There's another element to this mode to keep you on your toes: randomly-generated Power-ups that do various things when matched.
+There's another element to this mode to keep you on your toes: randomly-generated Power-ups! These do various different things when matched:
 
-- Bombs — If matched into a HEXA, the whole board gets "blown up" and replaced with a new, randomized set of triangles.
-- 2x Tiles — When matched into a HEXA, you'll earn double points for that match!
-- Wild Tiles — These tiles can be used in place of any other color when creating a HEXA. There's no penalty or reward.
+- Bombs — If matched into a HEXA, the whole board gets "blown up" and replaced with a new, randomized set of tiles.
+- 2x Tiles — When matched into a HEXA, you'll earn double points for that match! Plus, a bigger timer boost.
+- Wild Tiles — These tiles can be used in place of any other color when creating a HEXA. No penalty nor reward.
 
-You can also score HEXA Combos, mostly by luck — if you match a HEXA, and the resulting grid contains another HEXA, BOOM!! You'll get double points for that match! This stacks exponentially up until you reach a board state without an immediate HEXA.
+You can also score HEXA Combos, mostly by luck — if you match a HEXA, and the resulting grid contains another HEXA, BOOM!! You'll get double the points for that match! This stacks exponentially up until you reach a board state without an immediate HEXA.
 
-An unmodified HEXA is worth 100 points, but if you make good use of 2x Tiles and get lucky with Combos, you'll be well on your way to becoming master of the universe!
-
-HEXAs will also earn you more time: +5 seconds for an unmodified match, and +7.5 seconds for a match with a 2x Tile inside, up to a maximum of 60 seconds.
+As you earn more HEXAs, the timer boost will gradually become less and less effective. See how long you can keep it rolling!
 
 The game will end when the timer reaches zero. If you wanna end it early, open the Slide menu and just select "end game". The game will end from the current point, and any high scores will be saved.
 
@@ -96,6 +96,15 @@ You can view global scores using two primary methods:
 
 The Daily Run leaderboard refreshes automatically at 00:00 midnight GMT, clearing all scores from the past day. When viewing scores in-game, there's also a handy timer to tell you when the boards will be cleared.
 
+# Strategies
+
+Here are a couple tips to hopefully help you conquer the HEXAPLEX!
+
+- Know your difference between clockwise and counter-clockwise.
+- It's easier to fill a gap of two than it is to fill a gap of one.
+- Plan for the tiles that reward higher points!
+- Make use of power-ups when possible, and especially when beneficial.
+
 # Credits
 
 - Programmed by [Rae](https://rae.wtf)
@@ -107,12 +116,17 @@ The Daily Run leaderboard refreshes automatically at 00:00 midnight GMT, clearin
 - Full Circle and Mikodacs Clock fonts provided by Panic; [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - Righteous font made by Astigmatic; [OFL](https://openfontlicense.org)
 - Some formatting code used from the [lua-users wiki](http://lua-users.org/wiki/FormattingNumbers).
+- Drew-Lo helped me figure out the algorithm for logarithmic timer bonuses, as well.
 
-- Thank you to Voxy, Toad, scizzorz, superfunc, mag, hunty, Scenic Route, and everyone at Panic!
+- Thank you to Voxy, Toad, scizzorz, superfunc, mag, hunty, Scenic Route, DRD, IGDA Twin Cities, and everyone at Panic!
 
 # Additional Notes
 
 This game started life on the 4th of July, 2024. It came together pretty much over the weekend — initially being sent to the Catalog on July 7th, and approved on the 10th. That means over the span of just a week, the game went from "thought in my head" to "approved for Catalog"! By all accounts, this is a freak accident.
+
+To top it all off: the game was originally scheduled for release on August 13th, 2024, before suddenly having the opportunity to jump back to its final release on July 30th. This means that the game went from "start of development" to "literally out for people to buy" in just under a months' time. NEW RECORD!!
+
+Special thanks to the folks in the Catalog dev chat for being there to witness my dumbassery throughout development, and everybody who helped out and cheered me on as this game barreled through the finish line. And thanks to you, for reading, playing, and (hopefully) enjoying!
 
 <br>
 <a href="https://play.date/games/hexa" class="button">Buy <i>HEXA</i> in Catalog</a>
