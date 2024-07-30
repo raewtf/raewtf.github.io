@@ -104,6 +104,7 @@ Here are a couple tips to hopefully help you conquer the HEXAPLEX!
 - It's easier to fill a gap of two than it is to fill a gap of one.
 - Plan for the tiles that reward higher points!
 - Make use of power-ups when possible, and especially when beneficial.
+- When in doubt, just take a moment to study the board. You've got more time than you think!
 
 # Credits
 
