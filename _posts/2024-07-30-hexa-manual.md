@@ -123,11 +123,9 @@ Here are a couple tips to hopefully help you conquer the HEXAPLEX!
 
 # Additional Notes
 
-This game started life on the 4th of July, 2024. It came together pretty much over the weekend — initially being sent to the Catalog on July 7th, and approved on the 10th. That means over the span of just a week, the game went from "thought in my head" to "approved for Catalog"! By all accounts, this is a freak accident.
+This game started life on the 4th of July, 2024. It came together pretty much over the weekend — initially being sent to the Catalog on July 7th, and approved on the 10th. The game was originally scheduled for release on August 13th, 2024, before suddenly having the opportunity to jump back and instead release on July 30th. This means that the game went from "start of development" to "literally out for people to buy" in just under a months' time. New record!!
 
-To top it all off: the game was originally scheduled for release on August 13th, 2024, before suddenly having the opportunity to jump back to its final release on July 30th. This means that the game went from "start of development" to "literally out for people to buy" in just under a months' time. NEW RECORD!!
-
-Special thanks to the folks in the Catalog dev chat for being there to witness my dumbassery throughout development, and everybody who helped out and cheered me on as this game barreled through the finish line. And thanks to you, for reading, playing, and (hopefully) enjoying!
+Special thanks to the folks in the Catalog dev chat for being there to witness my tomfoolery throughout development, and everybody who helped out and cheered me on as this game barreled through the finish line. And thanks to you, for reading, playing, and (hopefully) enjoying!
 
 <br>
 <a href="https://play.date/games/hexa" class="button">Buy <i>HEXA</i> in Catalog</a>
