@@ -305,20 +305,20 @@ code {
 .blog h3.post_container {color: var(--rel);}
 .blog.post_container::before, .blog.post_container::after {color: var(--sed);}
 
-.rowbot-rally.post_container {background: var(--bll);}
+.rowbot-rally.post_container, .rowbot-rally a {background: var(--bll);}
 .rowbot-rally h1, .rowbot-rally p, .rowbot-rally ul, .rowbot-rally ul li {color: var(--blb);}
 .rowbot-rally.post_container h3 {color: var(--yew);}
 .rowbot-rally.post_container::before, .rowbot-rally.post_container::after {color: var(--bld);}
 
 .first-in-line.post_container {background: var(--yel);}
 .first-in-line h1, .first-in-line p, .first-in-line ul, .first-in-line ul li {color: var(--yeb);}
-.first-in-line h3.post_container {color: var(--red);}
+.first-in-line h3.post_container, .first-in-line a {color: var(--red);}
 .first-in-line.post_container::before, .first-in-line.post_container::after {color: var(--orl);}
 
-.hexa.post_container {background: var(--pul);}
-.hexa h1, .first-in-line p, .first-in-line ul, .first-in-line ul li {color: var(--pub);}
+.hexa.post_container, .hexa a {background: var(--pul);}
+.hexa h1, .hexa p, .hexa ul, .hexa ul li {color: var(--pub);}
 .hexa h3.post_container {color: var(--sew);}
-.hexa.post_container::before, .first-in-line.post_container::after {color: var(--pud);}
+.hexa.post_container::before, .hexa.post_container::after {color: var(--pud);}
 
 i {
 	width: 40px;
