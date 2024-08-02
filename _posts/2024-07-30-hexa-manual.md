@@ -50,6 +50,8 @@ There's another element to this mode to keep you on your toes: randomly-generate
 - 2x Tiles — When matched into a HEXA, you'll earn double points for that match! Plus, a bigger timer boost.
 - Wild Tiles — These tiles can be used in place of any other color when creating a HEXA. No penalty nor reward.
 
+Power-ups will not stack up with themselves. For example, if you have multiple 2x Tiles in a match, you'll still only receive one bonus. However, Power-ups *will* stack with eachother — if a match contains a 2x Tile and a Bomb, you'll get double points *and* reshuffle the entire board.
+
 You can also score HEXA Combos, mostly by luck — if you match a HEXA, and the resulting grid contains another HEXA, BOOM!! You'll get double the points for that match! This stacks exponentially up until you reach a board state without an immediate HEXA.
 
 As you earn more HEXAs, the timer boost will gradually become less and less effective. See how long you can keep it rolling!
