@@ -22,17 +22,15 @@ Give it a try... it's *HEXA-good!*
 
 The d-pad and A and B buttons are required to play this game. These buttons are used to navigate menus, and are mandatory in main gameplay.
 
-You can also optionally use the crank to perform the turning action usually done by the A and B buttons. This can be toggled in the Options menu, or in-game via the Slide menu. (The crank can also be used to navigate menus.)
+You can also optionally use the crank to perform the turning action usually done by the A and B buttons. This can be toggled in-game, in the Options menu. (The crank can also be used to navigate menus.)
 
 ## Playing the game
 
 When you start a new game, you'll be faced with the HEXAPLEX — a grid of 19 triangles (black, gray, or white), all interlaced with one another. Your goal is simple: create HEXAs!
 
-Use the D-pad to navigate your Cursor along the HEXAPLEX, and the A and B buttons (or the Crank) to rotate the currently-selected hexagon clockwise or counter-clockwise — this is called a Swap.
+Use the D-pad to navigate your Cursor along the HEXAPLEX, and the A and B buttons (or the crank) to rotate the currently-selected hexagon clockwise or counter-clockwise — this is called a Swap.
 
-A full hexagon of similarly-colored triangles is called a HEXA. These are the main way to earn points — create a HEXA match, and BOOM!! You gain points, and the triangles involved are replaced with all new colors.
-
-When the game ends, you'll get a read-out of how many Swaps you've made, and how many HEXAs you've matched.
+A full hexagon of similarly-colored triangles is called a HEXA. These are the main way to earn points — create a HEXA match, and BOOM!! You gain points, and the triangles involved are randomized and replaced.
 
 As far as basic gameplay is concerned...that's all you gotta know to get started! But, depending on the mode you're playing, there are a few more things you need to learn...
 
@@ -52,7 +50,7 @@ There's another element to this mode to keep you on your toes: randomly-generate
 
 Power-ups will not stack up with themselves. For example, if you have multiple 2x Tiles in a match, you'll still only receive one bonus. However, Power-ups *will* stack with eachother — if a match contains a 2x Tile and a Bomb, you'll get double points *and* reshuffle the entire board.
 
-You can also score HEXA Combos, mostly by luck — if you match a HEXA, and the resulting grid contains another HEXA, BOOM!! You'll get double the points for that match! This stacks exponentially up until you reach a board state without an immediate HEXA.
+You can also score HEXA Combos — if you match a HEXA, and the resulting grid contains another HEXA, BOOM!! You'll get double the points for that match! This stacks exponentially up until you reach a board state without an immediate HEXA. These are mostly luck-based, but it's possible to create them intentionally if you really know what you're doing.
 
 As you earn more HEXAs, the timer boost will gradually become less and less effective. See how long you can keep it rolling!
 
@@ -88,13 +86,23 @@ To submit a new score to a global leaderboard, simply complete a game. When you 
 
 > ⚠️ *Be careful — if you close out of the game without properly ending your run, your score won't be saved or submitted!*
 
+## My score didn't send! What do?
+
+If you obtained a new high score, but it didn't get sent up to the appropriate leaderboard, there are a few things you can try:
+
+1. Give it a little time, and see if it sends up automatically.
+
+2. Try playing another round — it doesn't need to be *yet another* new high score, but this might kick the OS' caching into high gear.
+
+3. Try checking the scoreboards in-game (see below), which will attempt to send a "fake score" and bump the cache.
+
 ## Viewing global scores
 
 You can view global scores using two primary methods:
 
 1. Visit the *HEXA* game page in your Web browser, at [play.date/games/hexa](https://play.date/games/hexa/). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
 
-2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle between the Arcade Mode and Daily Run leaderboards. From here, you can see the top 9 scores for the currently-highlighted board, as well as your own score and ranking (if available).
+2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle between the Arcade Mode and Daily Run leaderboards. From here, you can see the top scores for the currently-highlighted board, as well as your own score and ranking (if available).
 
 The Daily Run leaderboard refreshes automatically at 00:00 midnight GMT, clearing all scores from the past day. When viewing scores in-game, there's also a handy timer to tell you when the boards will be cleared.
 
@@ -106,6 +114,8 @@ Here are a couple tips to hopefully help you conquer the HEXAPLEX!
 - It's easier to fill a gap of two than it is to fill a gap of one.
 - Plan for the tiles that reward higher points!
 - Make use of power-ups when possible, and especially when beneficial.
+- The crank can perform Swaps faster, but is harder to dial in precisely.
+- Use bombs at opportune times to reshuffle a poor layout!
 - When in doubt, just take a moment to study the board. You've got more time than you think!
 
 # Credits
