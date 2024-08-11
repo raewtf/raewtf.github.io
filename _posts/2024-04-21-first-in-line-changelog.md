@@ -4,6 +4,15 @@ tag: first in... line?
 desc: What's new?
 visible: 0
 ---
+## Version 2.2.1
+
+### Coming to Catalog soon
+
+- Timed Mode - capped timer at 60 seconds maximum
+- Timed Mode - added logarithmic scale to timer progression
+- Hard Difficulty - fixed some timing bugs relating to moving back to title screen
+- Multi Mode - hopefully fixed a bug that wouldn’t re-set player position properly
+
 ## Version 2.2.0
 
 ### July 1st, 2024
