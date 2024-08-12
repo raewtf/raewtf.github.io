@@ -6,7 +6,7 @@ visible: 0
 ---
 ## Version 2.2.1
 
-### Coming to Catalog soon
+### August 13th, 2024
 
 - Timed Mode - capped timer at 60 seconds maximum
 - Timed Mode - added logarithmic scale to timer progression
