@@ -12,7 +12,7 @@ visible: 0
 
 You're the commander of Starship HEXA, the head of a space fleet dead-set on taking over the universe. You're well on your way to assuming control of everything that is and shall be, but your attack methods are a bit...unorthodox. We can't dwell on it for too long, though, so get out there and match those hexagons!
 
-HEXA is a unique, quick to pick up, and super fun logic puzzle game based on everybody's favorite polygon. Try for a high score in Arcade Mode, take on the dynamic Daily Run; or conquer over 50 unique challenges in Mission Mode! See if you can't conquer the HEXAPLEX, wrangle those Power-ups, and maybe even become ruler of the universe along the way.
+HEXA is a unique, quick to pick up, and super fun logic puzzle game based on everybody's favorite polygon. Try for a high score in Arcade Mode, take on the dynamic Daily Run; or conquer dozens of unique challenges in Mission Mode! See if you can't conquer the HEXAPLEX, wrangle those Power-ups, and maybe even become ruler of the universe along the way.
 
 Give it a try... it's *HEXA-good!*
 

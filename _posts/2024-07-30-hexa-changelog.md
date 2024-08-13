@@ -5,7 +5,7 @@ desc: What's new?
 visible: 0
 ---
 ## Version 2.0.0
-### Coming to Catalog soon
+### August 13th, 2024
 
 - Added Mission Mode! 50 all-new challenges to complete across four unique game-modes!
 - Adjusting round end behavior to fix potential soft lock.
