@@ -74,6 +74,19 @@ When you end the game, you won't be able to play again until tomorrow. The Daily
 
 > 💡 *There's also a handy timer on the Title screen to let you know when the next run will appear!*
 
+## Mission Mode
+
+In Mission Mode, 50 new challenges await you! These can be grouped into four distinct modes:
+
+- Picture: In this mode, there are no HEXAs! Perform Swaps from a random state to try and create the picture in as little Swaps as possible.
+- Time Attack: This plays like Arcade Mode, except...you get no time bonus for HEXAs! See how much of a score you can nab in the time allotted!
+- Logic: From a determined starting layout, try and clear the condition using as little Swaps as possible! No time limit or pressure.
+- Speedrun: Plays like Logic — complete the clear condition — but instead of Swaps, do it as fast as possible!
+
+A new mission will unlock as soon as you clear the latest. If you're ever feeling stuck, open the Slide menu to get another look at your objective.
+
+> 💡 *In Picture puzzles, the Slide menu will also show the picture you're trying to re-create!*
+
 # On-line Capability
 
 ## About on-line play
@@ -81,6 +94,8 @@ When you end the game, you won't be able to play again until tomorrow. The Daily
 This game connects to Playdate's on-line leaderboard API, to enable sending and receiving of high scores among players across the globe. To use on-line functionality in this game, make sure your Playdate has an active Wireless connection.
 
 ## Submitting your scores
+
+The Arcade Mode and Daily Run both support global on-line leaderboards. You're not the only one competing for the universe — go for the top spot!
 
 To submit a new score to a global leaderboard, simply complete a game. When you reach the end results screen, your score will be submitted to the proper leaderboard automatically.
 

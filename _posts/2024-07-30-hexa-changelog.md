@@ -4,6 +4,19 @@ tag: hexa
 desc: What's new?
 visible: 0
 ---
+## Version 2.0.0
+### Coming to Catalog soon
+
+- Added Mission Mode! 50 all-new challenges to complete across four unique game-modes!
+- Adjusting round end behavior to fix potential soft lock.
+- Pause preview is now hidden for time-sensitive game modes.
+- Added additional "2:1" option for crank sensitivity.
+- Removed brief timeout between Swaps
+- Fixed bug where randomized tag would show up twice in ending card, in specific scenarios
+- Hopefully fixing a bug with Daily Run metrics not saving.
+- Commalizing best scores on Title screen
+- Additional gameplay tweaks and fixes.
+
 ## Version 1.1.0
 ### August 5th, 2024
 
