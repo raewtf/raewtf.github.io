@@ -4,7 +4,7 @@ tag: rowbot rally
 desc: Traverse the afterlife in style.
 visible: 0
 ---
-![Bona Fido](/blog/images/2024-10-14-1.png)
+![Bona Fido](/blog/images/2024-10-13-1.png)
 
 ## Synopsis
 
