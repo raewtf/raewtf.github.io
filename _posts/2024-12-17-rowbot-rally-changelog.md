@@ -5,7 +5,7 @@ desc: What's new?
 visible: 0
 ---
 ## Version 1.0.0
-### October 1st, 2024
+### December 17th, 2024
 
 - Initial release.
 

@@ -4,7 +4,7 @@ tag: rowbot rally
 desc: Manual, credits, and tips for RowBot Rally!
 visible: 0
 ---
-![RowBot Rally](/blog/images/2024-10-01-1.png)
+![RowBot Rally](/blog/images/2024-12-17-1.png)
 
 ## Synopsis
 
