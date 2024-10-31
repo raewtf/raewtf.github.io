@@ -1,6 +1,6 @@
 ---
 title: Bona Fido Manual
-tag: rowbot rally
+tag: bona fido
 desc: Traverse the afterlife in style.
 visible: 0
 ---

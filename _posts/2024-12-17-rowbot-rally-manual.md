@@ -108,20 +108,22 @@ The options screen allows you to change various settings and accessibility featu
 
 # Credits
 
-- Art, Code, & Story — [Rae](https://rae.wtf)
-- Asst. Code, V/A — [Voxy](https://voxy.space)
-- Asst. Story, Collisions — [Toad](https://toadley.space)
+- Lead Coder, Lead Artist — [Rae](https://rae.wtf)
 - Music — [Kevin MacLeod](https://incompetech.com/); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- Asst. Music — Nexus
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
-- Kapel — [Font End Dev](https://fontenddev.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Asst. Coder — [Voxy](https://voxy.space)
+- Collisions Analyst, Asst. Font Conversion — [Toad](https://toadley.space)
+- Audience Art — magplex
+- Bugsmashers — Nick, orkn, Toad, Superfunc, Omikron, budpikmin, JuiceBox, Yadis, dwfp, RintaDev, Soinksters, The3DPrintist
+- Playtesters — aidenkt, magplex, kiwi, tangledtulip
+- Team Optimz — Superfunc, The3DPrintist
+- Asst. Polys — TheMediocritist
 - Pedallica — [Neven Mrgan](https://mrgan.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Kapel — [Font End Dev](https://fontenddev.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [PDV conversion](https://devforum.play.date/t/video-encoder-work-in-progress-mac-only/1390) tool — [Dave](https://pdx.social/@dave)
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) & [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
-- [pdParticles](https://github.com/PossiblyAxolotl/pdParticles) library — [PossiblyAxolotl](https://www.possiblyaxolotl.com); [MIT](https://github.com/PossiblyAxolotl/pdParticles/blob/main/LICENSE)
-- Big helps — superfunc, TheMediocritist, Neven, Nic, Voxy, Toad, Scratch
-- Playtesters — TBD
-- Bugsmashers — Nick, orkn, Toad, superfunc
-- Thanx — Panic, all my friends, testers & smashers, SquidGod, the Playdate Squad, and YOU!
+- Thanx — Panic, the Playdate Squad and devlog members, playtesters and bugsmashers, all my friends, SquidGod, and YOU!
 
 <br>
 <a href="https://play.date/games/rowbot-rally" class="button">Buy <i>RowBot Rally</i> on Catalog</a>
