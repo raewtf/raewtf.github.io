@@ -110,11 +110,12 @@ The options screen allows you to change various settings and accessibility featu
 
 - Lead Coder, Lead Artist — [Rae](https://rae.wtf)
 - Music — [Kevin MacLeod](https://incompetech.com/); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
-- Asst. Music — Nexus
+- Asst. Music — Modem
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
 - Asst. Coder — [Voxy](https://voxy.space)
 - Collisions Analyst, Asst. Font Conversion — [Toad](https://toadley.space)
 - Audience Art — magplex
+- Dithering Advisor — NickNack
 - Bugsmashers — Nick, orkn, Toad, Superfunc, Omikron, budpikmin, JuiceBox, Yadis, dwfp, RintaDev, Soinksters, The3DPrintist
 - Playtesters — aidenkt, magplex, kiwi, tangledtulip
 - Team Optimz — Superfunc, The3DPrintist
