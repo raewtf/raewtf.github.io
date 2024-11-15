@@ -2,6 +2,7 @@
 title: Playdate Update Showcase, &.. More!!
 tag: rowbot rally
 desc: Big news for the future of RowBot!
+visible: 0
 ---
 # Hey folks!!
 
