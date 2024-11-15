@@ -2,7 +2,6 @@
 title: First in... Line? Changelog
 tag: first in... line?
 desc: What's new?
-visible: 0
 ---
 ## Version 2.2.1
 

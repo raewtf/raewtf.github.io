@@ -2,7 +2,6 @@
 title: RowBot Rally Changelog
 tag: rowbot rally
 desc: What's new?
-visible: 0
 ---
 ## Version 1.0.0
 ### December 17th, 2024

@@ -2,7 +2,6 @@
 title: HEXA Changelog
 tag: hexa
 desc: What's new?
-visible: 0
 ---
 ## Version 2.0.0
 ### August 13th, 2024

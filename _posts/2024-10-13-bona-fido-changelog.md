@@ -2,7 +2,6 @@
 title: Bona Fido Changelog
 tag: bona fido
 desc: What's new?
-visible: 0
 ---
 ## Version 1.0.0
 ### October 13th, 2024
