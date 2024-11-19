@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
@@ -53,6 +57,18 @@
             <br>
             <a href="https://play.date/g/rbr" class="button">Wishlist it in Catalog</a>
             <a href="https://rae.wtf/rowbot-rally/DEMO.zip" class="button">Try the FREE demo today!</a>
+            <hr>
+            <h3>Newest Blog Post</h3>
+            {% for post in site.posts limit:1 %}
+                {% if post.visible == 1  %}
+                    <a href="{{ post.url }}" class="post_container {{ post.tag | slugify }}">
+                        <h1>{{ post.title }}</h1>
+                        <h3>{{ post.date | date_to_string: "ordinal", "US" }}&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;{{ post.tag }}</h3>
+                        <p>{{ post.desc }}</p>
+                    </a>
+                {% endif %}
+            {% endfor %}
+            <a href="blog" class="button">More blog posts</a>
         </div>
         <div class="side_right">
             <h3>Latest Happenings</h3>
