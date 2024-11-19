@@ -1,7 +1,7 @@
 	:root {
 --piw: #ffdce8; --pil: #f38eb2; --pid: #b94576; --pib: #601a37;
 --rew: #ffd9d9; --rel: #f26f6f; --red: #b84445; --reb: #571515;
---orw: #ffebd3; --orl: #eb9e5a; --ord: #935117; --orb: #47280c;
+--orw: #ffebd3; --orl: #eaa96f; --ord: #d66b0c; --orb: #47280c;
 --yew: #fffad0; --yel: #f7ea78; --yed: #b7a71c; --yeb: #544407;
 --sew: #ebfff6; --sel: #54ffc2; --sed: #20bd98; --seb: #24584c;
 --blw: #d8f0fc; --bll: #78c1e1; --bld: #559bcf; --blb: #325084;
@@ -302,7 +302,7 @@ code {
 
 .blog.post_container {background: var(--sel); border: 4px solid var(--sed);}
 .blog h1, .blog p, .blog ul, .blog ul li {color: var(--seb);}
-.blog.post_container h3 {color: var(--rel);}
+.blog.post_container h3 {color: var(--red);}
 .blog.post_container::before, .blog.post_container::after {color: var(--sed);}
 
 .rowbot-rally.post_container {background: var(--bll); border: 4px solid var(--bld);}
@@ -319,7 +319,7 @@ code {
 .hexa.post_container {background: var(--pul); border: 4px solid var(--pud);}
 .hexa a {color: var(--pul);}
 .hexa h1, .hexa p, .hexa ul, .hexa ul li {color: var(--pub);}
-.hexa.post_container h3 {color: var(--sel);}
+.hexa.post_container h3 {color: var(--sew);}
 .hexa.post_container::before, .hexa.post_container::after {color: var(--pud);}
 
 .bona-fido.post_container {background: var(--puw); border: 4px solid var(--pul);}
