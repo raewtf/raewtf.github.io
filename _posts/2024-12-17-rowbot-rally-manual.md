@@ -65,7 +65,7 @@ This game connects to Playdate's on-line leaderboard API, to enable sending and 
 
 ## Submitting your scores
 
-To submit a new time to the global leaderboard, simply complete a full race. When you reach the results screen that shows your new time, your score will be submitted to the stage's respective leaderboard automatically.
+To submit a new time to the global leaderboard, simply complete a full race in Time Trials. When you reach the results screen that shows your new time, your score will be submitted to the stage's respective leaderboard automatically.
 
 > 💡 *For a time to be eligible for submission, it must be a lower time than one you've achieved before.*
 

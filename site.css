@@ -152,7 +152,7 @@ body {
 }
 
 .main hr, .sides hr {
-	width: 70%;
+	width: 75%;
 	margin: 1.5rem auto;
 	border-top: 4px dashed var(--sed);
 }
