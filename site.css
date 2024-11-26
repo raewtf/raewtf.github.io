@@ -330,6 +330,11 @@ code {
 .bona-fido.post_container h3 {color: var(--ord);}
 .bona-fido.post_container::before, .bona-fido.post_container::after {color: var(--pul);}
 
+.crossword.post_container {background: var(--sew); border: 4px solid var(--seb);}
+.crossword h1, .crossword p {color: var(--seb);}
+.crossword.post_container h3 {color: var(--red);}
+.crossword.post_container::before, .crossword.post_container::after {color: var(--sew);}
+
 i {
 	width: 40px;
 	text-align: center;
