@@ -43,6 +43,7 @@ layout: null
 	</div>
 	<div class="sides">
 		<div class="side_left">
+			<h3>Blog Posts</h3>
 			{% for post in site.posts %}
 				{% if post.visible == 1  %}
 					<a href="{{ post.url }}" class="post_container {{ post.tag | slugify }}">
