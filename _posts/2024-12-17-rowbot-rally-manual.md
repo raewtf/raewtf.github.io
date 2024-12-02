@@ -113,10 +113,10 @@ The options screen allows you to change various settings and accessibility featu
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
 - Asst. Coder — [Voxy](https://voxy.space)
 - Collisions Analyst, Asst. Font Conversion — [Toad](https://toadley.space)
-- Audience Art — magplex
+- Audience Art — magPlex
 - Dithering Advisor — NickNack
-- Bugsmashers — Nick, orkn, Toad, Superfunc, Omikron, budpikmin, JuiceBox, Yadis, dwfp, RintaDev, Soinksters, The3DPrintist
-- Playtesters — aidenkt, magplex, kiwi, tangledtulip
+- Bugsmashers — NickNack, orkn, Toad, superfunc, Omikron, budpikmin, Lavender, Yadis, dwfp, Zel, Soinksters, The3DPrintist
+- Playtesters — AidenKT, magPlex, kiwi, puttheyarndown, sourencho
 - Team Optimz — Superfunc, The3DPrintist
 - Asst. Polys — TheMediocritist
 - Pedallica — [Neven Mrgan](https://mrgan.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
