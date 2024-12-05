@@ -116,7 +116,7 @@ The options screen allows you to change various settings and accessibility featu
 - Audience Art — magPlex
 - Dithering Advisor — NickNack
 - Bugsmashers — NickNack, orkn, Toad, superfunc, Omikron, budpikmin, Lavender, Yadis, dwfp, Zel, Soinksters, The3DPrintist
-- Playtesters — AidenKT, magPlex, kiwi, puttheyarndown, sourencho
+- Playtesters — AidenKT, magPlex, kiwi, puttheyarndown, sourencho, ThatWontCompute
 - Team Optimz — Superfunc, The3DPrintist
 - Asst. Polys — TheMediocritist
 - Pedallica — [Neven Mrgan](https://mrgan.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
