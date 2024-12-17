@@ -35,4 +35,4 @@ desc: What's new?
 - Initial release.
 
 <br>
-<a href="https://play.date/games/hexa" class="button">Buy <i>HEXA</i> on Catalog</a>
+<a href="https://play.date/games/hexa" class="button">Buy <i>HEXA</i> in Catalog</a>

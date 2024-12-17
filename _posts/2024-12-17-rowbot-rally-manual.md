@@ -23,7 +23,7 @@ Well...not on their own, at least.
 
 The Crank is the main control method for this game. The D-pad and A and B buttons are used to navigate menus.
 
-If you lack the dexterity to use the Crank, there's an alternate control scheme that lets you use the D-pad to steer the boat. See Options > Button Controls for more info.
+If you lack the dexterity to use the Crank, there's an alternate control scheme that lets you use the D-pad to steer the boat. See [Options](#options) > Button Controls for more info.
 
 ## Gameplay
 
@@ -43,19 +43,19 @@ Story mode is the main mode in the game, where you try to take down Robo-X acros
 
 When you start Story Mode from the Title screen, you'll have three save slots to choose from. If you're starting a new game, choose an empty slot, and hit Start! to begin a new game. If you're continuing an existing save, select your slot and hit Play! to pick up from where you left off.
 
-> 💡 *The game automatically saves at various points, noted by an indicator in the top-left of the screen. Please don't turn off the console while the game is saving!*
+> 💡 *The game automatically saves at various points, noted by an indicator in the top-left of the screen. Please do not turn off the console or exit the game while saving is in progress!*
 
-When you complete the Story mode, you'll have the ability to replay the story within the same slot up to three more times, with slightly more difficult opponents.
+When you complete the Story mode, you'll have the ability to replay the story within the same slot up to three more times, with slightly more difficult opponents each time.
 
-To erase an existing save, select the save slot you'd like to delete, and then press the Up button to start the erase sequence. This can't be undone, so please make sure beforehand!
+To erase an existing save, select the save slot you'd like to delete, and then press the Up button to initiate the file erase sequence. This can't be undone, so please make sure beforehand!
 
 ## Time Trials
 
 > 💡 *This Mode is only unlocked after beating the first stage in Story Mode.*
 
-In Time Trials, you'll be able to replay any previously-beaten stages without any opponents on the track, and compete for a best time. After you unlock it, you can get to Time Trials from the Title screen.
+In Time Trials, you'll be able to replay any previously-beaten stages without any opponents on the track, and compete for a best time. After you unlock Time Trials, you can access the mode from the Title screen.
 
-Also in Time Trials exclusively, Rocket Arms can give you an opportune boost at specific points in the race. You'll receive three in every race you play. To use one, press the B button at any time during the race for a temporary boost of speed!
+In the Time Trials mode exclusively, Rocket Arms can give you an opportune boost at specific points in the race. Press the B button at any time during the race for a temporary boost of speed! You'll receive up to three in every race you play.
 
 # On-line Capability
 
@@ -67,7 +67,7 @@ This game connects to Playdate's on-line leaderboard API, to enable sending and 
 
 To submit a new time to the global leaderboard, simply complete a full race in Time Trials. When you reach the results screen that shows your new time, your score will be submitted to the stage's respective leaderboard automatically.
 
-> 💡 *For a time to be eligible for submission, it must be a lower time than one you've achieved before.*
+> 💡 *For a time to be eligible for submission, it must be a better time than one you've achieved before.*
 
 ## Viewing global scores
 
@@ -77,11 +77,26 @@ You can view global scores using two primary methods:
 
 2. Enter the Time Trials stage select within the game, accessible from the Title screen. When in this screen, you can press the Up button to view best times for the currently-selected stage. *(On device, you can only view leaderboards for stages you've unlocked in Time Trials.)* From here, you can see the top 10 times for the selected stage, as well as your own score and ranking (if available).
 
+> 💡 *Within the game, best times are displayed in a human-readable format — on web, a player's time can be calculated by dividing the given number by 30. This results in their best time, in seconds.*
+
 # Other Scenes
 
 ## Stats
 
 In the Stats screen, you can see all-time gameplay stats. This info is tracked across all save slots in Story Mode, as well as all Time Trials races.
+
+- Total play time (increments at all times while the game is launched)
+- Time spent racing (only increments when the player is actively in a race)
+- Total crashes
+- Races completed (disqualifications or premature endings don't count)
+- Stories completed (times the Credits screen has been seen)
+- Distance cranked
+- Favorite Stage (with the most plays across all modes)
+- Least Favorite Stage (with the least plays across all modes)
+
+> 💡 *Toggle "metric" from the Slide menu to adjust the read-out for Distance cranked.*
+
+Some stats are also saved on-line! To view these boards, open the Slide menu, and select on-line stats. This area will show the top five global rankings for time spent racing, total crashes, and distance cranked. The game will attempt to send this data after the completion of any race, or on manual checking of the Stats leaderboards.
 
 ## Cheats
 
@@ -97,11 +112,10 @@ The options screen allows you to change various settings and accessibility featu
 - SFX — Toggles sound effects throughout the game; including gameplay, menus, and cutscenes.
 
 - Button Controls — Use the D-pad to play! Hold Up to start rowing straight-on, and hold Right to row clockwise.
-- Easier Rowing — Turning this on makes rowing require less crankage. Good for if you can't turn the crank very quickly.
-- Pro UI — Toggles a simpler UI in races, removing a lotta stuff. You can also toggle this during races, if you want.
-- Performance Mode — Knocks down a lot of the visual quality, in exchange for a better FPS when using Playdate Mirror.
-
-> ⚠️ *Easier Rowing has no effect if Button Controls are enabled.*
+- Easier Cranking — Makes matching pace with your RowBot require less cranking. (Has no effect with Button Controls.)
+- Pro UI — Toggles a simpler UI in races, removing a lot of stuff. You can also toggle this during races, if you want.
+- Minimap — Toggles a minimap in races, which also shows where the player and CPU are in the course.
+- Performance Mode — Knocks down a bit of the visual quality, in exchange for better FPS when using Playdate Mirror.
 
 > 💡 *If you're prone to photosensitive epilepsy, the Playdate console's Reduce Flashing feature can dampen bright flashes and disable screen shaking.*
 
@@ -126,4 +140,4 @@ The options screen allows you to change various settings and accessibility featu
 - Thanx — Panic, the Playdate Squad and devlog members, playtesters and bugsmashers, all my friends, SquidGod, and YOU!
 
 <br>
-<a href="https://play.date/games/rowbot-rally" class="button">Buy <i>RowBot Rally</i> on Catalog</a>
+<a href="https://play.date/games/rowbot-rally" class="button">Buy <i>RowBot Rally</i> in Catalog</a>

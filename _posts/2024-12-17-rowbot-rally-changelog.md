@@ -9,4 +9,4 @@ desc: What's new?
 - Initial release.
 
 <br>
-<a href="https://play.date/games/rowbot-rally" class="button">Buy <i>RowBot Rally</i> on Catalog</a>
+<a href="https://play.date/games/rowbot-rally" class="button">Buy <i>RowBot Rally</i> in Catalog</a>
