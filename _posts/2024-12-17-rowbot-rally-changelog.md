@@ -4,7 +4,7 @@ tag: rowbot rally
 desc: What's new?
 ---
 ## Version 1.0.2
-### Coming to Catalog soon
+### December 19th, 2024
 
 - Re-balanced CPUs in Story Mode
 	- Shorebreak and Twitcher in Circuit 4 are now opportunists
