@@ -96,7 +96,7 @@ Follow these steps to import custom missions:
 
 1. Access Data Disk Mode on your Playdate by following [these steps](https://help.play.date/games/sideloading/#data-disk-mode).
 
-2. Navigate to `Data/wtf.rae.hexa/missions`.
+2. Navigate to <span class="code-span">Data/wtf.rae.hexa/missions</span>.
 
 3. Drop all your custom mission JSON files straight into the root of this missions folder. Don't put 'em outside, or within any sub-folders!
 
@@ -105,10 +105,6 @@ Follow these steps to import custom missions:
 5. From here, open the Slide menu, and enable "custom". If your missions got imported correctly, you should see them listed here in date order!
 
 > 💡 *If you've sideloaded your copy of HEXA, you can still play Custom Missions — but your save data will be in a different place! Look for the same folder within Data, but prepended with "user.XXXX.".*
-
-## Creating Custom Missions
-
-TBD
 
 # On-line Capability
 
@@ -158,11 +154,9 @@ Here are a couple tips to hopefully help you conquer the HEXAPLEX!
 
 # Enhanced Sound Pack
 
-HEXA comes packed with compressed mono music tracks, to ensure a balance of fidelity and a more manageable download speed. For a crisper, stereo quality, please download the *Enhanced Sound Pack*. This replaces the in-game audio files with higher-fidelity tracks, at the cost of a larger file size.
+As of v2.1.0, HEXA comes packed with compressed mono music tracks to ensure a balance of fidelity and a more manageable download speed. For a crisper, stereo quality, please download the *Enhanced Sound Pack*. This replaces the in-game audio files with higher-fidelity tracks, at the cost of a larger file size.
 
 > ⚠️ *Installing the Enhanced Sound Pack is an advanced maneuver! If done improperly, it could lead to game crashes, or loss of precious data. Please navigate your Playdate's Data Disk responsibly!*
-
-> 💡 *If your HEXA game file enters an unrecoverable state, please un-install and re-install it from your Playdate directly, in Settings > Games.*
 
 <a href="https://rae.wtf/hexa/enhanced-sound-pack.zip" class="button">Download the HEXA Enhanced Sound Pack — 26.4 MB</a>
 
@@ -170,11 +164,13 @@ To install the Enhanced Sound Pack:
 
 1. Access Data Disk Mode on your Playdate by following [these steps](https://help.play.date/games/sideloading/#data-disk-mode).
 
-2. Navigate to `Games/Catalog/HEXA.pdx`, and open it. (If you're in MacOS, you may need to right-click and select "Show Package Contents".)
+2. Navigate to <span class="code-span">Games/Purchased/HEXA.pdx</span>, and open it. (If you're in MacOS, you may need to right-click and select "Show Package Contents".)
 
-3. Navigate to `audio/music`. Replace the files inside with the files contained inside the Enhanced Sound Pack.
+3. Navigate to <span class="code-span">audio/music</span>. Replace the files inside with the files contained inside the Enhanced Sound Pack.
 
 That should be all you need to enjoy top-quality stereo sound! Plug in your headphones, and enjoy.
+
+> ⚠️ *If your HEXA game file enters an unrecoverable state, please un-install and re-install it from your Playdate directly, in Settings > Games.*
 
 # Credits
 
