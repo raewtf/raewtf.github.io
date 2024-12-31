@@ -3,6 +3,23 @@ title: HEXA Changelog
 tag: hexa
 desc: What's new?
 ---
+## Version 2.1.0
+### Coming to Catalog soon
+- Fix wi-fi cauterization in sideload copies
+- Edit static list icon to be more visually interesting
+- Compress music to get file size from ~30 MB down to <10. For original quality, check out the [enhanced sound pack](https://rae.wtf/blog/hexa-manual#enhanced-sound-pack)
+- Music now also loops a bit more appropriately
+- Add hidden "Hard Mode" in Arcade/Daily Run
+- Swap SFX quietened
+- Added support for importing Custom Missions
+- Fixed bug with "flip rotation" setting mid-game
+- If all missions are beaten, the mission screen will now start at the beginning of the list instead of the end
+- B button will now skip end card as well as A
+- The crank can now be used to scroll through missions
+- In a situation with multiple HEXAs, any with bombs will be de-prioritized to avoid unfortunate scenarios
+- Added cranking deadzone of 5º
+- Enhanced scene management optimization
+
 ## Version 2.0.0
 ### August 13th, 2024
 
