@@ -7,6 +7,7 @@ desc: What's new?
 ### February 11th, 2025
 
 - Added on-line leaderboards! Access it via the Slide menu on the title screen.
+- Added completely custom OST, made by yours truly!
 - Fido will now be uncontrollable while digging.
 - Timeout sensitivity for Dig-ups has been reduced (more safety net)
 - Added digging animation for Fido
@@ -18,7 +19,6 @@ desc: What's new?
 - Mud platforms now spawn a bit more often
 - Dig-ups spawn a bit more often, and the likelihood of bad items has been evened out a tad.
 - Credits moved to separate screen — access it via the Slide menu on the title screen.
-- Crunched music file size down
 - Bug fixes
 	- Dig-up will no longer spawn if the player is not in control
 	- Fido will no longer slide around while holding Up/Down and walking
