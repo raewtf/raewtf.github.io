@@ -4,7 +4,7 @@ tag: bona fido
 desc: What's new?
 ---
 ## Version 1.5.0
-### February 11th, 2025
+### January 28th, 2025
 
 - Added on-line leaderboards! Access it via the Slide menu on the title screen.
 - Added completely custom OST, made by yours truly!

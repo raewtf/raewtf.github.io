@@ -4,7 +4,7 @@ tag: hexa
 desc: What's new?
 ---
 ## Version 2.1.0
-### Coming to Catalog soon
+### January 6th, 2025
 - Fix wi-fi cauterization in sideload copies
 - Edit static list icon to be more visually interesting
 - Compress music to get file size from ~30 MB down to <10. For original quality, check out the [enhanced sound pack](https://rae.wtf/blog/hexa-manual#enhanced-sound-pack)
