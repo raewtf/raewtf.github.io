@@ -3,6 +3,13 @@ title: HEXA Changelog
 tag: hexa
 desc: What's new?
 ---
+## Version 2.1.1
+### Coming to Catalog soon
+- De-looped music tracks. Whoops!
+- Fixed crash that sometimes fired upon entering Mission Mode
+- "Hard Mode" is now available as a direct toggle in the Options menu
+- Added slight deadzones to swapping with the Crank
+
 ## Version 2.1.0
 ### January 6th, 2025
 - Fix wi-fi cauterization in sideload copies
