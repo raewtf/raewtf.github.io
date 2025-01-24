@@ -23,7 +23,7 @@ The d-pad and A and B buttons are required to play this game. These buttons are 
 
 You can also optionally use the crank to perform the turning action usually done by the A and B buttons. This can be toggled in the Options menu. (The crank can also be used to navigate menus.)
 
-## Playing the game
+## Gameplay
 
 When you start a new game, you'll be faced with the HEXAPLEX — a grid of 19 triangles (black, gray, or white), all interlaced with one another. Your goal is simple: create HEXAs!
 

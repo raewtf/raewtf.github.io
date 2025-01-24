@@ -26,7 +26,7 @@ During gameplay, there are additional control methods you can enable, to be used
 
 You can toggle any of these input methods via the in-game Settings menu.
 
-## Playing the game
+## Gameplay
 
 When you start a new play, you'll be presented with a page of lines — a sequence of buttons. Memorize 'em, and memorize 'em good! When you think you have your lines down, press the A button to go on stage.
 

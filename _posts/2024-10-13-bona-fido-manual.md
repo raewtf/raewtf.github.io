@@ -17,9 +17,7 @@ Bona Fido is a fast-paced, single-screen platformer, inspired by classic arcade 
 
 ## Controls
 
-The d-pad, A and B buttons, and crank are required to play this game. The face buttons are also used to navigate menus.
-
-During gameplay:
+The d-pad, A and B buttons, and crank are required to play this game. These buttons are also used to navigate menus.
 
 ## Gameplay
 

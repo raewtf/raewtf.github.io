@@ -4,7 +4,7 @@ tag: hexa
 desc: What's new?
 ---
 ## Version 2.1.1
-### Coming to Catalog soon
+### January 15th, 2025
 - De-looped music tracks. Whoops!
 - Fixed crash that sometimes fired upon entering Mission Mode
 - "Hard Mode" is now available as a direct toggle in the Options menu
