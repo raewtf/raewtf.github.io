@@ -3,6 +3,22 @@ title: Bona Fido Changelog
 tag: bona fido
 desc: What's new?
 ---
+## Version 1.5.1
+### January 31st, 2025
+
+- Added hard cap on lives (six max)
+- Platforms now disappear programmatically over the course of the game
+- Barks are now limited (starts/caps at 3)
+	- Dig-ups now always spawn +3 barks, if the player has no barks
+	- Barks reload on life loss
+- Bark indicator is now shown in the bottom-left corner
+- Dig-ups no longer give or take away lives
+- "Lose point" Dig-ups now take away more points
+- Crank threshold for digging lowered slightly
+- Bark cooldown removed (cuz now there's an inherent limit!)
+- Tweaked/fixed wording in tutorial pages
+- Added ability for more enemies on-screen at once. Number increases as the game progresses
+
 ## Version 1.5.0
 ### January 28th, 2025
 

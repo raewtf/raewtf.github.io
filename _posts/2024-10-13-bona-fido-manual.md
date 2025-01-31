@@ -21,11 +21,11 @@ The d-pad, A and B buttons, and crank are required to play this game. These butt
 
 ## Gameplay
 
-The d-pad runs around. A button jumps, B button barks. The crank helps you dig up opportune stuff in the ground. Run around and dodge the enemies; bark to kill 'em and move up to a harder (but higher-scoring) level. You've got three "lives" (hah) — run out, and it's game over.
+The d-pad runs around. A button jumps, B button barks. The crank helps you dig up opportune stuff in the ground. Run around and dodge the enemies; bark to kill 'em and move up to a harder (but higher-scoring) level. You've got three "lives" (hah)to start. Run out, and it's game over.
 
-Enemies, obviously, are bad. If you run into them, they'll kill ya (...again), as quick as can be. Luckily, your bark seems to shut 'em up and make 'em go away. Press B to use that, if you find yourself in a pinch.
+Enemies, obviously, are bad. If you run into them, they'll kill ya (...again), as quick as can be. Luckily, your bark seems to shut 'em up and make 'em go away. Press B to use that, so long as you haven't lost your voice.
 
-Dig-ups are items that sprout from the ground occasionally. Some are good, some are bad, but you don't know what's what until you go fish it out. If you see something buried in the ground, use the crank to dig it up before it disappears. Trick or treat!
+Dig-ups are items that sprout from the ground occasionally. Some are good, some are bad, but you don't know what's what until you go fish it out. If you see something buried in the ground, walk up to it and use the crank to dig it up. Trick or treat!
 
 # On-line Capability
 
