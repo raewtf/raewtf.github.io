@@ -3,6 +3,10 @@ title: HEXA Changelog
 tag: hexa
 desc: What's new?
 ---
+## Version 2.1.2
+### February 7th, 2025
+- *Actually* fixed crash that sometimes fired upon entering Mission Mode
+
 ## Version 2.1.1
 ### January 15th, 2025
 - De-looped music tracks. Whoops!
