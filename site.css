@@ -334,7 +334,7 @@ code {
 .traffic-jam a {color: var(--ord);}
 .traffic-jam h1, .traffic-jam p, .traffic-jam ul, .traffic-jam ul li {color: var(--orb);}
 .traffic-jam.post_container h3 {color: var(--ord);}
-.traffic-jam.post_container::before, .bona-fido.post_container::after {color: var(--orl);}
+.traffic-jam.post_container::before, .traffic-jam.post_container::after {color: var(--orl);}
 
 .crossword.post_container {background: var(--puw); border: 4px solid var(--pub);}
 .crossword h1, .crossword p {color: var(--pub);}
