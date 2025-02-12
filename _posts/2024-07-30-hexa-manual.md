@@ -176,7 +176,6 @@ That should be all you need to enjoy top-quality stereo sound! Plug in your head
 
 - Programmed by [Rae](https://rae.wtf)
 - Graphics stuff drawn by Rae
-
 - Music by [Watson at MusMus](https://musmus.main.jp); [Terms](https://musmus.main.jp/info.html)
 - SFX made with [JSFXR](https://sfxr.me)
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library by [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
@@ -184,7 +183,6 @@ That should be all you need to enjoy top-quality stereo sound! Plug in your head
 - Righteous font made by Astigmatic; [OFL](https://openfontlicense.org)
 - Some formatting code used from the [lua-users wiki](http://lua-users.org/wiki/FormattingNumbers).
 - Drew-Lo helped me figure out the algorithm for logarithmic timer bonuses, as well.
-
 - Thank you to Voxy, Toad, scizzorz, superfunc, mag, hunty, Scenic Route, DRD, IGDA Twin Cities, and everyone at Panic!
 
 # Additional Notes

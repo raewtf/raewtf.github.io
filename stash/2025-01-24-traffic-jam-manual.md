@@ -53,4 +53,4 @@ In Hardcore Mode, the default BPM is upped to 150, and you also have only one li
 - Thanx — Tengu, Toad, 2DArray, Lav, the rest of the Playdate Squad
 
 <br>
-<a href="https://play.date/games/rowbot-rally" class="button">Buy <i>RowBot Rally</i> in Catalog</a>
+<a href="https://play.date/games/traffic-jam" class="button">Buy <i>Traffic Jam</i> in Catalog</a>
