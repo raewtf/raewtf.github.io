@@ -123,7 +123,7 @@ The options screen allows you to change various settings and accessibility featu
 
 - Lead Coder, Lead Artist — [Rae](https://rae.wtf)
 - Music — [Kevin MacLeod](https://incompetech.com/); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
-- Asst. Music — Modem
+- Music — nexusnecromance
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
 - Asst. Coder — [Voxy](https://voxy.space)
 - Collisions Analyst, Asst. Font Conversion — [Toad](https://toadley.space)
