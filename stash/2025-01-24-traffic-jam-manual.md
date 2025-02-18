@@ -52,5 +52,12 @@ In Hardcore Mode, the default BPM is upped to 150, and you also have only one li
 - Transmit truck design — [Panic](https://panic.com)
 - Thanx — Tengu, Toad, 2DArray, Lav, the rest of the Playdate Squad
 
+# Changelog
+
+## Version 1.0.0
+### ???
+
+- Initial release.
+
 <br>
 <a href="https://play.date/games/traffic-jam" class="button">Buy <i>Traffic Jam</i> in Catalog</a>

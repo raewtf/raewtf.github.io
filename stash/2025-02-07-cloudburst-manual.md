@@ -81,5 +81,12 @@ In this app, there are a variety of options you can change to fully optimize you
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) & [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
 - Sasser Slab, Roobert, Mikodacs Clock — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
+# Changelog
+
+## Version 1.0.0
+### ???
+
+- Initial release.
+
 <br>
 <a href="https://stuffbyrae.itch.io/cloudburst" class="button">Download <i>Cloudburst</i> on Itch.io</a>
