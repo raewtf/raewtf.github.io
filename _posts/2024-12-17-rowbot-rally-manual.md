@@ -161,6 +161,7 @@ The options screen allows you to change various settings and accessibility featu
 - Adjusted some wording here and there
 - Optimized minimap a little bit
 - Wave now animates properly in Options screen
+- Fixed softlock that would occur by leaving at a specific time during the race intro
 -->
 ## Version 1.0.2
 ### December 19th, 2024

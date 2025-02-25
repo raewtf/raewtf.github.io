@@ -47,8 +47,6 @@ If you obtained a new high score, but it didn't get sent up to the leaderboard, 
 
 2. Try playing another round — it doesn't need to be *yet another* new high score, but this might kick the OS' caching into high gear.
 
-3. Try checking the scoreboards in-game (see below), which will attempt to send a "fake score" and bump the cache.
-
 ## Viewing global scores
 
 You can view global scores using two primary methods:

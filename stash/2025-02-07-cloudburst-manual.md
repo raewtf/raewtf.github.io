@@ -9,7 +9,7 @@ desc: How to get started and check the forecast!
 
 > *Real-time weather. On your Playdate.*
 
-Curious what the forecast looks like? Easy! But...your laptop out of reach, your phone's battery is dead, your smart assistant's brain is busted, and your curtains are shut. It's just you, and your Playdate. What can you do? Well, here is your answer! Leveraging state-of-the-art networking capabilities, *Cloudburst* is a fully seamless, on-line enabled weather app for your Playdate!
+Curious what the forecast looks like? Easy! But...your laptop's out of reach, your phone's battery is dead, your smart assistant's brain is busted, and your curtains are shut. It's just you, and your Playdate. What can you do? Well, here is your answer! Leveraging state-of-the-art networking capabilities, *Cloudburst* is a fully seamless, on-line enabled weather app for your Playdate!
 
 Get the forecast here, there, or anywhere — it's compatible with cities around the world! See detailed stats such as hourly forecast, precipitation, wind, and more. Change settings to your heart's content, and even use it as a low-power screensaver — the perfect desk buddy. No external tools or setup required, just download and go — it's weather, untethered.
 
@@ -29,7 +29,7 @@ After providing a location, you'll be prompted to adjust a few settings — name
 
 ## Where are you?
 
-If your given location data returns multiple potential results, you'll be asked to pick from a list which one aligns most with your location. You'll be able to determine which location is yours using country code and approximate region (if available).
+If the resulting API data doesn't match your location, try being a bit more specific with your data entry. For example, instead of "Portland", try inputting something like "Portland OR", or a direct ZIP code.
 
 # Weather
 
@@ -76,7 +76,7 @@ In this app, there are a variety of options you can change to fully optimize you
 - Art, Code, & Music — [Rae](https://rae.wtf)
 - Addtl. music — Scratchminer
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
-- Weather Data — [open-meteo](https://open-meteo.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Weather Data — [weatherapi.com](https://weatherapi.com)
 - Planet animation — [Pixel Planet Generator](https://deep-fold.itch.io/pixel-planet-generator)
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) & [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
 - Sasser Slab, Roobert, Mikodacs Clock — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)

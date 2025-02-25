@@ -37,13 +37,41 @@ Normal Mode is the basic gameplay mode in *Traffic Jam*.
 
 In this mode, you have three lives. A life is lost whenever you don't wave a car through in the correct direction — indicated by a screen-shake and a skidding noise.
 
-This mode starts out at approximately 120 BPM. When you reach Level 5, every new round will increase the BPM by +5.
+This mode starts out at approximately 120 BPM. When you reach Level 5, every new round will increase the BPM by +10. For every 100 points you score, you'll gain a life (maximum of 3).
 
 ## Hardcore Mode
 
-> 💡 *This Mode is only unlocked after scoring 50 or greater in Normal Mode.*
+> 💡 *This Mode is only unlocked after scoring 100 or greater in Normal Mode.*
 
 In Hardcore Mode, the default BPM is upped to 150, and you also have only one life — miss any amount of times, and it's game over.
+
+# On-line Capability
+
+## About on-line play
+
+This game connects to Playdate's on-line leaderboard API, to enable sending and receiving of high scores among players across the globe. To use on-line functionality in this game, make sure your Playdate has an active Wireless connection.
+
+## Submitting your scores
+
+To submit a new score to the global leaderboard, simply complete a game. When you reach the 'Game Over' screen, your score will be submitted to the proper leaderboard automatically.
+
+> ⚠️ *Be careful — if you close out of the game without properly ending the round, your score won't be saved or submitted!*
+
+## My score didn't send! What do?
+
+If you obtained a new high score, but it didn't get sent up to the leaderboard, there are a few things you can try:
+
+1. Give it a little time, and see if it sends up automatically.
+
+2. Try playing another round — it doesn't need to be *yet another* new high score, but this might kick the OS' caching into high gear.
+
+## Viewing global scores
+
+You can view global scores using two primary methods:
+
+1. Visit the *Traffic Jam* game page in your Web browser, at [play.date/games/traffic-jam](https://play.date/games/traffic-jam/). From here, you can view available scores in the Scoreboards section. You can see top 10 scores in every available board.
+
+2. Enter the 'Leaderboards' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle between the Normal Mode and Hardcore mode leaderboards (if Hardcore Mode is unlocked). From here, you can see the top scores for the currently-highlighted board, as well as your own score and ranking (if available).
 
 # Credits
 
@@ -54,10 +82,32 @@ In Hardcore Mode, the default BPM is upped to 150, and you also have only one li
 
 # Changelog
 
-## Version 1.0.0
-### ???
+## Version 1.0.1
+### February 25th, 2025
 
-- Initial release.
+- Hardcore mode threshold increased from 50 pts to 100 pts
+- BPM will now increase by +10 per level instead of +5
+- Game will now award a life every +100 pts.
+- Fixed a bug where having "react SFX" disabled would break the Tutorial mode
+- Fixed visual issue on exit animation
+- Added more save checks mid-play
+- Player's global rank is now shown in leaderboards page
+- Added some more music and SFX to leaderboards page
+- Fixed a couple crashes on the leaderboards page
+- Game now only refreshes screen when necessary
+- Cars coming in from the different directions now have subtly different audio cues
+- Fixed thing where the Sedan was slightly misaligned with the beat
+- Lowered volume of level-complete "ding!"
+- Polished up sign flip animation
+- Added clouds to gameplay screen
+- Renamed "Practice" to "Tutorial"
+- Fixed kerning on capital S in small-text font
+- Fixed timing issue with loading transitions
+
+## Version 1.0.0
+### February 21st, 2025
+
+- Initial playtesting release.
 
 <br>
 <a href="https://play.date/games/traffic-jam" class="button">Buy <i>Traffic Jam</i> in Catalog</a>
