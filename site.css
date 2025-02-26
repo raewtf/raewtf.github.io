@@ -336,6 +336,12 @@ code {
 .traffic-jam.post_container h3 {color: var(--ord);}
 .traffic-jam.post_container::before, .traffic-jam.post_container::after {color: var(--orl);}
 
+.cloudburst.post_container {background: var(--blw); border: 4px solid var(--bll);}
+.cloudburst a {color: var(--bld);}
+.cloudburst h1, .cloudburst p, .cloudburst ul, .cloudburst ul li {color: var(--bld);}
+.cloudburst.post_container h3 {color: var(--bld);}
+.cloudburst.post_container::before, .cloudburst.post_container::after {color: var(--bll);}
+
 .crossword.post_container {background: var(--puw); border: 4px solid var(--pub);}
 .crossword h1, .crossword p {color: var(--pub);}
 .crossword.post_container h3 {color: var(--red);}
