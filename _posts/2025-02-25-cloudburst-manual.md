@@ -1,5 +1,5 @@
 ---
-title: Cloudburst Manual
+title: Cloudburst Beta Manual
 tag: cloudburst
 desc: How to get started and check the forecast!
 ---
@@ -86,7 +86,7 @@ In this app, there are a variety of options you can change to fully optimize you
 ## Version 1.0.0 rev Cata 1
 ### February 25th, 2025
 
-- Initial release.
+- Initial beta release.
 
 <br>
 <a href="https://stuffbyrae.itch.io/cloudburst" class="button">Download <i>Cloudburst</i> on Itch.io</a>
