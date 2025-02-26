@@ -83,8 +83,8 @@ In this app, there are a variety of options you can change to fully optimize you
 
 # Changelog
 
-## Version 1.0.0
-### ???
+## Version 1.0.0 rev Cata 1
+### February 25th, 2025
 
 - Initial release.
 

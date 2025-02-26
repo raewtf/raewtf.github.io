@@ -82,6 +82,12 @@ You can view global scores using two primary methods:
 
 # Changelog
 
+## Version 1.0.2
+### ???
+
+- Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
+- Fixed bug where extra lives would be awarded in Hardcore Mode
+
 ## Version 1.0.1
 ### February 25th, 2025
 

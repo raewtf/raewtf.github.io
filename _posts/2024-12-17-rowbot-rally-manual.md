@@ -141,14 +141,17 @@ The options screen allows you to change various settings and accessibility featu
 
 # Changelog
 
-<!--## Version 1.1.0
+<!--
+## Version 1.1.0
 ### Coming to Catalog Soon
+
 - Added "absolute crank" accessibility option — the boat will steer wherever the crank is pointing.
 	- On-line leaderboards are disabled when this option is turned on.
 - Added Speedrun — "boss rush" mode, unlockable by completing a save file on all four circuits.
 	- Added on-line leaderboards for this mode. Check the webpage!
 - Added Robo-Shark+ — endless version of the shark chase, unlockable by passing that point in the Story.
 	- Added on-line leaderboards for this mode. Check the webpage!
+- Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
 - Updated the shark chase
 	- Added a progress bar
 	- Progress now varies depending on circuit

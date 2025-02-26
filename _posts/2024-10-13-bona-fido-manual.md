@@ -66,6 +66,11 @@ You can view global scores using two primary methods:
 
 # Changelog
 
+## Version 1.5.5
+### February 26th, 2025
+
+- Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
+
 ## Version 1.5.1
 ### January 31st, 2025
 

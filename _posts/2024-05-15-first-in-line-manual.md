@@ -160,6 +160,11 @@ From me to you, thanks for playing, and break a leg! 💖
 
 # Changelog
 
+## Version 2.2.5
+### February 26th, 2025
+
+- Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
+
 ## Version 2.2.1
 ### August 13th, 2024
 

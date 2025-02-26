@@ -193,6 +193,11 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 
 # Changelog
 
+<!--
+## Version 2.1.5
+
+- Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
+-->
 ## Version 2.1.2
 ### February 7th, 2025
 - *Actually* fixed crash that sometimes fired upon entering Mission Mode
