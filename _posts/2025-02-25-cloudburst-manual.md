@@ -68,7 +68,7 @@ In this app, there are a variety of options you can change to fully optimize you
 	- Earth: A replication of the "Initialization" screen; a spinning globe in a starfield.
 	- Temp. Focus: A lower-power display that brings the temperature front-and-center.
 	- Clock Focus: A second low-power display that shows the current console time in large text.
-	- Custom Img.: If the console detects a 400x240 `.pdi`-converted image (no transparency) in `Data/wtf.rae.cloudburst/images/custom.pdi`, you can use this image as your wallpaper.
+	- Custom Img.: If the console detects a 400x240 <span class="code-span">.pdi</span>-converted image (no transparency) in <span class="code-span">Data/wtf.rae.cloudburst/images/custom.pdi</span>, you can use this image as your wallpaper.
 - Invert display: choose whether the display should be inverted. "On noons" will flip between them automatically — non-inverted from midnight to noon, and inverted from noon to midnight.
 
 # Credits
