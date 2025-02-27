@@ -85,8 +85,13 @@ You can view global scores using two primary methods:
 ## Version 1.0.2
 ### ???
 
+- Added "start bpm" option to define a faster start, toggle-able from the Title screen
+- Added button controls, toggle-able from the Title screen
+- BPM will now start ramping up instantly in Normal Mode
 - Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
 - Fixed bug where extra lives would be awarded in Hardcore Mode
+- Flipped button prompts on Game Over screen
+- Added some more stuff floating alongside the clouds
 
 ## Version 1.0.1
 ### February 25th, 2025
