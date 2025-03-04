@@ -75,10 +75,11 @@ You can view global scores using two primary methods:
 
 # Credits
 
-- Art, Code, & Music — [Rae](https://rae.wtf)
-- Cuberick and Nontendo — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- Transmit truck design — [Panic](https://panic.com)
-- Thanx — Tengu, Toad, 2DArray, Lav, the rest of the Playdate Squad
+- Art, code, music, and SFX — [Rae](https://rae.wtf)
+- Cuberick and Nontendo fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Transmit truck cameo — [Panic](https://panic.com)
+- Playtesters — Lav, ocean, xenwow, Lyman, PurpleMoustache, and Ledbetter
+- Thanks — Tengu, Toad, 2DArray, Lav, and the rest of the Playdate Squad!
 
 # Changelog
 

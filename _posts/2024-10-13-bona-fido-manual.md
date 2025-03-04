@@ -57,12 +57,11 @@ You can view global scores using two primary methods:
 
 # Credits
 
-- Art, Code, & Music — [Rae](https://rae.wtf)
-- Music (PlayJam version) — [Kevin MacLeod](https://incompetech.com/); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+- Art, code, and music — [Rae](https://rae.wtf)
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
-- Newsleak — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library by [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
-- Thanx — Mag, Toad, Kirk, Henry, John, bumbleborn
+- Newsleak font — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
+- Thanks — Mag, Toad, Kirk, Henry, John, and bumbleborn!
 
 # Changelog
 

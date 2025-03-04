@@ -174,16 +174,14 @@ That should be all you need to enjoy top-quality stereo sound! Plug in your head
 
 # Credits
 
-- Programmed by [Rae](https://rae.wtf)
-- Graphics stuff drawn by Rae
-- Music by [Watson at MusMus](https://musmus.main.jp); [Terms](https://musmus.main.jp/info.html)
-- SFX made with [JSFXR](https://sfxr.me)
-- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library by [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
-- Full Circle and Mikodacs Clock fonts provided by Panic; [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- Righteous font made by Astigmatic; [OFL](https://openfontlicense.org)
-- Some formatting code used from the [lua-users wiki](http://lua-users.org/wiki/FormattingNumbers).
-- Drew-Lo helped me figure out the algorithm for logarithmic timer bonuses, as well.
-- Thank you to Voxy, Toad, scizzorz, superfunc, mag, hunty, Scenic Route, DRD, IGDA Twin Cities, and everyone at Panic!
+- Art and code — [Rae](https://rae.wtf)
+- Music — [Watson at MusMus](https://musmus.main.jp); [Terms](https://musmus.main.jp/info.html)
+- SFX — [JSFXR](https://sfxr.me)
+- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
+- Full Circle and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [Righteous](https://fonts.google.com/specimen/Righteous) font — Astigmatic; [OFL](https://openfontlicense.org)
+- Addtl. code — [lua-users wiki](http://lua-users.org/wiki/FormattingNumbers) and [Drew-Lo](https://aloebach.itch.io)
+- Thanks — Voxy, Toad, scizzorz, superfunc, Mag, hunty, Scenic Route, DRD, IGDA Twin Cities, and Panic!
 
 # Additional Notes
 

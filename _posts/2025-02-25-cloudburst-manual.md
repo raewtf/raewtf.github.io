@@ -75,13 +75,14 @@ In this app, there are a variety of options you can change to fully optimize you
 
 # Credits
 
-- Art, Code, & Music — [Rae](https://rae.wtf)
+- Art, code, and music — [Rae](https://rae.wtf)
 - Addtl. music — Scratchminer
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
-- Weather Data — [weatherapi.com](https://weatherapi.com)
+- Weather data — [weatherapi.com](https://weatherapi.com)
 - Planet animation — [Pixel Planet Generator](https://deep-fold.itch.io/pixel-planet-generator)
-- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) & [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
-- Sasser Slab, Roobert, Mikodacs Clock — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
+- Sasser Slab, Roobert, and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Thanks — Andy, Toad, Vachi, Jackson, Scratchminer, and those who waited patiently!
 
 # Changelog
 

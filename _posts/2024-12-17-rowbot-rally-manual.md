@@ -121,23 +121,19 @@ The options screen allows you to change various settings and accessibility featu
 
 # Credits
 
-- Lead Coder, Lead Artist — [Rae](https://rae.wtf)
+- Art and code — [Rae](https://rae.wtf)
 - Music — [Kevin MacLeod](https://incompetech.com/); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
-- Music — nexusnecromance
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
-- Asst. Coder — [Voxy](https://voxy.space)
-- Collisions Analyst, Asst. Font Conversion — [Toad](https://toadley.space)
-- Audience Art — magPlex
-- Dithering Advisor — NickNack
-- Bugsmashers — NickNack, orkn, Toad, superfunc, Omikron, budpikmin, Lavender, Yadis, dwfp, Zel, Soinksters, The3DPrintist
-- Playtesters — AidenKT, magPlex, kiwi, puttheyarndown, sourencho, ThatWontCompute
-- Team Optimz — Superfunc, The3DPrintist
-- Asst. Polys — TheMediocritist
-- Pedallica — [Neven Mrgan](https://mrgan.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- Kapel — [Font End Dev](https://fontenddev.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- [PDV conversion](https://devforum.play.date/t/video-encoder-work-in-progress-mac-only/1390) tool — [Dave](https://pdx.social/@dave)
-- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) & [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
-- Thanx — Panic, the Playdate Squad and devlog members, playtesters and bugsmashers, all my friends, SquidGod, and YOU!
+- Addtl. art — magPlex, NickNack
+- Addtl. code — Voxy, Toad, superfunc, The3DPrintist, and TheMediocritist
+- Addtl. music — nexusnecromance
+- Pedallica font — [Neven Mrgan](https://mrgan.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Kapel font — [Font End Dev](https://fontenddev.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [PDV conversion tool](https://devforum.play.date/t/video-encoder-work-in-progress-mac-only/1390) — [Dave Hayden](https://pdx.social/@dave)
+- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
+- Bugsmashers — NickNack, orkn, Toad, superfunc, Omikron, budpikmin, Lavender, Yadis, dwfp, Zel, Soinksters, and The3DPrintist
+- Playtesters — AidenKT, magPlex, kiwi, puttheyarndown, sourencho, and ThatWontCompute
+- Thanks — Panic, the Playdate Squad/devlog members, all my friends, SquidGod, and YOU!
 
 # Changelog
 
