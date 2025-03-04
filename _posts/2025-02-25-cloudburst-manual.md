@@ -25,11 +25,11 @@ The D-pad and A and B buttons are used to navigate menus. The crank is optionall
 
 When you first start the app, you'll be prompted to provide an approximate location. *This data will be shared with the API service to gather information about your area. This information isn't shared anywhere else on-line, but will be saved on your Playdate's local disk.*
 
-After providing a location, you'll be prompted to adjust a few settings — namely, temperature preference, and measurement preference. After this, the Playdate will attempt to connect to the Internet and grab weather data for your area.
+After providing a location, you'll be prompted to adjust a few settings — namely, temperature preference, and measurement preference. After this, the Playdate will attempt to connect to the Internet and grab weather data for your area. If your Playdate cannot connect to the Internet, an error message will appear and you'll be prompted to try again later.
 
 ## Where are you?
 
-If the resulting API data doesn't match your location, try being a bit more specific with your data entry. For example, instead of "Portland", try inputting something like "Portland OR", or a direct ZIP code.
+If the resulting API data doesn't match your location, try being a bit more specific with your data entry. For example, instead of "Portland", try inputting something like "Portland OR", or a direct ZIP/Postal code. Cloudburst should work with most (if not all) areas around the globe — if you live in or discover an area that you just cannot get to work, let me know!
 
 # Weather
 
@@ -37,20 +37,22 @@ If the resulting API data doesn't match your location, try being a bit more spec
 
 The main screen always shows your area's current temperature and estimated forecast, your console's local time, and current battery estimate.
 
-When plugged in, animated wallpapers will refresh at 30 frames per second. When running on battery, the display will enter a lower-power state to save energy.
+When the Playdate is plugged in to power, animated wallpapers will refresh at 30 frames per second. When running on battery, the display will enter a lower-power state to save energy, refreshing at 5 frames per second.
 
 ## The Fold™
 
 By using the crank on the main screen, you can wring up The Fold™. This contains more detailed weather info for your current location, such as:
 
-- Local time
 - Current temperature and estimated forecast
-- Estimated temperature and forecast for the next six hours
 - "Feels like" temperature, and HI/LO temps for the day
-- Sunrise and sunset times
+- Estimated temperature and forecast for the next six hours
+- Current wind speed, gusts, and direction
+- Air quality (EPA and DEFRA index), and information on particulate matter
 - Humidity, now and within the next hour
 - Precipitation, now and within the next hour
 - Estimated forecast, HI/LO temp, and sunrise/sunset times for the next day
+- Current moon phase
+- Sunrise and sunset times
 
 # Options
 
@@ -83,7 +85,15 @@ In this app, there are a variety of options you can change to fully optimize you
 
 # Changelog
 
-## Version 1.0.0 rev Cata 1
+## Version 1.0.0b2
+### March 3rd, 2025
+
+- Adds moon phase to The Fold™
+- Added air quality/particulate matter info, too
+- Different SFX if you try to crank too far
+- Seamless transition from loading screen, if wallpaper is set to "Earth"
+
+## Version 1.0.0b1
 ### February 25th, 2025
 
 - Initial beta release.
