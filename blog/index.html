@@ -48,7 +48,7 @@ layout: null
 				{% if post.visible == 1  %}
 					<a href="{{ post.url }}" class="post_container {{ post.tag | slugify }}">
 						<h1>{{ post.title }}</h1>
-						<h3>{{ post.date | %m.%d.%Y }}&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;{{ post.tag }}</h3>
+						<h3>{{ post.date | date: '%m.%d.%Y' }}&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;{{ post.tag }}</h3>
 						<p>{{ post.desc }}</p>
 					</a>
 				{% endif %}
