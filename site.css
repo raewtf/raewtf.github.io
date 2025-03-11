@@ -306,48 +306,48 @@ code {
 }
 
 .blog.post_container {background: var(--sel); border: 4px solid var(--sed);}
-.blog h1, .blog p, .blog ul, .blog ul li {color: var(--seb);}
+.blog.post_container h1, .blog.post_container p {color: var(--seb);}
 .blog.post_container h3 {color: var(--red);}
 .blog.post_container::before, .blog.post_container::after {color: var(--sed);}
 
 .rowbot-rally.post_container {background: var(--bll); border: 4px solid var(--bld);}
 .rowbot-rally a {color: var(--bll);}
-.rowbot-rally h1, .rowbot-rally p, .rowbot-rally ul, .rowbot-rally ul li {color: var(--blb);}
+.rowbot-rally.post_container h1, .rowbot-rally.post_container p {color: var(--blb);}
 .rowbot-rally.post_container h3 {color: var(--yew);}
 .rowbot-rally.post_container::before, .rowbot-rally.post_container::after {color: var(--bld);}
 
 .first-in-line.post_container {background: var(--yel); border: 4px solid var(--yed);}
-.first-in-line h1, .first-in-line p, .first-in-line ul, .first-in-line ul li {color: var(--yeb);}
+.first-in-line.post_container h1, .first-in-line.post_container p {color: var(--yeb);}
 .first-in-line.post_container h3, .first-in-line a {color: var(--red);}
 .first-in-line.post_container::before, .first-in-line.post_container::after {color: var(--orl);}
 
 .hexa.post_container {background: var(--pul); border: 4px solid var(--pud);}
 .hexa a {color: var(--pul);}
-.hexa h1, .hexa p, .hexa ul, .hexa ul li {color: var(--pub);}
+.hexa.post_container h1, .hexa.post_container p {color: var(--pub);}
 .hexa.post_container h3 {color: var(--sew);}
 .hexa.post_container::before, .hexa.post_container::after {color: var(--pud);}
 
 .bona-fido.post_container {background: var(--puw); border: 4px solid var(--pul);}
 .bona-fido a {color: var(--orl);}
-.bona-fido h1, .bona-fido p, .bona-fido ul, .bona-fido ul li {color: var(--pub);}
+.bona-fido.post_container h1, .bona-fido.post_container p {color: var(--pub);}
 .bona-fido.post_container h3 {color: var(--ord);}
 .bona-fido.post_container::before, .bona-fido.post_container::after {color: var(--pul);}
 
 .traffic-jam.post_container {background: var(--yel); border: 4px solid var(--orl);}
 .traffic-jam a {color: var(--ord);}
-.traffic-jam h1, .traffic-jam p, .traffic-jam ul, .traffic-jam ul li {color: var(--orb);}
+.traffic-jam.post_container h1, .traffic-jam.post_container p {color: var(--orb);}
 .traffic-jam.post_container h3 {color: var(--ord);}
 .traffic-jam.post_container::before, .traffic-jam.post_container::after {color: var(--orl);}
 
 .cloudburst.post_container {background: var(--blw); border: 4px solid var(--bll);}
 .cloudburst a {color: var(--bld);}
-.cloudburst h1, .cloudburst p, .cloudburst ul, .cloudburst ul li {color: var(--blb);}
+.cloudburst.post_container h1, .cloudburst.post_container p {color: var(--blb);}
 .cloudburst.post_container h3 {color: var(--bld);}
 .cloudburst.post_container::before, .cloudburst.post_container::after {color: var(--bll);}
 
 .mission-lunatrix.post_container {background: var(--bld); border: 4px solid var(--blb);}
 .mission-lunatrix a {color: var(--ord);}
-.mission-lunatrix h1, .cloudburst p, .mission-lunatrix ul, .mission-lunatrix ul li {color: var(--blb);}
+.mission-lunatrix.post_container h1, .mission-lunatrix.post_container p {color: var(--bll);}
 .mission-lunatrix.post_container h3 {color: var(--orw);}
 .mission-lunatrix.post_container::before, .mission-lunatrix.post_container::after {color: var(--blb);}
 
