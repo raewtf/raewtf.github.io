@@ -347,7 +347,7 @@ code {
 
 .mission-lunatrix.post_container {background: var(--bld); border: 4px solid var(--blb);}
 .mission-lunatrix a {color: var(--ord);}
-.mission-lunatrix.post_container h1, .mission-lunatrix.post_container p {color: var(--bll);}
+.mission-lunatrix.post_container h1, .mission-lunatrix.post_container p {color: var(--blw);}
 .mission-lunatrix.post_container h3 {color: var(--orw);}
 .mission-lunatrix.post_container::before, .mission-lunatrix.post_container::after {color: var(--blb);}
 
