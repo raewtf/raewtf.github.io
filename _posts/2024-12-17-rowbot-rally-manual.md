@@ -163,7 +163,7 @@ The options screen allows you to change various settings and accessibility featu
 - Fixed softlock that would occur by leaving at a specific time during the race intro
 -->
 ## Version 1.0.2
-### December 19th, 2024
+### 12.19.2024
 
 - Re-balanced CPUs in Story Mode
 	- Shorebreak and Twitcher in Circuit 4 are now opportunists
@@ -183,7 +183,7 @@ The options screen allows you to change various settings and accessibility featu
 - Fixed bug in Stage 3 mirror mode where the sunglasses would be misaligned. Radical.
 
 ## Version 1.0.1
-### December 17th, 2024
+### 12.17.2024
 
 - Fixed wonky text formatting in Credits sequence
 - Fixed bug where viewing Credits from title screen after beating the game would accidentally affect save files.
@@ -197,7 +197,7 @@ The options screen allows you to change various settings and accessibility featu
 - Adjusted wording of "Favorite stage" in Stats to be more consistent
 
 ## Version 1.0.0
-### December 17th, 2024
+### 12.17.2024
 
 - Initial release.
 

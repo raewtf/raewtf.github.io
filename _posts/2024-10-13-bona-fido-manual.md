@@ -66,12 +66,12 @@ You can view global scores using two primary methods:
 # Changelog
 
 ## Version 1.5.5
-### February 26th, 2025
+### 02.26.2025
 
 - Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
 
 ## Version 1.5.1
-### January 31st, 2025
+### 01.31.2025
 
 - Added hard cap on lives (six max)
 - Platforms now disappear programmatically over the course of the game
@@ -87,7 +87,7 @@ You can view global scores using two primary methods:
 - Added ability for more enemies on-screen at once. Number increases as the game progresses
 
 ## Version 1.5.0
-### January 28th, 2025
+### 01.28.2025
 
 - Added on-line leaderboards! Access it via the Slide menu on the title screen.
 - Added completely custom OST, made by yours truly!
@@ -118,7 +118,7 @@ You can view global scores using two primary methods:
 - Added some cool art to the Options screen.
 
 ## Version 1.0.0
-### October 13th, 2024
+### 10.13.2024
 
 - Initial release, for PlayJam 6.
 

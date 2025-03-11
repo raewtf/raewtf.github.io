@@ -161,12 +161,12 @@ From me to you, thanks for playing, and break a leg! 💖
 # Changelog
 
 ## Version 2.2.5
-### February 26th, 2025
+### 02.26.2025
 
 - Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
 
 ## Version 2.2.1
-### August 13th, 2024
+### 08.13.2024
 
 - Timed Mode - capped timer at 60 seconds maximum
 - Timed Mode - added logarithmic scale to timer progression
@@ -174,7 +174,7 @@ From me to you, thanks for playing, and break a leg! 💖
 - Multi Mode - hopefully fixed a bug that wouldn’t re-set player position properly
 
 ## Version 2.2.0
-### July 1st, 2024
+### 07.01.2024
 
 - New Mode — "Timed Mode"! You're on the clock; get as far as you can before time's up.
 - Fixes and adjustments to controls
@@ -206,7 +206,7 @@ From me to you, thanks for playing, and break a leg! 💖
 	- Removed cast members: "airplane" and "argument"
 
 ## Version 2.1.0
-### June 18th, 2024
+### 06.18.2024
 
 - First version release in Catalog!
 - Dampened the punishment for an erroneous dock/undock. Now, either action provides a maximum of one miss between correct dock/undock inputs.
@@ -221,7 +221,7 @@ From me to you, thanks for playing, and break a leg! 💖
 - Adjusted directional arrow behavior in the title screen.
 
 ## Version 2.0.2
-### May 21st, 2024
+### 05.21.2024
 
 - Added directional arrows to title screen and High Scores scene
 - Reduced sensitivity of microphone input
@@ -229,13 +229,13 @@ From me to you, thanks for playing, and break a leg! 💖
 - Catalog - fixed leaderboards to scream at proper endpoints
 
 ## Version 2.0.1
-### May 17th, 2024
+### 05.17.2024
 
 - Reduced sensitivity of console shaking to acceptable levels
 - Catalog - removed debug print statements in High Scores scene
 
 ## Version 2.0.0
-### May 15th, 2024
+### 05.15.2024
 
 - Added support for separate game modes, as well as two new ones!
 	- Arcade Mode — the classic *First in... Line?* gameplay, same as it ever was.
@@ -254,7 +254,7 @@ From me to you, thanks for playing, and break a leg! 💖
 - Added support for on-line leaderboards
 
 ## Version 1.2.0
-### May 1st, 2024
+### 05.01.2024
 
 - Added a timer to the "rehearsal scene" where you memorize your lines! In Hard mode, you get anywhere from 10 to 30 seconds (increasing as the game progresses) to memorize the line laid out before you. In Easy mode, there's no time limit imposed. Also, Hard mode has to be unlocked now — obtain a score of 10 or higher in Easy mode to access it! (If you crossed the threshold before, it'll be unlocked on start-up :3)
 - Added... *[pause for ironic effect]* ...pause logic! If you go silent for too long, something will happen. In Easy mode, you'll get some stage direction from frame right. In Hard mode, however, wait around too long and you'll get heckled by some rude guy in the audience (+1 MISS). On that note, removed the 'MISS' text when you have no misses under your belt.
@@ -263,7 +263,7 @@ From me to you, thanks for playing, and break a leg! 💖
 - Fixed a crash where a high score variable wasn't being updated properly. Thanx Paul!
 
 ## Version 1.1.0
-### April 21st, 2024
+### 04.21.2024
 
 - Added an Easy mode! This mode just adds onto the same pattern between rounds, in contrast to the previous standard mode (now "Hard mode") which give you an increasingly-long completely-randomized pattern each round. Scores are saved per mode — and your best score from v1.0.0 (if you've got one) will still be kept as your Hard mode score. Woohoo!
 - Speaking of stats...added a "total misses" count, as well. I meant to, but just forgot.
@@ -272,7 +272,7 @@ From me to you, thanks for playing, and break a leg! 💖
 - Bunch of minor tweaks and fixes — adding wrapping paper to launcher, new itch.io page art, bumping the FPS up from 20 to 30, adding some misc. SFX I forgot, and showing the version number on the title screen for posterity.
 
 ## Version 1.0.0
-### April 20th, 2024
+### 04.20.2024
 
 - Initial release, for PlayJam 5.
 

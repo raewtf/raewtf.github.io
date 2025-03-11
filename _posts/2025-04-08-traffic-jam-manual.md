@@ -95,7 +95,7 @@ You can view global scores using two primary methods:
 - Added some more stuff floating alongside the clouds
 
 ## Version 1.0.1
-### February 25th, 2025
+### 02.25.2025
 
 - Hardcore mode threshold increased from 50 pts to 100 pts
 - BPM will now increase by +10 per level instead of +5
@@ -117,7 +117,7 @@ You can view global scores using two primary methods:
 - Fixed timing issue with loading transitions
 
 ## Version 1.0.0
-### February 21st, 2025
+### 02.21.2025
 
 - Initial playtesting release.
 

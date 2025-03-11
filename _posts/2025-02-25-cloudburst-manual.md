@@ -87,7 +87,7 @@ In this app, there are a variety of options you can change to fully optimize you
 # Changelog
 
 ## Version 1.0.0b2
-### March 3rd, 2025
+### 03.03.2025
 
 - Adds moon phase to The Fold™
 - Added air quality/particulate matter info, too
@@ -95,7 +95,7 @@ In this app, there are a variety of options you can change to fully optimize you
 - Seamless transition from loading screen, if wallpaper is set to "Earth"
 
 ## Version 1.0.0b1
-### February 25th, 2025
+### 02.25.2025
 
 - Initial beta release.
 

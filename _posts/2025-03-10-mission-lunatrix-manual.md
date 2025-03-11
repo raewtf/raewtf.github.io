@@ -59,11 +59,10 @@ When you land from a jump, your combo meter will increase. Hit another jump to r
 - Pedallica and Bitmore fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - Thanks — Toad, Dimitri, Jex, John, Rob, Voxy, Mag, Tengu, Axo, freds, and 2D!
 
-
 # Changelog
 
 ## Version 1.0.0
-### March 10th, 2025
+### 03.10.2025
 
 - Initial release, for PlayJam 7.
 

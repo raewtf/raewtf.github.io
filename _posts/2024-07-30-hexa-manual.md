@@ -197,18 +197,20 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 - Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
 -->
 ## Version 2.1.2
-### February 7th, 2025
+### 02.07.2025
 - *Actually* fixed crash that sometimes fired upon entering Mission Mode
 
 ## Version 2.1.1
-### January 15th, 2025
+### 01.15.2025
+
 - De-looped music tracks. Whoops!
 - Fixed crash that sometimes fired upon entering Mission Mode
 - "Hard Mode" is now available as a direct toggle in the Options menu
 - Added slight deadzones to swapping with the crank
 
 ## Version 2.1.0
-### January 6th, 2025
+### 01.06.2025
+
 - Fix wi-fi cauterization in sideload copies
 - Edit static list icon to be more visually interesting
 - Compress music to get file size from ~30 MB down to <10. For original quality, check out the [enhanced sound pack](https://rae.wtf/blog/hexa-manual#enhanced-sound-pack)
@@ -225,7 +227,7 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 - Enhanced scene management optimization
 
 ## Version 2.0.0
-### August 13th, 2024
+### 08.13.2024
 
 - Added Mission Mode! 50 all-new challenges to complete across four unique game-modes!
 - Adjusting round end behavior to fix potential soft lock.
@@ -238,7 +240,7 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 - Additional gameplay tweaks and fixes.
 
 ## Version 1.1.0
-### August 5th, 2024
+### 08.05.2024
 
 - Fixed a bug where restarting the game wouldn't properly clear the timer.
 - The user can now press A to skip the fanfare mid-way through, if "Skip Fanfare" setting is off.
@@ -251,7 +253,7 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 - Reworded "Local Scores" to "Local Stats" in Options; this function now clears Swaps/HEXA counts too.
 
 ## Version 1.0.0
-### July 30th, 2024
+### 07.30.2024
 
 - Initial release.
 
