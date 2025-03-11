@@ -7,7 +7,7 @@ desc: How to get started and win the Fish Bowl!
 
 ## Synopsis
 
-> *Team up with a mechanical pal and row for the gold in the annual Fish Bowl!*
+> Team up with a mechanical pal and row for the gold in the annual Fish Bowl!
 
 Not too long ago, boat racing was a sport for everybody! Whether you were a rowing pro or just a novice, it was an activity that anyone could celebrate. The annual Fish Bowl was a town institution, pitting the best rowers up against each other in a high-stakes racing tournament - the winner bringing home a big trophy, and of course, infinite bragging rights.
 
@@ -21,9 +21,9 @@ Well...not on their own, at least.
 
 ## Controls
 
-The Crank is the main control method for this game. The D-pad and A and B buttons are used to navigate menus.
+The crank is the main control method for this game. The D-pad and A and B buttons are used to navigate menus.
 
-If you lack the dexterity to use the Crank, there's an alternate control scheme that lets you use the D-pad to steer the boat. See [Options](#options) > Button Controls for more info.
+If you lack the dexterity to use the crank, there's an alternate control scheme that lets you use the D-pad to steer the boat. See [Options](#options) > Button Controls for more info.
 
 ## Gameplay
 

@@ -7,7 +7,7 @@ desc: How to get started and guide those cars in style!
 
 ## Synopsis
 
-> *Guide the traffic to the beat, don't get swept up off your feet.*
+> Guide the traffic to the beat, don't get swept up off your feet.
 
 Nebulous construction work's a tough job, and somebody has to manage the traffic going in and out. Luckily, you happened to be around when they were scrambling in a blind panic to find somebody who could do it! Can you master the new rhythm-based method of guiding these overzealous cars?
 
@@ -17,7 +17,7 @@ Traffic Jam is a fun endless rhythm game that exclusively uses the Playdate's cr
 
 ## Controls
 
-The Crank is the main control method for this game. The D-pad and A and B buttons are used to navigate menus.
+The crank is the main control method for this game. The D-pad and A and B buttons are used to navigate menus.
 
 Audio is quite important to gameplay — while the game can be played silently by a more experienced player, having an active audio output is recommended.
 

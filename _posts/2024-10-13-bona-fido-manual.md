@@ -7,7 +7,7 @@ desc: How to get started and traverse the afterlife in style.
 
 ## Synopsis
 
-> *Turns out the afterlife's not as bad as they say! Well, except for all the terrifying monsters, at least.*
+> Turns out the afterlife's not as bad as they say! Well, except for all the terrifying monsters, at least.
 
 *"Hey. Name's Fido. I'm a dog, as you can clearly see; but really I'm nothing but a bag of bones. The afterlife's pretty nice; it's a bit repetitive, but I can get used to it. It's pretty chill! ...Well, aside from all the unmentionable horrors that are out to kill me *again*. Maybe if I keep running around, I can find a way outta this place? Or at least set some new high scores."*
 

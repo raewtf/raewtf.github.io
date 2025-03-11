@@ -7,7 +7,7 @@ desc: How to get started and check the forecast!
 
 ## Synopsis
 
-> *Real-time weather. On your Playdate.*
+> Real-time weather. On your Playdate.
 
 Curious what the forecast looks like? Easy! But...your laptop's out of reach, your phone's battery is dead, your smart assistant's brain is busted, and your curtains are shut. It's just you, and your Playdate. What can you do? Well, here is your answer! Leveraging state-of-the-art networking capabilities, *Cloudburst* is a fully seamless, on-line enabled weather app for your Playdate!
 

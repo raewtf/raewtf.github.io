@@ -7,7 +7,7 @@ desc: How to get started and conquer the universe!
 
 ## Synopsis
 
-> *Board the helm of Starship HEXA, and conquer the universe the only way you know how: shapes.*
+> Board the helm of Starship HEXA, and conquer the universe the only way you know how: shapes.
 
 You're the commander of Starship HEXA, the head of a space fleet dead-set on taking over the universe. You're well on your way to assuming control of everything that is and shall be, but your attack methods are a bit...unorthodox. We can't dwell on it for too long, though, so get out there and match those hexagons!
 
@@ -181,7 +181,7 @@ That should be all you need to enjoy top-quality stereo sound! Plug in your head
 - Full Circle and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [Righteous](https://fonts.google.com/specimen/Righteous) font — Astigmatic; [OFL](https://openfontlicense.org)
 - Addtl. code — [lua-users wiki](http://lua-users.org/wiki/FormattingNumbers) and [Drew-Lo](https://aloebach.itch.io)
-- Thanks — Voxy, Toad, scizzorz, superfunc, Mag, hunty, Scenic Route, DRD, IGDA Twin Cities, and Panic!
+- Thanks — Voxy, Toad, scizzorz, superfunc, Mag, Hunter Bridges, Scenic Route, DRD, IGDA Twin Cities, and Panic!
 
 # Additional Notes
 
@@ -205,7 +205,7 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 - De-looped music tracks. Whoops!
 - Fixed crash that sometimes fired upon entering Mission Mode
 - "Hard Mode" is now available as a direct toggle in the Options menu
-- Added slight deadzones to swapping with the Crank
+- Added slight deadzones to swapping with the crank
 
 ## Version 2.1.0
 ### January 6th, 2025
