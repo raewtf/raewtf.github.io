@@ -93,6 +93,9 @@ You can view global scores using two primary methods:
 - Fixed bug where extra lives would be awarded in Hardcore Mode
 - Flipped button prompts on Game Over screen
 - Added some more stuff floating alongside the clouds
+- Added some different random skins for the cars
+- Correctly read off points as "point" if there's only 1
+- Hopefully fixed bug where Hardcore scores weren't sending properly?
 
 ## Version 1.0.1
 ### 02.25.2025
