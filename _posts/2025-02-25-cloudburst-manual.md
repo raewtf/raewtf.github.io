@@ -59,10 +59,12 @@ By using the crank on the main screen, you can wring up The Fold™. This contai
 In this app, there are a variety of options you can change to fully optimize your experience.
 
 - Change area: Edit your location area used for gathering weather data. This can be changed as many times as you wish.
+- Save recent areas: Choose how many location inputs are saved to disk for easy access.
 - Temperature: Choose between Celsius or Fahrenheit readings for temperature info.
 - Measurement: Choose between Metric or Imperial readings for measurement info.
 - Idle refresh rate: Decide how often the app will try to grab new weather data while idling.
 - Auto-lock %: When the console reaches this battery percentage, it will automatically lock after three minutes without input.
+- Time display: Whether clocks in the app should follow 24-hour or 12-hour time. "System" will force the app to respect your OS' clock setting.
 - Music: Toggles music in the Initialization screen.
 - Sound Effects: Toggles sound effects throughout the app.
 - Wallpaper: Choose the wallpaper that is displayed on the idle screen.
@@ -85,6 +87,20 @@ In this app, there are a variety of options you can change to fully optimize you
 - Thanks — Andy, Toad, Vachi, Jackson, Scratchminer, and those who waited patiently!
 
 # Changelog
+
+## Version 1.0.0b3
+### ???
+
+- Fixed embarrassing bug when refreshing data from weather screen
+- Added pause screen images with instructions for each screen
+	 - Moved the version number in here, too
+- Added recent locations list when changing your local area
+	- Also added option to decide how many locations are saved (if at all)
+- Added scroll bar to Options menu
+- Fixed bug where crank noise in the weather screen would change at the wrong height
+- Options can now be cycled through with the A button as well as the D-pad
+- Added save flags on every scene change, instead of just on exit.
+- Added "Time display" option, with 24-hour, 12-hour, and System selections.
 
 ## Version 1.0.0b2
 ### 03.03.2025
