@@ -89,7 +89,7 @@ In this app, there are a variety of options you can change to fully optimize you
 # Changelog
 
 ## Version 1.0.0b3
-### ???
+### 04.01.2025
 
 - Fixed embarrassing bug when refreshing data from weather screen
 - Added pause screen images with instructions for each screen
