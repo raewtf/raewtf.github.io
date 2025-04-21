@@ -67,12 +67,12 @@ When you successfully land from a jump, your combo meter will increase. Hit more
 
 If you skate around for long enough without hitting another crater, run into a rover, or get too overzealous with your tricks, your meter will reset back to x1.
 
-# Modes
+<!--# Modes
 
 ## Arcade Mode
 
 ## Daily Orbit
-
+-->
 # Credits
 
 - Art, code, and music — [Rae](https://rae.wtf)
@@ -135,4 +135,4 @@ If you skate around for long enough without hitting another crater, run into a r
 - Initial release, for PlayJam 7.
 
 <br>
-<a href="https://stuffbyrae.itch.io/mission-lunatrix" class="button">Download <i>Mission LunaTrix</i> on Itch.io</a>
+<a href="https://raewtf.itch.io/mission-lunatrix" class="button">Download <i>Mission LunaTrix</i> on Itch.io</a>

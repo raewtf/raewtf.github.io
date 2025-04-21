@@ -116,4 +116,4 @@ In this app, there are a variety of options you can change to fully optimize you
 - Initial beta release.
 
 <br>
-<a href="https://stuffbyrae.itch.io/cloudburst" class="button">Download <i>Cloudburst</i> on Itch.io</a>
+<a href="https://raewtf.itch.io/cloudburst" class="button">Download <i>Cloudburst</i> on Itch.io</a>
