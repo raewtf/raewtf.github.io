@@ -160,6 +160,12 @@ From me to you, thanks for playing, and break a leg! 💖
 
 # Changelog
 
+## Version 2.2.6
+### 04.28.2025
+
+- Updated achievements library to v1.0
+- Added credit for achievements library
+
 ## Version 2.2.5
 ### 02.26.2025
 

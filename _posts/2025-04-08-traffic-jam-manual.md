@@ -23,6 +23,8 @@ To switch control methods, open the Slide menu on the Title screen, and change t
 
 Audio is quite important to gameplay — while the game can be played silently by a more experienced player, having an active audio output is recommended.
 
+To adjust the starting BPM of gameplay, open the Slide menu on the Title screen, and change the "start bpm" setting. The default is 120. You can choose in increments of ±5 BPM from a minimum of 30, to a maximum of 170.
+
 ## Gameplay
 
 During the game, your crank is separated into two "fields" — left, and right. When using the crank, cranking across the 0º or 180º boundaries will swap between them. When using buttons, pressing A or B will flip the sign to the left or right.
@@ -39,13 +41,13 @@ Normal Mode is the basic gameplay mode in *Traffic Jam*.
 
 In this mode, you have three lives. A life is lost whenever you don't wave a car through in the correct direction — indicated by a screen-shake and a skidding noise.
 
-This mode starts out at approximately 120 BPM. When you reach Level 5, every new round will increase the BPM by +10. For every 100 points you score, you'll gain a life (maximum of 3).
+This mode starts out at your preset start BPM (defaults to 120). When you reach Level 5, every new round will increase the BPM by +10. For every 100 points you score, you'll gain a life (maximum of 3).
 
 ## Hardcore Mode
 
 > 💡 *This Mode is only unlocked after scoring 100 or greater in Normal Mode.*
 
-In Hardcore Mode, the default BPM is upped to 150, and you also have only one life — miss any amount of times, and it's game over.
+In Hardcore Mode, the default BPM is upped to +30 more than your preset (defaults to 150), and you also have only one life — miss any amount of times, and it's game over.
 
 # On-line Capability
 
@@ -80,10 +82,26 @@ You can view global scores using two primary methods:
 - Art, code, music, and SFX — [Rae](https://rae.wtf)
 - Cuberick and Nontendo fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - Transmit truck cameo — [Panic](https://panic.com)
+- [Achievements](https://playdatesquad.github.io/pd-achievements/) library — Playdate Squad
 - Playtesters — Lav, ocean, xenwow, Lyman, PurpleMoustache, and Ledbetter
 - Thanks — Tengu, Toad, 2DArray, Lav, and the rest of the Playdate Squad!
 
 # Changelog
+
+## Version 1.0.3
+### 04.28.2025
+
+- Added four new music tracks!
+	- You can also choose between any or all of them from the Title screen
+- Fixed bug where Tutorial would inherit custom BPM values
+- Fixed leaderboards crash if number of score entries surpassed 5
+- Added slower "start BPM" times, down to 30 BPM
+- Adjusted speed-up behavior with external BPMs for better balancing
+- Added default username check to the leaderboards screen
+- Fixed leaderboards crash if you entered and exited the scene real fast
+- Fixed possible crash if crank value equals "360"
+- Updated achievements library to v1.0
+- Added credit for achievements library
 
 ## Version 1.0.2
 ### 03.12.2025

@@ -79,6 +79,7 @@ If you skate around for long enough without hitting another crater, run into a r
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
 - Cutout City font — [Hawtpixel](https://www.hawtpixel.com); [License](https://hawtpixel.com/Hawtpixel%20Font%20License%20-%20650%20Font%20Bundle.pdf)
 - Pedallica and Bitmore fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [Achievements](https://playdatesquad.github.io/pd-achievements/) library — Playdate Squad
 - Thanks — Toad, Dimitri, Jex, John, Rob, Voxy, Mag, Tengu, Axo, freds, and 2DArray!
 
 # Changelog

@@ -61,9 +61,16 @@ You can view global scores using two primary methods:
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
 - Newsleak font — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
+- [Achievements](https://playdatesquad.github.io/pd-achievements/) library — Playdate Squad
 - Thanks — Mag, Toad, Kirk, Henry, John, and bumbleborn!
 
 # Changelog
+
+## Version 1.5.6
+### 04.28.2025
+
+- Updated achievements library to v1.0
+- Added credit for achievements library
 
 ## Version 1.5.5
 ### 02.26.2025
