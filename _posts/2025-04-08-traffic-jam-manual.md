@@ -19,7 +19,7 @@ Traffic Jam is a fun endless rhythm game that exclusively uses the Playdate's cr
 
 The crank is the main control method for this game, though the A and B buttons can be used instead. The D-pad and A and B buttons are used to navigate menus. The use of the crank is relatively binary.
 
-To switch control methods, open the Slide menu on the Title screen, and change the "control" setting. You can choose between "crank" and "buttons".
+To switch control methods, open the Slide menu on the Title screen, and change the "control" setting. You can choose between "crank" and "buttons". When playing with the crank, you can choose between "crank", "crank (+90)", and "crank (-90)" play modes. These different modes will offset the 0º position of the crank as perceived by gameplay, so you can play with the console flat on a table for example.
 
 Audio is quite important to gameplay — while the game can be played silently by a more experienced player, having an active audio output is recommended.
 
@@ -87,6 +87,15 @@ You can view global scores using two primary methods:
 - Thanks — Tengu, Toad, 2DArray, Lav, and the rest of the Playdate Squad!
 
 # Changelog
+
+## Version 1.0.4
+### 05.19.2025
+
+- Floored car movement to prevent flashing of dither patterns
+- Level end logic no longer plays out during game over sequence (which could result in boosted stats)
+- Tweaked achievements slightly — instead of 50/100/250/500, score barriers are now 50/100/200/250 in both modes
+- Fixed bug where slide menu options may persist upon entering the Credits screen
+- Added "crank (+90)" and "crank (-90)" control options.
 
 ## Version 1.0.3
 ### 04.28.2025

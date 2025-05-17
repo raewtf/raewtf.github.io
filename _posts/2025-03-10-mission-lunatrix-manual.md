@@ -42,24 +42,24 @@ When you reach a high enough score threshold, you'll start flashing. This means 
 ### Tricks
 
 - 360 — 300
-- Impossible — 500
-- 360 Shove-It — 600
-- Double Kickflip — 800
-- Double Heelflip — 700
-- Airwalk — 1,000
-- 360 Varial — 900
-- 360 Pivot — 1,100
-- 360 Fingerflip — 1,050
+- Rebound — 500
+- Spin-Turn — 600
+- Widdershin — 800
+- Clocky — 700
+- Take-Off — 1,000
+- Weeble — 900
+- High-Road — 1,100
+- Snap-Flip — 1,050
 
 - Reverse 360 — 400
-- Reverse Impossible — 600
-- Reverse 360 Shove-It — 700
-- Reverse Double Kickflip — 900
-- Reverse Double Heelflip — 800
-- Reverse Airwalk — 1,100
-- Reverse 360 Varial — 1,000
-- Reverse 360 Pivot — 1,200
-- Reverse 360 Fingerflip — 1,150
+- Reverse Rebound — 600
+- Reverse Spin-Turn — 700
+- Reverse Widdershin — 900
+- Reverse Clocky — 800
+- Reverse Take-Off — 1,100
+- Reverse Weeble — 1,000
+- Reverse High-Road — 1,200
+- Reverse Snap-Flip — 1,150
 
 ### Combos
 
@@ -67,41 +67,93 @@ When you successfully land from a jump, your combo meter will increase. Hit more
 
 If you skate around for long enough without hitting another crater, run into a rover, or get too overzealous with your tricks, your meter will reset back to x1.
 
-<!--# Modes
+# Modes
 
 ## Arcade Mode
 
+In Arcade Mode, your goal is to hop from moon to moon, and survive for as long as you can without running out of oxygen. When you complete a level, your oxygen meter is replenished, and you're sent to a new moon with a different, randomly-generated layout.
+
+For each new moon, you'll have less and less oxygen, and will require more and more points to be able to move on.
+
 ## Daily Orbit
--->
+
+In Daily Orbit, you get placed on a single moon — randomly-generated, but the same for everyone each day. Your goal is to rack up as many points as you can before your oxygen runs out.
+
+You only get one shot at the Daily Orbit each day. Give the mode a try and see if you can best your friends (or your enemies)!
+
+# On-line Capability
+
+## About on-line play
+
+This game connects to Playdate's on-line leaderboard API, to enable sending and receiving of high scores among players across the globe. To use on-line functionality in this game, make sure your Playdate has an active Wireless connection.
+
+## Submitting your scores
+
+The Arcade Mode and Daily Orbit both support global on-line leaderboards.
+
+To submit a new score to a global leaderboard, simply complete a game. When you reach the end results screen, your score will be submitted to the proper leaderboard automatically.
+
+> ⚠️ *Be careful — if you close out of the game without properly ending your run, your score won't be saved or submitted!*
+
+## My score didn't send! What do?
+
+If you obtained a new high score, but it didn't get sent up to the appropriate leaderboard, there are a few things you can try:
+
+1. Give it a little time, and see if it sends up automatically.
+
+2. Try playing another round — it doesn't need to be *yet another* new high score, but this might kick the OS' caching into high gear.
+
+## Viewing global scores
+
+You can view global scores using two primary methods:
+
+1. Visit the *Mission LunaTrix* game page in your Web browser, at [play.date/games/mission-lunatrix](https://play.date/games/mission-lunatrix/). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
+
+2. Enter the 'Scoreboards' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle between the Arcade Mode and Daily Orbit leaderboards. From here, you can see the top scores for the currently-highlighted board, as well as your own score and ranking (if available).
+
+The Daily Orbit leaderboard refreshes automatically at 00:00 midnight GMT, clearing all scores from the past day. When viewing scores in-game, there's also a handy timer to tell you when the boards will be cleared.
+
+## User Icons
+
+In *Mission LunaTrix*, you have the ability to set a custom user icon, which appears alongside your score in scoreboards.
+
+To set a user icon, press B on the Title screen, and use the crank to preview the options. Press A to choose your favorite! Your icon will be updated on the leaderboards page next time you submit a new high score to the board.
+
 # Credits
 
 - Art, code, and music — [Rae](https://rae.wtf)
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
+- Tubular V/O — [Jordan Carroll](https://jordancarroll.com); [CC0](https://creativecommons.org/public-domain/cc0/)
 - Cutout City font — [Hawtpixel](https://www.hawtpixel.com); [License](https://hawtpixel.com/Hawtpixel%20Font%20License%20-%20650%20Font%20Bundle.pdf)
 - Pedallica and Bitmore fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [Achievements](https://playdatesquad.github.io/pd-achievements/) library — Playdate Squad
+- Playtesters — dennens, Alex, Scenic, Soinksters, Steven, Toad, and Kirkpad
 - Thanks — Toad, Dimitri, Jex, John, Rob, Voxy, Mag, Tengu, Axo, freds, and 2DArray!
 
 # Changelog
 
-<!--## Version 2.0.0
-### ???
+## Version 2.0.0
+### 06.28.2025
 
-- Tweaked level generation to guarantee at least some objects
-	- New objects will also be at least one unit of space apart from each other
-- Fixed bugs where scores and save data would not get...saved
 - Added "Daily Orbit"! Just one shot at a seeded moon, every day
-	- The original gameplay has been renamed to "Arcade Mode"
+	- The original gameplay from the jam version has been renamed to "Arcade Mode"
+- Added on-line leaderboards! Available exclusively in the Catalog version.
+	- Added boards for Arcade Mode and Daily Orbit
+	- Added user icons! Press B from the title screen to customize yours.
+- Fixed bugs where scores and save data would not get...saved
+- Tweaked randomized level generation to guarantee at least some objects
+	- New objects will also be at least one unit of space apart from each other
 - Added "How to play" section that tells you what to do
-- Added flags (just for fun!)
-- Added UFOs (rare score bonus!)
-- Beefed up the on-screen text bugs
-- Added a radical-looking new sidebar while doing tricks
 - Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
+- Added flags (just for fun!) and UFOs (rare score bonus!) to the play field
+- Souped up all the music to be more jammy
+- Changed the names of the performable tricks to be more fantastical
+- Re-worked player tile alignment to make more sense (hopefully means less collision slips, too)
+- Added a radical-looking new sidebar while doing tricks
 - Added "Performance" option that knocks down some visual quality
-	- Stock visual quality is a bit higher now
+	- Stock visual quality is a bit higher now, too
 - Added optional radar to display select objects before they appear over the horizon
-- Spaced out the bitmore font a bit in-game, and added an outline.
+- Spaced out the "bitmore" font a bit in-game, and added an outline.
 - Added "Spin Camera" option to toggle camera rotation during tricks
 - Drew up some new, more animated skater sprites
 - Fixed possible crash caused by moving away from the title real fast, then hitting buttons
@@ -116,7 +168,9 @@ If you skate around for long enough without hitting another crater, run into a r
 - O2 Canisters replenish more oxygen, from 1.2x current levels to 1.5x
 - Hitting rover now destroys your combo instantly
 - Added slight cooldown between tricks. Land during this, and you'll CRASH!!
+- Credits screen is now more readable
 - Fixed the boundary of some objects on the moon
+- Fixed bug where crank could still be used to travel through menus, even when moving to a new scene
 - Made objects on moon animate more smoothly
 - Each round will display the current round at the start
 - Made exit animation display at any time, even mid-game
@@ -129,11 +183,11 @@ If you skate around for long enough without hitting another crater, run into a r
 - Trick "hit!" sound increases pitch in a more pleasing way
 - Fixed bug where you could false-trigger buttons while transitioning between menus
 - Added iris into the interstitial scene
--->
+
 ## Version 1.0.0
 ### 03.10.2025
 
 - Initial release, for PlayJam 7.
 
 <br>
-<a href="https://raewtf.itch.io/mission-lunatrix" class="button">Download <i>Mission LunaTrix</i> on Itch.io</a>
+<a href="https://play.date/games/mission-lunatrix" class="button">Buy <i>Mission LunaTrix</i> in Catalog</a>
