@@ -88,6 +88,17 @@ In this app, there are a variety of options you can change to fully optimize you
 
 # Changelog
 
+## Version 1.0.0b4
+### 05.18.2025
+
+- Hopefully fixed bug where auto-lock would behave incorrectly
+- Fixed bug where any networking calls after launch would crash the app
+- Added tips to the pause screen
+- Added scrollability to the Credits screen
+- Fixed scrollbar behavior in the Options menu
+- Change "city name" to "local area" in setup
+- Added exit animation and sound
+
 ## Version 1.0.0b3
 ### 04.01.2025
 
