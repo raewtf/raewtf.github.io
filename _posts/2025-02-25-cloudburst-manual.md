@@ -89,7 +89,7 @@ In this app, there are a variety of options you can change to fully optimize you
 # Changelog
 
 ## Version 1.0.0b4
-### 05.18.2025
+### 05.19.2025
 
 - Hopefully fixed bug where auto-lock would behave incorrectly
 - Fixed bug where any networking calls after launch would crash the app

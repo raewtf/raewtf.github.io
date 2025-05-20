@@ -89,7 +89,7 @@ You can view global scores using two primary methods:
 # Changelog
 
 ## Version 1.0.4
-### 05.19.2025
+### 05.20.2025
 
 - Floored car movement to prevent flashing of dither patterns
 - Level end logic no longer plays out during game over sequence (which could result in boosted stats)
