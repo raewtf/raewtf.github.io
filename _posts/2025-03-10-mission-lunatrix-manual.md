@@ -39,28 +39,6 @@ Ramping off of craters and performing tricks is key to your escape! When you're 
 
 When you reach a high enough score threshold, you'll start flashing. This means you've got enough radical power charged up to escape the gravitational pull! Hit another crater, and you'll be launched to the next moon.
 
-### Tricks
-
-- 360 — 300
-- Rebound — 500
-- Spin-Turn — 600
-- Widdershin — 800
-- Clocky — 700
-- Take-Off — 1,000
-- Weeble — 900
-- High-Road — 1,100
-- Snap-Flip — 1,050
-
-- Reverse 360 — 400
-- Reverse Rebound — 600
-- Reverse Spin-Turn — 700
-- Reverse Widdershin — 900
-- Reverse Clocky — 800
-- Reverse Take-Off — 1,100
-- Reverse Weeble — 1,000
-- Reverse High-Road — 1,200
-- Reverse Snap-Flip — 1,150
-
 ### Combos
 
 When you successfully land from a jump, your combo meter will increase. Hit more jumps to rack up the multiplier and score MASSIVE points! There's no limit, so go wild! Your final score is displayed at the end.
@@ -132,8 +110,8 @@ To set a user icon, press B on the Title screen, and use the crank to preview th
 
 # Changelog
 
-## Version 2.0.0
-### 06.28.2025
+<details><summary>## Version 2.0.0
+### 06.24.2025</summary>
 
 - Added "Daily Orbit"! Just one shot at a seeded moon, every day
 	- The original gameplay from the jam version has been renamed to "Arcade Mode"
@@ -141,11 +119,16 @@ To set a user icon, press B on the Title screen, and use the crank to preview th
 	- Added boards for Arcade Mode and Daily Orbit
 	- Added user icons! Press B from the title screen to customize yours.
 - Fixed bugs where scores and save data would not get...saved
-- Tweaked randomized level generation to guarantee at least some objects
+- Tweaked randomized level generation to guarantee at least some craters
 	- New objects will also be at least one unit of space apart from each other
+- O2 and rover spawn ability is now determined by weighted random seed
+- Player starting speed and jump length now based on random seed
+- Added some tubular V/O, courtesy of Jordan Carroll. Thank you!
 - Added "How to play" section that tells you what to do
 - Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
 - Added flags (just for fun!) and UFOs (rare score bonus!) to the play field
+- Added an ollie mechanic, accessible by pressing Up on the d-pad
+- Added escape progress indicator along the bottom edge
 - Souped up all the music to be more jammy
 - Changed the names of the performable tricks to be more fantastical
 - Re-worked player tile alignment to make more sense (hopefully means less collision slips, too)
@@ -161,15 +144,18 @@ To set a user icon, press B on the Title screen, and use the crank to preview th
 - Fixed bug where score readouts weren't properly calculated
 - Added slide menu items in most-all of the menus
 - Added instant "end game" button mid-game, in the slide menu
-- Added sounds to the game over screen
-- Added shadow under the skater
+- Low O2 audio indicator now starts sooner
+- Added a pulse effect to low O2 and performing tricks
+- Re-formatted game over screen, and added sounds
+- Added a dynamic shadow under the skater
 - Added lerped slowdown when you crash into a game over state
 - Starting speed is slower, points threshold starts lower, O2 level starts higher
 - O2 Canisters replenish more oxygen, from 1.2x current levels to 1.5x
+- Added "Skip cutscene" option
+- Added cool pseudo-random moon names
 - Hitting rover now destroys your combo instantly
 - Added slight cooldown between tricks. Land during this, and you'll CRASH!!
 - Credits screen is now more readable
-- Fixed the boundary of some objects on the moon
 - Fixed bug where crank could still be used to travel through menus, even when moving to a new scene
 - Made objects on moon animate more smoothly
 - Each round will display the current round at the start
@@ -179,15 +165,15 @@ To set a user icon, press B on the Title screen, and use the crank to preview th
 - Added "orchestra hit" launch sound
 - Title screen now remembers your last selection
 - Added commas to numbers
-- Speed increase on landing a jump has been decreased slightly
+- You now lose some speed when crashing after a jump
 - Trick "hit!" sound increases pitch in a more pleasing way
 - Fixed bug where you could false-trigger buttons while transitioning between menus
-- Added iris into the interstitial scene
+- Added iris into the interstitial scene</details>
 
-## Version 1.0.0
-### 03.10.2025
+<details><summary>## Version 1.0.0
+### 03.10.2025</summary>
 
-- Initial release, for PlayJam 7.
+- Initial release, for PlayJam 7.</details>
 
 <br>
 <a href="https://play.date/games/mission-lunatrix" class="button">Buy <i>Mission LunaTrix</i> in Catalog</a>
