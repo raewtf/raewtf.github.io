@@ -110,8 +110,8 @@ To set a user icon, press B on the Title screen, and use the crank to preview th
 
 # Changelog
 
-<details><summary>## Version 2.0.0
-### 06.24.2025</summary>
+## Version 2.0.0
+### 06.24.2025
 
 - Added "Daily Orbit"! Just one shot at a seeded moon, every day
 	- The original gameplay from the jam version has been renamed to "Arcade Mode"
@@ -139,6 +139,7 @@ To set a user icon, press B on the Title screen, and use the crank to preview th
 - Spaced out the "bitmore" font a bit in-game, and added an outline.
 - Added "Spin Camera" option to toggle camera rotation during tricks
 - Drew up some new, more animated skater sprites
+- Added mid-game pause image
 - Fixed possible crash caused by moving away from the title real fast, then hitting buttons
 - Added more tricks for cranking counter-clockwise
 - Fixed bug where score readouts weren't properly calculated
@@ -168,12 +169,12 @@ To set a user icon, press B on the Title screen, and use the crank to preview th
 - You now lose some speed when crashing after a jump
 - Trick "hit!" sound increases pitch in a more pleasing way
 - Fixed bug where you could false-trigger buttons while transitioning between menus
-- Added iris into the interstitial scene</details>
+- Added iris into the interstitial scene
 
-<details><summary>## Version 1.0.0
-### 03.10.2025</summary>
+## Version 1.0.0
+### 03.10.2025
 
-- Initial release, for PlayJam 7.</details>
+- Initial release, for PlayJam 7.
 
 <br>
 <a href="https://play.date/games/mission-lunatrix" class="button">Buy <i>Mission LunaTrix</i> in Catalog</a>
