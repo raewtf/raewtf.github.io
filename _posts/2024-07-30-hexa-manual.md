@@ -73,6 +73,12 @@ When you end the game, you won't be able to play again until tomorrow. The Daily
 
 > 💡 *There's also a handy timer on the Title screen to let you know when the next run will appear!*
 
+## Hard Mode
+
+In Arcade Mode and Daily Run, you can toggle an optional "Hard Mode" from the Options menu. This mode will cut the amount of time you earn from HEXA matches in half!
+
+> 💡 *Hard Mode has separate on-line leaderboards. Compete for a high score!*
+
 # Mission Mode
 
 In Mission Mode, 50 new challenges await you! These can be grouped into four distinct modes:
@@ -140,6 +146,8 @@ You can view global scores using two primary methods:
 
 The Daily Run leaderboard refreshes automatically at 00:00 midnight GMT, clearing all scores from the past day. When viewing scores in-game, there's also a handy timer to tell you when the boards will be cleared.
 
+To view Hard Mode leaderboards in-game, enable "Hard Mode" from the Options menu before checking. To return to regular leaderboards, disable this setting.
+
 # Strategies
 
 Here are a couple tips to hopefully help you conquer the HEXAPLEX!
@@ -180,6 +188,7 @@ That should be all you need to enjoy top-quality stereo sound! Plug in your head
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
 - Full Circle and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [Righteous](https://fonts.google.com/specimen/Righteous) font — Astigmatic; [OFL](https://openfontlicense.org)
+- Playdate [input prompts](https://kenney.nl/assets/input-prompts) — [Kenney](https://kenney.nl); [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Addtl. code — [lua-users wiki](http://lua-users.org/wiki/FormattingNumbers) and [Drew-Lo](https://aloebach.itch.io)
 - Thanks — Voxy, Toad, scizzorz, superfunc, Mag, Hunter Bridges, Scenic Route, DRD, IGDA Twin Cities, and Panic!
 
@@ -191,11 +200,15 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 
 # Changelog
 
-<!--
 ## Version 2.1.5
+### ???
 
 - Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
--->
+- Added on-line leaderboards for Hard Mode (Arcade Mode and Daily Run)
+- Hopefully fixed a rare crash when completing a game
+- Souped up pause screen input guide (thanks Kenney for the input prompts!)
+- Fixed a bug where Daily Run score wouldn't be saved on sideloaded copies
+
 ## Version 2.1.2
 ### 02.07.2025
 - *Actually* fixed crash that sometimes fired upon entering Mission Mode
