@@ -129,6 +129,10 @@ body {
 	color: var(--sed);
 }
 
+.main h2 a, .sides h2 a {
+	color: var(--red);
+}
+
 .main h3, .sides h3 {
 	margin: 0;
 	margin-bottom: 0.5rem;
@@ -210,6 +214,15 @@ label .required {
 	filter: brightness(120%);
 }
 
+.button.disabled {
+	opacity: 0.5;
+}
+
+.button.disabled:hover {
+	cursor: not-allowed;
+	filter: none;
+}
+
 body:not(.blog) .main img:not(.logo), body:not(.blog) .sides img:not(.logo) {
 	max-width: 40%;
 	max-height: 150px;
@@ -232,6 +245,20 @@ body.blog .main img, .image {
 .logo {
 	max-width: 50%;
 	max-height: 150px;
+}
+
+.hover_img {
+	max-width: 100% !important;
+	width: 100%;
+	z-index: 1;
+	float: none !important;
+	margin-left: 0 !important;
+	max-height: unset !important;
+}
+
+.hover_img:hover {
+	cursor: pointer;
+	filter: brightness(120%);
 }
 
 .sides {
@@ -415,7 +442,7 @@ form {
 	flex-direction: column;
 }
 
-input {
+input, textarea {
 	border: 2px solid var(--sed);
 	padding: 0.5rem 1rem;
 	font-family: 'Poppins', sans-serif;
@@ -424,10 +451,82 @@ input {
 	margin-bottom: 0.5rem;
 	color: var(--seb);
 	border-radius: 0 5px 5px 5px;
+	resize: none;
 }
 
 input::placeholder {
 	color: var(--sed);
+}
+
+.hidden {
+	display: none !important;
+}
+
+.money {
+	clip-path: polygon(24% 0, 100% 5%, 95% 100%, 14% 95%, 0 45%);
+	background: var(--sel);
+	color: var(--seb);
+	overflow: hidden;
+	display: inline-block;
+	padding: 0.5rem 0.75rem 0.5rem 1rem;
+	vertical-align: middle;
+	font-size: 1.2em;
+	margin-left: 0.5rem;
+}
+
+.small.money {
+	font-size: 1em;
+	padding: 0.1rem 0.5rem 0rem 0.75rem;
+	margin-left: auto;
+	margin-right: 0;
+}
+
+.contains_money {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.25rem !important;
+}
+
+h1 .contains_money {
+	margin-bottom: -0.4rem !important;
+}
+
+.contains_money hr {
+	width: unset;
+	flex-grow: 1;
+	margin: 0 1rem;
+	border-top: 3px dashed var(--sed);
+}
+
+.message {
+	padding: 1rem;
+	margin: 0;
+	margin-bottom: 0.5rem;
+	border-radius: 5px;
+}
+
+.message h1 {
+	margin: 0;
+	margin-bottom: 0.5rem;
+}
+.message p {
+	margin: 0;
+}
+
+.message.good {
+	background: var(--sed);
+}
+.message.good h1, .message.success p {
+	color: var(--sew);
+}
+
+.message.bad {
+	background: var(--red);
+}
+.message.bad h1, .message.bad p {
+	color: var(--rew);
 }
 
 @media only screen and (min-width: 600px) {

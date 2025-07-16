@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- HTML Meta Tags -->
+<title>rae.wtf - club rae opt-out</title>
+<meta name="description" content="Howdy! My name's Rae. I'm a silly moth that likes to make a buncha cool stuff!">
+<link rel="icon" type="image/x-icon" href="https://rae.wtf/favicon.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://rae.wtf/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="rae.wtf - club rae opt-out">
+<meta property="og:description" content="Howdy! My name's Rae. I'm a silly moth that likes to make a buncha cool stuff!">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="rae.wtf">
+<meta property="twitter:url" content="https://rae.wtf/">
+<meta name="twitter:title" content="rae.wtf - club rae opt-out">
+<meta name="twitter:description" content="Howdy! My name's Rae. I'm a silly moth that likes to make a buncha cool stuff!">
+
+<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,600;0,800;1,600;1,800&family=Righteous&display=swap" rel="stylesheet">
+<link href="../site.css" rel="stylesheet">
+
+<script>
+	window.addEventListener("load", function() {
+		const form = document.getElementById('entryform');
+		form.addEventListener("submit", function(e) {
+			document.getElementById('entryformsubmit').classList.add('hidden')
+			document.getElementById('entryformwait').classList.remove('hidden')
+			e.preventDefault();
+			const data = new FormData(form);
+			const action = e.target.action;
+			fetch(action, {
+				method: 'POST',
+				body: data,
+			})
+			.then(function (a) {
+				a.json()
+				.then(function(j) {
+					document.getElementById('entryformwait').classList.add('hidden')
+					let newdata = j
+					if (newdata.result == 'error') {
+						if (newdata.error === 'No more entries!')  {
+							document.getElementById('out_of_slots').classList.remove('hidden')
+						} else {
+							document.getElementById('generic_error').classList.remove('hidden')
+						}
+					} else {
+						document.getElementById('success').classList.remove('hidden')
+					}
+				})
+			})
+		});
+	});
+</script>
+
+<body>
+	<div class="header">
+		<h1><a href="https://rae.wtf">rae.wtf</a></h1>
+		<h2>newsletter by rae</h2>
+	</div>
+	<div class="nav">
+		<a href="../games">Games</a>
+		<a href="../trinkets">Trinkets</a>
+		<a href="../commissions">Commissions</a>
+		<a href="../blog">Blog</a>
+		<a href="../clubrae" class="active">Club Rae</a>
+	</div>
+	<div class="sides">
+		<div class="side_left">
+			<h1>Club Rae Opt-Out</h1>
+			<p>Drop your email in the form down below if you'd like to opt out. Your data will be queued for deletion, and you won't receive any more newsletters. You can join back at any time! (Pending slot availability.)</p>
+			<hr>
+			<h3>Opt-Out Form</h3>
+			<form method="POST" id="entryform" action="https://script.google.com/macros/s/AKfycbwDqYAVnlz-Mdz7gevXhHikonFUfIB0sTF1xB3F6BcvwuIkUgi5504g9f3FsYgzyGm7/exec">
+				<label for="email">Email <span class="required">REQUIRED</span></label>
+				<input name="Email" id="email" type="email" placeholder="Your email address" required>
+				<br>
+			    <button id="entryformsubmit" class="button" type="submit">Opt Out from Club Rae</button>
+				<button id="entryformwait" class="button disabled hidden">Submitting, please wait...</button>
+				<div class="message good hidden" id="success">
+					<h1>Success!</h1>
+					<p>See ya later! If you ever change your mind, you can visit the <a href="../clubrae">original entry form</a> to try and join back.</p>
+				</div>
+				<div class="message bad hidden" id="generic_error">
+					<h1>Oh no!</h1>
+					<p>It looks like something went wrong. Could you try again in a sec, perhaps?</p>
+				</div>
+			</form>
+		</div>
+		<div class="side_right">
+			<h3>Want back in?</h3>
+			<p class="box">Visit <a href="../clubrae">the original entry form</a> to try and join back, if you ever change your mind.</p>
+		</div>
+	</div>
+	<div class="footer">
+		<p>2020-2025, made by rae</p>
+		<p>You can follow me on-line:<br><a href="https://bsky.app/profile/rae.wtf">Bluesky</a>,<br>or <a href="https://github.com/raewtf">GitHub</a>.</p>
+		<p>You can also support me:<br>perhaps by <a href="../commissions">buying a commission</a>?<br>...or dropping me a tip on <a href="https://ko-fi.com/raewtf">Ko-Fi</a>!</p>
+		<p>If you wanna see everything,<br>peep the <a href="../expert">expert mode</a>,</p>
+		<p>...and have a nice day!</p>
+	</div>
+</body>
+</html>

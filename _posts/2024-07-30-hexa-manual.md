@@ -96,6 +96,12 @@ A new mission will unlock as soon as you clear the latest. If you're ever feelin
 
 Keep the fun going with custom missions! Accessible from the Mission Mode menu, these optional level packs can provide infinite world-conquering content.
 
+## Creating Custom Missions
+
+Follow these steps to create your own custom missions:
+
+
+
 ## Importing Custom Missions
 
 Follow these steps to import custom missions:
@@ -208,6 +214,7 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 - Hopefully fixed a rare crash when completing a game
 - Souped up pause screen input guide (thanks Kenney for the input prompts!)
 - Fixed a bug where Daily Run score wouldn't be saved on sideloaded copies
+- Leaderboard will now open to the mode you last played (Arcade Mode or Daily Run)
 
 ## Version 2.1.2
 ### 02.07.2025

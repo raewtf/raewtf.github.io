@@ -26,6 +26,39 @@
 <link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,600;0,800;1,600;1,800&family=Righteous&display=swap" rel="stylesheet">
 <link href="../site.css" rel="stylesheet">
 
+<script>
+	window.addEventListener("load", function() {
+		const form = document.getElementById('commissionform');
+		form.addEventListener("submit", function(e) {
+			document.getElementById('commissionformsubmit').classList.add('hidden')
+			document.getElementById('commissionformwait').classList.remove('hidden')
+			e.preventDefault();
+			const data = new FormData(form);
+			const action = e.target.action;
+			fetch(action, {
+				method: 'POST',
+				body: data,
+			})
+			.then(function (a) {
+				a.json()
+				.then(function(j) {
+					document.getElementById('commissionformwait').classList.add('hidden')
+					let newdata = j
+					if (newdata.result == 'error') {
+						if (newdata.error === 'No more entries!')  {
+							document.getElementById('out_of_slots').classList.remove('hidden')
+						} else {
+							document.getElementById('generic_error').classList.remove('hidden')
+						}
+					} else {
+						document.getElementById('success').classList.remove('hidden')
+					}
+				})
+			})
+		});
+	});
+</script>
+
 <body>
 	<div class="header">
 		<h1><a href="https://rae.wtf">rae.wtf</a></h1>
@@ -36,19 +69,81 @@
 		<a href="../trinkets">Trinkets</a>
 		<a href="../commissions" class="active">Commissions</a>
 		<a href="../blog">Blog</a>
+		<a href="../clubrae">Club Rae</a>
 	</div>
+	<!-- closed -->
 	<div class="sides">
+		<div class="side_right">
+			<h1>Commissions</h1>
+			<h2>...are currently closed.</h2>
+			<p>Sorry for the inconvenience! I'm probably busy right now or somethin' — please check back later, and hopefully I'll have more opportunity to tackle a new obligation.</p>
+		</div>
+	</div>
+	<!-- open! -->
+	<div class="main hidden">
+		<h1>Commissions</h1>
+		<h2>Want some cool art?</h2>
+		<p>As you may know by now, art is kinda my bag. But now I aim to <i>get</i> that bag, with... commissions! Are you in the market for some art, and maybe you've seen some of mine and thought, "perfect"? Well you're in luck, because you can throw some money at me in exchange for some of that goodness! Read on and, if you're interested, use the form below to let me know what you'd like.</p>
+	</div>
+	<div class="sides hidden">
 		<div class="side_left">
-			<h1>Hello!</h1>
-			<h2>Commissions currently closed.</h2>
-			<p>Normally I'd be applauding you for your rad choice to give me money in exchange for good art, but unfortunately I'm about to be busy for a little while, so I'm closing up shop for a bit. If you were <i>really</i> banking on wringing something out of me, you can contact me via private message on <a href="https://bsky.app/profile/rae.wtf">Bluesky</a>, or my Discord or e-mail if you have it. Buuut I reserve the right to be too absolutely swamped to agree.<br><br>Sorry for the inconvenience!</p>
+			<h3>Commission Pricing</h3>
+			<h1 class="contains_money">Sketch Drawing<hr><span class="money">$25</span></h1>
+			<p class="contains_money">Color<span class="money small">+$10</span></p>
+			<p class="contains_money">Shading<span class="money small">+$10</span></p>
+			<p class="contains_money">Addtl. Characters (ea.)<span class="money small">+$10</span></p>
+			<p class="contains_money">Simple Background<span class="money small">+$5</span></p>
+			<a href="https://rae.wtf/images/20241226_mothsit.jpg"><img class="hover_img" src="../commissions/sketchexample_1.png" /></a>
+			<a href="https://rae.wtf/images/20240630_sportymoth.jpg"><img class="hover_img" src="../commissions/sketchexample_2.png" /></a>
+			<h1 class="contains_money">Lined Drawing<hr><span class="money">$75</span></h1>
+			<p>• Colored and shaded, w/ abstract background
+			<p class="contains_money">Addtl. Characters (ea.)<span class="money small">+$20</span></p>
+			<p class="contains_money">Detailed Background<span class="money small">+$10</span></p>
+			<a href="https://rae.wtf/images/20241128_catandmouse.png"><img class="hover_img" src="../commissions/lineexample_1.png" /></a>
+			<h1 class="contains_money">Playdate Key Art<hr><span class="money">$200</span></h1>
+			<p>• 3200×1920; 2x billboard res.<br>• Colored and shaded, w/ background<br>• Formatting for all thumbnail sizes</p>
+			<p class="contains_money">1-bit Store Assets <span class="money small">+$20</span></p>
+			<p>• Formatting for all thumbnail sizes</p>
+			<p class="contains_money">Launcher Assets <span class="money small">+$50</span></p>
+			<p>• Animated card + icon<br>• Animated launch images<br>• Wrapping paper<br>• Games with my launcher assets have won "Best Launch Experience" in <a href="https://play.date/games/community-awards-2023-launch/">2023</a> & <a href="https://play.date/games/community-awards-2024-launch/">2024</a>!</p>
+			<a href="https://play.date/games/rowbot-rally/"><img class="hover_img" src="../commissions/pdexample_1.png" /></a>
+			<a href="https://play.date/games/reel-istic-fishing/"><img class="hover_img" src="../commissions/pdexample_2.png" /></a>
+			<a href="https://play.date/games/propeller-rat/"><img class="hover_img" src="../commissions/pdexample_3.png" /></a>
+			<a class="button" href="../expert">More art in Expert Mode</a>
+			<hr>
+			<h3>Commission Form</h3>
+			<form method="POST" id="commissionform" action="https://script.google.com/macros/s/AKfycbwEL9kIZj-m4Khtb7zbmuKm_af9sfTQ7sYog1iOlC6BtAa03KwJKXfq0VhW03crsqXp/exec">
+				<label for="email">Email <span class="required">REQUIRED</span></label>
+				<input name="Email" id="email" type="email" placeholder="Your email address" required>
+				<br>
+				<label for="body">What would you like? <span class="sublabel">(be specific!)</span><span class="required">REQUIRED</span></label>
+				<textarea name="Body" id="body" rows='10' cols='1' required></textarea>
+				<br>
+				<button id="commissionformsubmit" class="button" type="submit">Request your commission!</button>
+				<button id="commissionformwait" class="button disabled hidden">Submitting, please wait...</button>
+				<div class="message good hidden" id="success">
+					<h1>Success!</h1>
+					<p>Thank you for your interest! I'll send you an email hopefully soon — make sure to keep an eye on your junk folder!</p>
+				</div>
+				<div class="message bad hidden" id="generic_error">
+					<h1>Oh no!</h1>
+					<p>It looks like something went wrong. Could you try again in a sec, perhaps?</p>
+				</div>
+				<div class="message bad hidden" id="out_of_slots">
+					<h1>Oh no!</h1>
+					<p>Sorry — I'm not accepting any more people right now. Maybe check back later!</p>
+				</div>
+			</form>
 		</div>
 		<div class="side_right">
-			<h3>Examples of past works</h3>
-			<p class="box">Some really nice feature art for <i>Reel-istic Fishing</i>, on Playdate — <a href="https://play.date/g/rfish">view the game's page to see it</a>.</p>
-			<p class="box">A nice cozy scene for <i>Playbook</i>, a Playdate ereader app — <a href="https://play.date/games/playbook">you can see it over here</a>.</p>
-			<p class="box">A really fun cutesy comm for <i>jump rope STAR!</i> on Playdate — <a href="https://play.date/games/jump-rope-star">you can see it over here</a>.</p>
-			<p class="box">View all the art I've ever made(...ish) in Expert Mode — <a href="../expert">everything, everywhere, every time</a>.</p>
+			<h3>On Privacy</h3>
+			<p class="box">When you send a form, your info will be slammed through Google servers. I'll be able to see what you request, but I don't intend to share it with anybody. As part of the commission process, I may ask you if you'd be fine with me posting your art to my socials, or using it to promote what I do (i.e. as an example of past work).</p>
+			<br>
+			<h3>What About Payment?</h3>
+			<p class="box">Prices on this page are listed in USD. Payment happens over <a href="https://ko-fi.com/raewtf">Ko-Fi</a>, and payment processing happens via Stripe. Payment is only due after most of the work is done, but no high-quality assets will swap hands 'til then.</p>
+			<br>
+			<h3>And Usage?</h3>
+			<p class="box">My visual works are typically distributed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. This means that you can share, remix, or adapt anything I make for you, commercially or no; but you must provide credit, and you have to share the piece under the same terms.</p><p class="box">Please <b>DO NOT</b> use my art for training in any large language models. That shit's icky.</p>
 		</div>
 	</div>
 	<div class="footer">

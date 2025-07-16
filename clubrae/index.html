@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- HTML Meta Tags -->
+<title>rae.wtf - club rae newsletter</title>
+<meta name="description" content="Howdy! My name's Rae. I'm a silly moth that likes to make a buncha cool stuff!">
+<link rel="icon" type="image/x-icon" href="https://rae.wtf/favicon.png">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://rae.wtf/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="rae.wtf - club rae newsletter">
+<meta property="og:description" content="Howdy! My name's Rae. I'm a silly moth that likes to make a buncha cool stuff!">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="rae.wtf">
+<meta property="twitter:url" content="https://rae.wtf/">
+<meta name="twitter:title" content="rae.wtf - club rae newsletter">
+<meta name="twitter:description" content="Howdy! My name's Rae. I'm a silly moth that likes to make a buncha cool stuff!">
+
+<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,600;0,800;1,600;1,800&family=Righteous&display=swap" rel="stylesheet">
+<link href="../site.css" rel="stylesheet">
+
+<script>
+	window.addEventListener("load", function() {
+		const form = document.getElementById('entryform');
+		form.addEventListener("submit", function(e) {
+			document.getElementById('entryformsubmit').classList.add('hidden')
+			document.getElementById('entryformwait').classList.remove('hidden')
+			e.preventDefault();
+			const data = new FormData(form);
+			const action = e.target.action;
+			fetch(action, {
+				method: 'POST',
+				body: data,
+			})
+			.then(function (a) {
+				a.json()
+				.then(function(j) {
+					document.getElementById('entryformwait').classList.add('hidden')
+					let newdata = j
+					if (newdata.result == 'error') {
+						if (newdata.error === 'No more entries!')  {
+							document.getElementById('out_of_slots').classList.remove('hidden')
+						} else {
+							document.getElementById('generic_error').classList.remove('hidden')
+						}
+					} else {
+						document.getElementById('success').classList.remove('hidden')
+					}
+				})
+			})
+		});
+	});
+</script>
+
+<body>
+	<div class="header">
+		<h1><a href="https://rae.wtf">rae.wtf</a></h1>
+		<h2>newsletter by rae</h2>
+	</div>
+	<div class="nav">
+		<a href="../games">Games</a>
+		<a href="../trinkets">Trinkets</a>
+		<a href="../commissions">Commissions</a>
+		<a href="../blog">Blog</a>
+		<a href="../clubrae" class="active">Club Rae</a>
+	</div>
+	<div class="sides">
+		<div class="side_right">
+			<h1>Club Rae</h1>
+			<h2>...is coming soon.</h2>
+			<p>Thanks for your interest! I'm planning some kind of infrequent newsletter, with a fun little twist... but I'm not quite ready to show it off yet — check back later for more information!</p>
+		</div>
+	</div>
+	<div class="main hidden">
+		<img src="clubrae.png" />
+		<h1>Club Rae</h1>
+		<h2>A newsletter for those with mailboxes.</h2>
+		<p>Want seldom updates on what's happening in my world? Things I'm up to, or working on? Consider joining Club Rae — a <i>free</i> newsletter, for those who love actual mail! Fresh Rae updates, new projects, and perhaps even some secrets, typed out on a state-of-the-art electric typewriter and mailed straight to your door. When's the next one? You'll only find out once it shows up!<br><br><i>(This newsletter is only available to folks in the U.S. — sorry for the inconvenience!)</i></p>
+	</div>
+	<div class="sides hidden">
+		<div class="side_left">
+			<h3>Slot Information</h3>
+			<p>Slots are very limited — I've only got so much time...and stamps!! Signing up gets you letters for the next year. After that, your spot will open back up for someone else to claim — or you to <i>re-</i>claim! This is just so the pot has a chance of getting stirred a bit, and new people have a chance to join. Hopefully that works!</p>
+			<hr>
+			<h3>Entry Form</h3>
+			<form method="POST" id="entryform" action="https://script.google.com/macros/s/AKfycbwJLZZtZttrPGCmay3Fo_tRMWP4yC1qD9CSCBwi2UCssitzdlgdCdKce7Jyf7U1Nl21/exec">
+				<label for="email">Email <span class="required">REQUIRED</span></label>
+				<input name="Email" id="email" type="email" placeholder="Your email address" required>
+				<br>
+			    <label for="name">Name <span class="required">REQUIRED</span></label>
+				<input name="Name" id="name" type="text" placeholder="A name it's OK to receive mail to" required>
+				<br>
+				<label for="address1">Address <span class="sublabel">(line 1)</span> <span class="required">REQUIRED</span></label>
+			    <input name="Address Line 1" id="address1" type="text" placeholder="Your address" required>
+				<br>
+				<label for="address2">Address <span class="sublabel">(line 2)</span></label>
+			    <input name="Address Line 2" id="address2" type="text" placeholder="More of your address">
+				<br>
+				<label for="city">City <span class="required">REQUIRED</span></label>
+			    <input name="City" id="city" type="text" placeholder="Your city" required>
+				<br>
+				<label for="state">State <span class="required">REQUIRED</span></label>
+			    <input name="State" id="state" type="text" placeholder="Your state" required>
+				<br>
+				<label for="zip">ZIP <span class="required">REQUIRED</span></label>
+			    <input name="ZIP" id="zip" type="text" placeholder="Your ZIP code" required>
+				<br>
+			    <button id="entryformsubmit" class="button" type="submit">Join Club Rae (1 year)</button>
+				<button id="entryformwait" class="button disabled hidden">Submitting, please wait...</button>
+				<div class="message good hidden" id="success">
+					<h1>Success!</h1>
+					<p>Thanks for joining Club Rae! Look forward to your first letter...whenever!</p>
+				</div>
+				<div class="message bad hidden" id="generic_error">
+					<h1>Oh no!</h1>
+					<p>It looks like something went wrong. Could you try again in a sec, perhaps?</p>
+				</div>
+				<div class="message bad hidden" id="out_of_slots">
+					<h1>Oh no!</h1>
+					<p>Sorry — I'm not accepting any more people right now. Maybe check back later!</p>
+				</div>
+			</form>
+		</div>
+		<div class="side_right">
+			<h3>Want Out?</h3>
+			<p class="box">Visit <a href="../clubrae/optout">this form</a> and put in your email address to opt out and stop receiving newsletters.</p>
+			<br>
+			<h3>On Privacy</h3>
+			<p class="box">When you send this form, your info will be slammed through Google servers and saved to a private spreadsheet. I'll be able to see it, but I promise that I won't sell or share your info with anybody else. You'll only receive mail from me, whenever I send stuff out, and you can opt out at any time by using the <a href="../clubrae/optout">opt-out form</a>.</p>
+			<br>
+			<h3>Some More Info</h3>
+			<p class="box">If you choose to receive letters, I'd really appreciate it if you kept any cool secrets you hear about ... secret! This is a fun thing I'm trying out, and I wouldn't like to have any beans spilled over someone being silly.</p>
+			<p class="box">Letters are sent untracked, at random intervals (possibly seasonal?), and are meant to be a fun unannounced surprise in your mail every-so-often. I don't assume responsibility if it gets lost along the way, though that would be a bummer!!</p>
+		</div>
+	</div>
+	<div class="footer">
+		<p>2020-2025, made by rae</p>
+		<p>You can follow me on-line:<br><a href="https://bsky.app/profile/rae.wtf">Bluesky</a>,<br>or <a href="https://github.com/raewtf">GitHub</a>.</p>
+		<p>You can also support me:<br>perhaps by <a href="../commissions">buying a commission</a>?<br>...or dropping me a tip on <a href="https://ko-fi.com/raewtf">Ko-Fi</a>!</p>
+		<p>If you wanna see everything,<br>peep the <a href="../expert">expert mode</a>,</p>
+		<p>...and have a nice day!</p>
+	</div>
+</body>
+</html>
