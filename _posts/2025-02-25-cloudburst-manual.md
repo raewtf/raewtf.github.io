@@ -1,5 +1,5 @@
 ---
-title: Cloudburst Beta Manual
+title: Cloudburst Manual
 tag: cloudburst
 desc: How to get started and check the forecast!
 ---
@@ -9,9 +9,9 @@ desc: How to get started and check the forecast!
 
 > Real-time weather. On your Playdate.
 
-Curious what the forecast looks like? Easy! But...your laptop's out of reach, your phone's battery is dead, your smart assistant's brain is busted, and your curtains are shut. It's just you, and your Playdate. What can you do? Well, here is your answer! Leveraging state-of-the-art networking capabilities, *Cloudburst* is a fully seamless, on-line enabled weather app for your Playdate!
+Curious what the forecast looks like? Easy! But...your laptop's out of reach, your phone's battery is dead, your smart assistant's brain is busted, and your curtains are shut. It's just you, and your Playdate. What can you do? Well, here is your answer! Leveraging state-of-the-art networking capabilities, Cloudburst is a fully seamless, on-line enabled weather app for your Playdate!
 
-Get the forecast here, there, or anywhere — it's compatible with cities around the world! See detailed stats such as hourly forecast, precipitation, wind, and more. Change settings to your heart's content, and even use it as a low-power screensaver — the perfect desk buddy. No external tools or setup required, just download and go — it's weather, untethered.
+Get the forecast here, there, or anywhere — it's compatible with cities around the world! (And don't worry, it works with Fahrenheit or Celsius — metric or imperial.) See detailed stats such as hourly forecast, precipitation, wind, and more. Change settings to your heart's content, and even use it as a low-power screensaver — the perfect desk buddy. No external tools or setup required, just download and go — it's weather, untethered.
 
 # Basics
 
@@ -78,12 +78,12 @@ In this app, there are a variety of options you can change to fully optimize you
 # Credits
 
 - Art, code, and music — [Rae](https://rae.wtf)
+- Weather data — [weatherapi.com](https://weatherapi.com)
 - Addtl. music — Scratchminer
 - SFX — [pixabay.com](https://pixabay.com/); [License](https://pixabay.com/service/terms/)
-- Weather data — [weatherapi.com](https://weatherapi.com)
 - Planet animation — [Pixel Planet Generator](https://deep-fold.itch.io/pixel-planet-generator)
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
-- Sasser Slab, Roobert, and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Sasser Slab, Roobert, Asheville, and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - Thanks — Andy, Toad, Vachi, Jackson, Scratchminer, and those who waited patiently!
 
 # Changelog
@@ -127,4 +127,4 @@ In this app, there are a variety of options you can change to fully optimize you
 - Initial beta release.
 
 <br>
-<a href="https://raewtf.itch.io/cloudburst" class="button">Download <i>Cloudburst</i> on Itch.io</a>
+<a href="https://play.date/games/cloudburst" class="button">Buy <i>Cloudburst</i> in Catalog</a>
