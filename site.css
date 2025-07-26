@@ -397,7 +397,7 @@ code {
 .mission-lunatrix.post_container h3 {color: var(--orw);}
 .mission-lunatrix.post_container::before, .mission-lunatrix.post_container::after {color: var(--blb);}
 
-i {
+.expert_date i {
 	margin-right: 5px;
 }
 

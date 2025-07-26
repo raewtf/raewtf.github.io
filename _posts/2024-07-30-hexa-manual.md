@@ -43,7 +43,7 @@ In this mode, you start out with 45 seconds on the clock. As you match HEXAs, yo
 
 There's another element to this mode to keep you on your toes: randomly-generated Power-ups! These do various different things when matched:
 
-- Bombs — If matched into a HEXA, the whole board gets "blown up" and replaced with a new, randomized set of tiles.
+- Bombs — If matched into a HEXA, the whole HEXAPLEX gets "blown up" and replaced with a new, randomized set of tiles.
 - 2x Tiles — When matched into a HEXA, you'll earn double points for that match! Plus, a bigger timer boost.
 - Wild Tiles — These tiles can be used in place of any other color when creating a HEXA. No penalty nor reward.
 
@@ -81,7 +81,7 @@ In Arcade Mode and Daily Run, you can toggle an optional "Hard Mode" from the Op
 
 # Mission Mode
 
-In Mission Mode, 50 new challenges await you! These can be grouped into four distinct modes:
+In Mission Mode, 50 new challenges await you! These can be grouped into four distinct types:
 
 - Picture: In this mode, there are no HEXAs! Perform Swaps from a random state to try and create the picture in as little Swaps as possible.
 - Time Attack: This plays like Arcade Mode, except...you get no time bonus for HEXAs! See how much of a score you can nab in the time allotted!
@@ -100,7 +100,19 @@ Keep the fun going with custom missions! Accessible from the Mission Mode menu, 
 
 Follow these steps to create your own custom missions:
 
+1. Launch HEXA, and enter the Mission Mode Menu.
 
+2. From here, open the Slide menu, and select "create". This will take you into *Mission Command*, where you can create your own custom missions.
+
+3. From here, you can select from one of four Mission Types: Logic, Picture, Speedrun, or Time Attack. Depending on the mission type you choose, you may need to define a few more settings.
+
+For Time Attack Missions, please define a time limit (from 5 to 60 seconds), and a random seed (numbers only, max. 10 characters) for puzzle generation. On the next screen, you'll get a chance to review your generated puzzle before continuing.
+
+For Logic or Speedrun Missions, please define a clear goal — a specific color of triangle, a specific Power-up, or clearing the entire HEXAPLEX.
+
+4. When you've defined your settings, select "Start Editing"! On the next screen, you can define your HEXAPLEX layout. Use the d-pad to hover over a triangle, select it with the A button, and use the prompt to define the color and Power-up of the given triangle (if available). For Logic and Speedrun Missions, this step will be used to determine the starting layout. For Picture Missions, this step will be used to determine the ending layout, which will be randomly shuffled upon export to make the starting layout.
+
+5. When you're ready, open the Slide menu and select "export"! This will take you to a new screen to make some final touches. For Picture Missions, you'll need to give a name (max. 10 characters) to your object. You'll also need to define an author name (max. 10 characters) for your Mission. When you're ready, hit "Export Puzzle"!
 
 ## Importing Custom Missions
 
@@ -209,6 +221,7 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 ## Version 2.1.5
 ### ???
 
+- Added ability to create Custom Missions! Check the game manual to learn more on how to make 'em.
 - Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
 - Added on-line leaderboards for Hard Mode (Arcade Mode and Daily Run)
 - Hopefully fixed a rare crash when completing a game

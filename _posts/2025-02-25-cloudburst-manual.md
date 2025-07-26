@@ -121,7 +121,7 @@ In this app, there are a variety of options you can change to fully optimize you
 - Different SFX if you try to crank too far
 - Seamless transition from loading screen, if wallpaper is set to "Earth"
 
-## Version 1.0.0b1
+## Version 1.0.0 rev Cata 1
 ### 02.25.2025
 
 - Initial beta release.
