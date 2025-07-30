@@ -25,11 +25,11 @@ You can also optionally use the crank to perform the turning action usually done
 
 ## Gameplay
 
-When you start a new game, you'll be faced with the HEXAPLEX — a grid of 19 triangles (black, gray, or white), all interlaced with one another. Your goal is simple: create HEXAs!
+When you start a new game, you'll be faced with the HEXAPLEX — a grid of 19 tris (black, gray, or white), all interlaced with one another. Your goal is simple: create HEXAs!
 
 Use the D-pad to navigate your Cursor along the HEXAPLEX, and the A and B buttons (or the crank) to rotate the currently-selected hexagon clockwise or counter-clockwise — this is called a Swap.
 
-A full hexagon of similarly-colored triangles is called a HEXA. These are the main way to earn points — create a HEXA match, and BOOM!! You gain points, and the triangles involved are randomized and replaced.
+A full hexagon of similarly-colored tris is called a HEXA. These are the main way to earn points — create a HEXA match, and BOOM!! You gain points, and the tris involved are randomized and replaced.
 
 As far as basic gameplay is concerned...that's all you gotta know to get started! But, depending on the mode you're playing, there are a few more things you need to learn...
 
@@ -39,15 +39,15 @@ As far as basic gameplay is concerned...that's all you gotta know to get started
 
 Arcade Mode is the basic gameplay mode in *HEXA*.
 
-In this mode, you start out with 45 seconds on the clock. As you match HEXAs, you'll earn points, as well as more time on the timer! Your goal is to match as many HEXAs, and thus, earn as many points, as you can before time runs out. White tiles earn you 100 points, gray tiles earn you 150 points, and black tiles earn you 200 points.
+In this mode, you start out with 45 seconds on the clock. As you match HEXAs, you'll earn points, as well as more time on the timer! Your goal is to match as many HEXAs, and thus, earn as many points, as you can before time runs out. White tris earn you 100 points, gray tris earn you 150 points, and black tris earn you 200 points.
 
 There's another element to this mode to keep you on your toes: randomly-generated Power-ups! These do various different things when matched:
 
-- Bombs — If matched into a HEXA, the whole HEXAPLEX gets "blown up" and replaced with a new, randomized set of tiles.
-- 2x Tiles — When matched into a HEXA, you'll earn double points for that match! Plus, a bigger timer boost.
-- Wild Tiles — These tiles can be used in place of any other color when creating a HEXA. No penalty nor reward.
+- Bombs — If matched into a HEXA, the whole HEXAPLEX gets "blown up" and replaced with a new, randomized set of tris.
+- 2x tris — When matched into a HEXA, you'll earn double points for that match! Plus, a bigger timer boost.
+- Wild tris — These tris can be used in place of any other color when creating a HEXA. No penalty nor reward.
 
-Power-ups will not stack up with themselves. For example, if you have multiple 2x Tiles in a match, you'll still only receive one bonus. However, Power-ups *will* stack with eachother — if a match contains a 2x Tile and a Bomb, you'll get double points *and* reshuffle the entire board.
+Power-ups will not stack up with themselves. For example, if you have multiple 2x Tiles in a match, you'll still only receive one bonus. However, Power-ups *will* stack with eachother — if a match contains a 2x tri and a Bomb, for example, you'll get double points *and* re-shuffle the entire board.
 
 You can also score HEXA Combos — if you match a HEXA, and the resulting grid contains another HEXA, BOOM!! You'll get double the points for that match! This stacks exponentially up until you reach a board state without an immediate HEXA. These are mostly luck-based, but it's possible to create them intentionally if you really know what you're doing.
 
@@ -75,60 +75,60 @@ When you end the game, you won't be able to play again until tomorrow. The Daily
 
 ## Hard Mode
 
-In Arcade Mode and Daily Run, you can toggle an optional "Hard Mode" from the Options menu. This mode will cut the amount of time you earn from HEXA matches in half!
+From the Options menu, you can toggle an optional "Hard Mode" that affects Arcade Mode and Daily Run. This mode will cut the amount of time you earn from HEXA matches in half!
 
 > 💡 *Hard Mode has separate on-line leaderboards. Compete for a high score!*
 
 # Mission Mode
 
-In Mission Mode, 50 new challenges await you! These can be grouped into four distinct types:
+In Mission Mode, 50 logic challenges await you! These are grouped into four distinct types:
 
-- Picture: In this mode, there are no HEXAs! Perform Swaps from a random state to try and create the picture in as little Swaps as possible.
+- Picture: In this mode, there are no HEXAs! Perform Swaps from a random state to try and create the given picture in as little Swaps as possible.
 - Time Attack: This plays like Arcade Mode, except...you get no time bonus for HEXAs! See how much of a score you can nab in the time allotted!
 - Logic: From a determined starting layout, try and clear the condition using as little Swaps as possible! No time limit or pressure.
-- Speedrun: Plays like Logic — complete the clear condition — but instead of Swaps, do it as fast as possible!
+- Speedrun: These play like Logic Missions — complete the clear condition — but instead of Swaps, do it as fast as you can!
 
-A new mission will unlock as soon as you clear the latest. If you're ever feeling stuck, open the Slide menu to get another look at your objective.
+A new Mission will unlock as soon as you clear the latest. If you're ever feeling stuck, open the Slide menu to get another look at your objective.
 
-> 💡 *In Picture puzzles, the Slide menu will also show the picture you're trying to re-create!*
+> 💡 *In Picture Missions, the Slide menu will also show the picture you're trying to re-create!*
 
 # Custom Missions
 
-Keep the fun going with custom missions! Accessible from the Mission Mode menu, these optional level packs can provide infinite world-conquering content.
+Keep the fun going with custom Missions! Accessible from the Mission Mode menu, additional user-created Missions can provide infinite world-conquering content.
 
 ## Creating Custom Missions
 
-Follow these steps to create your own custom missions:
+Follow these steps to create your own custom Missions:
 
-1. Launch HEXA, and enter the Mission Mode Menu.
+1. Launch HEXA, and enter the Mission Mode menu.
 
-2. From here, open the Slide menu, and select "create". This will take you into *Mission Command*, where you can create your own custom missions.
+2. From here, open the Slide menu, and select "create". This will take you into *Mission Command*, where you can create your own custom Missions.
 
-3. From here, you can select from one of four Mission Types: Logic, Picture, Speedrun, or Time Attack. Depending on the mission type you choose, you may need to define a few more settings.
+3. From here, you can select from one of the four Mission types: Logic, Picture, Speedrun, or Time Attack. Depending on the Mission type you choose, you may need to define a few more settings.
 
-For Time Attack Missions, please define a time limit (from 5 to 60 seconds), and a random seed (numbers only, max. 10 characters) for puzzle generation. On the next screen, you'll get a chance to review your generated puzzle before continuing.
+For Time Attack Missions, please define a time limit (from 5 to 60 seconds), and a random seed (numbers only, max. 10 characters) for HEXAPLEX generation. On the next screen, you'll get a chance to review your generated HEXAPLEX before continuing.
 
-For Logic or Speedrun Missions, please define a clear goal — a specific color of triangle, a specific Power-up, or clearing the entire HEXAPLEX.
+For Logic or Speedrun Missions, please define a clear goal — a specific color of tri, a specific Power-up, or clearing the entire HEXAPLEX.
 
-4. When you've defined your settings, select "Start Editing"! On the next screen, you can define your HEXAPLEX layout. Use the d-pad to hover over a triangle, select it with the A button, and use the prompt to define the color and Power-up of the given triangle (if available). For Logic and Speedrun Missions, this step will be used to determine the starting layout. For Picture Missions, this step will be used to determine the ending layout, which will be randomly shuffled upon export to make the starting layout.
+4. When you've defined your settings, select "Start Editing"! On the next screen, you can define your HEXAPLEX layout. Use the d-pad to hover over a tri, select it with the A button, and use the prompt to define the color and Power-up of the given tri (if available). For Logic and Speedrun Missions, this step will be used to determine the starting layout of the HEXAPLEX. For Picture Missions, this step will be used to determine the ending layout, which will be randomly shuffled upon export to make the starting layout.
 
-5. When you're ready, open the Slide menu and select "export"! This will take you to a new screen to make some final touches. For Picture Missions, you'll need to give a name (max. 10 characters) to your object. You'll also need to define an author name (max. 10 characters) for your Mission. When you're ready, hit "Export Puzzle"!
+5. When you're ready, open the Slide menu and select "export"! This will take you to a new screen to make some final touches. For Picture Missions, you'll need to give a name (max. 10 characters) to your object. You'll also need to define an author name (max. 10 characters) for your Mission. When you're ready, hit "Export"!
 
 ## Importing Custom Missions
 
-Follow these steps to import custom missions:
+Follow these steps to import custom Missions:
 
 1. Access Data Disk Mode on your Playdate by following [these steps](https://help.play.date/games/sideloading/#data-disk-mode).
 
 2. Navigate to <span class="code-span">Data/wtf.rae.hexa/missions</span>.
 
-3. Drop all your custom mission JSON files straight into the root of this missions folder. Don't put 'em outside, or within any sub-folders!
+3. Drop your custom Mission JSON file(s) straight into this folder. Don't put 'em outside, or within any sub-folders!
 
 4. Exit Data Disk Mode, launch HEXA, and enter the Mission Mode menu.
 
-5. From here, open the Slide menu, and enable "custom". If your missions got imported correctly, you should see them listed here in date order!
+5. From here, open the Slide menu, and enable "custom". If your Missions got imported correctly, you should see them listed here in date order!
 
-> 💡 *If you've sideloaded your copy of HEXA, you can still play Custom Missions — but your save data will be in a different place! Look for the same folder within Data, but prepended with "user.XXXX.".*
+> 💡 *If you've sideloaded your copy of HEXA, you can still play with custom Missions, but your save data will be in a different place! Look for the same folder within Data, but prepended with "user.XXXX.".*
 
 # On-line Capability
 
@@ -171,12 +171,12 @@ To view Hard Mode leaderboards in-game, enable "Hard Mode" from the Options menu
 Here are a couple tips to hopefully help you conquer the HEXAPLEX!
 
 - Know your difference between clockwise and counter-clockwise.
-- It's easier to fill a gap of two than it is to fill a gap of one.
-- Plan for the tiles that reward higher points!
-- Make use of power-ups when possible, and especially when beneficial.
+- It's easier to fill a gap of two tris than it is to fill a gap of one.
+- Plan for the tris that reward higher points!
+- Make use of Power-ups when possible, and especially when beneficial.
 - The crank can perform Swaps faster, but is harder to dial in precisely.
-- Use bombs at opportune times to reshuffle a poor layout!
-- When in doubt, just take a moment to study the board. You've got more time than you think!
+- Use Bombs at opportune times to re-shuffle a poor layout!
+- When in doubt, just take a moment to study the HEXAPLEX. You've got more time than you think!
 
 # Enhanced Sound Pack
 
@@ -219,15 +219,18 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 # Changelog
 
 ## Version 2.1.5
-### ???
+### 07.30.2025
 
-- Added ability to create Custom Missions! Check the game manual to learn more on how to make 'em.
+- Added ability to create custom Missions! Check the game manual to learn more.
 - Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
+- Added separate save variable for when Hard Mode is enabled
 - Added on-line leaderboards for Hard Mode (Arcade Mode and Daily Run)
 - Hopefully fixed a rare crash when completing a game
 - Souped up pause screen input guide (thanks Kenney for the input prompts!)
 - Fixed a bug where Daily Run score wouldn't be saved on sideloaded copies
 - Leaderboard will now open to the mode you last played (Arcade Mode or Daily Run)
+- Mission Mode will now remember your "custom" setting between Missions
+
 
 ## Version 2.1.2
 ### 02.07.2025
