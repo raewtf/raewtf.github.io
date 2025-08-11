@@ -15,15 +15,15 @@ Get the forecast here, there, or anywhere — it's compatible with cities around
 
 # Basics
 
-This app connects to an external on-line API, to enable sending and receiving of data including weather information. To use this app, make sure your Playdate has an active Wireless connection.
+This app connects to an external on-line API, to enable sending and receiving of data including weather information. This app also connects to Playdate's on-line leaderboard API, to enable sending of high scores among players across the globe. To use this app, make sure your Playdate has an active Wireless connection.
 
 ## Controls
 
-The D-pad and A and B buttons are used to navigate menus. The crank is optionally used in menus, but required to display detailed weather information. Within the app, context is provided as to which controls will perform what actions.
+The d-pad and A and B buttons are used to navigate menus. The crank is optionally used in menus, or to display detailed weather information. Within the app, context is provided as to which controls will perform what actions.
 
 ## Initialization
 
-When you first start the app, you'll be prompted to provide an approximate location. *This data will be shared with the API service to gather information about your area. This information isn't shared anywhere else on-line, but will be saved on your Playdate's local disk.*
+When you first start the app, you'll be prompted to provide an approximate location. This data will be shared with the weatherapi.com service to gather information about your area. This information isn't shared anywhere else on-line, but your direct input will be saved on your Playdate's local disk.
 
 After providing a location, you'll be prompted to adjust a few settings — namely, temperature preference, and measurement preference. After this, the Playdate will attempt to connect to the Internet and grab weather data for your area. If your Playdate cannot connect to the Internet, an error message will appear and you'll be prompted to try again later.
 
@@ -39,9 +39,13 @@ The main screen always shows your area's current temperature and estimated forec
 
 When the Playdate is plugged in to power, animated wallpapers will refresh at 30 frames per second. When running on battery, the display will enter a lower-power state to save energy, refreshing at 5 frames per second.
 
+If you open the app without a Wireless connection, the main screen won't contain weather information, or The Fold™. Feel free to continue using the app as a screensaver. When you get back into a place with internet, open the Slide menu and select 'refresh' to scout for new weather data.
+
+> 💡 *When no connection is available, automatic refresh of weather data will be disabled.*
+
 ## The Fold™
 
-By using the crank on the main screen, you can wring up The Fold™. This contains more detailed weather info for your current location, such as:
+By using the crank or d-pad on the main screen, you can wring up The Fold™. This contains more detailed weather info for your current location, such as:
 
 - Current temperature and estimated forecast
 - "Feels like" temperature, and HI/LO temps for the day
@@ -75,6 +79,30 @@ In this app, there are a variety of options you can change to fully optimize you
 	- Custom Img.: If the console detects a 400x240 <span class="code-span">.pdi</span>-converted image (no transparency) in <span class="code-span">Data/wtf.rae.cloudburst/images/custom.pdi</span>, you can use this image as your wallpaper.
 - Invert display: choose whether the display should be inverted. "On noons" will flip between them automatically — non-inverted from midnight to noon, and inverted from noon to midnight.
 
+# On-line Capability
+
+## Submitting your data
+
+This app supports global on-line leaderboards — just for fun!
+
+To submit new data to the global leaderboards, simply launch the app. As you leave the initialization screen, your data will be submitted to the proper leaderboards automatically.
+
+## My data didn't send! What do?
+
+If you tried to send some data, but it didn't get sent up to the appropriate leaderboard, there are a few things you can try:
+
+1. Give it a little time, and see if it sends up automatically.
+
+2. Try refreshing the weather, by opening the Slide menu and selecting 'refresh' — this might kick the OS' caching into high gear.
+
+> ⚠️ *If you already set a greater benchmark earlier in the day, your score won't be overwritten. Please wait for the leaderboards to refresh at the end of the day.*
+
+## Viewing global data
+
+You can view global data by visiting the *Cloudburst* game page in your Web browser, at [play.date/games/cloudburst](https://play.date/games/cloudburst/). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
+
+Leaderboards refresh automatically at 00:00 midnight GMT, clearing all scores from the past day.
+
 # Credits
 
 - Art, code, and music — [Rae](https://rae.wtf)
@@ -87,6 +115,18 @@ In this app, there are a variety of options you can change to fully optimize you
 - Thanks — Andy, Toad, Vachi, Jackson, Scratchminer, and those who waited patiently!
 
 # Changelog
+
+## Version 1.0.0
+### 08.19.2025
+
+- First 'official' release!
+- Added ability to head to clock screen, even without internet
+- Fixed time not updating in "focus" modes
+- Fix crash if internet connection isn't properly retrieved
+- Added some leaderboards to the Catalog edition, just for fun
+- Fixed auto-refresh not working more than once at a time
+- The Fold™ can now be opened with the d-pad
+- Removed print statements
 
 ## Version 1.0.0b4
 ### 05.19.2025

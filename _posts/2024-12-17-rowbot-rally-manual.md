@@ -152,7 +152,9 @@ The options screen allows you to change various settings and accessibility featu
 	- Added a progress bar
 	- Progress now varies depending on circuit
 	- Added a more apparent health meter
+- Performance Mode will now turn on automatically when the device is connected to Playdate Mirror.
 - Added Theater — view cutscenes at your leisure. Unlockable by completing the story at least once.
+- Compressed cutscene videos — now the bundle is nearly a whole 10 MBs lighter!
 - Added 'match pace' marker to the Power Meter, to make syncing movement with your RowBot easier.
 - "Sending failed!" UI should now only occur once per session.
 - UIs will also not interrupt during an active race
