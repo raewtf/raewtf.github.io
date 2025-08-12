@@ -26,39 +26,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,600;0,800;1,600;1,800&family=Righteous&display=swap" rel="stylesheet">
 <link href="../site.css" rel="stylesheet">
 
-<script>
-	window.addEventListener("load", function() {
-		const form = document.getElementById('commissionform');
-		form.addEventListener("submit", function(e) {
-			document.getElementById('commissionformsubmit').classList.add('hidden')
-			document.getElementById('commissionformwait').classList.remove('hidden')
-			e.preventDefault();
-			const data = new FormData(form);
-			const action = e.target.action;
-			fetch(action, {
-				method: 'POST',
-				body: data,
-			})
-			.then(function (a) {
-				a.json()
-				.then(function(j) {
-					document.getElementById('commissionformwait').classList.add('hidden')
-					let newdata = j
-					if (newdata.result == 'error') {
-						if (newdata.error === 'No more entries!')  {
-							document.getElementById('out_of_slots').classList.remove('hidden')
-						} else {
-							document.getElementById('generic_error').classList.remove('hidden')
-						}
-					} else {
-						document.getElementById('success').classList.remove('hidden')
-					}
-				})
-			})
-		});
-	});
-</script>
-
 <body>
 	<div class="header">
 		<h1><a href="https://rae.wtf">rae.wtf</a></h1>
@@ -110,35 +77,11 @@
 			<a href="https://play.date/games/propeller-rat/"><img class="hover_img" src="../commissions/pdexample_3.png" /></a>
 			<a class="button" href="../expert">More art in Expert Mode</a>
 			<hr>
-			<h3>Commission Form</h3>
-			<form method="POST" id="commissionform" action="https://script.google.com/macros/s/AKfycbwEL9kIZj-m4Khtb7zbmuKm_af9sfTQ7sYog1iOlC6BtAa03KwJKXfq0VhW03crsqXp/exec">
-				<label for="email">Email <span class="required">REQUIRED</span></label>
-				<input name="Email" id="email" type="email" placeholder="Your email address" required>
-				<br>
-				<label for="body">What would you like? <span class="sublabel">(be specific!)</span><span class="required">REQUIRED</span></label>
-				<textarea name="Body" id="body" rows='10' cols='1' required></textarea>
-				<br>
-				<button id="commissionformsubmit" class="button" type="submit">Request your commission!</button>
-				<button id="commissionformwait" class="button disabled hidden">Submitting, please wait...</button>
-				<div class="message good hidden" id="success">
-					<h1>Success!</h1>
-					<p>Thank you for your interest! I'll send you an email hopefully soon — make sure to keep an eye on your junk folder!</p>
-				</div>
-				<div class="message bad hidden" id="generic_error">
-					<h1>Oh no!</h1>
-					<p>It looks like something went wrong. Could you try again in a sec, perhaps?</p>
-				</div>
-				<div class="message bad hidden" id="out_of_slots">
-					<h1>Oh no!</h1>
-					<p>Sorry — I'm not accepting any more people right now. Maybe check back later!</p>
-				</div>
-			</form>
+			<h3>Get in touch!</h3>
+			<p>If you'd like a commission, let me know! Hit up my <a href="https://bsky.app/profile/rae.wtf">Bluesky</a> page (my DMs should be open), and let me know what you'd like!</p>
 		</div>
 		<div class="side_right">
-			<h3>On Privacy</h3>
-			<p class="box">When you send a form, your info will be slammed through Google servers. I'll be able to see what you request, but I don't intend to share it with anybody. As part of the commission process, I may ask you if you'd be fine with me posting your art to my socials, or using it to promote what I do (i.e. as an example of past work).</p>
-			<br>
-			<h3>What About Usage?</h3>
+			<h3>On Usage</h3>
 			<p class="box">My visual works are typically distributed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. This means that you can share, remix, or adapt anything I make for you, commercially or no; but you must provide credit, and you have to share the piece under the same terms.</p><p class="box">Please <b>DO NOT</b> use my art for training in any la<span>rge lan</span>guage models. That shit's icky.</p>
 		</div>
 	</div>
