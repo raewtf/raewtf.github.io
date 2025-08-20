@@ -116,6 +116,14 @@ Leaderboards refresh automatically at 00:00 midnight GMT, clearing all scores fr
 
 # Changelog
 
+## Version 1.0.1
+### 08.19.2025
+
+- Added time-out to manual/automatic refreshing after boot
+- Fixed weather data not showing up on 'Earth' or 'Custom Img.' screens
+- Fixed crash when 'Invert display' is set to 'On Noons’
+- Increased legibility of text in ‘Custom Img.’ screen
+
 ## Version 1.0.0
 ### 08.19.2025
 
