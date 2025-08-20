@@ -116,6 +116,20 @@ Leaderboards refresh automatically at 00:00 midnight GMT, clearing all scores fr
 
 # Changelog
 
+## Version 1.0.2
+### 08.20.2025
+
+- Added “Auto-locate via IP” when changing location (IP is not saved locally)
+- Hopefully fixed crash that happens on automatic refresh
+- Added new “Today’s Coolest Temps — in K” board
+- Improved error handling
+- Added check for invalid or expired API keys
+- Added “Invert” option for D-pad controls in The Fold™
+- Added font credits in-game
+- Added indicator in slide menu if refreshing is occurring
+- Fixed “laod” typo in pause screen tips
+- Improved handling of location name if metadata is missing
+
 ## Version 1.0.1
 ### 08.19.2025
 
