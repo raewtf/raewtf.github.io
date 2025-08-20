@@ -218,6 +218,12 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 
 # Changelog
 
+## Version 2.1.6
+### 08.20.2025
+
+- Fixed crash that happens when launching stock Missions in Mission Mode
+- Improved error checking accuracy when creating custom Missions
+
 ## Version 2.1.5
 ### 07.30.2025
 
@@ -230,7 +236,6 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 - Fixed a bug where Daily Run score wouldn't be saved on sideloaded copies
 - Leaderboard will now open to the mode you last played (Arcade Mode or Daily Run)
 - Mission Mode will now remember your "custom" setting between Missions
-
 
 ## Version 2.1.2
 ### 02.07.2025
