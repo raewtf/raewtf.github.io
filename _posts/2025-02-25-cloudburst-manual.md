@@ -37,7 +37,7 @@ If the resulting API data doesn't match your location, try being a bit more spec
 
 The main screen always shows your area's current temperature and estimated forecast, your console's local time, and current battery estimate.
 
-When the Playdate is plugged in to power, animated wallpapers will refresh at 30 frames per second. When running on battery, the display will enter a lower-power state to save energy, refreshing at 5 frames per second.
+By default, when the Playdate is plugged in to power, animated wallpapers will refresh at 30 frames per second. When running on battery, the display will enter a lower-power state to save energy, refreshing at 5 frames per second. You can change this behavior by toggling "Smooth animations" in Options.
 
 If you open the app without a Wireless connection, the main screen won't contain weather information, or The Fold™. Feel free to continue using the app as a screensaver. When you get back into a place with internet, open the Slide menu and select 'refresh' to scout for new weather data.
 
@@ -50,20 +50,22 @@ By using the crank or d-pad on the main screen, you can wring up The Fold™. Th
 - Current temperature and estimated forecast
 - "Feels like" temperature, and HI/LO temps for the day
 - Estimated temperature and forecast for the next six hours
-- Current wind speed, gusts, and direction
+- Sunrise and sunset times
 - Air quality (EPA and DEFRA index), and information on particulate matter
 - Humidity, now and within the next hour
 - Precipitation, now and within the next hour
 - Estimated forecast, HI/LO temp, and sunrise/sunset times for the next day
 - Current moon phase
-- Sunrise and sunset times
+- Current wind speed, gusts, and direction
+- UV index
+- Visibility
 
 # Options
 
 In this app, there are a variety of options you can change to fully optimize your experience.
 
 - Change area: Edit your location area used for gathering weather data. This can be changed as many times as you wish.
-- Save recent areas: Choose how many location inputs are saved to disk for easy access.
+- Save recent areas: Choose how many location inputs are saved to disk, for easy access.
 - Temperature: Choose between Celsius or Fahrenheit readings for temperature info.
 - Measurement: Choose between Metric or Imperial readings for measurement info.
 - Idle refresh rate: Decide how often the app will try to grab new weather data while idling.
@@ -76,8 +78,14 @@ In this app, there are a variety of options you can change to fully optimize you
 	- Earth: A replication of the "Initialization" screen; a spinning globe in a starfield.
 	- Temp. Focus: A lower-power display that brings the temperature front-and-center.
 	- Clock Focus: A second low-power display that shows the current console time in large text.
+	- Analog: A recreation of the Playdate's analog clock screen, with weather info.
+	- Flip Clock: A stylized design that emulates a retro flippy-flappy flip clock.
+	- Terminal: A retro design that looks like a computer terminal. Try mashing buttons!
 	- Custom Img.: If the console detects a 400x240 <span class="code-span">.pdi</span>-converted image (no transparency) in <span class="code-span">Data/wtf.rae.cloudburst/images/custom.pdi</span>, you can use this image as your wallpaper.
-- Invert display: choose whether the display should be inverted. "On noons" will flip between them automatically — non-inverted from midnight to noon, and inverted from noon to midnight.
+- D-pad (The Fold™): Determines the direction of scrolling when using the d-pad to control The Fold™.
+- Smooth animations: Choose whether the main weather screen should update at a full refresh rate of 30 FPS, or a lower-power 5 FPS. "On Power" will only enable smooth frame rate if the Playdate is plugged in to a power source.
+- Invert display: Choose whether the display should be inverted. "On noons" will flip between them automatically — non-inverted from midnight to noon, and inverted from noon to midnight.
+- ?
 
 # On-line Capability
 
@@ -115,6 +123,15 @@ Leaderboards refresh automatically at 00:00 midnight GMT, clearing all scores fr
 - Thanks — Andy, Toad, Vachi, Jackson, Scratchminer, and those who waited patiently!
 
 # Changelog
+
+## Version 1.0.5
+### 09.15.2025
+
+- Added three new wallpapers! "Analog", "Flip Clock", and "Terminal"
+- Added "UV Index" and "Visibility" readings to The Fold™
+- Added "Smooth animations" option (defaults to 'on power')
+- Fixed potential crash when changing weather location
+- Fixed bug where "last quarter" moon phase text was not localized properly
 
 ## Version 1.0.2
 ### 08.20.2025
