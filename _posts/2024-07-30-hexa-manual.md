@@ -19,15 +19,17 @@ Give it a try... it's *HEXA-good!*
 
 ## Controls
 
-The d-pad and A and B buttons are required to play this game. These buttons are used to navigate menus, and are mandatory in main gameplay.
+A set of Directional and Action buttons are required to play this game. These buttons are used to navigate menus, and are mandatory in main gameplay.
 
-You can also optionally use the crank to perform the turning action usually done by the A and B buttons. This can be toggled in the Options menu. (The crank can also be used to navigate menus.)
+On personal computers, you can use the keyboard (Arrows & Z + X, or WASD & , + .), or a compatible gamepad (D-pad & A + B). During an active game, the pause menu can be accessed by pressing ESC/Start. Otherwise, pressing either button twice in succession will quickly exit the game.
+
+On Playdate, you can also optionally use the crank to perform the turning action usually done by the Action buttons — this can be toggled in the Options menu. (The crank can also be used to navigate menus.)
 
 ## Gameplay
 
-When you start a new game, you'll be faced with the HEXAPLEX — a grid of 19 tris (black, gray, or white), all interlaced with one another. Your goal is simple: create HEXAs!
+When you start a new game, you'll be faced with the HEXAPLEX — a grid of 19 tris (dark, dithered, or light), all interlaced with one another. Your goal is simple: create HEXAs!
 
-Use the D-pad to navigate your Cursor along the HEXAPLEX, and the A and B buttons (or the crank) to rotate the currently-selected hexagon clockwise or counter-clockwise — this is called a Swap.
+Use the Directional buttons to navigate your Cursor along the HEXAPLEX, and the Action buttons (or, on Playdate, the crank) to rotate the currently-selected hexagon clockwise or counter-clockwise — this is called a Swap.
 
 A full hexagon of similarly-colored tris is called a HEXA. These are the main way to earn points — create a HEXA match, and BOOM!! You gain points, and the tris involved are randomized and replaced.
 
@@ -39,7 +41,7 @@ As far as basic gameplay is concerned...that's all you gotta know to get started
 
 Arcade Mode is the basic gameplay mode in *HEXA*.
 
-In this mode, you start out with 45 seconds on the clock. As you match HEXAs, you'll earn points, as well as more time on the timer! Your goal is to match as many HEXAs, and thus, earn as many points, as you can before time runs out. White tris earn you 100 points, gray tris earn you 150 points, and black tris earn you 200 points.
+In this mode, you start out with 45 seconds on the clock. As you match HEXAs, you'll earn points, as well as more time on the timer! Your goal is to match as many HEXAs, and thus, earn as many points, as you can before time runs out. Light tris earn you 100 points, dithered tris earn you 150 points, and dark tris earn you 200 points.
 
 There's another element to this mode to keep you on your toes: randomly-generated Power-ups! These do various different things when matched:
 
@@ -47,13 +49,13 @@ There's another element to this mode to keep you on your toes: randomly-generate
 - 2x tris — When matched into a HEXA, you'll earn double points for that match! Plus, a bigger timer boost.
 - Wild tris — These tris can be used in place of any other color when creating a HEXA. No penalty nor reward.
 
-Power-ups will not stack up with themselves. For example, if you have multiple 2x Tiles in a match, you'll still only receive one bonus. However, Power-ups *will* stack with eachother — if a match contains a 2x tri and a Bomb, for example, you'll get double points *and* re-shuffle the entire board.
+Power-ups will not stack up with themselves. For example, if you have multiple 2x tris in a match, you'll still only receive one bonus. However, Power-ups *will* stack with eachother — if a match contains a 2x tri and a Bomb, for example, you'll get double points *and* re-shuffle the entire board.
 
 You can also score HEXA Combos — if you match a HEXA, and the resulting grid contains another HEXA, BOOM!! You'll get double the points for that match! This stacks exponentially up until you reach a board state without an immediate HEXA. These are mostly luck-based, but it's possible to create them intentionally if you really know what you're doing.
 
 As you earn more HEXAs, the timer boost will gradually become less and less effective. See how long you can keep it rolling!
 
-The game will end when the timer reaches zero. If you wanna end it early, open the Slide menu and just select "end game". The game will end from the current point, and any high scores will be saved.
+The game will end when the timer reaches zero. If you wanna end it early, open the Pause menu and select "End Game". The game will end from the current point, and any high scores will be saved.
 
 ## Chill Mode
 
@@ -61,7 +63,7 @@ Chill Mode is a more relaxed experience, meant for casual play.
 
 In this mode, there's no score-keeping, Power-ups, or timers. The goal is just to chill out, and have a good time creating HEXA matches at your own pace!
 
-To end the game, open the Slide menu and select "i'm done!" to wrap up.
+To end the game, open the Slide menu and select "I'm Done!" to wrap up.
 
 ## Daily Run
 
@@ -69,7 +71,7 @@ Daily Run plays a lot like Arcade Mode, but with one big catch: you only get one
 
 In this mode, the board is *seeded* — every day, you play with the same starting layout as everyone else. From here, it plays just like Arcade Mode!
 
-When you end the game, you won't be able to play again until tomorrow. The Daily Run refreshes automatically at 00:00 midnight GMT, after which you'll be able to play another game with a new layout.
+When you end the game, you won't be able to play again until tomorrow. The Daily Run refreshes automatically at 00:00 midnight GMT, after which you'll be able to play another run with a new layout.
 
 > 💡 *There's also a handy timer on the Title screen to let you know when the next run will appear!*
 
@@ -77,7 +79,7 @@ When you end the game, you won't be able to play again until tomorrow. The Daily
 
 From the Options menu, you can toggle an optional "Hard Mode" that affects Arcade Mode and Daily Run. This mode will cut the amount of time you earn from HEXA matches in half!
 
-> 💡 *Hard Mode has separate on-line leaderboards. Compete for a high score!*
+> 💡 *Hard Mode has separate on-line leaderboards on Playdate. Compete for a high score!*
 
 # Mission Mode
 
@@ -88,9 +90,9 @@ In Mission Mode, 50 logic challenges await you! These are grouped into four dist
 - Logic: From a determined starting layout, try and clear the condition using as little Swaps as possible! No time limit or pressure.
 - Speedrun: These play like Logic Missions — complete the clear condition — but instead of Swaps, do it as fast as you can!
 
-A new Mission will unlock as soon as you clear the latest. If you're ever feeling stuck, open the Slide menu to get another look at your objective.
+A new Mission will unlock as soon as you clear the latest. On Playdate, if you're ever feeling stuck, open the Slide menu to get another look at your objective.
 
-> 💡 *In Picture Missions, the Slide menu will also show the picture you're trying to re-create!*
+> 💡 *On Playdate, in Picture Missions, the Slide menu will also show the picture you're trying to re-create!*
 
 # Custom Missions
 
@@ -98,7 +100,27 @@ Keep the fun going with custom Missions! Accessible from the Mission Mode menu, 
 
 ## Creating Custom Missions
 
-Follow these steps to create your own custom Missions:
+Follow these steps to create your own custom Missions!
+
+For personal computers:
+
+1. Launch HEXA, and enter the Mission Mode menu.
+
+2. From here, press the on-screen command for *Mission Command* — this is where you can create your own custom Missions.
+
+3. From here, you can select from one of the four Mission types: Logic, Picture, Speedrun, or Time Attack. Depending on the Mission type you choose, you may need to define a few more settings.
+
+For Time Attack Missions, please define a time limit (from 5 to 60 seconds), and a random seed (numbers only, max. 10 characters) for HEXAPLEX generation. On the next screen, you'll get a chance to review your generated HEXAPLEX before continuing.
+
+For Logic or Speedrun Missions, please define a clear goal — a specific color of tri, a specific Power-up, or clearing the entire HEXAPLEX.
+
+4. When you've defined your settings, select "Start Editing"! On the next screen, you can define your HEXAPLEX layout. Use the Directional buttons to hover over a tri, select it with the primary Action button, and use the prompt to define the color and Power-up of the given tri (if available). For Logic and Speedrun Missions, this step will be used to determine the starting layout of the HEXAPLEX. For Picture Missions, this step will be used to determine the ending layout, which will be randomly shuffled upon export to make the starting layout.
+
+5. When you're ready, press the on-screen command to export! This will take you to a new screen to make some final touches. For Picture Missions, you'll need to give a name (max. 10 characters) to your object. You'll also need to define an author name (max. 10 characters) for your Mission. When you're ready, hit "Export"!
+
+6. To access your newly-created Mission, press the primary Action button on the "Export Complete!" screen to open the custom Mission directory in your file explorer.
+
+For Playdate:
 
 1. Launch HEXA, and enter the Mission Mode menu.
 
@@ -116,7 +138,21 @@ For Logic or Speedrun Missions, please define a clear goal — a specific color 
 
 ## Importing Custom Missions
 
-Follow these steps to import custom Missions:
+Follow these steps to import custom Missions!
+
+For personal computers:
+
+1. Launch HEXA, and enter the Mission Mode menu.
+
+2. Press the on-screen command to enter the custom Missions list.
+
+3. Once you're there, press the on-screen command to open the custom Mission directory in your file explorer.
+
+4. Drop your custom Mission JSON file(s) straight into this folder. Don't put 'em outside, or within any sub-folders!
+
+5. Re-start the game, enter the Mission Mode menu, and press the on-screen command to enter the custom list. If your Missions got imported correctly, you should see them listed here in date order!
+
+For Playdate:
 
 1. Access Data Disk Mode on your Playdate by following [these steps](https://help.play.date/games/sideloading/#data-disk-mode).
 
@@ -135,6 +171,8 @@ Follow these steps to import custom Missions:
 ## About on-line play
 
 This game connects to Playdate's on-line leaderboard API, to enable sending and receiving of high scores among players across the globe. To use on-line functionality in this game, make sure your Playdate has an active Wireless connection.
+
+> ⚠️ *HEXA for personal computers does not connect on-line, or transmit high scores.*
 
 ## Submitting your scores
 
@@ -178,26 +216,6 @@ Here are a couple tips to hopefully help you conquer the HEXAPLEX!
 - Use Bombs at opportune times to re-shuffle a poor layout!
 - When in doubt, just take a moment to study the HEXAPLEX. You've got more time than you think!
 
-# Enhanced Sound Pack
-
-As of v2.1.0, HEXA comes packed with compressed mono music tracks to ensure a balance of fidelity and a more manageable download speed. For a crisper, stereo quality, please download the *Enhanced Sound Pack*. This replaces the in-game audio files with higher-fidelity tracks, at the cost of a larger file size.
-
-> ⚠️ *Installing the Enhanced Sound Pack is an advanced maneuver! If done improperly, it could lead to game crashes, or loss of precious data. Please navigate your Playdate's Data Disk responsibly!*
-
-<a href="https://rae.wtf/hexa/enhanced-sound-pack.zip" class="button">Download the HEXA Enhanced Sound Pack — 26.4 MB</a>
-
-To install the Enhanced Sound Pack:
-
-1. Access Data Disk Mode on your Playdate by following [these steps](https://help.play.date/games/sideloading/#data-disk-mode).
-
-2. Navigate to <span class="code-span">Games/Purchased/HEXA.pdx</span>, and open it. (If you're in MacOS, you may need to right-click and select "Show Package Contents".)
-
-3. Navigate to <span class="code-span">audio/music</span>. Replace the files inside with the files contained inside the Enhanced Sound Pack.
-
-That should be all you need to enjoy top-quality stereo sound! Plug in your headphones, and enjoy.
-
-> ⚠️ *If your HEXA game file enters an unrecoverable state, please un-install and re-install it from your Playdate directly, in Settings > Games.*
-
 # Credits
 
 - Art and code — [Rae](https://rae.wtf)
@@ -207,16 +225,44 @@ That should be all you need to enjoy top-quality stereo sound! Plug in your head
 - Full Circle and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [Righteous](https://fonts.google.com/specimen/Righteous) font — Astigmatic; [OFL](https://openfontlicense.org)
 - Playdate [input prompts](https://kenney.nl/assets/input-prompts) — [Kenney](https://kenney.nl); [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
+- [HUMP](https://hump.readthedocs.io/en/latest/) library — Matthias Richter; [License](https://github.com/HDictus/hump/blob/temp-master/README.md)
 - Addtl. code — [lua-users wiki](http://lua-users.org/wiki/FormattingNumbers) and [Drew-Lo](https://aloebach.itch.io)
 - Thanks — Voxy, Toad, scizzorz, superfunc, Mag, Hunter Bridges, Scenic Route, DRD, IGDA Twin Cities, and Panic!
+- PC testers — Orchid, Maddy, Toad, Seb, Winter, Voxy, Diego, Roxby, and Scenic Route
+
 
 # Additional Notes
 
-This game started life on the 4th of July, 2024. It came together pretty much over the weekend — initially being sent to the Catalog on July 7th, and approved on the 10th. The game was originally scheduled for release on August 13th, 2024, before suddenly having the opportunity to jump back and instead release on July 30th. This means that the game went from "start of development" to "literally out for people to buy" in just under a months' time. New record!!
+This game started life on the 4th of July, 2024. It came together pretty much over the weekend — initially being sent to the Playdate Catalog on July 7th, and approved on the 10th. The game was originally scheduled for release on August 13th, 2024, before suddenly having the opportunity to jump back and instead release on July 30th. This means that the game went from "start of development" to "literally out for people to buy" in just under a months' time. New record!!
 
-Special thanks to the folks in the Catalog dev chat for being there to witness my tomfoolery throughout development, and everybody who helped out and cheered me on as this game barreled through the finish line. And thanks to you, for reading, playing, and (hopefully) enjoying!
+The version of HEXA for personal computers was an idea in my head for a while (even before the original Playdate release), but I started work on what would eventually be the final version just a couple weeks before I wound up releasing it. This version is a loving recreation of the Playdate original, with the code being entirely hand-ported to the fabulous LÖVE2D engine. While my original intent was to keep the two versions of the game as similar as possible, I hope you enjoy the extra benefits that come as a result of what the Playdate *can't* do!
+
+Special thanks to the folks in the Catalog dev chat for being there to witness my tomfoolery throughout the initial development, everybody who helped out and cheered me on as this game barreled through the finish line, and everyone who continues to compete so fiercely on the Playdate leaderboards and create such an inspiring community out of my little puzzle game. Enjoy the cake! And thanks to you, for reading, playing, and (hopefully) enjoying!
 
 # Changelog
+
+## Version 2.1.7
+### 10.03.2025
+
+Windows/macOS/Linux:
+- Initial release.
+
+Playdate:
+- Added new Statistics menu! (Most statistics are tracked as of 10.03.2025. Sorry!)
+- Added a second page to the credits screen — so many wonderful people!
+- Replaced "Music" and "SFX" toggles with granular volume settings
+- Reduced chance of Special Activity to one in ten thousand
+- Fixed bug where "Half circle" font would be rendered under "Full circle" font in menus
+- Fixed bug where Hard Mode Arcade score doesn't get cleared upon resetting local stats
+- Re-classified "black, gray, and white" tris to "dark, dithered, and light"
+- Fixed crash that occurs if attempting to move left/right in an empty custom Mission list
+- Daily Run no longer prompts to view high scores if the build isn't from Catalog
+- Non-JSON files in the custom Mission folder will no longer attempt to be read
+- Track information is now hidden in the Jukebox, when music is disabled
+- Seed argument is now properly set when entering a stock Mission
+- Fixed Mission Command selector Power-ups still moving when Reduce Flashing is enabled
+- Reduced flashing velocity of Mission Command selector cursor
+- Edited author name save behavior to always keep the most recent name
 
 ## Version 2.1.6
 ### 08.20.2025
@@ -254,7 +300,7 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 
 - Fix wi-fi cauterization in sideload copies
 - Edit static list icon to be more visually interesting
-- Compress music to get file size from ~30 MB down to <10. For original quality, check out the [enhanced sound pack](https://rae.wtf/blog/hexa-manual#enhanced-sound-pack)
+- Compress music to get file size from ~30 MB down to <10
 - Music now also loops a bit more appropriately
 - Add hidden "Hard Mode" in Arcade/Daily Run
 - Swap SFX quietened
@@ -299,4 +345,5 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 - Initial release.
 
 <br>
-<a href="https://play.date/games/hexa" class="button">Buy <i>HEXA</i> in Catalog</a>
+<a href="https://raewtf.itch.io/hexa" class="button">Buy <i>HEXA</i> for personal computers</a>
+<a href="https://play.date/games/hexa" class="button">Buy <i>HEXA</i> for Playdate</a>
