@@ -143,7 +143,7 @@ body {
 	color: var(--red);
 }
 
-.main p, .sides p, .main ul, .sides ul, .main ul li, .sides ul li, label, .main ol, .sides ol, .main ol li, .sides ol li {
+.main p, .sides p, .main ul, .sides ul, .main ul li, .sides ul li, label, .main ol, .sides ol, .main ol li, .sides ol li, ol, ol li, li {
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
 	font-size: 1rem;
@@ -305,7 +305,7 @@ code {
 	border-radius: 5px;
 }
 
-.post_container:any-link {
+.post_container {
 	padding: 1rem 1.5rem;
 	border-radius: 5px;
 	position: relative;
