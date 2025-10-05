@@ -143,7 +143,7 @@ body {
 	color: var(--red);
 }
 
-.main p, .sides p, .main ul, .sides ul, .main ul li, .sides ul li, label {
+.main p, .sides p, .main ul, .sides ul, .main ul li, .sides ul li, label, .main ol, .sides ol, .main ol li, .sides ol li {
 	margin: 0;
 	font-family: 'Poppins', sans-serif;
 	font-size: 1rem;
