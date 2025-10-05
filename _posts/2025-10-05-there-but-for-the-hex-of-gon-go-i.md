@@ -1,7 +1,7 @@
 ---
-title: There But For the Hex of Gon Go I
+title: There But For The Hex of Gon Go I
 tag: hexa
-desc: Or, "me rambling about how I ported a puzzle game from Playdate over to LÖVE2D in a couple-a weeks".
+desc: Alternate title; me rambling for way too long about how I ported a puzzle game from Playdate over to LÖVE2D in a couple-a weeks.
 ---
 Hello! As I write this, it's been just a couple of days since I launched HEXA on itch.io, for personal computers. If you're reading this article, you'd probably like it!:
 
