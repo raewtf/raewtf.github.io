@@ -529,6 +529,78 @@ h1 .contains_money {
 	color: var(--rew);
 }
 
+.art_frame {
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+	margin-bottom: 0rem;
+}
+.art_frame:hover {
+	cursor: pointer;
+	filter: brightness(120%);
+}
+.art_frame:not(:last-child) {
+	margin-bottom: 1rem;
+}
+
+.art {
+	max-width: 100% !important;
+	width: 100%;
+	float: none !important;
+	margin-left: 0 !important;
+	min-height: 250px !important;
+	max-height: 250px !important;
+	object-fit: cover;
+	margin: 0 !important;
+	border-radius: 5px 5px 0 0 !important;
+}
+
+.art.top {
+	object-position: 50% 10%;
+}
+.art.bottom {
+	object-position: 50% 90%;
+}
+
+.art_data {
+	padding: 1rem 1.5rem;
+	border-radius: 0 0 5px 5px;
+	position: relative;
+	display: block;
+	text-decoration: none;
+	color: initial;
+	padding-right: 80px;
+	background: var(--sel);
+	border: 4px solid var(--sed);
+	border-top: none;
+	margin: 0;
+	padding-bottom: 0.5rem;
+}
+.art_data::before, .art_data::after {
+	position: absolute;
+	content: '>';
+	font-family: 'Righteous', sans-serif;
+	color: var(--sed);
+	font-size: 5rem;
+	bottom: -10px;
+	z-index: 1;
+	color: var(--sed);
+}
+.art_data::before {
+	right: 40px;
+	transition: all 0.2s cubic-bezier(.17,.67,.48,1.54);
+	transition-delay: 50ms;
+}
+.art_data::after {
+	right: 15px;
+	transition: all 0.2s cubic-bezier(.17,.67,.48,1.54);
+}
+.art_frame:hover .art_data::before, .art_frame:hover .art_data::after {
+	transform: translateX(10px);
+}
+.art_data h1 {margin-top: 0;}
+
 @media only screen and (min-width: 600px) {
 	.nav {
 		flex-direction: row;
