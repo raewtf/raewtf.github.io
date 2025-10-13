@@ -241,6 +241,29 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 
 # Changelog
 
+## Version 2.2.0
+### ???
+
+Windows/macOS/Linux:
+- Added new "Language" option, as well as a full French localization! Thanks, Voxy!
+- Added keyboard remapping! Instead of presets, map the keys anywhere on the keyboard you like
+- Added "Wonky Pixels" scaling mode, in Video Options. This minimizes letterboxing, at the cost of...well, wonky pixels
+- Added ability to toggle Options using the left and right Directional buttons
+- Added ability to toggle Visual Options using the left and right Directional buttons
+- Screen clip rect will now accurately follow screen "shake" effect
+- Added ability to pause the game while a HEXA match is taking place
+- Fixed controller logic — now any input from any connected controller will be registered
+- Fixed rumble logic — the most recently used controller (if any) will be the one used for rumble
+- Fixed bug where the screen border may flicker rapidly with a latent frame on resizing
+- Fixed bug where music volume wouldn't quieten properly on game pause, or quit from title
+- Fixed bug where in Arcade Mode, the button inputs at the end of the round would not appear
+- Fixed bug where in Chill Mode, the button inputs at the end of the round used the wrong font in Colorful mode
+- Fixed bug where on exit from title screen, the text would be using the wrong font in Colorful mode
+
+Playdate:
+- Added new "Language" option, as well as a full French localization! Thanks, Voxy!
+- Added ability to toggle Options using the left and right Directional buttons
+
 ## Version 2.1.7
 ### 10.03.2025
 

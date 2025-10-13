@@ -137,9 +137,8 @@ The options screen allows you to change various settings and accessibility featu
 
 # Changelog
 
-<!--
 ## Version 1.1.0
-### Coming to Catalog Soon
+### 10.13.2025
 
 - Added "absolute crank" accessibility option — the boat will steer wherever the crank is pointing.
 	- On-line leaderboards are disabled when this option is turned on.
@@ -148,7 +147,7 @@ The options screen allows you to change various settings and accessibility featu
 - Added Robo-Shark+ — endless version of the shark chase, unlockable by passing that point in the Story.
 	- Added on-line leaderboards for this mode. Check the webpage!
 - Added achievements! [Learn more here.](https://github.com/PlaydateSquad/pd-achievements)
-- Updated the shark chase
+- Updated the shark chase:
 	- Added a progress bar
 	- Progress now varies depending on circuit
 	- Added a more apparent health meter
@@ -163,7 +162,7 @@ The options screen allows you to change various settings and accessibility featu
 - Optimized minimap a little bit
 - Wave now animates properly in Options screen
 - Fixed softlock that would occur by leaving at a specific time during the race intro
--->
+
 ## Version 1.0.2
 ### 12.19.2024
 
