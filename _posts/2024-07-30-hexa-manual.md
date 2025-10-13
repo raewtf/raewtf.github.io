@@ -240,7 +240,7 @@ The version of HEXA for personal computers was an idea in my head for a while (e
 Special thanks to the folks in the Catalog dev chat for being there to witness my tomfoolery throughout the initial development, everybody who helped out and cheered me on as this game barreled through the finish line, and everyone who continues to compete so fiercely on the Playdate leaderboards and create such an inspiring community out of my little puzzle game. Enjoy the cake! And thanks to you, for reading, playing, and (hopefully) enjoying!
 
 # Changelog
-
+<!--
 ## Version 2.2.0
 ### ???
 
@@ -262,7 +262,7 @@ Windows/macOS/Linux:
 
 Playdate:
 - Added new "Language" option, as well as a full French localization! Thanks, Voxy!
-- Added ability to toggle Options using the left and right Directional buttons
+- Added ability to toggle Options using the left and right Directional buttons-->
 
 ## Version 2.1.7
 ### 10.03.2025
