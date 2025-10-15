@@ -138,7 +138,7 @@ The options screen allows you to change various settings and accessibility featu
 # Changelog
 
 ## Version 1.1.0
-### 10.13.2025
+### 10.14.2025
 
 - Added "absolute crank" accessibility option — the boat will steer wherever the crank is pointing.
 	- On-line leaderboards are disabled when this option is turned on.

@@ -220,6 +220,7 @@ Here are a couple tips to hopefully help you conquer the HEXAPLEX!
 
 - Art and code — [Rae](https://rae.wtf)
 - Music — [Watson at MusMus](https://musmus.main.jp); [Terms](https://musmus.main.jp/info.html)
+- French localization — [Voxy](https://voxy.space)
 - SFX — [JSFXR](https://sfxr.me)
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
 - Full Circle and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
@@ -240,7 +241,7 @@ The version of HEXA for personal computers was an idea in my head for a while (e
 Special thanks to the folks in the Catalog dev chat for being there to witness my tomfoolery throughout the initial development, everybody who helped out and cheered me on as this game barreled through the finish line, and everyone who continues to compete so fiercely on the Playdate leaderboards and create such an inspiring community out of my little puzzle game. Enjoy the cake! And thanks to you, for reading, playing, and (hopefully) enjoying!
 
 # Changelog
-<!--
+
 ## Version 2.2.0
 ### ???
 
@@ -252,6 +253,7 @@ Windows/macOS/Linux:
 - Added ability to toggle Visual Options using the left and right Directional buttons
 - Screen clip rect will now accurately follow screen "shake" effect
 - Added ability to pause the game while a HEXA match is taking place
+- App icon will now change at runtime based on Color attribute
 - Fixed controller logic — now any input from any connected controller will be registered
 - Fixed rumble logic — the most recently used controller (if any) will be the one used for rumble
 - Fixed bug where the screen border may flicker rapidly with a latent frame on resizing
@@ -262,7 +264,8 @@ Windows/macOS/Linux:
 
 Playdate:
 - Added new "Language" option, as well as a full French localization! Thanks, Voxy!
-- Added ability to toggle Options using the left and right Directional buttons-->
+- Sped up HEXA matching to roughly match the PC version
+- Added ability to toggle Options using the left and right Directional buttons
 
 ## Version 2.1.7
 ### 10.03.2025
