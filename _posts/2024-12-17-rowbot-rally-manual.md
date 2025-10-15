@@ -131,6 +131,7 @@ The options screen allows you to change various settings and accessibility featu
 - Kapel font — [Font End Dev](https://fontenddev.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [PDV conversion tool](https://devforum.play.date/t/video-encoder-work-in-progress-mac-only/1390) — [Dave Hayden](https://pdx.social/@dave)
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
+- [Achievements](https://playdatesquad.github.io/pd-achievements/) library — Playdate Squad
 - Bugsmashers — NickNack, orkn, Toad, superfunc, Omikron, budpikmin, Lavender, Yadis, dwfp, Zel, Soinksters, and The3DPrintist
 - Playtesters — AidenKT, magPlex, kiwi, puttheyarndown, sourencho, and ThatWontCompute
 - Thanks — Panic, the Playdate Squad/devlog members, all my friends, SquidGod, and YOU!

@@ -226,8 +226,9 @@ Here are a couple tips to hopefully help you conquer the HEXAPLEX!
 - Full Circle and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [Righteous](https://fonts.google.com/specimen/Righteous) font — Astigmatic; [OFL](https://openfontlicense.org)
 - Playdate [input prompts](https://kenney.nl/assets/input-prompts) — [Kenney](https://kenney.nl); [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-- [HUMP](https://hump.readthedocs.io/en/latest/) library — Matthias Richter; [License](https://github.com/HDictus/hump/blob/temp-master/README.md)
+- LÖVE2D [HUMP](https://hump.readthedocs.io/en/latest/) library — Matthias Richter; [License](https://github.com/HDictus/hump/blob/temp-master/README.md)
 - Addtl. code — [lua-users wiki](http://lua-users.org/wiki/FormattingNumbers) and [Drew-Lo](https://aloebach.itch.io)
+- Playdate [achievements](https://playdatesquad.github.io/pd-achievements/) library — Playdate Squad
 - Thanks — Voxy, Toad, scizzorz, superfunc, Mag, Hunter Bridges, Scenic Route, DRD, IGDA Twin Cities, and Panic!
 - PC testers — Orchid, Maddy, Toad, Seb, Winter, Voxy, Diego, Roxby, and Scenic Route
 
@@ -254,6 +255,8 @@ Windows/macOS/Linux:
 - Screen clip rect will now accurately follow screen "shake" effect
 - Added ability to pause the game while a HEXA match is taking place
 - App icon will now change at runtime based on Color attribute
+- F11 will now toggle fullscreen mode
+- Screen shake has been adjusted to hopefully better match the Playdate version
 - Fixed controller logic — now any input from any connected controller will be registered
 - Fixed rumble logic — the most recently used controller (if any) will be the one used for rumble
 - Fixed bug where the screen border may flicker rapidly with a latent frame on resizing
