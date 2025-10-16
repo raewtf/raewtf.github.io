@@ -244,7 +244,7 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 # Changelog
 
 ## Version 2.2.0
-### ???
+### 10.16.2025
 
 Windows/macOS/Linux:
 - Added new "Language" option, as well as a full French localization! Thanks, Voxy!
