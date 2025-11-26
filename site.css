@@ -466,7 +466,6 @@ input::placeholder {
 	clip-path: polygon(24% 0, 100% 5%, 95% 100%, 14% 95%, 0 45%);
 	background: var(--sel);
 	color: var(--seb);
-	overflow: hidden;
 	display: inline-block;
 	padding: 0.5rem 0.75rem 0.5rem 1rem;
 	vertical-align: middle;
@@ -487,16 +486,19 @@ input::placeholder {
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 0.25rem !important;
+	text-wrap: nowrap;
+	overflow: hidden;
 }
 
 h1 .contains_money {
 	margin-bottom: -0.4rem !important;
+	text-overflow: ellipsis;
+	white-space: pre;
 }
 
 .contains_money hr {
 	width: unset;
 	flex-grow: 1;
-	margin: 0 1rem;
 	border-top: 3px dashed var(--sed);
 }
 
