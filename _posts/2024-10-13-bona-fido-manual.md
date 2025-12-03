@@ -17,7 +17,7 @@ Bona Fido is a fast-paced, single-screen platformer, inspired by classic arcade 
 
 ## Controls
 
-The d-pad, A and B buttons, and crank are required to play this game. These buttons are also used to navigate menus.
+The d-pad and A and B buttons are required to play this game. These buttons are also used to navigate menus. The crank can also optionally be used.
 
 ## Gameplay
 
@@ -25,7 +25,7 @@ The d-pad runs around. A button jumps, B button barks. The crank helps you dig u
 
 Enemies, obviously, are bad. If you run into them, they'll kill ya (...again), as quick as can be. Luckily, your bark seems to shut 'em up and make 'em go away. Press B to use that, so long as you haven't lost your voice.
 
-Dig-ups are items that sprout from the ground occasionally. Some are good, some are bad, but you don't know what's what until you go fish it out. If you see something buried in the ground, walk up to it and use the crank to dig it up. Trick or treat!
+Dig-ups are items that sprout from the ground occasionally. Some are good, some are bad, but you don't know what's what until you go fish it out. If you see something buried in the ground, walk up to it and use the crank (or Down on the d-pad) to dig it up. Trick or treat!
 
 # On-line Capability
 
@@ -65,6 +65,12 @@ You can view global scores using two primary methods:
 - Thanks — Mag, Toad, Kirk, Henry, John, and bumbleborn!
 
 # Changelog
+
+## Version 1.5.7
+### 12.03.2025
+
+- Fixed bug in a particular game mode, where the game would crash on lose
+- Added ability to dig by holding Down on d-pad, instead of requiring the crank
 
 ## Version 1.5.6
 ### 04.28.2025
