@@ -21,7 +21,7 @@ Give it a try... it's *HEXA-good!*
 
 A set of Directional and Action buttons are required to play this game. These buttons are used to navigate menus, and are mandatory in main gameplay.
 
-On personal computers, you can use the keyboard (Arrows & Z + X, or WASD & , + .), or a compatible gamepad (D-pad & A + B). During an active game, the pause menu can be accessed by pressing ESC/Start. Otherwise, pressing either button twice in succession will quickly exit the game.
+On personal computers, you can use the keyboard (which defaults to Arrows & Z + X), or a compatible gamepad (d-pad & A + B). During an active game, the pause menu can be accessed by pressing ESC/Start. Otherwise, pressing either button twice in succession will quickly exit the game.
 
 On Playdate, you can also optionally use the crank to perform the turning action usually done by the Action buttons — this can be toggled in the Options menu. (The crank can also be used to navigate menus.)
 
