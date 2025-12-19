@@ -161,6 +161,11 @@ From me to you, thanks for playing, and break a leg! 💖
 
 # Changelog
 
+## Version 2.2.7
+### 12.19.2025
+
+- Quick fix for a bug that might have resulted in save-data loss. Sorry!
+
 ## Version 2.2.6
 ### 04.28.2025
 
