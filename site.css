@@ -540,6 +540,8 @@ h1 .contains_money {
 }
 .art_frame:hover {
 	cursor: pointer;
+}
+.art_frame:hover .art {
 	filter: brightness(120%);
 }
 .art_frame:not(:last-child) {
