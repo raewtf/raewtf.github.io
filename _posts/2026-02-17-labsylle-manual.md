@@ -85,7 +85,7 @@ The Daily Quik-Word leaderboard refreshes automatically at 00:00 midnight GMT, c
 - [Digital Disco](https://fontenddev.com/fonts/digital-disco/) font — [Font End Dev](https://fontenddev.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [Cal Sans](https://fonts.google.com/specimen/Cal+Sans) font — Mark Davis; [OFL](https://github.com/calcom/sans/blob/main/OFL.txt)
 - Playdate [achievements](https://playdatesquad.github.io/pd-achievements/) library — Playdate Squad
-- xorshift PRNG implementation — 2DArray
+- xorshift PRNG implementation — [Eli Piilonen](https://bsky.app/profile/2darray.bsky.social) (2DArray)
 - LÖVE2D [Knife](https://github.com/airstruck/knife) library — [airstruck](https://github.com/airstruck); [MIT](https://github.com/airstruck/knife/blob/master/license)
 - LÖVE2D [HUMP](https://hump.readthedocs.io/en/latest/) library — Matthias Richter; [License](https://github.com/HDictus/hump/blob/temp-master/README.md)
 - [Tween easings](https://github.com/EmmanuelOga/easing) — Yuichi Tateno and Emmanuel Oga; [MIT](https://github.com/EmmanuelOga/easing/blob/master/license.txt)
