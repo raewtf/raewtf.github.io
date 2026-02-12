@@ -9,9 +9,9 @@ desc: How to get started and swap those words!
 
 > A cool word puzzle game, all about the "building blocks" of the English language.
 
-*Labsylle* is a puzzle game. All about syllables. It's easy to play: you swap around these syllable blocks, two at a time, and try to assemble words. That's it! Once you get started, though, it's hard to stop yourself from saying "just one more". Pop in and out of themed puzzle packs at ease — suspend, and then resume, exactly where you left off. Perfect to play on the bus, waiting in line, or anywhere you need a quick puzzle fix. Who knows? You might even learn a new word or three!
+*Labsylle* is a puzzle game. All about syllables. It's easy to play: you swap around these syllable blocks, two at a time, and try to assemble words. That's it! Once you get started, though, it's hard to stop yourself from saying "just one more". Pop in and out of themed puzzle paks at ease — suspend, and then resume, exactly where you left off. Perfect to play on the bus, waiting in line, or anywhere you need a quick puzzle fix. Who knows? You might even learn a new word or three!
 
-We're not skimping, either. The game includes over four hundred and fifty word puzzles, and an expansive dictionary of *"Quik-Words"*, for you to barrel through in sixty second bursts — how many rounds can you complete in that time? If you want a break from all the words words words, there are also a hundred *bonus* puzzles centered on shapes and math equations. That's Labsylle, explained to you in one hundred and sixty eight words — are you in?
+We're not skimping, either. The game includes over four hundred and fifty word puzzles, and an expansive dictionary of *"Quik-Words"*, for you to barrel through in sixty second bursts — how many rounds can you complete in that time? If you want a break from all the words words words, there are also about 50 *bonus* puzzles centered on shapes — the perfect counterpart. That's Labsylle, explained to you in one hundred and sixty eight words — are you in?
 
 # Gameplay Basics
 
@@ -71,7 +71,7 @@ You can view global scores using two primary methods:
 
 1. Visit the Labsylle game page in your Web browser, at [play.date/games/labsylle](https://play.date/games/labsylle). From here, you can view available scores in the Scoreboards section. You can see top 10 scores in every available board.
 
-2. To view global scores for paks within the game, hover over a pak on the selection screen, and select "pack boards" from the Slide menu. From here, you can see the top scores for the current pak.
+2. To view global scores for paks within the game, hover over a pak on the selection screen, and select "pak boards" from the Slide menu. From here, you can see the top scores for the current pak.
 
 3. To view global scores for Quik-Word within the game, enter the "Best Scores" menu, accessible from the Title screen. When in this screen, you can use the left and right Directional buttons to toggle between the All-Time and Daily best score leaderboards. From here, you can see hte top scores for the currently-highlighted board.
 
@@ -80,7 +80,7 @@ The Daily Quik-Word leaderboard refreshes automatically at 00:00 midnight GMT, c
 # Credits
 
 - Art, code, music, and SFX — [Rae](https://rae.wtf)
-- Pack writing — Rae, [Toad](https://toadley.space), and [Voxy](https://voxy.space)
+- Pak writing — Rae, [Toad](https://toadley.space), and [Voxy](https://voxy.space)
 - [Quik-Word list](https://github.com/gautesolheim/25000-syllabified-words-list) — [Gaute Solheim](https://github.com/gautesolheim); [Unlicense](https://github.com/gautesolheim/25000-syllabified-words-list/blob/main/LICENSE.md)
 - [Digital Disco](https://fontenddev.com/fonts/digital-disco/) font — [Font End Dev](https://fontenddev.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [Cal Sans](https://fonts.google.com/specimen/Cal+Sans) font — Mark Davis; [OFL](https://github.com/calcom/sans/blob/main/OFL.txt)
@@ -96,8 +96,19 @@ The Daily Quik-Word leaderboard refreshes automatically at 00:00 midnight GMT, c
 
 # Changelog
 
-## Version 1.0.0
+## Version 1.0.1
 ### 02.17.2026
+
+- Fixed bug where Pak Swaps would erroneously be inflated in Results screen and Playdate leaderboards.
+- Added edge-case catch to not attempt to play a sound if it doesn't exist.
+- In Quik-Word, timer will no longer remain visually frozen during Round 1.
+- Fixed 'Paks' being referred to as 'Packs' in quite a lot of places.
+
+Playdate:
+- Fixed bug where, in Quik-Word, leaving the Results screen too fast would cause a leaderboard-related crash.
+- Swapped direction of crank scrolling in Quik-Word results screen.
+
+## Version 1.0.0
 
 - Initial release.
 
