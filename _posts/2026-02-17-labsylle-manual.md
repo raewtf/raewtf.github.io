@@ -19,7 +19,7 @@ We're not skimping, either. The game includes over four hundred and fifty word p
 
 A set of Directional and Action buttons are required to play this game. These buttons are used to navigate menus, and are mandatory in main gameplay.
 
-On personal computers, you can use the keyboard (which defaults to Arrows & Z + X), or a compatible gamepad (d-pad & A + B). During an active game, the pause menu can be accessed by pressing ESC/Start. Otherwise, pressing either button twice in succession will quickly exit the game.
+On personal computers, you can use the keyboard (which defaults to Arrows & Z + X), or a compatible gamepad (d-pad & A + B). During an active game, ESC/Start accesses the pause menu. Otherwise, pressing either button twice in succession will quickly exit the game.
 
 On Playdate, you can also optionally use the crank to perform the swapping action usually done by the Action buttons — this can be toggled in the Options menu. (The crank can also be used to navigate menus.)
 
@@ -90,14 +90,13 @@ The Daily Quik-Word leaderboard refreshes automatically at 00:00 midnight GMT, c
 - LÖVE2D [HUMP](https://hump.readthedocs.io/en/latest/) library — Matthias Richter; [License](https://github.com/HDictus/hump/blob/temp-master/README.md)
 - [Tween easings](https://github.com/EmmanuelOga/easing) — Yuichi Tateno and Emmanuel Oga; [MIT](https://github.com/EmmanuelOga/easing/blob/master/license.txt)
 - Lua [JSON](https://github.com/rxi/json.lua) parser — [rxi](https://github.com/rxi); [MIT](https://github.com/rxi/json.lua/blob/master/LICENSE)
-- PeeDee testers — Oatcup, Dimitri, dennens, scizzorz, benjymous, TheOddLinguist, Scenic Route, and Toad
-- PC testers — TBD
+- Playtesters — Oatcup, Dimitri, dennens, scizzorz, benjymous, TheOddLinguist, Scenic Route, Toad, BrittOmnRex, and Angry
 - Thanks — Voxy, Toad, Robbo, Scenic Route, Orchid, Winter, Devon, The Rhythm League, the PeeDee Dev Server, and Panic!
 
 # Changelog
 
 ## Version 1.0.1
-### 02.17.2026
+### 02.16.2026
 
 - Fixed bug where Pak Swaps would erroneously be inflated in Results screen and Playdate leaderboards.
 - Added edge-case catch to not attempt to play a sound if it doesn't exist.
@@ -109,8 +108,9 @@ Playdate:
 - Swapped direction of crank scrolling in Quik-Word results screen.
 
 ## Version 1.0.0
+### 02.09.2026
 
-- Initial release.
+- Initial pre-release.
 
 <br>
 <a href="https://raewtf.itch.io/labsylle" class="button">Buy <i>Labsylle</i> for personal computers</a>
