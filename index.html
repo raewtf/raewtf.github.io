@@ -59,8 +59,8 @@ layout: null
 			<a class="button" href="https://raewtf.itch.io/labsylle">Buy for personal computers</a>
 			<a class="button" href="https://play.date/games/labsylle">Buy on Playdate</a>
 			<hr>
-            <h3>Newest Blog Post</h3>
-            {% for post in site.posts limit:1 %}
+            <h3>Newest Blog Posts</h3>
+            {% for post in site.posts limit:2 %}
                 {% if post.visible == 1  %}
                     <a href="{{ post.url }}" class="post_container {{ post.tag | slugify }}">
                         <h1>{{ post.title }}</h1>
@@ -77,7 +77,6 @@ layout: null
 			<br>
 			<h3>Latest Happenings</h3>
 			<p class="box">02.17.2026 — <i>Labsylle</i> is OUT NOW! Get it for your <a href="https://raewtf.itch.io/labsylle">personal computer of choice</a>, or for your <a href="https://play.date/games/labsylle">PeeDee</a>!</p>
-			<p class="box">01.28.2026 — <i>Labsylle</i> now launches on Playdate Catalog and Itch.io on 02.17.2026! Get hyped for WORDS!</p>
 			<p class="box">01.21.2026 — <a href="https://play.date/g/lntrx"><i>Mission LunaTrix</i></a> is now available at a new MSRP of $5! Down from $7. If you haven't picked it up, why not give it a crank?</p>
 			<p class="box">01.13.2026 — I went to MAGFest 2026, and it was a blast! Here's a <a href="https://www.youtube.com/watch?v=Ev_7QXPzm6g">brief video log</a> of my trip. See you next year!</p>
 			<br>
