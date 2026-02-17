@@ -397,6 +397,11 @@ code {
 .mission-lunatrix.post_container h3 {color: var(--orw);}
 .mission-lunatrix.post_container::before, .mission-lunatrix.post_container::after {color: var(--blb);}
 
+.labsylle.post_container {background: var(--orl); border: 4px solid var(--ord);}
+.labsylle.post_container h1, .labsylle.post_container p {color: var(--orb);}
+.labsylle.post_container h3 {color: var(--red);}
+.labsylle.post_container::before, .labsylle.post_container::after {color: var(--orb);}
+
 .expert_date i {
 	margin-right: 5px;
 }
