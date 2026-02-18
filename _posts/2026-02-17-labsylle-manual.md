@@ -95,8 +95,19 @@ The Daily Quik-Word leaderboard refreshes automatically at 00:00 midnight GMT, c
 
 # Changelog
 
+## Version 1.0.2
+### 02.18.2026
+
+- Fixed impossible puzzle in the Sports! pak.
+- Fixed word touching the edges of the syllable block in the Food & Drink I pak.
+- Cursor now starts in (or near) the center when opening a new puzzle.
+- Adjusted visualization of bomb blocks (now the explosion happens *after* 0, not *at* 0).
+
+Playdate:
+- Added wrapping paper to launch experience.
+
 ## Version 1.0.1
-### 02.16.2026
+### 02.17.2026
 
 - Fixed bug where Pak Swaps would erroneously be inflated in Results screen and Playdate leaderboards.
 - Added edge-case catch to not attempt to play a sound if it doesn't exist.
