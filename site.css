@@ -16,6 +16,7 @@ html {
 	display: flex;
 	justify-content: center;
 	background: var(--sed);
+	image-rendering: pixelated;
 }
 
 body {
@@ -191,6 +192,15 @@ label .required {
 	margin-bottom: 0.5rem;
 }
 
+.box_header {
+	display: block;
+	text-align: right;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+	font-size: 1.1rem;
+	font-style: normal;
+}
+
 .box a, .main p a, .sides p a, .footer p a, .main ul li a, .sides ul li a {
 	color: var(--red);
 }
@@ -204,9 +214,10 @@ label .required {
 	color: var(--yeb);
 	font-family: 'Poppins', sans-serif;
 	text-decoration: none;
-	padding: 0.5rem 1rem;
+	padding: 0.75rem 1rem;
 	border: none;
 	font-size: 1rem;
+	line-height: 1;
 }
 
 .button:hover {
@@ -223,14 +234,23 @@ label .required {
 	filter: none;
 }
 
-body:not(.blog) .main img:not(.logo), body:not(.blog) .sides img:not(.logo) {
-	max-width: 40%;
-	max-height: 150px;
-	margin-left: 1rem;
+body:not(.blog) .main img:not(.logo):not(.icon), body:not(.blog) .sides img:not(.logo):not(.icon) {
+	width: 400px;
+	max-width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
 	margin-bottom: 1rem;
-	float: right;
 	border-radius: 5px;
 	border: 4px solid var(--sed);
+}
+
+img.float {
+	max-width: 175px !important;
+	margin: 0 0 !important;
+	margin-left: 1rem !important;
+	float: right;
 }
 
 body.blog .main img, .image {
@@ -247,8 +267,18 @@ body.blog .main img, .image {
 	max-height: 150px;
 }
 
+.icon {
+	float: left;
+	width: 64px;
+	height: 64px;
+	margin-right: 5px;
+	margin-bottom: -5px;
+	transform: translate(-3px, -13px) rotate(-10deg);
+}
+
 .hover_img {
-	max-width: 100% !important;
+	min-width: 100% !important;
+	margin-bottom: 1rem !important;
 	width: 100%;
 	z-index: 1;
 	float: none !important;
@@ -270,7 +300,6 @@ body.blog .main img, .image {
 
 .side_left {
 	border-bottom: 4px solid var(--sed);
-	min-width: 66%;
 }
 
 .footer {
@@ -414,7 +443,7 @@ code {
 	border-radius: 5px;
 	text-align: center;
 	margin-right: 5px;
-	padding: 0 10px;
+	padding: 0 5px;
 }
 
 .expert_good {
@@ -425,11 +454,11 @@ code {
 	border-radius: 5px;
 	text-align: center;
 	margin-right: 5px;
-	padding: 0 10px;
+	padding: 0 5px;
 }
 
 .expert_date {
-	width: 120px;
+	width: 100px;
 	display: inline-block;
 	background: var(--sel);
 	border-radius: 5px;
@@ -554,7 +583,7 @@ h1 .contains_money {
 }
 
 .art {
-	max-width: 100% !important;
+	min-width: 100% !important;
 	width: 100%;
 	float: none !important;
 	margin-left: 0 !important;
@@ -610,7 +639,25 @@ h1 .contains_money {
 }
 .art_data h1 {margin-top: 0;}
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 550px) {
+	body:not(.blog) .main img:not(.logo):not(.icon):not(.art), body:not(.blog) .sides img:not(.logo):not(.icon):not(.art) {
+		float: right;
+		max-width: 50%;
+		max-height: 240px;
+		margin: 0 0;
+		margin-left: 1rem;
+	}
+
+	.side_left {
+		border-bottom: none;
+	}
+
+	.side_right {
+		min-width: 275px;
+		width: 275px;
+		border-left: 4px solid var(--sed);
+	}
+
 	.nav {
 		flex-direction: row;
 		justify-content: space-around;
@@ -626,11 +673,5 @@ h1 .contains_money {
 
 	.sides {
 		flex-direction: row;
-	}
-
-	.side_left {
-		border-bottom: none;
-		border-right: 4px solid var(--sed);
-		max-width: 66%;
 	}
 }

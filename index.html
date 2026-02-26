@@ -43,7 +43,7 @@ layout: null
         <a href="blog">Blog</a>
     </div>
     <div class="main">
-        <img src="pfp.jpg" />
+        <img class="float" src="pfp.jpg" />
         <h1>Howdy!</h1>
         <h2>Welcome to my website!</h2>
         <p>My name's Rae. I'm a silly moth that likes to make a buncha cool stuff! Luckily, other people seem to find it pretty cool as well. Anyway, welcome! Take a look around — there's plenty of rad stuff to find and play! Games, art, other miscellaneous things... who knows!</p>
@@ -52,7 +52,6 @@ layout: null
         <div class="side_left">
             <h3>Featured Project</h3>
 			<h1>Labsylle</h1>
-			<h3>02.17.2026&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;Playdate/Personal Computers</h3>
 			<img src="games/labsylle_preview.gif" />
 			<p><i>Labsylle</i>'s a cool word puzzle game, all about the "building blocks" of the English language. Swap around syllable blocks, two at a time, to assemble words — that's it! It'll keep you busy, too; with over 450 curated word puzzles, 50 bonus puzzles that put a 'spin' on the usual gameplay, and a whole dictionary of <i>Quik-Words</i> to experience in 60-second bursts.</p>
 			<br>
@@ -60,7 +59,7 @@ layout: null
 			<a class="button" href="https://play.date/games/labsylle">Buy on Playdate</a>
 			<hr>
             <h3>Newest Blog Posts</h3>
-            {% for post in site.posts limit:2 %}
+            {% for post in site.posts limit:3 %}
                 {% if post.visible == 1  %}
                     <a href="{{ post.url }}" class="post_container {{ post.tag | slugify }}">
                         <h1>{{ post.title }}</h1>
@@ -72,17 +71,17 @@ layout: null
             <a href="blog" class="button">More blog posts</a>
         </div>
         <div class="side_right">
+			<h3>Latest Happenings</h3>
+			<p class="box"><img class="icon" src="icons/labsylle.png" /><i class="box_header">02.17.2026</i><i>Labsylle</i> is OUT NOW! Get it for your <a href="https://raewtf.itch.io/labsylle">personal computer of choice</a>, or for your <a href="https://play.date/games/labsylle">PeeDee</a>!</p>
+			<p class="box"><img class="icon" src="icons/lunatrix.png" /><i class="box_header">01.21.2026</i><a href="https://play.date/g/lntrx"><i>Mission LunaTrix</i></a> is now available at a new MSRP of $5! Down from $7. If you haven't picked it up, why not give it a crank?</p>
+			<p class="box"><i class="box_header">01.13.2026</i>I went to MAGFest 2026, and it was a blast! Here's a <a href="https://www.youtube.com/watch?v=Ev_7QXPzm6g">brief video log</a> of my trip. See you next year!</p>
+			<br>
 			<h3>Commissions Open!</h3>
 			<p class="box">If you like my art and want some of it for yourself, why not check out my <a href="../commissions">commissions sheet</a>? Get some nice art for a project, or just for yourself!</p>
 			<br>
-			<h3>Latest Happenings</h3>
-			<p class="box">02.17.2026 — <i>Labsylle</i> is OUT NOW! Get it for your <a href="https://raewtf.itch.io/labsylle">personal computer of choice</a>, or for your <a href="https://play.date/games/labsylle">PeeDee</a>!</p>
-			<p class="box">01.21.2026 — <a href="https://play.date/g/lntrx"><i>Mission LunaTrix</i></a> is now available at a new MSRP of $5! Down from $7. If you haven't picked it up, why not give it a crank?</p>
-			<p class="box">01.13.2026 — I went to MAGFest 2026, and it was a blast! Here's a <a href="https://www.youtube.com/watch?v=Ev_7QXPzm6g">brief video log</a> of my trip. See you next year!</p>
-			<br>
             <h3>You should check out</h3>
-			<p class="box"><a href="https://play.date/games/rowbot-rally"><i>RowBot Rally</i></a> — A boat-racing game that features cute critters, animated cutscenes, and the downfall of a megacorp. What's not to love?</p>
-			<p class="box"><a href="https://raewtf.itch.io/hexa"><i>HEXA</i></a> — A really good, action-packed, hexagon-based puzzle game. Available on Playdate and for personal computers.</p>
+			<p class="box"><img class="icon" src="icons/rowbot.png" /><a class="box_header" href="https://play.date/games/rowbot-rally"><i>RowBot Rally</i></a>A boat-racing game that features cute critters, animated cutscenes, and the downfall of a megacorp. What's not to love?</p>
+			<p class="box"><img class="icon" src="icons/hexa.png" /><a  class="box_header" href="https://raewtf.itch.io/hexa"><i>HEXA</i></a>A really good, action packed, hexagon-based puzzle game. Available for Playdate and personal computers.</p>
         </div>
     </div>
     <div class="footer">
