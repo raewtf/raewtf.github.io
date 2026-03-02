@@ -96,7 +96,7 @@ The Daily Quik-Word leaderboard refreshes automatically at 00:00 midnight GMT, c
 # Changelog
 
 ## Version 1.0.3
-### 03.02.2026
+### 03.01.2026
 
 - Fixed game crash when launching the Shapes! pak.
 - Fixed game crash when entering puzzle 4 in the Card Stock bonus pak.
