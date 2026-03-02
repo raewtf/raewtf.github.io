@@ -95,6 +95,26 @@ The Daily Quik-Word leaderboard refreshes automatically at 00:00 midnight GMT, c
 
 # Changelog
 
+## Version 1.0.3
+### 03.02.2026
+
+- Fixed game crash when launching the Shapes! pak.
+- Fixed game crash when entering puzzle 4 in the Card Stock bonus pak.
+- Optimized automatic check logic slightly. Now the correct state will only be checked after each swap, and not on every frame.
+- Page numbers are now displayed in Options and Credits screens.
+- Removed impostor/bomb icons from the Pak Select screen (due to visual bug with it sometimes crashing into the text).
+
+Windows/macOS/Linux:
+- Added clearer selection indicator on the in-game Pause screen.
+- Fixed edge case where you could pause the game again after selecting Suspend or Quit.
+- Button display now always reads "A" and "B" regardless of controller connection (due to visual bug with some keyboard key labels).
+- Fixed bug where scene transition would not properly occur when resuming a suspended pak.
+- Fixed edge case where pressing ESC/Start too early as you enter a game would queue up the full-game quit flow.
+
+Playdate:
+- Added default username check to scoreboards, and a call-to-action if the player hasn't set their own.
+- Cranking on the Options screen will now move to the next/previous page of items (if any) when it attempts to pass the edge.
+
 ## Version 1.0.2
 ### 02.18.2026
 

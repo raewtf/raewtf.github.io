@@ -246,11 +246,12 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 ## Version 2.2.0
 ### 10.16.2025
 
-Windows/macOS/Linux:
 - Added new "Language" option, as well as a full French localization! Thanks, Voxy!
+- Added ability to toggle Options using the left and right Directional buttons
+
+Windows/macOS/Linux:
 - Added keyboard remapping! Instead of presets, map the keys anywhere on the keyboard you like
 - Added "Wonky Pixels" scaling mode, in Video Options. This minimizes letterboxing, at the cost of...well, wonky pixels
-- Added ability to toggle Options using the left and right Directional buttons
 - Added ability to toggle Visual Options using the left and right Directional buttons
 - Screen clip rect will now accurately follow screen "shake" effect
 - Added ability to pause the game while a HEXA match is taking place
@@ -266,9 +267,7 @@ Windows/macOS/Linux:
 - Fixed bug where on exit from title screen, the text would be using the wrong font in Colorful mode
 
 Playdate:
-- Added new "Language" option, as well as a full French localization! Thanks, Voxy!
 - Sped up HEXA matching to roughly match the PC version
-- Added ability to toggle Options using the left and right Directional buttons
 
 ## Version 2.1.7
 ### 10.03.2025
