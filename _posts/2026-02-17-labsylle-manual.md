@@ -144,5 +144,4 @@ Playdate:
 - Initial pre-release.
 
 <br>
-<a href="https://raewtf.itch.io/labsylle" class="button">Buy <i>Labsylle</i> for personal computers</a>
-<a href="https://play.date/games/labsylle" class="button">Buy <i>Labsylle</i> for Playdate</a>
+<a href="https://rae.wtf/games/labsylle" class="button">Visit <i>Labsylle</i>'s webpage</a>
