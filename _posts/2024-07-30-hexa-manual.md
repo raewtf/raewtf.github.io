@@ -373,5 +373,4 @@ Playdate:
 - Initial release.
 
 <br>
-<a href="https://raewtf.itch.io/hexa" class="button">Buy <i>HEXA</i> for personal computers</a>
-<a href="https://play.date/games/hexa" class="button">Buy <i>HEXA</i> for Playdate</a>
+<a href="https://rae.wtf/games/hexa" class="button">Visit <i>HEXA</i>'s webpage</a>
