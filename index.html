@@ -58,7 +58,7 @@ layout: null
 			<a class="button" href="/games/labsylle">Visit the game's webpage</a>
 			<hr>
             <h3>Newest Blog Posts</h3>
-            {% for post in site.posts limit:3 %}
+            {% for post in site.posts limit:2 %}
                 {% if post.visible == 1  %}
                     <a href="{{ post.url }}" class="post_container {{ post.tag | slugify }}">
                         <h1>{{ post.title }}</h1>
@@ -71,15 +71,12 @@ layout: null
         </div>
         <div class="side_right">
 			<h3>Latest Happenings</h3>
+			<p class="box"><img class="icon" src="icons/hexa.png" /><i class="box_header">04.03.2026</i>Absolutely stoked to announce that <i>HEXA</i> is coming to Steam on May 13th!! You should go <a href="https://store.steampowered.com/app/4581230/HEXA/">wishlist it</a> right now!!</p>
 			<p class="box"><img class="icon" src="icons/rowbot.png" /><i class="box_header">03.14.2026</i>Extraordinarily happy to announce that <a href="https://play.date/games/rowbot-rally"><i>RowBot Rally</i></a> is the WINNER of the 2025 Playdate Community Awards for <i>Outstanding Visual Achievement (SDK)</i>, and <i>The CRANKY Award</i>. Thanks so much for playing!!<br><br>(...and if you haven't tried it yet, now's the perfect opportunity!)</p>
 			<p class="box"><img class="icon" src="icons/labsylle.png" /><i class="box_header">02.17.2026</i><i>Labsylle</i> is OUT NOW! Get it for your <a href="https://raewtf.itch.io/labsylle">personal computer of choice</a>, or for your <a href="https://play.date/games/labsylle">PeeDee</a>!</p>
-			<p class="box"><img class="icon" src="icons/lunatrix.png" /><i class="box_header">01.21.2026</i><a href="https://play.date/g/lntrx"><i>Mission LunaTrix</i></a> is now available at a new MSRP of $5! Down from $7. If you haven't picked it up, why not give it a crank?</p>
 			<br>
 			<h3>Commissions Open!</h3>
 			<p class="box">If you like my art and want some of it for yourself, why not check out my <a href="/commissions">commissions sheet</a>? Get some nice art for a project, or just for yourself!</p>
-			<br>
-            <h3>You should check out</h3>
-			<p class="box"><img class="icon" src="icons/hexa.png" /><a  class="box_header" href="/games/hexa"><i>HEXA</i></a>A really good, action packed, hexagon-based puzzle game. Available for Playdate and personal computers.</p>
         </div>
     </div>
     <div class="footer">
