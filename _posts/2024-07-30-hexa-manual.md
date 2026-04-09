@@ -21,7 +21,7 @@ Give it a try... it's *HEXA-good!*
 
 A set of Directional and Action buttons are required to play this game. These buttons are used to navigate menus, and are mandatory in main gameplay.
 
-On personal computers, you can use the keyboard (which defaults to Arrows & Z + X), or a compatible gamepad (d-pad & A + B). During an active game, the pause menu can be accessed by pressing ESC/Start. Otherwise, pressing either button twice in succession will quickly exit the game.
+On personal computers, you can use the keyboard (which defaults to Arrows & Z + X), or a compatible gamepad (d-pad & A + B/X + O). During an active game, the pause menu can be accessed by pressing ESC/Start/Options. Otherwise, pressing any of those buttons twice in succession will quickly exit the game.
 
 On Playdate, you can also optionally use the crank to perform the turning action usually done by the Action buttons — this can be toggled in the Options menu. (The crank can also be used to navigate menus.)
 
@@ -221,6 +221,7 @@ Here are a couple tips to hopefully help you conquer the HEXAPLEX!
 - Art and code — [Rae](https://rae.wtf)
 - Music — [Watson at MusMus](https://musmus.main.jp); [Terms](https://musmus.main.jp/info.html)
 - French localization — [Voxy](https://voxy.space)
+- Japanese localization — Philemax
 - SFX — [JSFXR](https://sfxr.me)
 - [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
 - Full Circle and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
@@ -242,6 +243,33 @@ The version of HEXA for personal computers was an idea in my head for a while (e
 Special thanks to the folks in the Catalog dev chat for being there to witness my tomfoolery throughout the initial development, everybody who helped out and cheered me on as this game barreled through the finish line, and everyone who continues to compete so fiercely on the Playdate leaderboards and create such an inspiring community out of my little puzzle game. Enjoy the cake! And thanks to you, for reading, playing, and (hopefully) enjoying!
 
 # Changelog
+
+## Version 2.3.0
+### 05.13.2026
+
+- Added a full Japanese localization! Thanks, Philemax!
+- Added Language select screen that will show up at first launch, if user language isn't determinable.
+- Swaps:HEXAs ratio in Statistics now reads 'N/A' if ratio isn't calculable.
+- Mission Command headers now render with a nicer outlined font
+- When resetting local stats in the Options screen, sound effects will no longer overlap
+- Nudged manual images over slightly so they didn't crash into the text so hard
+
+Windows/macOS/Linux:
+- When using a controller, the left control stick can now be used in place of the Directional buttons
+- If a controller is disconnected in the middle of a game, the game will now pause
+- When using a Sony-branded controller, appropriate button labels and glyphs will now be rendered
+- Added persistent "Fullscreen" save option to Video Options (defaults to "ON")
+- Added ability to exit keyboard remapping by pressing ESC (or Start/Options, on a gamepad)
+- Fixed bug where pressing an invalid key during keyboard remapping would crash the game
+- Keyboard remapping will now refuse to initiate when activated with a controller
+
+Playdate:
+- Added "System" language option. If selected, the game will choose the language based on your Playdate's language setting
+- In Jukebox, going back from the Slide menu will no longer play an extra sound effect
+- Added badge icons for locked and unlocked achievements
+- Fixed bug where "Can't clear the mission in this state!" error in Mission Command wouldn't get properly localized
+- Fixed incorrect criteria for Swap- and HEXA-based achievements
+- Fixed wording in Mission Command achievement, as well as making it un-hidden
 
 ## Version 2.2.0
 ### 10.16.2025
