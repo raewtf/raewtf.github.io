@@ -51,18 +51,20 @@ layout: null
     <div class="sides">
         <div class="side_left">
             <h3>Featured Project</h3>
-			<h1>Labsylle</h1>
-			<img src="games/labsylle_preview.gif" />
-			<p><i>Labsylle</i>'s a cool word puzzle game, all about the "building blocks" of the English language. Swap around syllable blocks, two at a time, to assemble words — that's it! It'll keep you busy, too; with over 450 curated word puzzles, 50 bonus puzzles that put a 'spin' on the usual gameplay, and a whole dictionary of <i>Quik-Words</i> to experience in 60-second bursts.</p>
+			<h1>HEXA</h1>
+			<h2>Coming to Steam 05.13.2026!</h2>
+			<img src="games/hexa_preview.gif" />
+			<p><i>Board the helm of Starship HEXA, and conquer the universe the only way you know how: shapes.</i><br><br>Conquer the HEXAPLEX, wrangle those Power-ups, and maybe even become ruler of the universe along the way in <i>HEXA</i>, a triangle-matching puzzle game with gameplay that's dead-simple, but tons of fun. With an action-packed suite of modes, addicting mechanics, and plenty of otherworldly competition.</p>
 			<br>
-			<a class="button" href="/games/labsylle">Visit the game's webpage</a>
+			<a class="button" href="https://store.steampowered.com/app/4581230/HEXA/">Wishlist on Steam</a>
+			<a class="button" href="games/hexa">Visit the game's webpage</a>
 			<hr>
             <h3>Newest Blog Posts</h3>
             {% for post in site.posts limit:2 %}
                 {% if post.visible == 1  %}
                     <a href="{{ post.url }}" class="post_container {{ post.tag | slugify }}">
                         <h1>{{ post.title }}</h1>
-                        <h3>{{ post.date | date: '%m.%d.%Y' }}&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;{{ post.tag }}</h3>
+                        <h3>{{ post.date | date: '%m.%d.%Y' }}&nbsp;&nbsp;/&nbsp;&nbsp;{{ post.tag }}</h3>
                         <p>{{ post.desc }}</p>
                     </a>
                 {% endif %}

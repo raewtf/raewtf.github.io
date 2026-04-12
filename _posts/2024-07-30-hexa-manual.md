@@ -227,9 +227,13 @@ Here are a couple tips to hopefully help you conquer the HEXAPLEX!
 - Full Circle and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [Righteous](https://fonts.google.com/specimen/Righteous) font — Astigmatic; [OFL](https://openfontlicense.org)
 - Playdate [input prompts](https://kenney.nl/assets/input-prompts) — [Kenney](https://kenney.nl); [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-- LÖVE2D [HUMP](https://hump.readthedocs.io/en/latest/) library — Matthias Richter; [License](https://github.com/HDictus/hump/blob/temp-master/README.md)
-- Addtl. code — [lua-users wiki](http://lua-users.org/wiki/FormattingNumbers) and [Drew-Lo](https://aloebach.itch.io)
 - Playdate [achievements](https://playdatesquad.github.io/pd-achievements/) library — Playdate Squad
+- xorshift PRNG implementation — [Eli Piilonen](https://bsky.app/profile/2darray.bsky.social) (2DArray)
+- LÖVE2D [Knife](https://github.com/airstruck/knife) library — [airstruck](https://github.com/airstruck); [MIT](https://github.com/airstruck/knife/blob/master/license)
+- LÖVE2D [HUMP](https://hump.readthedocs.io/en/latest/) library — Matthias Richter; [License](https://github.com/HDictus/hump/blob/temp-master/README.md)
+- [Tween easings](https://github.com/EmmanuelOga/easing) — Yuichi Tateno and Emmanuel Oga; [MIT](https://github.com/EmmanuelOga/easing/blob/master/license.txt)
+- Lua [JSON](https://github.com/rxi/json.lua) parser — [rxi](https://github.com/rxi); [MIT](https://github.com/rxi/json.lua/blob/master/LICENSE)
+- Addtl. code — [lua-users wiki](http://lua-users.org/wiki/FormattingNumbers) and [Drew-Lo](https://aloebach.itch.io)
 - Thanks — Voxy, Toad, scizzorz, superfunc, Mag, Hunter Bridges, Scenic Route, DRD, IGDA Twin Cities, and Panic!
 - PC testers — Orchid, Maddy, Toad, Seb, Winter, Voxy, Diego, Roxby, and Scenic Route
 
@@ -248,23 +252,26 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 ### 05.13.2026
 
 - Added a full Japanese localization! Thanks, Philemax!
-- Added Language select screen that will show up at first launch, if user language isn't determinable.
+- Added xorshift randomization. All platforms should now have the same puzzle generation (for Daily Runs, Missions, etc.)
+- Added Language select screen that will show up at first launch, if user language isn't initially determinable.
 - Swaps:HEXAs ratio in Statistics now reads 'N/A' if ratio isn't calculable.
 - Mission Command headers now render with a nicer outlined font
 - When resetting local stats in the Options screen, sound effects will no longer overlap
 - Nudged manual images over slightly so they didn't crash into the text so hard
+- Added "System" language option as default. This will determine language based on your Playdate's OS-level setting (OS 3.1.0+), or your Steam client's setting. (Falls back to English)
 
 Windows/macOS/Linux:
 - When using a controller, the left control stick can now be used in place of the Directional buttons
 - If a controller is disconnected in the middle of a game, the game will now pause
+- Replaced animation timer logic with a much more consistent and smooth-operating library
 - When using a Sony-branded controller, appropriate button labels and glyphs will now be rendered
 - Added persistent "Fullscreen" save option to Video Options (defaults to "ON")
+- Fixed a game crash that would trigger on entering the Jukebox with the music volume at 0
 - Added ability to exit keyboard remapping by pressing ESC (or Start/Options, on a gamepad)
 - Fixed bug where pressing an invalid key during keyboard remapping would crash the game
 - Keyboard remapping will now refuse to initiate when activated with a controller
 
 Playdate:
-- Added "System" language option. If selected, the game will choose the language based on your Playdate's language setting
 - In Jukebox, going back from the Slide menu will no longer play an extra sound effect
 - Added badge icons for locked and unlocked achievements
 - Fixed bug where "Can't clear the mission in this state!" error in Mission Command wouldn't get properly localized
