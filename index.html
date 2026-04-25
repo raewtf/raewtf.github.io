@@ -28,7 +28,7 @@ layout: null
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,600;0,800;1,600;1,800&family=Righteous&display=swap" rel="stylesheet">
-<link href="./site.css" rel="stylesheet">
+<link href="../site.css" rel="stylesheet">
 
 <style>
 </style>
@@ -40,13 +40,13 @@ layout: null
 <header>
 	<div class="nav">
 		<a href="." class="nav_item active">home</a>
-		<a href="./games" class="nav_item">games</a>
-		<a href="./art" class="nav_item">art</a>
-		<a href="./commissions" class="nav_item">commissions</a>
-		<a href="./trinkets" class="nav_item">trinkets</a>
-		<a href="./blog" class="nav_item">blog</a>
+		<a href="../games" class="nav_item">games</a>
+		<a href="../art" class="nav_item">art</a>
+		<a href="../commissions" class="nav_item">commissions</a>
+		<a href="../trinkets" class="nav_item">trinkets</a>
+		<a href="../blog" class="nav_item">blog</a>
 	</div>
-	<img class="logo" src="./logo.png" />
+	<img class="logo" src="../logo.png" />
 	<div class="info">
 		<div class="up_box"></div>
 		<div>
@@ -69,7 +69,7 @@ layout: null
 			<a href="https://play.date/games/labsylle">Buy it in Playdate Catalog</a>
 			<a href="https://raewtf.itch.io/labsylle">Buy it on Itch.io</a>
 		</div>
-		<img class="box_image" src="./games/labsylle_preview.gif" />
+		<img class="box_image" src="../games/labsylle_preview.gif" />
 	</div>
 	<div class="side_by_side">
 		<div class="side_1">
@@ -88,13 +88,13 @@ layout: null
 		<div class="side_2">
 			<p class="topic_header">Coming up...</p>
 			<div class="coming_up">
-				<img src="./games/hexa_preview.gif" />
+				<img src="../games/hexa_preview.gif" />
 				<h1>HEXA coming to Steam 05.13.2026!</h1>
 				<p>With leaderboards, achievements; all that good stuff. Plus, it's a really good puzzle game!</p>
 				<a>Wishlist it</a>
 			</div>
 			<div class="coming_up">
-				<img src="./games/pesto_preview.gif" />
+				<img src="../games/pesto_preview.gif" />
 				<h1>Project Pesto...what <i>is</i> it?</h1>
 				<p>Well, that doesn't matter right now. Hang tight to your Playdate and get HYPED!</p>
 			</div>
@@ -106,7 +106,7 @@ layout: null
 			<h1>Hello!</h1>
 			<p>My name's Rae. I'm a real creative type who loves to make all kinds of stuff. Historically, drawing's kind of been my bag, but more recently I've been getting into game development, which has been extremely fun.<br>This website is my little corner of the internet, where I host all the projects I've made over my years with an internet presence. Feel free to take a look around! Observe some art with hand on chin like a fine museum patron, or find your next favorite video game for your quirky yellow handheld.</p>
 		</div>
-		<img class="pfp" src="./lost.png" />
+		<img class="pfp" src="../lost.png" />
 	</div>
 	<p class="topic_header">Latest from the Blog <a href="blog">More Blog Posts</a></p>
 	<div class="grid">
@@ -114,7 +114,7 @@ layout: null
 			{% if post.visible == 1  %}
 				<div class="coming_up">
 					<h1>{{ post.title }}</h1>
-					<h3>{{ post.date | date: '%m.%d.%Y '}}&nbsp;&nbsp;>&nbsp;&nbsp;{{ post.tag }}</h3>
+					<h3>{{ post.date | date: '%m.%d.%Y '}}</h3>
 					<p>{{ post.desc }}</p>
 					<a href="{{ post.url }}">Read On</a>
 				</div>
@@ -139,12 +139,12 @@ layout: null
 	<div class="footer_content">
 		<div>
 			<p>support me:</p>
-			<a href="./commissions" class="social">commissions</a>
+			<a href="../commissions" class="social">commissions</a>
 			<a href="https://store.steampowered.com/dev/rae" class="social">steam</a>
 		</div>
 		<div>
 			<p>everything:</p>
-			<a href="./expert" class="social">expert mode</a>
+			<a href="../expert" class="social">expert mode</a>
 		</div>
 		<p>...have a nice day!</p>
 	</div>
