@@ -253,20 +253,36 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 
 - Added a full Japanese localization! Thanks, Philemax!
 - Added xorshift randomization. All platforms should now have the same puzzle generation (for Daily Runs, Missions, etc.)
+- Added "System" language option as default. This will determine language based on your Playdate's OS-level setting (OS 3.1.0+), or your Steam client's setting. (Falls back to English)
 - Added Language select screen that will show up at first launch, if user language isn't initially determinable.
 - Swaps:HEXAs ratio in Statistics now reads 'N/A' if ratio isn't calculable.
+- Divided screen-shake effect a bit to reduce flashing of dither patterns on smaller displays
 - Mission Command headers now render with a nicer outlined font
 - When resetting local stats in the Options screen, sound effects will no longer overlap
 - Nudged manual images over slightly so they didn't crash into the text so hard
-- Added "System" language option as default. This will determine language based on your Playdate's OS-level setting (OS 3.1.0+), or your Steam client's setting. (Falls back to English)
+- Adjusted scene transition "blast door" parameters
+- Chill Mode achievement will now unlock at the end of the session instead of at the beginning
 
 Windows/macOS/Linux:
+- Added some nice Steam-y features:
+	- Achievements!
+	- Rich presence!
+	- Leaderboards!
 - When using a controller, the left control stick can now be used in place of the Directional buttons
-- If a controller is disconnected in the middle of a game, the game will now pause
+- The game will now pause if the controller is disconnected, the window is defocused, or the Steam overlay is opened mid-game
 - Replaced animation timer logic with a much more consistent and smooth-operating library
+- Added more controller-friendly method of text input in Mission Command
 - When using a Sony-branded controller, appropriate button labels and glyphs will now be rendered
 - Added persistent "Fullscreen" save option to Video Options (defaults to "ON")
+- Fixed bug where in Jukebox, window title would not get properly localized (missing string)
+- Fixed bug where changing Language in Options would not adjust the window title accordingly
 - Fixed a game crash that would trigger on entering the Jukebox with the music volume at 0
+- Fixed bug where in Mission Command, Time Attack seed could be set regardless if that was the Mission's current mode
+- Fixed visual bug where control options wouldn't display in the final export step of Mission Command
+- Fixed minor visual issue in Visual Options (oops) where controls would render at the wrong opacity/color
+- Locked Mission headers will now use the proper font in Colorful mode
+- Tweaked the Quit status bar to use the proper font in Colorful mode
+- Daily Run countdown will now use the proper font in Colorful mode
 - Added ability to exit keyboard remapping by pressing ESC (or Start/Options, on a gamepad)
 - Fixed bug where pressing an invalid key during keyboard remapping would crash the game
 - Keyboard remapping will now refuse to initiate when activated with a controller
@@ -274,7 +290,13 @@ Windows/macOS/Linux:
 Playdate:
 - In Jukebox, going back from the Slide menu will no longer play an extra sound effect
 - Added badge icons for locked and unlocked achievements
+- Fixed bug where locking and unlocking the console during an active game may crash the system
+- Fixed bug where exiting the High Scores screen before scores could finish loading would crash the game
 - Fixed bug where "Can't clear the mission in this state!" error in Mission Command wouldn't get properly localized
+- Cleaned up Time Attack seed input behavior in Mission Command (less crashes?)
+- Fixed bug where in Mission Command, extra numbers inputted into the Time Attack seed wouldn't get lopped off properly
+- Fixed bug where hitting Slide menu options with the keyboard open in Mission Command would cause all manner of issues
+- Adjusting HEXA match speed back down to match with the PC's more accurate timers in 2.3.0
 - Fixed incorrect criteria for Swap- and HEXA-based achievements
 - Fixed wording in Mission Command achievement, as well as making it un-hidden
 
