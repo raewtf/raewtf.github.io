@@ -308,7 +308,7 @@ header {
 .grid {
 	display: grid;
 	grid-template-rows: 1fr;
-	grid-template-columns: 1fr;
+	grid-template-columns: auto;
 	margin-bottom: 2rem;
 	gap: 2rem;
 }
@@ -388,7 +388,7 @@ footer p {font-size: 1.5rem; margin: 0; text-align: center;}
 
 	.grid {
 		grid-template-rows: 1fr 1fr;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: auto auto;
 	}
 
 	.footer_content {flex-direction: row; margin-bottom: 1rem;}
