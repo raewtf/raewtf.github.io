@@ -260,14 +260,12 @@ header {
 }
 
 .coming_up {
-	width: 100%;
 	background: light-dark(#dddddd, #444444);
 	border: 5px solid light-dark(#eeeeee, #555555);
 	margin-bottom: 2rem;
 	color: light-dark(#555555, white);
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 }
 .coming_up img {
 	width: 100%;
@@ -288,6 +286,7 @@ header {
 .coming_up p {
 	margin: 1rem 2rem 2rem 2rem;
 	font-size: 1.5rem;
+	flex-grow: 1;
 }
 .coming_up a {
 	display: block;
@@ -308,8 +307,8 @@ header {
 
 .grid {
 	display: grid;
-	grid-template-rows: auto;
-	grid-template-columns: auto;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr;
 	margin-bottom: 2rem;
 	gap: 2rem;
 }
@@ -388,8 +387,8 @@ footer p {font-size: 1.5rem; margin: 0; text-align: center;}
 	.pfp {width: 30%; margin-bottom: 1rem; margin-top: 1rem; margin-left: 2rem;}
 
 	.grid {
-		grid-template-rows: auto auto;
-		grid-template-columns: auto auto;
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 	}
 
 	.footer_content {flex-direction: row; margin-bottom: 1rem;}
