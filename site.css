@@ -119,6 +119,7 @@ header {
 	padding: 0.5rem 0;
 	text-decoration: none;
 	transition: all 0.2s;
+	line-height: 1;
 }
 .topic_header a:hover {
 	cursor: pointer;
@@ -266,6 +267,7 @@ header {
 	color: light-dark(#555555, white);
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 }
 .coming_up img {
 	width: 100%;
@@ -288,8 +290,6 @@ header {
 	font-size: 1.5rem;
 }
 .coming_up a {
-	align-self: end;
-	justify-self: end;
 	display: block;
 	text-decoration: none;
 	width: 100%;
