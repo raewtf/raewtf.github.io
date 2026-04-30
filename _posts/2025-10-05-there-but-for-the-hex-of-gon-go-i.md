@@ -11,7 +11,7 @@ Hello! As I write this, it's been just a couple of days since I launched HEXA on
 
 ![Screenshot of HEXA running on a computer. In the center of the screen, there's a black, yellow, and white grid comprised of 19 individual triangles.](/blog/images/2025-10-05-1.png)
 
-I launched the original game in late July of 2024, exclusively on the Playdate console. This was my second release for the platform, and above all else a real testament to the idea of the game jam: come up with a good idea, iterate 'till you find something that's "fun", and polish it 'till you can see your own reflection. I gave a whole talk about this!¹
+I launched the original game in late July of 2024, exclusively on the Playdate console. This was my second release for the platform, and above all else a real testament to the idea of the game jam: come up with a good idea, iterate 'till you find something that's "fun", and polish it 'till you can see your own reflection. I gave a whole talk about this![^1]
 
 <a href="https://play.date/games/hexa" class="button">The original Playdate version of HEXA, in Catalog</a>
 
@@ -29,7 +29,7 @@ I kinda just...started! I downloaded the LÖVE tools, fired open a new Nova proj
 
 Anyway, I started knowing that I was going to have a few hurdles going in. For one, a lot of my projects rely on specific aspects of the Playdate SDK that aren't necessarily directly portable to LÖVE. Namely, things like OOP (object-oriented programming), game state-switching (which relies on the OOP itself), timers (in the animation sense, to allow for nice easings and delayed reactions), and sprites (Playdate has these as an easier way to manage compartmentalized logic, drawing order, etc. Plus, they also rely on the OOP library, within my workflow).
 
-I soon found out that I was talking to the right people though, because legend icon superfunc basically immediately pointed me towards a library called [HUMP](https://hump.readthedocs.io/en/latest/)². And this got me like... most of the way there! OOP, game states, timers; the only thing it didn't really have a *direct* analog for was sprites, but I worked around that by...not using any sprites. Sustainable? Nope! But it works for now. 😁
+I soon found out that I was talking to the right people though, because legend icon superfunc basically immediately pointed me towards a library called [HUMP](https://hump.readthedocs.io/en/latest/)[^2]. And this got me like... most of the way there! OOP, game states, timers; the only thing it didn't really have a *direct* analog for was sprites, but I worked around that by...not using any sprites. Sustainable? Nope! But it works for now. 😁
 
 The timers were also a bit of a kerfuffle to get working, as well — the HUMP library gave me a pretty close approximation, but I definitely had to rework some of my internal logic about how timers need to work. You can't, for example, create an independent timer object and call for its standalone value. With HUMP, you need to have a pre-existing value, and pass it into the newly-created timer which it will then interpolate based on its settings. So instead of calling timers directly on the field, I'd have individual variables, and then the timers call the shots from the sidelines.
 
@@ -65,6 +65,6 @@ And I think that brings us to...now! It was a super fun experience, and I'm defi
 
 <hr>
 
-¹I really should consider recording a cut of that for YouTube sometime — heaven knows I've already forgotten all my lines, and that it wasn't that good of a talk anyway.
+[^1]: I really should consider recording a cut of that for YouTube sometime — heaven knows I've already forgotten all my lines, and that it wasn't that good of a talk anyway.
 
-²I know, I know. Apparently a lot of LÖVE libraries are named like this. I don't know why.
+[^2]: I know, I know. Apparently a lot of LÖVE libraries are named like this. I don't know why.
