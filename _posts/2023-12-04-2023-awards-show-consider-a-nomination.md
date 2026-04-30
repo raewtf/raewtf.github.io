@@ -11,7 +11,7 @@ So, if you've been in the Playdate-verse for a while, you know that last year TY
 
 I've got a...few things in the pipeline lately, but my big project is clearly RowBot. So, I'm officially putting the call out there for folks that are hyped about the game: make your voice heard, and [nominate RowBot Rally for Most Anticipated Game](https://docs.google.com/forms/d/e/1FAIpQLSfqM3AZnv3F8Vi-_jT_sUtretB10yW3RRo4LT1Inw0DTYf3ag/viewform?usp=sf_link) at this year's awards show!
 
-![](/blog/images/2023-12-04-1.png)
+![Doodle of a bunny proudly wearing a badge, and holding a thumbs up. "Why not nominate RowBot Rally for 'Most Anticipated Game' at the 2023 awards show?"](/blog/images/2023-12-04-1.png)
 
 It'd mean a lot to me if you did. This year has been amazing for me, thanks in absolutely no small part to Playdate, this community, and everything people have put out and been working on through this year and beyond. It's been so fun seeing both others working on insane games and apps, and people being excited for the stuff I'm making as well (like, what???). Whether you wanna nominate my game or not, get in there and vote for your favorites! (trust me, there's a *bunch* of categories.)
 

@@ -3,7 +3,7 @@ title: RowBot Rally Manual
 tag: rowbot rally
 desc: How to get started and win the Fish Bowl!
 ---
-![RowBot Rally](/blog/images/2024-12-17-1.png)
+![RowBot Rally logo.](/blog/images/2024-12-17-1.png)
 
 ## Synopsis
 

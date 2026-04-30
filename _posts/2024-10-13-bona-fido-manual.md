@@ -3,7 +3,7 @@ title: Bona Fido Manual
 tag: bona fido
 desc: How to get started and traverse the afterlife in style.
 ---
-![Bona Fido](/blog/images/2024-10-13-1.png)
+![Bona Fido logo.](/blog/images/2024-10-13-1.png)
 
 ## Synopsis
 

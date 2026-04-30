@@ -8,7 +8,7 @@ visible: 0
 
 It's rae again! Happy Monday! Before I get into the meat of this post, I just wanna talk about how much I appreciate all of the support that this game's been getting, both in general and especially since the launch of the demo! I've gotten so much good feedback, bug reports, and all that jazz, and it's frankly all been really exciting to experience. To think that people are actually as pumped to see my game come to fruition as I am to make it is pretty radical. Thank you all so much!!
 
-![](/blog/images/2023-10-10-1.png)
+![A bunny and a robot are excitedly holding up a banner that reads "THANK YOU!!"](/blog/images/2023-10-10-1.png)
 
 Anyway, I'm here because I've got a couple of pieces of news to share; a new update as well as some recent developments from the past month or so! Let's start with the thing that affects you right now...
 

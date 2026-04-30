@@ -3,7 +3,7 @@ title: Cloudburst Manual
 tag: cloudburst
 desc: How to get started and check the forecast!
 ---
-![Cloudburst](/blog/images/2025-02-07-1.png)
+![Cloudburst logo. A simplistic design with an umbrella creating the O in "cloud", and the pole looping down to form the U in "burst".](/blog/images/2025-02-07-1.png)
 
 ## Synopsis
 

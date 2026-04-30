@@ -28,7 +28,7 @@ I wanna give my biggest heartiest thank you to everyone over at [Panic](https://
 
 It's official, it's real, it's *HAPPENING*. As of today, RowBot Rally is [officially listed on the Playdate Catalog](https://play.date/games/rowbot-rally)!!!
 
-![](/blog/images/2024-02-28-1.png)
+![Picture of RowBot Rally's Playdate Catalog store page, marked as "Currently unavailable".](/blog/images/2024-02-28-1.png)
 
 It's not available for purchase just yet of course, because the game's not...done; but you can [hop on over to the game's page](https://play.date/games/rowbot-rally) to give it a Wishlist! (You can also find it in the Coming Soon section of the main Catalog page, holy fuuuuuuuuuck.) By wishlisting it, you'll get notified over email the moment it comes out for realzies. That's pretty awesome!
 
@@ -36,7 +36,7 @@ Real talk: getting something of mine onto the Catalog has pretty much been my dr
 
 I def plan to make the most of this spot in the Catalog — I've already put in support for on-line Leaderboards within the Time Trials mode, that way you can duke it out worldwide and compete for the top score against everybody else! This is honestly one of my favorite parts; I'm so excited to see all the competition up close and personal as soon as the game comes out later this year.
 
-![](/blog/images/2024-02-28-2.png)
+![Screenshot of RowBot Rally, showing the on-line leaderboards screen. The only entrant is "rae", at rank number 1 with a time of 9 minutes, 58 seconds, and 33 milliseconds.](/blog/images/2024-02-28-2.png)
 
 # The Process™
 
@@ -44,25 +44,25 @@ So to have a showcase spot in a Playdate Update, you need a showcase video. *(wh
 
 puppets;;
 
-![](/blog/images/2024-02-28-3.jpg)
+![A hand in a black glove holds up a paper puppet of a moth, hands clasped; taped to a popsicle stick. In the background is a big green posterboard and a cutting mat.](/blog/images/2024-02-28-3.jpg)
 
 Paper puppets, specifically. It was fool-proof — I could be deliberately kinda lo-fi and crafty with it, so all my mistakes look intentional, I wouldn't have to show my face (only my voice, which was at least more easy to come to terms with), and also I figured it was a really unique way to stand out amongst everything else in the prezzie. Everyone would be all like: *"Did you see that idiot with the paper puppets?"* or whatever people say in response to things.
 
 So, after one very panicked trip to the arts & crafts store, I got back with some hearty cardstock, a bunch of popsicle sticks, an X-acto knife and some green posterboard. Then, it was time to get to work.
 
-![](/blog/images/2024-02-28-4.jpg)
+![An assortment of paper moth puppets on popsicle sticks. Paper scraps litter the area around.](/blog/images/2024-02-28-4.jpg)
 
 I had a real fun time working on all the assets needed for recording this project. It's been quite a long while since I had the opportunity to get knee-deep in some proper physical material crafts like that, and it was super fun to just go nuts with an X-acto knife and experiment to see what looked good. And I didn't injure myself once! The mark of a good quality product.
 
-![](/blog/images/2024-02-28-5.jpg)
+![Image of a paper moth puppet, observing a paper script with intent.](/blog/images/2024-02-28-5.jpg)
 
 The Catalog book-throw scene was one of the earliest scenes I shot, and also probably my favorite part of the video. Ruining the movie magic: my brother helped me by throwing the book in from off-screen, since unfortunately I don't have more than two arms (yet). The confetti was a last-minute move by me, and I think it really sold the shot — the sound effect should have been a sneeze or something though.
 
-![](/blog/images/2024-02-28-6.jpg)
+![An open book rests on a table, with the word "catalog" written in big white letters, and some decorations surrounding it.](/blog/images/2024-02-28-6.jpg)
 
 It's at this point that I wanna give major MAJOR (like, the majorest) shouts to [Voxy](https://voxy.space), who got me through...pretty much this entire process. He helped me clean up my super-rough script and get it fitting nicely within the timeframe we had, spruced up my voiceover to get it to acceptable levels (since I know nothing about audio editing), AND he edited the whole final cut of the video (since I also don't know anything about video editing) — he's responsible for all of the super tight pacing and the snazzy, appropriately-themed transitions and graphics. The final product turned out so unbelievably super good, and I really have him to thank for it turning out the way it did.
 
-![](/blog/images/2024-02-28-7.png)
+![Editing timeline for the showcase video, courtesy of Voxy.](/blog/images/2024-02-28-7.png)
 
 After a hectic weekend-ish of editing and last-minute nitpicky changes (sorry!), we got the video turned in around a week before it was due (hooray for being on time!), and then it was just a long long ... seemingly-forever wait until the Update video premiered on their page. And that day happens to be today! I mean, I'm writing this in advance, but I can guarantee you I'm *absolutely reeling* over it. (Update from the night before the premiere: *yeah i was pretty on the ball i am so reeling over it.*) If you wanna check out just the RowBot segment, by the way; I've mirrored it on my personal YouTube page here:
 
@@ -83,7 +83,7 @@ There's also some new changes that I've been making that I hope will make the ga
 - Support for three separate story save slots (so a friend or family can pop in and try out a story run without affecting your save...or you can just beat the game three times in a row. Up to you! (This was a big aspect of me deciding to start from scratch code-wise, so I could finagle the save code in here without it being even messier than it already was.))
 - A new stats screen, so you can see global funny stats such as total time played, your favorite (most-played) and least favorite (least-played) stages, and Distance Cranked (with support for both imperial and metric)! The most important screen of all time.
 
-![](/blog/images/2024-02-28-8.png)
+![RowBot Rally stats screen, showing off statistics such as "Total play time", "Races completed", and "Favourite Stage".](/blog/images/2024-02-28-8.png)
 
 If I can keep up the pace that I've been having so far, then I hope to get a new version of DEMO out sometime in mid-to-late March perhaps? School's still happening, and I'm going off for a trip some weekend in the middle there, but things have definitely been moving along quickly, and there's only a few more big things to touch up before this build is DEMO-ready.
 
@@ -97,6 +97,6 @@ The awards are coming around later on, so let's see if we can snag that ultimate
 
 # That's it!
 
-![](/blog/images/2024-02-28-9.png)
+![RowBot Rally in the Playdate Catalog, as seen from an actual Playdate device. The game's in a category labeled "COMING SOON".](/blog/images/2024-02-28-9.png)
 
 Alright, I *think* that's all the updates I've got in my back pocket for now. Back to work on the game! I'll hopefully see y'all soon with some more things to share, but 'till then... Sea ya later!

@@ -374,7 +374,7 @@ header {
 	background: light-dark(#aaaaaa, #222222);
 	color: light-dark(white, white);
 	display: block;
-	overflow: scroll;
+	overflow-x: scroll;
 	padding: 1rem;
 	margin-bottom: 1rem;
 	box-shadow: inset 0px 0px 10px light-dark(#888888, #111111);

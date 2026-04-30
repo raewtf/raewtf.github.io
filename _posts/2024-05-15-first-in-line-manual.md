@@ -3,7 +3,7 @@ title: First in... Line? Manual
 tag: first in... line?
 desc: How to get started and break a leg!
 ---
-![First in... Line?](/blog/images/2024-05-15-1.png)
+![First in... Line? logo.](/blog/images/2024-05-15-1.png)
 
 ## Synopsis
 

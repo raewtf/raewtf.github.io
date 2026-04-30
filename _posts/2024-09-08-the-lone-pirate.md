@@ -8,7 +8,7 @@ Now, if you've read my blog, or checked my website...or checked my socials...or 
 
 *There's not really a piracy scene!*
 
-...Now I realize by saying that in such a public space that I'm kinda jinxing it, but like—! For a console with completely open game sideloading, and pretty much no copy protection¹ besides the honor system...it's kinda super commendable! Now, that can be attributed to a lot of things — the games are made by small, often just one-or-two-person teams instead of massive evil blood-sucking corporations; that's a huge part; but still! You'd expect someone to have at least *tried*, right?
+...Now I realize by saying that in such a public space that I'm kinda jinxing it, but like—! For a console with completely open game sideloading, and pretty much no copy protection[^1] besides the honor system...it's kinda super commendable! Now, that can be attributed to a lot of things — the games are made by small, often just one-or-two-person teams instead of massive evil blood-sucking corporations; that's a huge part; but still! You'd expect someone to have at least *tried*, right?
 
 ...This blog post chronicles the story of the first (and only) act of Playdate "piracy" I'd ever encountered, how it got shuttered nigh-immediately due to pure happenstance, and some hilarious surrounding bits.
 
@@ -28,7 +28,7 @@ And all that brings us to...the conclusion of my wild pre-amble, and onto the be
 
 ANYHOO, cue a couple weeks after all this went down, when the person who had initially found the copy of Barkless had texted me over Discord DM. I'm not gonna reveal any of their identifying information, on account of A. I don't wanna be that kinda person, and B. I don't even remember it anyway. They got in touch with me asking if I still had a copy of the leaked version of Barkless.
 
-We², of course, had saved a copy for preservation reasons.
+We[^2], of course, had saved a copy for preservation reasons.
 
 ...We, of course, told this guy we didn't have any copy.
 
@@ -45,7 +45,7 @@ There's probably some philisophical implications to whether it can be considered
 
 Critically, he told exactly one other person about this thing though, and that was... scratchminer.
 
-You may remember scratchminer from Index OS, Scrapbook, or even that footnote from earlier³. In between all that, he's been busting open the Playdate pretty much every other way he knew how — importantly, in a responsible way. That means he had methods of contacting people at Panic about weird stuff like this, which he promptly does. They respond with something along the lines of "oh my god ok thanks", and file a DMCA takedown request.
+You may remember scratchminer from Index OS, Scrapbook, or even that footnote from earlier[^3]. In between all that, he's been busting open the Playdate pretty much every other way he knew how — importantly, in a responsible way. That means he had methods of contacting people at Panic about weird stuff like this, which he promptly does. They respond with something along the lines of "oh my god ok thanks", and file a DMCA takedown request.
 
 And that's... not *quite* the end of the story! I mean, the site *did* get taken down, but here's a funny thing: it was hosted on GitHub. Funnily enough, free hosting — that'll be hilarious later! — but also, GitHub has a keen eye for transparency, and as such will publicly post any DMCA takedown requests filed at somebody using their service. We checked in on this repository after the site went down out of curiosity, and here's the hilarious part:
 
@@ -59,11 +59,11 @@ That was over a year ago by now — I've never seen anyone try to host Playdate 
 
 <hr>
 
-¹For sideloaded titles. Catalog games are encrypted with custom DRM, just for the record.
+[^1]: For sideloaded titles. Catalog games are encrypted with custom DRM, just for the record.
 
-²"We" being myself and scratchminer — he'll appear in the story later, but just for clarification.
+[^2]: "We" being myself and scratchminer — he'll appear in the story later, but just for clarification.
 
-³Footnote number 2.
+[^3]: Footnote number 2.
 
 <hr>
 

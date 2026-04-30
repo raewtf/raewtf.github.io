@@ -3,7 +3,7 @@ title: Labsylle Manual
 tag: labsylle
 desc: How to get started and swap those words!
 ---
-![Labsylle](/blog/images/2026-02-17-1.png)
+![Labsylle logo. The word "Labsylle" is assembled from syllabic blocks.](/blog/images/2026-02-17-1.png)
 
 ## Synopsis
 
