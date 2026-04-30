@@ -254,9 +254,11 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 - Added a full Japanese localization! Thanks, Philemax!
 - Added xorshift randomization. All platforms should now have the same puzzle generation (for Daily Runs, Missions, etc.)
 - Added "System" language option as default. This will determine language based on your Playdate's OS-level setting (OS 3.1.0+), or your Steam client's setting. (Falls back to English)
+- Game can now be consistently paused and exited during initial countdown, if one exists
 - Added Language select screen that will show up at first launch, if user language isn't initially determinable.
 - Swaps:HEXAs ratio in Statistics now reads 'N/A' if ratio isn't calculable.
 - Divided screen-shake effect a bit to reduce flashing of dither patterns on smaller displays
+- Fixed crash that would occur on attempt to open custom Mission if none exist
 - Mission Command headers now render with a nicer outlined font
 - When resetting local stats in the Options screen, sound effects will no longer overlap
 - Nudged manual images over slightly so they didn't crash into the text so hard
@@ -274,12 +276,17 @@ Windows/macOS/Linux:
 - Added more controller-friendly method of text input in Mission Command
 - When using a Sony-branded controller, appropriate button labels and glyphs will now be rendered
 - Added persistent "Fullscreen" save option to Video Options (defaults to "ON")
+- Adjusting Minimum Scale when game is fullscreened will no longer kick it out of fullscreen
+- Minimum Scale for windowed mode now defaults to 2 on a freshly-opened game
 - Fixed bug where in Jukebox, window title would not get properly localized (missing string)
 - Fixed bug where changing Language in Options would not adjust the window title accordingly
 - Fixed a game crash that would trigger on entering the Jukebox with the music volume at 0
 - Fixed bug where in Mission Command, Time Attack seed could be set regardless if that was the Mission's current mode
 - Fixed visual bug where control options wouldn't display in the final export step of Mission Command
 - Fixed minor visual issue in Visual Options (oops) where controls would render at the wrong opacity/color
+- Fixed visual bug in Visual Options (...double-oops) where the control guide would get cut off in Classic mode
+- HEXAPLEX Style in Visual Options can no longer be highlighted at all in Classic mode
+- Removed "Up opens directory" prompt in custom Missions menu (this was confusing for platforms where it did nothing)
 - Locked Mission headers will now use the proper font in Colorful mode
 - Tweaked the Quit status bar to use the proper font in Colorful mode
 - Daily Run countdown will now use the proper font in Colorful mode

@@ -1,56 +1,105 @@
+---
+layout: null
+---
+
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!-- HTML Meta Tags -->
-<title>{{ page.title }} - rae.wtf</title>
+<title>rae.wtf > {{ page.title }}</title>
 <meta name="description" content="{{ page.desc }}">
 <link rel="icon" type="image/x-icon" href="https://rae.wtf/favicon.png">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://rae.wtf/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="{{ page.title }} - rae.wtf">
+<meta property="og:title" content="rae.wtf > {{ page.title }}">
 <meta property="og:description" content="{{ page.desc }}">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="rae.wtf">
 <meta property="twitter:url" content="https://rae.wtf/">
-<meta name="twitter:title" content="{{ page.title }} - rae.wtf">
+<meta name="twitter:title" content="rae.wtf > {{ page.title }}">
 <meta name="twitter:description" content="{{ page.desc }}">
 
 <!-- Meta Tags Generated via https://www.opengraph.xyz -->
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,600;0,800;1,600;1,800&family=Righteous&display=swap" rel="stylesheet">
-<link href="../oldsite.css" rel="stylesheet">
+<link href="../site.css" rel="stylesheet">
 
-<body class="blog">
-	<div class="header">
-		<h1><a href="https://rae.wtf">rae.wtf</a></h1>
-		<h2>blog by rae</h2>
-	</div>
+<style>
+</style>
+
+<style>
+	:root {--accent-color: #78c1e1; --accent-color-transparent: #78c1e100; --color-on-accent: #325084;}
+</style>
+
+<header>
 	<div class="nav">
-		<a href="/art">Art</a>
-		<a href="/games">Games</a>
-		<a href="/trinkets">Trinkets</a>
-		<a href="/commissions">Commissions</a>
-		<a href="/blog" class="active">Blog</a>
+		<a href="../" class="nav_item">home</a>
+		<a href="../games" class="nav_item">games</a>
+		<a href="../art" class="nav_item">art</a>
+		<a href="../commissions" class="nav_item">commissions</a>
+		<a href="../trinkets" class="nav_item">trinkets</a>
+		<a href="../blog" class="nav_item active">blog</a>
 	</div>
-	<div class="main {{ page.tag | slugify }}">
-		<h1>{{ page.title }}</h1>
-		<h3>{{ page.date | date: '%m.%d.%Y' }}&nbsp;&nbsp;/&nbsp;&nbsp;{{ page.tag }}</h3>
-		<hr>
+	<a href="../"><img class="logo" src="../logo.png" /></a>
+	<div class="info">
+		<div class="up_box"></div>
+		<div>
+			<h2 class="breadcrumbs"><a href="../">home</a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href="../blog">blog</a></h2>
+			<h1 class="title">blog by rae</h1>
+		</div>
+	</div>
+</header>
+
+<div class="content">
+	<div class="featured_box">
+		<div class="box_content">
+			<div style="display: flex; align-items: center; justify-content: space-between;">
+			<h1>{{ page.title}}</h1>
+			<h3>{{ page.date | date: '%m.%d.%Y' }}</h3>
+			</div>
+			<p>{{ post.desc }}</p>
+		</div>
+	</div>
+
+	<div class="blog_content">
+		<code>
+			test
+			test
+			test
+		</code>
 		{{ content }}
 	</div>
-	<div class="footer">
-		<p>2020-2026, made by rae</p>
-		<p>This site doesn't contain the<br>outputs of any generative<br>algorithms — my stuff's made by people,<br>for people. Like you! I hope.</p>
-		<p>You can follow me on-line:<br><a href="https://bsky.app/profile/rae.wtf">Bluesky</a>,<br><a href="https://raewtf.itch.io">Itch.io</a>,<br>or <a href="https://github.com/raewtf">GitHub</a>.</p>
-		<p>If you'd like to support me,<br>consider <a href="/commissions">picking up a commission</a>!</p>
-		<p>If you wanna see everything,<br>peep the <a href="/expert">expert mode</a>,</p>
-		<p>...and have a nice day!</p>
+</div>
+
+<footer>
+	<div class="footer_content">
+		<p>2020&#8211;2026, made by rae</p>
+		<div>
+			<p>find me on-line:</p>
+			<a href="https://bsky.app/profile/rae.wtf" class="social">bluesky</a>
+			<a href="https://github.com/raewtf" class="social">github</a>
+			<a href="https://raewtf.itch.io" class="social">itch.io</a>
+		</div>
 	</div>
-</body>
-</html>
+	<div class="footer_content">
+		<p>this site, and the stuff within, doesn't contain the contents of any generative algorithms.</p>
+	</div>
+	<div class="footer_content">
+		<div>
+			<p>support me:</p>
+			<a href="../commissions" class="social">commissions</a>
+			<a href="https://store.steampowered.com/dev/rae" class="social">steam</a>
+		</div>
+		<div>
+			<p>everything:</p>
+			<a href="../expert" class="social">expert mode</a>
+		</div>
+		<p>...have a nice day!</p>
+	</div>
+</footer>
