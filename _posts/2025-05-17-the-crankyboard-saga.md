@@ -5,7 +5,7 @@ desc: The recap of my time maintaining a nice Playdate scoreboard site.
 ---
 So, the Playdate — I've never talked about this thing before! Anyway, two important things you need to know heading into this post: the Playdate has games, and the games have scoreboards. ...I should probably elaborate.
 
-So certain Playdate games¹ have access to on-line scoreboards, giving players some nice global competition. At the time this story is set though (around April 2023), the only way to view a game's leaderboard — assuming it had one — was to actually buy, download, and launch the game itself, and find where it holds 'em (assuming it displays 'em at all). So I figured...why doesn't somebody make a web viewer for these things?
+So certain Playdate games[^1] have access to on-line scoreboards, giving players some nice global competition. At the time this story is set though (around April 2023), the only way to view a game's leaderboard — assuming it had one — was to actually buy, download, and launch the game itself, and find where it holds 'em (assuming it displays 'em at all). So I figured...why doesn't somebody make a web viewer for these things?
 
 ...Turns out, because nobody reasonably could in a sustainable way. But that wasn't gonna stop me; so I got to work.
 
@@ -50,7 +50,7 @@ And then, something really funny happened:
 
 ![Discord screenshot — rae saying "IVE BEEN PUT OUT OF BUSINESS?!?!?!", and a screenshot of a Playdate game page showing leaderboards.](/blog/images/2025-05-17-5.png)
 
-Panic added scoreboards to the Playdate site! I got run out of business.²
+Panic added scoreboards to the Playdate site! I got run out of business.[^2]
 
 They were actually super apologetic about the situation — turns out the feature's been around on their end from day 1, and in the time between them implementing it and actually making it live, I just so happened to try the same thing. Theirs ran way more efficiently, though — since it was actually sanctioned, it could yell for the API in a way more responsible way, and crucially update in <i>real-time</i> without manual intervention. This, combined with being displayed on the game pages themselves, definitely made it much more convenient to check.
 
@@ -62,6 +62,6 @@ Crankyboard was a super cool project to make, and it was really fun being a dire
 
 <hr>
 
-¹Games in Catalog or a Season — basically, stuff Panic can actually reasonably vet.
+[^1]: Games in Catalog or a Season — basically, stuff Panic can actually reasonably vet.
 
-²Don't take that as a genuine complaint LOL, I genuinely do not mind; I just think it's really funny to word it like that.
+[^2]: Don't take that as a genuine complaint LOL, I genuinely do not mind; I just think it's really funny to word it like that.

@@ -329,7 +329,7 @@ header {
 }
 
 .blog_content {
-	color: light-dark(#555555, white);
+	color: light-dark(#444444, white);
 	padding: 0 2rem;
 	margin-bottom: 2rem;
 }
@@ -338,6 +338,7 @@ header {
 	font-size: 2.5rem;
 	font-weight: 700;
 	line-height: 1;
+	margin-top: 0.5rem;
 	margin-bottom: 1rem;
 }
 .blog_content h2 {
@@ -353,11 +354,14 @@ header {
 	line-height: 1rem;
 	margin-bottom: 1rem;
 }
-.blog_content p, .blog_content ul, .blog_content li, .blog_content p a, .blog_content ul a, .blog_content li a {
+.blog_content p, .blog_content ul, .blog_content li {
 	margin: 0;
 	font-size: 1.5rem;
 	text-align: justify;
 	margin-bottom: 1rem;
+}
+.blog_content p a, .blog_content ul a, .blog_content li a {
+	color: light-dark(#444444, white);
 }
 .blog_content img {
 	display: block;
@@ -387,6 +391,9 @@ header {
 	vertical-align: middle;
 	box-shadow: inset 0px 0px 10px light-dark(#888888, #111111);
 }
+.blog_content code a, .blog_content .code-span a {
+	color: light-dark(white, white);
+}
 .blog_content .button {
 	display: block;
 	width: 100%;
@@ -407,6 +414,11 @@ header {
 .blog_content .button:hover {
 	padding-left: 2.5rem;
 	cursor: pointer;
+}
+.blog_content hr {
+	margin: 2rem 2rem;
+	border: none;
+	border-top: 2px solid #ffffff30;
 }
 
 footer {
