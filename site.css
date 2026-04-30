@@ -331,7 +331,7 @@ header {
 .blog_content {
 	color: light-dark(#444444, white);
 	padding: 0 2rem;
-	margin-bottom: 1rem;
+	margin: 2rem 0;
 }
 .blog_content h1 {
 	margin: 0;
@@ -416,7 +416,6 @@ header {
 }
 .blog_content hr {
 	margin: 2rem;
-	margin-top: 1rem;
 	border: none;
 	border-top: 2px solid #ffffff30;
 }
