@@ -330,12 +330,15 @@ header {
 
 .blog_content {
 	color: light-dark(#555555, white);
+	padding: 0 2rem;
+	margin-bottom: 2rem;
 }
 .blog_content h1 {
 	margin: 0;
 	font-size: 2.5rem;
 	font-weight: 700;
 	line-height: 1;
+	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
 }
 .blog_content h2 {
@@ -355,12 +358,13 @@ header {
 	margin: 0;
 	font-size: 1.5rem;
 	text-align: justify;
-	margin-bottom: 0.5rem;
+	margin-bottom: 1rem;
 }
 .blog_content img {
 	display: block;
 	width: 100%;
-	margin-bottom: 0.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
 }
 .blog_content code {
 	margin: 0;
@@ -384,17 +388,25 @@ header {
 	box-shadow: inset 0px 0px 10px light-dark(#888888, #111111);
 }
 .blog_content .button {
+	display: block;
 	width: 100%;
 	max-width: 100%;
 	background: var(--accent-color);
 	color: var(--color-on-accent);
 	padding: 0.5rem 1rem;
 	font-size: 1.5rem;
-	margin-bottom: 1rem;
 	transition: padding-left 0.2s;
 	font-weight: 600;
 	text-decoration: none;
 	text-wrap: nowrap;
+}
+.box_content .button:before {content: '>> ';}
+.box_content .button:not(:last-child) {
+	margin-bottom: 1rem;
+}
+.box_content .button:hover {
+	padding-left: 2.5rem;
+	cursor: pointer;
 }
 
 footer {
