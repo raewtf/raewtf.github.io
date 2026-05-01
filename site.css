@@ -339,6 +339,7 @@ header {
 	font-weight: 700;
 	line-height: 1;
 	margin-bottom: 1rem;
+	margin-top: 2rem;
 }
 .blog_content h2 {
 	margin: 0;
@@ -365,6 +366,8 @@ header {
 .blog_content img {
 	display: block;
 	width: 100%;
+	margin: 0 auto;
+	max-height: 500px;
 	margin-bottom: 1rem;
 }
 .blog_content code {
