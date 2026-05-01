@@ -367,6 +367,7 @@ header {
 	display: block;
 	width: 100%;
 	margin: 0 auto;
+	aspect-ratio: 1;
 	max-height: 500px;
 	margin-bottom: 1rem;
 }
