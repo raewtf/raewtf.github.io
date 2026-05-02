@@ -80,8 +80,8 @@ layout: null
 			<div style="width: 100%; display: flex; flex-direction: column;">
 				{% for new in site.data.whatsnew limit:5 %}
 					<div class="whats_new">
-						<h1>{ new.date }</h1>
-						<p>{ new.text }</p>
+						<h1>{{ new.date }}</h1>
+						<p>{{ new.text }}</p>
 					</div>
 				{% endfor %}
 			</div>

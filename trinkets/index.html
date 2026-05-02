@@ -91,7 +91,7 @@ layout: null
 	<p class="topic_header">More Trinkets</p>
 	<div class="grid">
 		{% for trinket in site.data.trinkets %}
-			{% if trinket.featured == true %}
+			{% if trinket.featured == false %}
 				<div class="featured_box">
 					<div class="box_content">
 						<div style="display: flex; align-items: center; justify-content: space-between">
