@@ -15,7 +15,7 @@
 		"preview":"../games/hamster_preview.gif",
 		"preview_alt":"Gameplay of Hamster Ballin'. A hamster in a ball runs and bounces along a platform, collecting shiny gems before reaching a goalpost located at the far end.",
 		"short_desc":"You're on a roll!",
-		"long_desc":"Hamster Ballin' is a 2D puzzle platformer. Play as a cute hamster, rolling around and getting to the end of levels filled with obstacles, Power-ups, gems, and more! Coming soon for your Playdate and your personal computer.",
+		"long_desc":"<i>Hamster Ballin'</i> is a 2D puzzle platformer. Play as a cute hamster, rolling around and getting to the end of levels filled with obstacles, Power-ups, gems, and more! Coming soon for your Playdate and your personal computer.",
 	},
 	{
 		"name":"Labsylle",
@@ -25,7 +25,7 @@
 		"preview":"../games/labsylle_preview.gif",
 		"preview_alt":"Gameplay of Labsylle. A cursor navigates along a horizontal row of syllabic blocks, swapping them around one-at-a-time to try to reach a target word.",
 		"short_desc":"A words-y 'spin' on a puzzle game",
-		"long_desc":"Labsylle's all about the \"building blocks\" of the English language. Swap around syllable blocks, two at a time, to assemble words. That's it! It'll keep you busy, too; with over 500 curated puzzles, and a whole dictionary of \"Quik-Words\" to experience in 60-second bursts.",
+		"long_desc":"<i>Labsylle</i>'s all about the \"building blocks\" of the English language. Swap around syllable blocks, two at a time, to assemble words. That's it! It'll keep you busy, too; with over 500 curated puzzles, and a whole dictionary of \"Quik-Words\" to experience in 60-second bursts.",
 		"link_catalog":"https://play.date/games/labsylle",
 		"link_itch":"https://raewtf.itch.io/labsylle"
 	},
@@ -36,7 +36,7 @@
 		"preview":"../games/lunatrix_preview.gif",
 		"preview_alt":"Gameplay of Mission LunaTrix. An astronaut on a skateboard is riding on the lunar surface, ramping off of craters and performing tricks while in the air. A close-up of their legs shows off what tricks they're pulling.",
 		"short_desc":"Moon man, do a flip!",
-		"long_desc":"When you find yourself trapped on the surface of an unfamiliar terrain, there's only one thing that can bring you back to terra firma...EPIC SKATE TRICKS.",
+		"long_desc":"When you find yourself trapped on the surface of an unfamiliar terrain, there's only one thing that can bring you back to terra firma...<i>EPIC SKATE TRICKS</i>.",
 		"link_catalog":"https://play.date/games/mission-lunatrix",
 	},
 	{
@@ -77,7 +77,7 @@
 		"preview":"../games/hexa_preview.gif",
 		"preview_alt":"Gameplay of HEXA. A hexagonal cursor navigates around a grid of 19 triangles, trying to match a full hexagon of same-colored triangles. Matching them makes the timer go back up by a few seconds.",
 		"short_desc":"Rule the universe, shape by shape",
-		"long_desc":"Conquer the HEXAPLEX, wrangle those Power-ups, and maybe even become ruler of the universe along the way in HEXA, a triangle-matching puzzle game that's HEXA-good. With plenty of modes, mechanics, and otherworldly competition.",
+		"long_desc":"Conquer the HEXAPLEX, wrangle those Power-ups, and maybe even become ruler of the universe along the way in <i>HEXA</i>, a triangle-matching puzzle game that's HEXA-good. With plenty of modes, mechanics, and otherworldly competition.",
 		"link_steam":"https://store.steampowered.com/app/4581230/HEXA",
 		"link_catalog":"https://play.date/games/hexa",
 		"link_itch":"https://raewtf.itch.io/hexa"

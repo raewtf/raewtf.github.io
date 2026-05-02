@@ -37,7 +37,7 @@
 		"preview":"../trinkets/crankyboard_preview.png",
 		"preview_alt":"Dithered screenshot of Crankyboard. A few high scores in a video game are shown.",
 		"short_desc":"Top 10 PD scoreboard site!",
-		"long_desc":"In its prime, Crankyboard was the premier way to view Playdate game scoreboards — backed by a retrospectively-hilarious, entirely-manual API scraping process. Today, it's a fun time capsule of lessons learned, and very old high scores.",
+		"long_desc":"In its prime, <i>Crankyboard</i> was the premier way to view Playdate game scoreboards — backed by a retrospectively-hilarious, entirely-manual API scraping process. Today, it's a fun time capsule of lessons learned, and very old high scores.",
 		"link_browser":"../crankyboard",
 		"link_postmortem":"../blog/the-crankyboard-saga",
 	},
@@ -58,7 +58,7 @@
 		"preview":"../trinkets/gbgen_preview.png",
 		"preview_alt":"Logo for GBGen, a quick-and-dirty GBG idea generator. There's a question mark with quizzical eyes.",
 		"short_desc":"The one good thinking machine",
-		"long_desc":"Wanna make a game for Game Builder Garage, but not sure where to start? This tool will help you out! Find some inspiration, enjoy the confetti, and see if you can't spot some silly little secrets along the way.",
+		"long_desc":"Wanna make a game for <i>Game Builder Garage</i>, but not sure where to start? This tool will help you out! Find some inspiration, enjoy the confetti, and see if you can't spot some silly little secrets along the way.",
 		"link_browser":"../gbgben",
 	},
 	{

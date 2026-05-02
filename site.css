@@ -368,7 +368,6 @@ header {
 	height: 350px;
 	max-width: 100%;
 	margin: 0 auto;
-	aspect-ratio: 1;
 	margin-bottom: 1rem;
 }
 .blog_content code {
