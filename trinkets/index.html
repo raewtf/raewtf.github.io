@@ -51,82 +51,73 @@
 
 <div class="content">
 	<p class="topic_header">Featured</p>
-	<div class="featured_box">
-		<div class="box_content">
-			<div style="display: flex; align-items: center; justify-content: space-between">
-			<h1>rae goes to magfest 2026</h1>
-			<h3>01.13.2026</h3>
+	{% for trinket in site.data.trinkets %}
+		{% if trinket.featured == true %}
+			<div class="featured_box">
+				<div class="box_content">
+					<div style="display: flex; align-items: center; justify-content: space-between">
+					<h1>{{ trinket.name }}</h1>
+					<h3>{{ trinket.date }}</h3>
+					</div>
+					<h2>{{ trinket.short_desc }}</h2>
+					<p>{{ trinket.long_desc }}</p>
+					{% if trinket.link_browser %}
+						<a href="{{ trinket.link_browser }}">Visit in your web browser</a>
+					{% endif %}
+					{% if trinket.link_youtube %}
+						<a href="{{ trinket.link_youtube }}">Watch the video on YouTube</a>
+					{% endif %}
+					{% if trinket.link_catalog %}
+						<a href="{{ trinket.link_catalog }}">Buy it in Playdate Catalog</a>
+					{% endif %}
+					{% if trinket.link_itch %}
+						<a href="{{ trinket.link_itch }}">Get it on Itch.io</a>
+					{% endif %}
+					{% if trinket.link_postmortem %}
+						<a href="{{ trinket.link_postmortem }}">Read about it on the blog</a>
+					{% endif %}
+					{% if trinket.link_download %}
+						<a href="{{ trinket.link_download }}">Download</a>
+					{% endif %}
+				</div>
+				<img class="box_image" src="{{ trinket.preview }}" alt="{{ trinket.preview_alt }}" />
 			</div>
-			<h2>a non-encompassing video log</h2>
-			<p>A very small snippet of my very sweet time at MAGFest 2026, up the National Harbor in Maryland. The journey had me span the entire country — twice! — and I got to meet a lot of good friends, play a lot of good games, and eat a lot of good food. See you next year!</p>
-			<a href="https://www.youtube.com/watch?v=Ev_7QXPzm6g">Watch the video on YouTube</a>
-		</div>
-		<img class="box_image" src="magfest_preview.png" alt="Dithered photograph reading 'Rae goes to Magfest 2026: a non-encompassing video log'." />
-	</div>
-	<div class="featured_box">
-		<div class="box_content">
-			<div style="display: flex; align-items: center; justify-content: space-between">
-			<h1>Cloudburst</h1>
-			<h3>08.19.2025</h3>
-			</div>
-			<h2>Weather you like it or not</h2>
-			<p>Curious what the forecast looks like? Easy! But...your laptop's out of reach, your phone's battery is dead, your smart assistant's brain is busted, and your curtains are shut. It's just you, and your Playdate. Well, now you're in luck!</p>
-			<a href="https://play.date/games/cloudburst">Buy it in Playdate Catalog</a>
-			<a href="https://raewtf.itch.io/cloudburst">Get it on Itch.io</a>
-		</div>
-		<img class="box_image" src="cloudburst_preview.gif" alt="Footage of Cloudburst. A low-power idle screen shows the time, battery status, and local weather. A new menu comes up from the bottom of the screen, showing more detailed weather info." />
-	</div>
-	<div class="featured_box">
-		<div class="box_content">
-			<div style="display: flex; align-items: center; justify-content: space-between">
-			<h1>GBGen</h1>
-			<h3>09.20.2022</h3>
-			</div>
-			<h2>Rule the universe, shape by shape</h2>
-			<p>Wanna make a game for Game Builder Garage, but not sure where to start? This tool will help you out! Find some inspiration, enjoy the confetti, and see if you can't spot some silly little secrets along the way.</p>
-			<a href="../gbgen">Try it in your browser</a>
-		</div>
-		<img class="box_image" src="gbgen_preview.png" alt="Logo for GBGen, a quick-and-dirty GBG idea generator. There's a question mark with quizzical eyes." />
-	</div>
+		{% endif %}
+	{% endfor %}
 	<p class="topic_header">More Trinkets</p>
 	<div class="grid">
-		<div class="featured_box">
-			<div class="box_content">
-				<div style="display: flex; align-items: center; justify-content: space-between">
-				<h1>Rev Checker</h1>
-				<h3>09.24.2023</h3>
+		{% for trinket in site.data.trinkets %}
+			{% if trinket.featured == true %}
+				<div class="featured_box">
+					<div class="box_content">
+						<div style="display: flex; align-items: center; justify-content: space-between">
+						<h1>{{ trinket.name }}</h1>
+						<h3>{{ trinket.date }}</h3>
+						</div>
+						<p>{{ trinket.long_desc }}</p>
+						{% if trinket.link_browser %}
+							<a href="{{ trinket.link_browser }}">Visit in your web browser</a>
+						{% endif %}
+						{% if trinket.link_youtube %}
+							<a href="{{ trinket.link_youtube }}">Watch the video on YouTube</a>
+						{% endif %}
+						{% if trinket.link_catalog %}
+							<a href="{{ trinket.link_catalog }}">Buy it in Playdate Catalog</a>
+						{% endif %}
+						{% if trinket.link_itch %}
+							<a href="{{ trinket.link_itch }}">Get it on Itch.io</a>
+						{% endif %}
+						{% if trinket.link_postmortem %}
+							<a href="{{ trinket.link_postmortem }}">Read about it on the blog</a>
+						{% endif %}
+						{% if trinket.link_download %}
+							<a href="{{ trinket.link_download }}">Download</a>
+						{% endif %}
+					</div>
+					<img class="box_image_grid" src="{{ trinket.preview }}" alt="{{ trinket.preview_alt }}" />
 				</div>
-				<p>This one-time tool lets you see your Playdate's hardware revision. What's that supposed to mean? Hopefully nothing — it's just a CPU swap that happened during the console's life. But the info is handy for the odd debug! The website has more info about the chip swap, as well as the app download for your Playdate.</p>
-				<a href="../revchecker">Visit the website in your browser</a>
-			</div>
-			<img class="box_image_grid" src="revchecker_preview.png" alt="Screenshot of Rev Checker. 'Your Playdate is... rev B! You've got a Playdate that was shipped during or after Group 4. You're a powerhouse!" />
-		</div>
-		<div class="featured_box">
-			<div class="box_content">
-				<div style="display: flex; align-items: center; justify-content: space-between">
-				<h1>Crankyboard</h1>
-				<h3>04.15.2023</h3>
-				</div>
-				<p>In its prime, <i>Crankyboard</i> was the premier way to view Playdate game scoreboards — backed by a retrospectively-hilarious, entirely-manual API scraping process. Today, it's a fun time capsule of lessons learned, and very old high scores.</p>
-				<a href="../blog/the-crankyboard-saga">Read my post-mortem</a>
-				<a href="../crankyboard">Visit the archive in your browser</a>
-			</div>
-			<img class="box_image_grid" src="crankyboard_preview.png" alt="Dithered screenshot of Crankyboard. A few high scores in a video game are shown." />
-		</div>
-		<div class="featured_box">
-			<div class="box_content">
-				<h1>Moth Rotatotron 3D</h1>
-				<p>A super-quick test of 3D pre-rendering on Playdate, featuring a moth in 360 degrees of pure glory. I even made the model myself!</p>
-				<a href="../mothrotatotron3d.pdx.zip">Download it for your Playdate</a>
-			</div>
-		</div>
-		<div class="featured_box">
-			<div class="box_content">
-				<h1>Mobile Game Name Generator</h1>
-				<p>Ever needed a killer name for that medieval civilization-building mobile game idea burning a hole in your pocket?</p>
-				<a href="../mgng">Try it in your browser</a>
-			</div>
-		</div>
+			{% endif %}
+		{% endfor %}
 	</div>
 </div>
 
