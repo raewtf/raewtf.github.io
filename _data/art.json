@@ -1,0 +1,11 @@
+[
+	{
+		"name":"",
+		"date":"",
+		"desc":"",
+		"type":"", // commission? moth? rowbot? sketch? drawing?
+		"link_view":"",
+		"link_alt":"",
+		"link_context":"",
+	},
+]

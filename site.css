@@ -179,6 +179,7 @@ header {
 	font-size: 1.25rem;
 	line-height: 1rem;
 	text-align: right;
+	margin-left: 1rem;
 	color: light-dark(var(--color-on-accent), var(--accent-color));
 }
 .box_content p {
@@ -338,7 +339,6 @@ header {
 	font-size: 2.5rem;
 	font-weight: 700;
 	margin-bottom: 1rem;
-	margin-top: 2rem;
 }
 .blog_content h2 {
 	margin: 0;
