@@ -2,6 +2,7 @@
 title: HEXA Manual
 tag: hexa
 desc: How to get started and conquer the universe!
+visible: 0
 ---
 ![HEXA logo.](/blog/images/2024-07-30-1.png)
 

@@ -150,15 +150,17 @@ layout: null
 	<p class="topic_header">Blog Posts</p>
 	<div>
 		{% for post in site.posts %}
-			<div class="expert_listing">
-				<h2>{{ post.date | date: '%m.%d.%Y' }}</h2>
-				<div class="expert_name">
-					<p>{{ post.title }}</p>
-					<div class="expert_links">
-						<a href="{{ post.url }}">Read</a>
+			{% if post.visible == 1 %}
+				<div class="expert_listing">
+					<h2>{{ post.date | date: '%m.%d.%Y' }}</h2>
+					<div class="expert_name">
+						<p>{{ post.title }}</p>
+						<div class="expert_links">
+							<a href="{{ post.url }}">Read</a>
+						</div>
 					</div>
 				</div>
-			</div>
+			{% endif %}
 		{% endfor %}
 	</div>
 </div>

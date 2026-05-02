@@ -1,8 +1,7 @@
 ---
-title: Try the Demo - Out Today!
+title: Try the RowBot Rally Demo - Out Today!
 tag: rowbot rally
 desc: Try the RowBot Rally demo today!
-visible: 0
 ---
 # Howdy!
 

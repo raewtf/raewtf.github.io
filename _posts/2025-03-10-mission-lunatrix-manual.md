@@ -2,6 +2,7 @@
 title: Mission LunaTrix Manual
 tag: mission lunatrix
 desc: How to get started and shred that lunar surface!
+visible: 0
 ---
 ![Mission LunaTrix logo.](/blog/images/2025-03-10-1.png)
 

@@ -2,6 +2,7 @@
 title: Traffic Jam Manual
 tag: traffic jam
 desc: How to get started and guide those cars in style!
+visible: 0
 ---
 ![Traffic Jam logo. The wordmark is portrayed in a rugged style worthy of a construction site.](/blog/images/2025-01-24-1.png)
 

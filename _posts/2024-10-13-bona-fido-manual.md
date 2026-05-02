@@ -2,6 +2,7 @@
 title: Bona Fido Manual
 tag: bona fido
 desc: How to get started and traverse the afterlife in style.
+visible: 0
 ---
 ![Bona Fido logo.](/blog/images/2024-10-13-1.png)
 

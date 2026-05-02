@@ -2,6 +2,7 @@
 title: First in... Line? Manual
 tag: first in... line?
 desc: How to get started and break a leg!
+visible: 0
 ---
 ![First in... Line? logo.](/blog/images/2024-05-15-1.png)
 
