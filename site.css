@@ -333,6 +333,7 @@ header {
 	color: light-dark(#444444, white);
 	padding: 0 2rem;
 	margin: 2rem 0;
+	margin-top: 1rem;
 }
 .blog_content h1 {
 	margin: 0;
@@ -484,6 +485,10 @@ footer p {font-size: 1.5rem; margin: 0; text-align: center;}
 	}
 	.side_2 {
 		padding-left: 2rem;
+	}
+
+	.side_by_side .topic_header a {
+		margin: 0 -1rem;
 	}
 
 	:not(.grid) > .featured_box {flex-direction: row;}
