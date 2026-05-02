@@ -61,19 +61,68 @@ layout: null
 		</div>
 	</div>
 	<p class="topic_header">Featured</p>
-	<div class="featured_box">
-		<div class="box_content">
-			<div style="display: flex; align-items: center; justify-content: space-between">
-			<h1>Labsylle</h1>
-			<h3>02.17.2026</h3>
+	<!-- featured game -->
+	{% for game in site.data.games %}
+		{% if game.frontpage == true %}
+			<div class="featured_box">
+				<div class="box_content">
+					<div style="display: flex; align-items: center; justify-content: space-between">
+					<h1>{{ game.name }}</h1>
+					<h3>{{ game.date }}</h3>
+					</div>
+					<h2>{{ game.short_desc }}</h2>
+					<p>{{ game.long_desc }}</p>
+					{% if game.link_steam %}
+						<a href="{{ game.link_steam }}">Buy it on Steam</a>
+					{% endif %}
+					{% if game.link_catalog %}
+						<a href="{{ game.link_catalog }}">Buy it in Playdate Catalog</a>
+					{% endif %}
+					{% if game.link_itch %}
+						<a href="{{ game.link_itch }}">Buy it on Itch.io</a>
+					{% endif %}
+					{% if game.link_demo %}
+						<a href="{{ game.link_demo }}">Try the demo for FREE!</a>
+					{% endif %}
+				</div>
+				<img class="box_image" src="{{ game.preview }}" alt="{{ game.preview_alt }}" />
 			</div>
-			<h2>A words-y 'spin' on a puzzle game</h2>
-			<p><i>Labsylle</i>'s all about the "building blocks" of the English language. Swap around syllable blocks, two at a time, to assemble words. That's it! It'll keep you busy, too; with over 500 curated puzzles, and a whole dictionary of "Quik-Words" to experience in 60-second bursts.</p>
-			<a href="https://play.date/games/labsylle">Buy it in Playdate Catalog</a>
-			<a href="https://raewtf.itch.io/labsylle">Buy it on Itch.io</a>
-		</div>
-		<img class="box_image" src="../games/labsylle_preview.gif" alt="Gameplay of Labsylle. A cursor navigates along a horizontal row of syllabic blocks, swapping them around one-at-a-time to try to reach a target word." />
-	</div>
+		{% endif %}
+	{% endfor %}
+	<!-- featured trinket -->
+	{% for trinket in site.data.trinkets %}
+		{% if trinket.frontpage == true %}
+			<div class="featured_box">
+				<div class="box_content">
+					<div style="display: flex; align-items: center; justify-content: space-between">
+					<h1>{{ trinket.name }}</h1>
+					<h3>{{ trinket.date }}</h3>
+					</div>
+					<h2>{{ trinket.short_desc }}</h2>
+					<p>{{ trinket.long_desc }}</p>
+					{% if trinket.link_browser %}
+						<a href="{{ trinket.link_browser }}">Visit in your web browser</a>
+					{% endif %}
+					{% if trinket.link_youtube %}
+						<a href="{{ trinket.link_youtube }}">Watch the video on YouTube</a>
+					{% endif %}
+					{% if trinket.link_catalog %}
+						<a href="{{ trinket.link_catalog }}">Buy it in Playdate Catalog</a>
+					{% endif %}
+					{% if trinket.link_itch %}
+						<a href="{{ trinket.link_itch }}">Get it on Itch.io</a>
+					{% endif %}
+					{% if trinket.link_postmortem %}
+						<a href="{{ trinket.link_postmortem }}">Read about it on the blog</a>
+					{% endif %}
+					{% if trinket.link_download %}
+						<a href="{{ trinket.link_download }}">Download</a>
+					{% endif %}
+				</div>
+				<img class="box_image" src="{{ trinket.preview }}" alt="{{ trinket.preview_alt }}" />
+			</div>
+		{% endif %}
+	{% endfor %}
 	<div class="side_by_side">
 		<div class="side_1">
 			<p class="topic_header">What's new?<a href="../whatsnew">More</a></p>

@@ -19,6 +19,7 @@
 	},
 	{
 		"name":"Labsylle",
+		"frontpage":true,
 		"featured":true,
 		"date":"02.17.2026",
 		"preview":"../games/labsylle_preview.gif",
