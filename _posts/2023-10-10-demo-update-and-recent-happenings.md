@@ -56,7 +56,7 @@ That all being said...if you find a bug, or you have a piece of feedback, please
 Towards the end of September, the game demo was featured in the IGDA Twin Cities Playtest stream! I'd like to thank Mark LaCroix, and everybody at [Noble Robot](https://noblerobot.com/) and the [IGDA Twin Cities chapter](https://igdatc.org/) for letting me join, it was an absolute blast seeing people try my game live, the whole way through, for the first time. If you wanna check out the stream, there's a replay here on YouTube (originally aired September 20th, 2023):
 
 <center>
-<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/_XBWTnATILI?start=3046" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/_XBWTnATILI?start=3046" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
 One thing about the playtesters' experiences that really surprised me...this game was HARD. Like, *pretty dang hard*. I learned that I've succumbed to a type of "developer bias" — I've (of course) been with my game, hand in hand, over the entire course of its development. So, since I know all the bits and bobs, I think it's pretty easy to control. I've gotten used to it! The folks who have never tried or even seen this game before, respectfully...were crashin' into walls a LOT more than I'd expected hahaha. It definitely makes me think I'll need to tweak some stuff and see if i can make the control scheme any easier to get a crank on, since the difficulty level from the perspective of a new player really blew me away frankly.
@@ -67,7 +67,9 @@ The good news, is that (at least from what they were saying), it seems like a *g
 
 Oh yeah, last week(!) my game was also featured in [Tiny Yellow Machine](https://youtube.com/@tinyyellowmachine)'s Playdate Community Direct!! The trailer featured is up on this game's main page, but I highly encourage you to check out the full direct replay on YouTube, featuring a TON of really really rad Playdate games in-development! (originally aired October 5th, 2023):
 
-<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/xoV-zXigJtg?si=0z2JYP4kUgrPQOWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>
+	<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/xoV-zXigJtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 
 Thank you to Gant for hosting this entire thing! Myself and many others are very happy to come together and see what the Playdate community is up to lately. I'd also like to thank [Toad](https://toadleyundercontrol.itch.io/) for helping me out with editing together the trailer! I was really toeing the deadline and frankly dreading having to fire open the video editing software, so you really saved my tail here. Also, shoutouts to everybody in the direct's live chat who almost-immediately started hyping my game up as soon as it came on screen!! That was REALLY awesome to see, and it frankly put quite into perspective the amount of excitement that my silly little boat game is stirring up.
 
