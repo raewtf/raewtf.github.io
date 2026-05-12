@@ -55,7 +55,9 @@ That all being said...if you find a bug, or you have a piece of feedback, please
 
 Towards the end of September, the game demo was featured in the IGDA Twin Cities Playtest stream! I'd like to thank Mark LaCroix, and everybody at [Noble Robot](https://noblerobot.com/) and the [IGDA Twin Cities chapter](https://igdatc.org/) for letting me join, it was an absolute blast seeing people try my game live, the whole way through, for the first time. If you wanna check out the stream, there's a replay here on YouTube (originally aired September 20th, 2023):
 
-<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/_XBWTnATILI?si=wnfViDx-PSLjJNs4&amp;start=3046" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>
+<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/_XBWTnATILI?start=3046" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 
 One thing about the playtesters' experiences that really surprised me...this game was HARD. Like, *pretty dang hard*. I learned that I've succumbed to a type of "developer bias" — I've (of course) been with my game, hand in hand, over the entire course of its development. So, since I know all the bits and bobs, I think it's pretty easy to control. I've gotten used to it! The folks who have never tried or even seen this game before, respectfully...were crashin' into walls a LOT more than I'd expected hahaha. It definitely makes me think I'll need to tweak some stuff and see if i can make the control scheme any easier to get a crank on, since the difficulty level from the perspective of a new player really blew me away frankly.
 

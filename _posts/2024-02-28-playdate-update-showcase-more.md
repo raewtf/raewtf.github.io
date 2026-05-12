@@ -13,7 +13,9 @@ Anyway, I'm writing in because...there was a Playdate Update today! If you don't
 
 That's right! Me and my game both had the immense honor of being featured in the latest Playdate Update video. If you haven't seen the full presentation, by the way, you should go check it out! There was a ton of other cool stuff featured, and it's a must-watch for any Playdate fans looking to stay in the loop about some rad upcoming games.
 
-<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/1I9mO4pYBPI?si=hpvBRCBQtyXEaVCx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>
+<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/1I9mO4pYBPI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 
 It was super fun putting everything here together, and it's a pretty awesome (and anxiety-inducing!) feeling seeing my game go out in front of an untold number of new faces. If you're one of those new faces who managed to find me over here: Hello! I hope you like the game! Try out the early demo, maybe! :D
 
@@ -65,7 +67,9 @@ It's at this point that I wanna give major MAJOR (like, the majorest) shouts to 
 
 After a hectic weekend-ish of editing and last-minute nitpicky changes (sorry!), we got the video turned in around a week before it was due (hooray for being on time!), and then it was just a long long ... seemingly-forever wait until the Update video premiered on their page. And that day happens to be today! I mean, I'm writing this in advance, but I can guarantee you I'm *absolutely reeling* over it. (Update from the night before the premiere: *yeah i was pretty on the ball i am so reeling over it.*) If you wanna check out just the RowBot segment, by the way; I've mirrored it on my personal YouTube page here:
 
-<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/MNpX_rV_ItU?si=W1v19Rq6DCVwEcB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center>
+<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/MNpX_rV_ItU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
 
 # Okay and what about...the game?
 

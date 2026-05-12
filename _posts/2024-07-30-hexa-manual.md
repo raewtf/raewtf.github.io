@@ -221,10 +221,9 @@ Here are a couple tips to hopefully help you conquer the HEXAPLEX!
 
 - Art and code — [Rae](https://rae.wtf)
 - Music — [Watson at MusMus](https://musmus.main.jp); [Terms](https://musmus.main.jp/info.html)
+- SFX — [JSFXR](https://sfxr.me)
 - French localization — [Voxy](https://voxy.space)
 - Japanese localization — Philemax
-- SFX — [JSFXR](https://sfxr.me)
-- [Tanuk](https://github.com/Schyzophrenic/Tanuk_CodeSequence) library — [Toad](https://toadleyundercontrol.itch.io/) and [Schyzo](https://twitter.com/Schyzo99); [MIT](https://github.com/Schyzophrenic/Tanuk_CodeSequence/blob/main/LICENSE)
 - Full Circle and Mikodacs Clock fonts — [Panic](https://panic.com); [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - [Righteous](https://fonts.google.com/specimen/Righteous) font — Astigmatic; [OFL](https://openfontlicense.org)
 - Playdate [input prompts](https://kenney.nl/assets/input-prompts) — [Kenney](https://kenney.nl); [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
@@ -261,6 +260,7 @@ Special thanks to the folks in the Catalog dev chat for being there to witness m
 - Divided screen-shake effect a bit to reduce flashing of dither patterns on smaller displays
 - Fixed crash that would occur on attempt to open custom Mission if none exist
 - Mission Command headers now render with a nicer outlined font
+- Star animation in menu backgrounds now run on global counter, to prevent skipping during scene transitions
 - When resetting local stats in the Options screen, sound effects will no longer overlap
 - Nudged manual images over slightly so they didn't crash into the text so hard
 - Adjusted scene transition "blast door" parameters
@@ -298,10 +298,14 @@ Windows/macOS/Linux:
 Playdate:
 - In Jukebox, going back from the Slide menu will no longer play an extra sound effect
 - Added badge icons for locked and unlocked achievements
+- Adjusted kerning on big timer number font to better match with PC version
 - Fixed bug where locking and unlocking the console during an active game may crash the system
 - Fixed bug where exiting the High Scores screen before scores could finish loading would crash the game
 - Fixed bug where "Can't clear the mission in this state!" error in Mission Command wouldn't get properly localized
 - Cleaned up Time Attack seed input behavior in Mission Command (less crashes?)
+- Increased rate at which achievement status is checked during the game (should result in more consistency)
+- Removed dependence on Tanuk library for secret sequence
+- Fixed up mission completion achievement criteria to be more consistent with the game itself
 - Fixed bug where in Mission Command, extra numbers inputted into the Time Attack seed wouldn't get lopped off properly
 - Fixed bug where hitting Slide menu options with the keyboard open in Mission Command would cause all manner of issues
 - Adjusting HEXA match speed back down to match with the PC's more accurate timers in 2.3.0

@@ -19,7 +19,6 @@
 	},
 	{
 		"name":"Labsylle",
-		"frontpage":true,
 		"featured":true,
 		"date":"02.17.2026",
 		"preview":"../games/labsylle_preview.gif",
@@ -72,6 +71,7 @@
 	},
 	{
 		"name":"HEXA",
+		"frontpage":true,
 		"featured":true,
 		"date":"07.30.2024",
 		"preview":"../games/hexa_preview.gif",

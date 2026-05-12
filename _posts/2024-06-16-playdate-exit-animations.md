@@ -69,7 +69,8 @@ Here are a few more examples of games with cool-as-heck exit animations:
 - Reel-istic Fishing, from Toad (pictured at the start of this article)
 - Platform 10 & Diction, from Dr. Gabe
 - Diora, from The3DPrintist
-- Shift II from Scenic Route Software uses it as a funny easter egg
+- Shift II, from Scenic Route Software, uses it as a funny easter egg
+- Blippo+, from YACHT/Telefantasy/Dustin Mierau
 
 Anyway, that should be all you need to know to get started! If you make a rad exit animation for your game, feel free to let me know! I'd love to see it.
 

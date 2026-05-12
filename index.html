@@ -127,7 +127,7 @@ layout: null
 		<div class="side_1">
 			<p class="topic_header">What's new?<a href="../whatsnew">More</a></p>
 			<div style="width: 100%; display: flex; flex-direction: column;">
-				{% for new in site.data.whatsnew limit:5 %}
+				{% for new in site.data.whatsnew limit:3 %}
 					<div class="whats_new">
 						<h1>{{ new.date }}</h1>
 						<p>{{ new.text }}</p>
@@ -137,12 +137,6 @@ layout: null
 		</div>
 		<div class="side_2">
 			<p class="topic_header">Coming up...</p>
-			<div class="coming_up">
-				<img src="../games/hexa_preview.gif" alt="Gameplay of HEXA. A hexagonal cursor navigates around a grid of 19 triangles, trying to match a full hexagon of same-colored triangles. Matching them makes the timer go back up by a few seconds." />
-				<h1>HEXA coming to Steam 05.13.2026!</h1>
-				<p>With leaderboards, achievements; all that good stuff. Plus, it's a really good puzzle game! Plus-plus, a big update is in the works with tons of bug fixes, and a full Japanese localization!</p>
-				<a href="https://store.steampowered.com/app/4581230/HEXA">Wishlist it on Steam</a>
-			</div>
 			<div class="coming_up">
 				<img src="../games/hamster_preview.gif" alt="Gameplay of a video game. A hamster in a ball runs and bounces along a platform, collecting shiny gems before reaching a goalpost located at the far end." />
 				<h1>Is that a...hamster!?</h1>
@@ -191,7 +185,7 @@ layout: null
 		</div>
 	</div>
 	<div class="footer_content">
-		<p>this site, and the stuff within, doesn't contain the contents of any generative algorithms.</p>
+		<p>this site, and the stuff within, doesn't contain the outputs of any generative algorithms.</p>
 	</div>
 	<div class="footer_content">
 		<div>
