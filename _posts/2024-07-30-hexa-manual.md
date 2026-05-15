@@ -22,7 +22,7 @@ Give it a try... it's *HEXA-good!*
 
 A set of Directional and Action buttons are required to play this game. These buttons are used to navigate menus, and are mandatory in main gameplay.
 
-On personal computers, you can use the keyboard (which defaults to Arrows & Z + X), or a compatible gamepad (d-pad & A + B/X + O). During an active game, the pause menu can be accessed by pressing ESC/Start/Options. Otherwise, pressing any of those buttons twice in succession will quickly exit the game.
+On personal computers, you can use the keyboard (which defaults to Arrows & Z + X), or a compatible gamepad (d-pad & A + B/X + O). During an active game, the pause menu can be accessed by pressing ESC/Start/Options.
 
 On Playdate, you can also optionally use the crank to perform the turning action usually done by the Action buttons — this can be toggled in the Options menu. (The crank can also be used to navigate menus.)
 
@@ -247,6 +247,18 @@ The version of HEXA for personal computers was an idea in my head for a while (e
 Special thanks to the folks in the Catalog dev chat for being there to witness my tomfoolery throughout the initial development, everybody who helped out and cheered me on as this game barreled through the finish line, and everyone who continues to compete so fiercely on the Playdate leaderboards and create such an inspiring community out of my little puzzle game. Enjoy the cake! And thanks to you, for reading, playing, and (hopefully) enjoying!
 
 # Changelog
+
+## Version 2.3.1
+### 05.15.2026
+
+- Added some missing Kanji in Japanese
+
+Windows/macOS/Linux:
+- Fixed inconsistent pause behavior when using controller
+- Fixed bug where game could be "ended" as scene was transitioning, causing a softlock
+- Removed "Start/ESC twice to quit" function
+- Fixed crash if Reduce Flashing was enabled
+- (Steam) Fixed bug where Arcade Mode (Hard Mode) scoreboard was facing the wrong way
 
 ## Version 2.3.0
 ### 05.13.2026
