@@ -122,7 +122,7 @@ layout: null
 		<div class="side_1">
 			<p class="topic_header">What's new?<a href="../whatsnew">More</a></p>
 			<div style="width: 100%; display: flex; flex-direction: column;">
-				{% for new in site.data.whatsnew limit:5 %}
+				{% for new in site.data.whatsnew limit:6 %}
 					<div class="whats_new">
 						<h1>{{ new.date }}</h1>
 						<p>{{ new.text }}</p>
@@ -132,6 +132,11 @@ layout: null
 		</div>
 		<div class="side_2">
 			<p class="topic_header">Coming up...</p>
+			<div class="coming_up">
+				<img src="../games/solitaire_preview.gif" alt="Gameplay of a 1-bit video version of Klondike Solitaire. The player moves some cards around in the tableau, and flips through the deck some." />
+				<h1>Entering solitaire confinement...</h1>
+				<p>I wanted to play solitaire on my Playdate, so I...started making solitaire for my Playdate. Maybe it'll come to yours soon!</p>
+			</div>
 			<div class="coming_up">
 				<img src="../games/spiroknock_preview.gif" alt="A 1-bit animation of a spiral." />
 				<h1>Helical hijinx!</h1>
