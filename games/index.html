@@ -77,6 +77,9 @@ layout: null
 					{% if game.link_itch %}
 						<a href="{{ game.link_itch }}">Buy it on Itch.io</a>
 					{% endif %}
+					{% if game.link_github %}
+						<a href="{{ game.link_github }}">Source code on GitHub</a>
+					{% endif %}
 					{% if game.link_demo %}
 						<a href="{{ game.link_demo }}">Try the demo for FREE!</a>
 					{% endif %}
@@ -104,6 +107,9 @@ layout: null
 						{% endif %}
 						{% if game.link_itch %}
 							<a href="{{ game.link_itch }}">Buy it on Itch.io</a>
+						{% endif %}
+						{% if game.link_github %}
+							<a href="{{ game.link_github }}">Source code on GitHub</a>
 						{% endif %}
 						{% if game.link_demo %}
 							<a href="{{ game.link_demo }}">Try the demo for FREE!</a>

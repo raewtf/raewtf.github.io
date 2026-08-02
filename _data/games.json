@@ -26,7 +26,8 @@
 		"short_desc":"A words-y 'spin' on a puzzle game",
 		"long_desc":"<i>Labsylle</i>'s all about the \"building blocks\" of the English language. Swap around syllable blocks, two at a time, to assemble words. That's it! It'll keep you busy, too; with over 500 curated puzzles, and a whole dictionary of \"Quik-Words\" to experience in 60-second bursts.",
 		"link_catalog":"https://play.date/games/labsylle",
-		"link_itch":"https://raewtf.itch.io/labsylle"
+		"link_itch":"https://raewtf.itch.io/labsylle",
+		"link_github":"https://github.com/raewtf/labsylle"
 	},
 	{
 		"name":"Mission LunaTrix",
@@ -37,6 +38,7 @@
 		"short_desc":"Moon man, do a flip!",
 		"long_desc":"When you find yourself trapped on the surface of an unfamiliar terrain, there's only one thing that can bring you back to terra firma...<i>EPIC SKATE TRICKS</i>.",
 		"link_catalog":"https://play.date/games/mission-lunatrix",
+		"link_github":"https://github.com/raewtf/mission-lunatrix"
 	},
 	{
 		"name":"Traffic Jam",
@@ -47,6 +49,7 @@
 		"short_desc":"On your left! No, my right!",
 		"long_desc":"Watch out for four distinct car types, keep the beat (as well as you can) to an increasing tempo, and try to avoid a nasty collision! Made just for Playdate.",
 		"link_catalog":"https://play.date/games/traffic-jam",
+		"link_github":"https://github.com/raewtf/traffic-jam"
 	},
 	{
 		"name":"Bona Fido",
@@ -57,6 +60,7 @@
 		"short_desc":"Being dead bites.",
 		"long_desc":"Narrowly dodge enemies, dig up trick-or-treatin' treasures, and bark your way to becoming top dog of the afterlife in this sp00py single-screen platformer.",
 		"link_catalog":"https://play.date/games/bona-fido",
+		"link_github":"https://github.com/raewtf/bona-fido"
 	},
 	{
 		"name":"RowBot Rally",
@@ -67,6 +71,7 @@
 		"short_desc":"Row for the gold and save the Fish Bowl!",
 		"long_desc":"When a fleet of evil \"RowBots\" threaten to take over the annual boat-racing tourney, can you and a defective junkyard RowBot of your own put a stop to the Shark Boss's nefarious plans?",
 		"link_catalog":"https://play.date/games/rowbot-rally",
+		"link_github":"https://github.com/raewtf/rowbot-rally",
 		"link_demo":"../rowbot-rally/DEMO.zip"
 	},
 	{
@@ -80,7 +85,8 @@
 		"long_desc":"Conquer the HEXAPLEX, wrangle those Power-ups, and maybe even become ruler of the universe along the way in <i>HEXA</i>, a triangle-matching puzzle game that's HEXA-good. With plenty of modes, mechanics, and otherworldly competition.",
 		"link_steam":"https://store.steampowered.com/app/4581230/HEXA",
 		"link_catalog":"https://play.date/games/hexa",
-		"link_itch":"https://raewtf.itch.io/hexa"
+		"link_itch":"https://raewtf.itch.io/hexa",
+		"link_github":"https://github.com/raewtf/hexa"
 	},
 	{
 		"name":"First in... Line?",
@@ -91,5 +97,6 @@
 		"short_desc":"3... 2... 1... You're on!",
 		"long_desc":"Memorize your lines, then take to the stage and...try not to flub the lead role too hard, in this game made with Playdate's extensive suite of inputs in mind.",
 		"link_catalog":"https://play.date/games/first-in-line",
+		"link_github":"https://github.com/raewtf/first-in-line"
 	},
 ]

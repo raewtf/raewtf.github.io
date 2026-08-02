@@ -19,6 +19,7 @@
 		"long_desc":"Curious what the forecast looks like? Easy! But...your laptop's out of reach, your phone's battery is dead, your smart assistant's brain is busted, and your curtains are shut. It's just you, and your Playdate. Well, now you're in luck!",
 		"link_catalog":"https://play.date/games/cloudburst",
 		"link_itch":"https://raewtf.itch.io/cloudburst",
+		"link_github":"https://github.com/raewtf/cloudburst"
 	},
 	{
 		"name":"Rev Checker",
@@ -40,6 +41,7 @@
 		"long_desc":"In its prime, <i>Crankyboard</i> was the premier way to view Playdate game scoreboards — backed by a retrospectively-hilarious, entirely-manual API scraping process. Today, it's a fun time capsule of lessons learned, and very old high scores.",
 		"link_browser":"../crankyboard",
 		"link_postmortem":"../blog/the-crankyboard-saga",
+		"link_github":"https://github.com/raewtf/raewtf.github.io/tree/main/crankyboard"
 	},
 	{
 		"name":"Moth Rotatotron 3D",
@@ -60,6 +62,7 @@
 		"short_desc":"The one good thinking machine",
 		"long_desc":"Wanna make a game for <i>Game Builder Garage</i>, but not sure where to start? This tool will help you out! Find some inspiration, enjoy the confetti, and see if you can't spot some silly little secrets along the way.",
 		"link_browser":"../gbgben",
+		"link_github":"https://github.com/raewtf/raewtf.github.io/tree/main/gbgen"
 	},
 	{
 		"name":"Mobile Game Name Generator",
@@ -70,5 +73,6 @@
 		"short_desc":"(Results may vary.)",
 		"long_desc":"Ever needed a killer name for that medieval civilization-building mobile game idea burning a hole in your pocket? Well, now you're in luck!",
 		"link_browser":"../mgng",
+		"link_github":"https://github.com/raewtf/raewtf.github.io/tree/main/mgng"
 	}
 ]

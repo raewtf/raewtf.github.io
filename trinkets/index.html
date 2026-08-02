@@ -83,6 +83,9 @@ layout: null
 					{% if trinket.link_download %}
 						<a href="{{ trinket.link_download }}">Download</a>
 					{% endif %}
+					{% if trinket.link_github %}
+						<a href="{{ trinket.link_github }}">Source code on GitHub</a>
+					{% endif %}
 				</div>
 				<img class="box_image" src="{{ trinket.preview }}" alt="{{ trinket.preview_alt }}" />
 			</div>
@@ -116,6 +119,9 @@ layout: null
 						{% endif %}
 						{% if trinket.link_download %}
 							<a href="{{ trinket.link_download }}">Download</a>
+						{% endif %}
+						{% if trinket.link_github %}
+							<a href="{{ trinket.link_github }}">Source code on GitHub</a>
 						{% endif %}
 					</div>
 					<img class="box_image_grid" src="{{ trinket.preview }}" alt="{{ trinket.preview_alt }}" />

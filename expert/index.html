@@ -115,10 +115,22 @@ layout: null
 						{% if game.link_itch %}
 							<a href="{{ game.link_itch }}">Itch.io</a>
 						{% endif %}
+						{% if game.link_github %}
+							<a href="{{ game.link_github }}">GitHub</a>
+						{% endif %}
 					</div>
 				</div>
 			</div>
 		{% endfor %}
+	</div>
+	<p class="topic_header">Art</p>
+	<div>
+		<div class="expert_listing">
+			<h2>??.??.????</h2>
+			<div class="expert_name">
+				<p>Under construction!</p>
+			</div>
+		</div>
 	</div>
 	<p class="topic_header">Trinkets</p>
 	<div>
@@ -142,6 +154,9 @@ layout: null
 						{% endif %}
 						{% if trinket.link_download %}
 							<a href="{{ trinket.link_download }}">Download</a>
+						{% endif %}
+						{% if trinket.link_github %}
+							<a href="{{ trinket.link_github }}">GitHub</a>
 						{% endif %}
 					</div>
 				</div>
