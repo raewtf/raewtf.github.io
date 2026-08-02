@@ -28,9 +28,13 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
 collections:
-  posts:
+    posts:
       output: true
       permalink: /blog/:title
+    manuals:
+      output: true
+      permalink: /manuals/:title
+      layout: manual
 
 defaults:
   -
