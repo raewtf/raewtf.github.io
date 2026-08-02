@@ -34,9 +34,6 @@ collections:
     manuals:
       output: true
       permalink: /manuals/:title
-    changelogs:
-      output: true
-      permalink: /changelogs/:title
 
 defaults:
   -
