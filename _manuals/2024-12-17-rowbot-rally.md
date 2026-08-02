@@ -1,8 +1,8 @@
 ---
 title: RowBot Rally Manual
-tag: rowbot rally
-desc: How to get started and win the Fish Bowl!
-visible: 0
+layout: manual
+redirect-from:
+  - /blog/rowbot-rally-manual
 ---
 ![RowBot Rally logo.](/blog/images/2024-12-17-1.png)
 
