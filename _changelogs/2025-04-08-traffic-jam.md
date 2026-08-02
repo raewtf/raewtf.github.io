@@ -1,8 +1,6 @@
 ---
 title: Traffic Jam Changelog
 layout: manual
-redirect-from:
-  - /blog/traffic-jam-manual#changelog
 ---
 ## Version 1.0.4
 ### 05.20.2025

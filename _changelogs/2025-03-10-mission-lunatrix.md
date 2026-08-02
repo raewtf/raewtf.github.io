@@ -1,8 +1,6 @@
 ---
 title: Mission LunaTrix Changelog
 layout: manual
-redirect-from:
-  - /blog/mission-lunatrix-manual#changelog
 ---
 ## Version 2.0.0
 ### 06.24.2025

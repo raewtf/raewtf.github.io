@@ -1,8 +1,7 @@
 ---
 title: Mission LunaTrix Manual
 layout: manual
-redirect-from:
-  - /blog/mission-lunatrix-manual/
+redirect-from: /blog/mission-lunatrix-manual/
 ---
 ![Mission LunaTrix logo.](/blog/images/2025-03-10-1.png)
 

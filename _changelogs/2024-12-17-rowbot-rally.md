@@ -1,8 +1,6 @@
 ---
 title: RowBot Rally Changelog
 layout: manual
-redirect-from:
-  - /blog/rowbot-rally-manual#changelog
 ---
 ## Version 1.1.0
 ### 10.14.2025

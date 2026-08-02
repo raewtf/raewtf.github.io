@@ -1,8 +1,7 @@
 ---
 title: First in... Line? Manual
 layout: manual
-redirect-from:
-  - /blog/first-in-line-manual/
+redirect-from: /blog/first-in-line-manual/
 ---
 ![First in... Line? logo.](/blog/images/2024-05-15-1.png)
 

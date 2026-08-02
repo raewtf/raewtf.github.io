@@ -1,8 +1,7 @@
 ---
 title: RowBot Rally Manual
 layout: manual
-redirect-from:
-  - /blog/rowbot-rally-manual/
+redirect-from: /blog/rowbot-rally-manual/
 ---
 ![RowBot Rally logo.](/blog/images/2024-12-17-1.png)
 

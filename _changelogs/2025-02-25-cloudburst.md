@@ -1,8 +1,6 @@
 ---
 title: Cloudburst Changelog
 layout: manual
-redirect-from:
-  - /blog/cloudburst-manual#changelog
 ---
 ## Version 1.0.5
 ### 09.15.2025

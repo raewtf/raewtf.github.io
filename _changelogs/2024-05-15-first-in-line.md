@@ -1,8 +1,6 @@
 ---
 title: First in... Line? Changelog
 layout: manual
-redirect-from:
-  - /blog/first-in-line-manual#changelog
 ---
 ## Version 2.2.7
 ### 12.19.2025
