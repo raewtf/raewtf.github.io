@@ -1,6 +1,6 @@
 ---
 title: Cloudburst Manual
-layout: manual
+layout: manual_trinket
 redirect_from: /blog/cloudburst-manual/
 ---
 ![Cloudburst logo. A simplistic design with an umbrella creating the O in "cloud", and the pole looping down to form the U in "burst".](/blog/images/2025-02-07-1.png)
