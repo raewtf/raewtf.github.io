@@ -1,6 +1,7 @@
 [
 	{
 		"name":"Rae's Solitaire",
+		"frontpage":true,
 		"featured":true,
 		"date":"Coming soon",
 		"preview":"../games/solitaire_preview.gif",
@@ -76,7 +77,6 @@
 	},
 	{
 		"name":"HEXA",
-		"frontpage":true,
 		"featured":true,
 		"date":"07.30.2024",
 		"preview":"../games/hexa_preview.gif",
