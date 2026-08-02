@@ -1,5 +1,14 @@
 [
 	{
+		"name":"Rae's Solitaire",
+		"featured":true,
+		"date":"Coming soon",
+		"preview":"../games/solitaire_preview.gif",
+		"preview_alt":"Gameplay of a 1-bit video version of Klondike Solitaire. The player moves some cards around in the tableau, and flips through the deck some.",
+		"short_desc":"A nice Klondike for your PD",
+		"long_desc":"Lately, I've been getting into solitaire. One night, I thought: \"I wanna play some solitaire on my Playdate\". Then I thought, \"how hard would it be to <i>make</i> it?\" ...So, I made Klondike solitaire for my Playdate! Now, you can play it on yours, too.",
+	},
+	{
 		"name":"Project Pesto",
 		"featured":true,
 		"date":"Coming soon",
