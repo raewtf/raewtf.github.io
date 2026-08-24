@@ -44,13 +44,13 @@ In this mode, you have a maximum of three Misses per act before you lose. A Miss
 
 ## One-Shot Mode
 
-> 💡 *This Mode is only unlocked after playing Arcade Mode five times in total.*
+> 💡 *This mode is only unlocked after playing Arcade Mode five times in total.*
 
 One-Shot Mode plays similarly to Arcade Mode, with a couple key differences. Hints are not allowed in this mode, and — crucially — you're only permitted one miss before losing in this mode. This is the ultimate test of your back-up acting skills! See how far you can go without making a single mistake.
 
 ## Timed Mode
 
-> 💡 *This Mode is only unlocked after playing Arcade Mode ten times in total.*
+> 💡 *This mode is only unlocked after playing Arcade Mode ten times in total.*
 
 Timed Mode essentially plays just like Arcade Mode, but with one huge difference: you're on the clock! There's a constantly running timer, and you've gotta try and get as far as you can before it hits 0. When it does (or if you flub the normal way), you'll get caned off the stage and it's game over.
 
@@ -98,25 +98,25 @@ In Hard difficulty...
 
 # On-line Capability
 
-## About on-line play
+## About On-line Play
 
 This game connects to Playdate's on-line leaderboard API, to enable sending and receiving of high scores among players across the globe. To use on-line functionality in this game, make sure your Playdate has an active Wireless connection.
 
-## Submitting your scores
+## Submitting Your Scores
 
 To submit a new score to the global leaderboard, simply complete a game. When you reach the 'Game Over' screen, your score will be submitted to the proper leaderboard automatically.
 
 > ⚠️ *Scores are not saved or submitted to on-line leaderboards in Multi Mode.*
 
-## Viewing global scores
+## Viewing Global Scores
 
 You can view global scores using two primary methods:
 
 1. Visit the *First in... Line?* game page in your Web browser, at [play.date/games/first-in-line](https://play.date/games/first-in-line/). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
 
-2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch between Modes. *(On device, you can only view leaderboards for modes and difficulties you've already unlocked.)* From here, you can see the top 9 scores for the currently-highlighted board, as well as your own score and ranking (if available).
+2. Enter the 'High Scores' menu within the game, accessible from the Title screen. When in this screen, you can use the A button to toggle difficulty, and the left and right buttons on the D-pad to switch between modes. *(On device, you can only view leaderboards for modes and difficulties you've already unlocked.)* From here, you can see the top 9 scores for the currently-highlighted board, as well as your own score and ranking (if available).
 
-## Control schemes
+## Control Schemes
 
 Different control combinations are allowed for accessibility reasons (see Controls for more info.) Within the on-line leaderboards, you can see which control combination a player used to attain their best score. Just take a look next to a player's score to see what inputs they used!
 
@@ -188,7 +188,7 @@ From me to you, thanks for playing, and break a leg! 💖
 ## Version 2.2.0
 ### 07.01.2024
 
-- New Mode — "Timed Mode"! You're on the clock; get as far as you can before time's up.
+- New mode — "Timed Mode"! You're on the clock; get as far as you can before time's up.
 - Fixes and adjustments to controls
 	- Mic input is now less sensitive
 	- Crank input deadzone was adjusted, to make switching directions easier
@@ -254,7 +254,7 @@ From me to you, thanks for playing, and break a leg! 💖
 	- One-Shot Mode — an unlockable; in this mode there are no hints or heckles, and you only get one miss per round.
 	- Multi Mode — pass and *"play"* fun, optimized for 2 people to take turns on the stage!
 - Shortened the time you gotta wait for hints and heckles to show up.
-- You can now see missed inputs as whispers in your line. Now you'll never have to wonder what the hell you just pressed instead of what you meant to.
+- You can now see missed inputs as whispers in your line. Now you'll never have to wonder whatever you just pressed instead of what you meant to.
 - More inputs were added to the game — cranking forwards, cranking backwards, docking, undocking, shaking the Playdate, and screaming into the microphone.
 - Disabled crank docking SFX.
 - Added a Settings menu, for changing game options.
@@ -289,4 +289,4 @@ From me to you, thanks for playing, and break a leg! 💖
 - Initial release, for PlayJam 5.
 
 <br>
-<a href="https://play.date/games/first-in-line" class="button">Buy <i>First in... Line?</i> in Catalog</a>
+<a href="https://play.date/games/first-in-line" class="button">Buy <i>First in... Line?</i> in Playdate Catalog</a>

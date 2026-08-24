@@ -89,13 +89,13 @@ In this app, there are a variety of options you can change to fully optimize you
 
 # On-line Capability
 
-## Submitting your data
+## Submitting Your Data
 
 This app supports global on-line leaderboards — just for fun!
 
 To submit new data to the global leaderboards, simply launch the app. As you leave the initialization screen, your data will be submitted to the proper leaderboards automatically.
 
-## My data didn't send! What do?
+## My Data Didn't Send!
 
 If you tried to send some data, but it didn't get sent up to the appropriate leaderboard, there are a few things you can try:
 
@@ -105,7 +105,7 @@ If you tried to send some data, but it didn't get sent up to the appropriate lea
 
 > ⚠️ *If you already set a greater benchmark earlier in the day, your score won't be overwritten. Please wait for the leaderboards to refresh at the end of the day.*
 
-## Viewing global data
+## Viewing Global Data
 
 You can view global data by visiting the *Cloudburst* game page in your Web browser, at [play.date/games/cloudburst](https://play.date/games/cloudburst/). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
 
@@ -206,4 +206,4 @@ Leaderboards refresh automatically at 00:00 midnight GMT, clearing all scores fr
 - Initial beta release.
 
 <br>
-<a href="https://play.date/games/cloudburst" class="button">Buy <i>Cloudburst</i> in Catalog</a>
+<a href="https://play.date/games/cloudburst" class="button">Buy <i>Cloudburst</i> in Playdate Catalog</a>

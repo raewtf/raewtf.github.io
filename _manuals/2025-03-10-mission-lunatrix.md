@@ -61,19 +61,19 @@ You only get one shot at the Daily Orbit each day. Give the mode a try and see i
 
 # On-line Capability
 
-## About on-line play
+## About On-line Play
 
 This game connects to Playdate's on-line leaderboard API, to enable sending and receiving of high scores among players across the globe. To use on-line functionality in this game, make sure your Playdate has an active Wireless connection.
 
-## Submitting your scores
+## Submitting Your Scores
 
 The Arcade Mode and Daily Orbit both support global on-line leaderboards.
 
-To submit a new score to a global leaderboard, simply complete a game. When you reach the end results screen, your score will be submitted to the proper leaderboard automatically.
+To submit a new score to a global leaderboard, simply complete a game. When you reach the 'Game Over' screen, your score will be submitted to the proper leaderboard automatically.
 
 > ⚠️ *Be careful — if you close out of the game without properly ending your run, your score won't be saved or submitted!*
 
-## My score didn't send! What do?
+## My Score Didn't Send!
 
 If you obtained a new high score, but it didn't get sent up to the appropriate leaderboard, there are a few things you can try:
 
@@ -81,7 +81,7 @@ If you obtained a new high score, but it didn't get sent up to the appropriate l
 
 2. Try playing another round — it doesn't need to be *yet another* new high score, but this might kick the OS' caching into high gear.
 
-## Viewing global scores
+## Viewing Global Scores
 
 You can view global scores using two primary methods:
 
@@ -177,4 +177,4 @@ To set a user icon, press B on the Title screen, and use the crank to preview th
 - Initial release, for PlayJam 7.
 
 <br>
-<a href="https://play.date/games/mission-lunatrix" class="button">Buy <i>Mission LunaTrix</i> in Catalog</a>
+<a href="https://play.date/games/mission-lunatrix" class="button">Buy <i>Mission LunaTrix</i> in Playdate Catalog</a>

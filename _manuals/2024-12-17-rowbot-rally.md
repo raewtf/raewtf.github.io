@@ -59,17 +59,17 @@ In the Time Trials mode exclusively, Rocket Arms can give you an opportune boost
 
 # On-line Capability
 
-## About on-line play
+## About On-line Play
 
 This game connects to Playdate's on-line leaderboard API, to enable sending and receiving of high scores among players across the globe. To use on-line functionality in this game, make sure your Playdate has an active Wireless connection.
 
-## Submitting your scores
+## Submitting Your Scores
 
 To submit a new time to the global leaderboard, simply complete a full race in Time Trials. When you reach the results screen that shows your new time, your score will be submitted to the stage's respective leaderboard automatically.
 
 > 💡 *For a time to be eligible for submission, it must be a better time than one you've achieved before.*
 
-## Viewing global scores
+## Viewing Global Scores
 
 You can view global scores using two primary methods:
 
@@ -204,4 +204,4 @@ The options screen allows you to change various settings and accessibility featu
 - Initial release.
 
 <br>
-<a href="https://play.date/games/rowbot-rally" class="button">Buy <i>RowBot Rally</i> in Catalog</a>
+<a href="https://play.date/games/rowbot-rally" class="button">Buy <i>RowBot Rally</i> in Playdate Catalog</a>
