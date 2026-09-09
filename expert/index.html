@@ -112,6 +112,9 @@ layout: null
 						{% if game.link_catalog %}
 							<a href="{{ game.link_catalog }}">Playdate Catalog</a>
 						{% endif %}
+						{% if game.link_catalog_wishlist %}
+							<a href="{{ game.link_catalog_wishlist }}">Playdate Catalog</a>
+						{% endif %}
 						{% if game.link_itch %}
 							<a href="{{ game.link_itch }}">Itch.io</a>
 						{% endif %}
@@ -148,6 +151,9 @@ layout: null
 						{% endif %}
 						{% if trinket.link_catalog %}
 							<a href="{{ trinket.link_catalog }}">Playdate Catalog</a>
+						{% endif %}
+						{% if trinket.link_catalog_wishlist %}
+							<a href="{{ trinket.link_catalog_wishlist }}">Playdate Catalog</a>
 						{% endif %}
 						{% if trinket.link_itch %}
 							<a href="{{ trinket.link_itch }}">Itch.io</a>

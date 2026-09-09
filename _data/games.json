@@ -1,13 +1,15 @@
 [
 	{
-		"name":"Project Pesto",
+		"name":"RowBot Rally 2",
 		"frontpage":true,
 		"featured":true,
 		"date":"Coming soon",
 		"preview":"../games/pesto_preview.gif",
-		"preview_alt":"Looping animation of 1-bit static.",
-		"short_desc":"▞ ▜ ▞ ▟ ▚ ▙ ▖ ▜ ▘ ▞ ▙ ▚ ▛ ▞",
-		"long_desc":"▙ ▚ ▛ ▞ ▜ ▟ ▝ ▚ ▘ ▙ ▖ ▜ ▗ ▟ ▚ ▛ ▞ ▝ ▘ ▙ ▜ ▖ ▘ ▟ ▚ ▛ ▘ ▞ ▝ ▗ ▖ ▜ ▗ ▙ ▚ ▛ ▜ ▟ ▝ ▞ ▗ ▚ ▞ ▚ ▚ ▙ ▟ ▞ ▝ ▖ ▜ ▗ ▘ ▟ ▛ ▚ ▙ ▞ ▖ ▜ ▗ ▝ ▗ ▞ ▟ ▙ ▚ ▚ ▝ ▞ ▜ ▞ ▟ ▚ ▙ ▖ ▜ ▘ ▞ ▙ ▚ ▛ ▞ ▜ ▟ ▝ ▚ ▘ ▙ ▖ ▜ ▗ ▟ ▚ ▛ ▞ ▝ ▘ ▙ ▜ ▖ ▘ ▟",
+		"preview_alt":"Footage of an animated cutscene in a video game. Birds fly cacophonously as the sky turns dark. A bunny is sitting in a rowboat, looking concerned as the boat rocks. She glances up in mounting horror, as the moon eclipses the sun, with some kind of structure atop it. She stares slack-jawed at it, briefly; and then turns to the robot companion who's sitting in the other seat of the boat. What to do now?",
+		"short_desc":"Turn the tides before they turn you.",
+		"long_desc":"It's the Fish Bowl Champs' latest—and BIGGEST—adventure yet! Solve the mystery of the sudden eclipse, recruit some friends (and even old foes?) to help, and SAVE THE WORLD! ...Or, more importantly, give the townsfolk what they want: high-octane boat racing!",
+		"link_catalog_wishlist":"https://play.date/games/rowbot-rally-2",
+		"link_itch":"https://raewtf.itchio/rowbot-rally-2",
 	},
 	{
 		"name":"Rae's Solitaire",

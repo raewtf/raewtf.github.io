@@ -1,6 +1,7 @@
 ---
 title: Rae's Solitaire Manual
 layout: manual
+redirect_from: /blog/raes-solitaire-manual/
 ---
 (Hey... it's not done right now. come back soon!)
 

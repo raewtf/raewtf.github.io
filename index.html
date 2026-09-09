@@ -73,6 +73,9 @@ layout: null
 					{% if game.link_catalog %}
 						<a href="{{ game.link_catalog }}">Buy it in Playdate Catalog</a>
 					{% endif %}
+					{% if game.link_catalog_wishlist %}
+						<a href="{{ game.link_catalog_wishlist }}">Wishlist it in Playdate Catalog</a>
+					{% endif %}
 					{% if game.link_itch %}
 						<a href="{{ game.link_itch }}">Buy it on Itch.io</a>
 					{% endif %}
@@ -107,6 +110,9 @@ layout: null
 					{% if trinket.link_catalog %}
 						<a href="{{ trinket.link_catalog }}">Buy it in Playdate Catalog</a>
 					{% endif %}
+					{% if trinket.link_catalog_wishlist %}
+						<a href="{{ trinket.link_catalog_wishlist }}">Wishlist it in Playdate Catalog</a>
+					{% endif %}
 					{% if trinket.link_itch %}
 						<a href="{{ trinket.link_itch }}">Get it on Itch.io</a>
 					{% endif %}
@@ -128,7 +134,7 @@ layout: null
 		<div class="side_1">
 			<p class="topic_header">What's new?<a href="../whatsnew">More</a></p>
 			<div style="width: 100%; display: flex; flex-direction: column;">
-				{% for new in site.data.whatsnew limit:5 %}
+				{% for new in site.data.whatsnew limit:3 %}
 					<div class="whats_new">
 						<h1>{{ new.date }}</h1>
 						<p>{{ new.text }}</p>
@@ -140,18 +146,14 @@ layout: null
 			<p class="topic_header">Coming up...</p>
 			<div class="coming_up">
 				<img src="../games/pesto_preview.gif" alt="Looping animation of 1-bit static." />
-				<h1>🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿</h1>
-				<p>🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿🌿</p>
+				<h1>Project Pesto...is RowBot Rally 2!</h1>
+				<p>AAAAAAHH CAN YOU BELIEVE IT?!? It's a sequel to my award-winning Playdate game — the really big one, about rabbits, and robots, and racing boats. Except this time, the stakes are higher, the boats are flyer, and the bunnies are...skyward?</p>
+				<a href="https://play.date/games/rowbot-rally-2">Wishlist it in Playdate Catalog</a>
 			</div>
 			<div class="coming_up">
-				<img src="../games/spiroknock_preview.gif" alt="A 1-bit animation of a spiral." />
-				<h1>Helical hijinx!</h1>
-				<p>In progress: a new arcade-y puzzle game so good, it's downright loopy! Pairs extraordinarily well with Playdate's crank. Watch this space!</p>
-			</div>
-			<div class="coming_up">
-				<img src="../games/hamster_preview.gif" alt="Gameplay of a video game. A hamster in a ball runs and bounces along a platform, collecting shiny gems before reaching a goalpost located at the far end." />
-				<h1>Is that a...hamster!?</h1>
-				<p>Playful puzzle-platformer in progress for Playdate...and PC! Peep this page periodically for pristine progress posts.</p>
+				<img src="../games/solitaire_preview.gif" alt="Gameplay of a 1-bit video version of Klondike Solitaire. The player moves some cards around in the tableau, and flips through the deck some." />
+				<h1>Klondike, for your PD!</h1>
+				<p>I made a nice Klondike Solitaire for my Playdate! Soon, you can play it on yours, too. Look out for it when it hits the Catalog on 10.27.2026 — with a launch week discount!</p>
 			</div>
 		</div>
 	</div>

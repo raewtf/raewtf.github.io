@@ -74,6 +74,9 @@ layout: null
 					{% if trinket.link_catalog %}
 						<a href="{{ trinket.link_catalog }}">Buy it in Playdate Catalog</a>
 					{% endif %}
+					{% if trinket.link_catalog_wishlist %}
+						<a href="{{ trinket.link_catalog_wishlist }}">Wishlist it in Playdate Catalog</a>
+					{% endif %}
 					{% if trinket.link_itch %}
 						<a href="{{ trinket.link_itch }}">Get it on Itch.io</a>
 					{% endif %}

@@ -74,6 +74,9 @@ layout: null
 					{% if game.link_catalog %}
 						<a href="{{ game.link_catalog }}">Buy it in Playdate Catalog</a>
 					{% endif %}
+					{% if game.link_catalog_wishlist %}
+						<a href="{{ game.link_catalog_wishlist }}">Wishlist it in Playdate Catalog</a>
+					{% endif %}
 					{% if game.link_itch %}
 						<a href="{{ game.link_itch }}">Buy it on Itch.io</a>
 					{% endif %}
@@ -104,6 +107,9 @@ layout: null
 						{% endif %}
 						{% if game.link_catalog %}
 							<a href="{{ game.link_catalog }}">Buy it in Playdate Catalog</a>
+						{% endif %}
+						{% if game.link_catalog_wishlist %}
+							<a href="{{ game.link_catalog_wishlist }}">Wishlist it in Playdate Catalog</a>
 						{% endif %}
 						{% if game.link_itch %}
 							<a href="{{ game.link_itch }}">Buy it on Itch.io</a>
