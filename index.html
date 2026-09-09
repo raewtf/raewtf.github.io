@@ -79,6 +79,9 @@ layout: null
 					{% if game.link_itch %}
 						<a href="{{ game.link_itch }}">Buy it on Itch.io</a>
 					{% endif %}
+					{% if game.link_itch_wishlist %}
+						<a href="{{ game.link_itch_wishlist }}">Wishlist it on Itch.io</a>
+					{% endif %}
 					{% if game.link_github %}
 						<a href="{{ game.link_github }}">Source code on GitHub</a>
 					{% endif %}
@@ -116,6 +119,9 @@ layout: null
 					{% if trinket.link_itch %}
 						<a href="{{ trinket.link_itch }}">Get it on Itch.io</a>
 					{% endif %}
+					{% if trinket.link_itch_wishlist %}
+						<a href="{{ trinket.link_itch_wishlist }}">Wishlist it on Itch.io</a>
+					{% endif %}
 					{% if trinket.link_postmortem %}
 						<a href="{{ trinket.link_postmortem }}">Read about it on the blog</a>
 					{% endif %}
@@ -134,7 +140,7 @@ layout: null
 		<div class="side_1">
 			<p class="topic_header">What's new?<a href="../whatsnew">More</a></p>
 			<div style="width: 100%; display: flex; flex-direction: column;">
-				{% for new in site.data.whatsnew limit:3 %}
+				{% for new in site.data.whatsnew limit:4 %}
 					<div class="whats_new">
 						<h1>{{ new.date }}</h1>
 						<p>{{ new.text }}</p>

@@ -109,6 +109,9 @@ layout: null
 						{% if game.link_steam %}
 							<a href="{{ game.link_steam }}">Steam</a>
 						{% endif %}
+						{% if game.link_steam_wishlist %}
+							<a href="{{ game.link_steam_wishlist }}">Steam</a>
+						{% endif %}
 						{% if game.link_catalog %}
 							<a href="{{ game.link_catalog }}">Playdate Catalog</a>
 						{% endif %}
@@ -117,6 +120,9 @@ layout: null
 						{% endif %}
 						{% if game.link_itch %}
 							<a href="{{ game.link_itch }}">Itch.io</a>
+						{% endif %}
+						{% if game.link_itch_wishlist %}
+							<a href="{{ game.link_itch_wishlist }}">Itch.io</a>
 						{% endif %}
 						{% if game.link_github %}
 							<a href="{{ game.link_github }}">GitHub</a>
@@ -157,6 +163,9 @@ layout: null
 						{% endif %}
 						{% if trinket.link_itch %}
 							<a href="{{ trinket.link_itch }}">Itch.io</a>
+						{% endif %}
+						{% if trinket.link_itch_wishlist %}
+							<a href="{{ trinket.link_itch_wishlist }}">Itch.io</a>
 						{% endif %}
 						{% if trinket.link_download %}
 							<a href="{{ trinket.link_download }}">Download</a>
