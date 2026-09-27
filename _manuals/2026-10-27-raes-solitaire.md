@@ -3,9 +3,7 @@ title: Rae's Solitaire Manual
 layout: manual
 redirect_from: /blog/raes-solitaire-manual/
 ---
-(Hey... it's not done right now. come back soon!)
-
-![Rae's Solitaire logo. There's a set of antennae, and a stacked card motif.](/blog/images/2026-12-31-1.png)
+![Rae's Solitaire logo. There's a set of antennae, and a stacked card motif.](/blog/images/2026-10-27-1.png)
 
 ## Synopsis
 
@@ -27,7 +25,9 @@ It's robust, and ridiculously customizable. You can freely adjust your play sett
 
 # Scoring Algorithms
 
-## Klondike
+## Klondike: Standard
+
+Standard scoring depends on the moves you make throughout the game, as well as how much time you take to complete it.
 
 - Moving a card from the deck to the tableau: +5 points
 - Revealing a new card in the tableau: +5 points
@@ -37,9 +37,14 @@ It's robust, and ridiculously customizable. You can freely adjust your play sett
 - Moving a card from a bank back to the tableau: -15 points
 
 - Reversing the deck, in 1-Draw: -100 points
-- Reversing the deck, in 3-Draw: -33 points
+- Reversing the deck, in 3-Draw: -20 points
 
 - Timer bonus: +(700,000 / seconds) points, if the game's taken at least 30 seconds
+- Time penalty: -2 points for every 10 seconds elapsed
+
+## Klondike: Vegas
+
+## Klondike: Vegas (Cumulative)
 
 # Settings
 
@@ -65,7 +70,7 @@ You can view global scores using two primary methods:
 
 1. Visit the *Rae's Solitaire* game page in your Web browser, at [play.date/games/raes-solitaire](https://play.date/games/raes-solitaire). From here, you can view all available scores in the Scoreboards section. You can see top 10 scores in every available board.
 
-2. Enter the 'Global Records' menu within the game, accessible from the Title screen. When in this screen, you can use the left and right buttons on the D-pad to switch between modes.
+2. Enter the 'Global' menu within the game, accessible from the Title screen. When in this screen, you can use the left and right buttons on the D-pad to switch between modes.
 
 # Credits
 
@@ -73,12 +78,13 @@ You can view global scores using two primary methods:
 - [Pixolde](https://fontenddev.com/fonts/pixolde/) font — [Font End Dev](https://fontenddev.com/)
 - xorshift PRNG implementation — [Eli Piilonen](https://bsky.app/profile/2darray.bsky.social) (2DArray)
 - Additional card art — Powerdive Games, Toad, Scenic Route Software, Synaptic Sugar, Tijn, and Jazzie
+- Playtesters —
 - Thanks — potch, Kenney, the Café, Panic, and you!
 
 # Changelog
 
 ## Version 1.0.0
-### ??.??.????
+### 10.27.2026
 
 - Initial release.
 

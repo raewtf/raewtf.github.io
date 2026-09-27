@@ -1,5 +1,16 @@
 [
 	{
+		"name":"Loop Lariat",
+		"frontpage":true,
+		"featured":true,
+		"date":"09.27.2026",
+		"preview":"../games/loop_preview.gif",
+		"preview_alt":"Footage of a cowboy-themed puzzle game. The player is connecting separate lasso blocks together to form a continuous loop. The player's trying to capture outlaw blocks by catching them inside of a full lasso loop. There are also dynamite blocks, which explode whatever they're placed down on.",
+		"short_desc":"Yeeeeeee-haw!!",
+		"long_desc":"Link lasso-bits, blow up dynamite with extreme caution, and try to wrangle the outlaws of the nefarious Meeple Crew. This <i>spaghetti</i>-western puzzle game was made for 2026's Falling Block Jam.",
+		"link_itch_jam":"https://raewtf.itch.io/loop-lariat",
+	},
+	{
 		"name":"RowBot Rally 2",
 		"frontpage":true,
 		"featured":true,
@@ -43,6 +54,7 @@
 		"short_desc":"Moon man, do a flip!",
 		"long_desc":"When you find yourself trapped on the surface of an unfamiliar terrain, there's only one thing that can bring you back to terra firma...<i>EPIC SKATE TRICKS</i>.",
 		"link_catalog":"https://play.date/games/mission-lunatrix",
+		"link_itch_jam":"https://raewtf.itch.io/mission-lunatrix",
 		"link_github":"https://github.com/raewtf/mission-lunatrix"
 	},
 	{
@@ -65,6 +77,7 @@
 		"short_desc":"Being dead bites.",
 		"long_desc":"Narrowly dodge enemies, dig up trick-or-treatin' treasures, and bark your way to becoming top dog of the afterlife in this sp00py single-screen platformer.",
 		"link_catalog":"https://play.date/games/bona-fido",
+		"link_itch_jam":"https://raewtf.itch.io/bona-fido",
 		"link_github":"https://github.com/raewtf/bona-fido"
 	},
 	{
@@ -101,6 +114,7 @@
 		"short_desc":"3... 2... 1... You're on!",
 		"long_desc":"Memorize your lines, then take to the stage and...try not to flub the lead role too hard, in this game made with Playdate's extensive suite of inputs in mind.",
 		"link_catalog":"https://play.date/games/first-in-line",
+		"link_itch_jam":"https://raewtf.itch.io/first-in-line",
 		"link_github":"https://github.com/raewtf/first-in-line"
 	},
 ]

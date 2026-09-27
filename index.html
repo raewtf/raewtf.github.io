@@ -82,6 +82,9 @@ layout: null
 					{% if game.link_itch_wishlist %}
 						<a href="{{ game.link_itch_wishlist }}">Wishlist it on Itch.io</a>
 					{% endif %}
+					{% if game.link_itch_jam %}
+						<a href="{{ game.link_itch_jam }}">Jam version on Itch.io</a>
+					{% endif %}
 					{% if game.link_github %}
 						<a href="{{ game.link_github }}">Source code on GitHub</a>
 					{% endif %}
@@ -121,6 +124,9 @@ layout: null
 					{% endif %}
 					{% if trinket.link_itch_wishlist %}
 						<a href="{{ trinket.link_itch_wishlist }}">Wishlist it on Itch.io</a>
+					{% endif %}
+					{% if trinket.link_itch_jam %}
+						<a href="{{ trinket.link_itch_jam }}">Jam version on Itch.io</a>
 					{% endif %}
 					{% if trinket.link_postmortem %}
 						<a href="{{ trinket.link_postmortem }}">Read about it on the blog</a>
