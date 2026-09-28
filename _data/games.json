@@ -9,10 +9,10 @@
 		"short_desc":"Yeeeeeee-haw!!",
 		"long_desc":"Link lasso-bits, blow up dynamite with extreme caution, and try to wrangle the outlaws of the nefarious Meeple Crew. This <i>spaghetti</i>-western puzzle game was made for 2026's Falling Block Jam.",
 		"link_itch_jam":"https://raewtf.itch.io/loop-lariat",
+		"link_github":"https://github.com/raewtf/loop-lariat",
 	},
 	{
 		"name":"RowBot Rally 2",
-		"frontpage":true,
 		"featured":true,
 		"date":"Coming soon",
 		"preview":"../games/pesto_preview.gif",
