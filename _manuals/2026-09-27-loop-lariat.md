@@ -62,7 +62,7 @@ Daily Run plays like Marathon, except instead of being purely randomly-generated
 
 ## Practice
 
-In Practice, you can play at your own pace, for as long as you'd likek. There are no time limits, and no game overs. Play ends whenever you feel like it — if you run out of moves by filling up the board, then the board will re-set to an empty state, and you can keep playing.
+In Practice, you can play at your own pace, for as long as you'd like. There are no time limits, and no game overs. Play ends whenever you feel like it — if you run out of moves by filling up the board, then the board will re-set to an empty state, and you can keep playing.
 
 # Credits
 
@@ -74,14 +74,39 @@ In Practice, you can play at your own pace, for as long as you'd likek. There ar
 - LÖVE2D [HUMP](https://hump.readthedocs.io/en/latest/) library — Matthias Richter; [License](https://github.com/HDictus/hump/blob/temp-master/README.md)
 - [Tween easings](https://github.com/EmmanuelOga/easing) — Yuichi Tateno and Emmanuel Oga; [MIT](https://github.com/EmmanuelOga/easing/blob/master/license.txt)
 - Lua [JSON](https://github.com/rxi/json.lua) parser — [rxi](https://github.com/rxi); [MIT](https://github.com/rxi/json.lua/blob/master/LICENSE)
-- Thanks — davemakes, Voxy, Toad, Winter, and the Café!
+- Thanks — davemakes, Voxy, Toad, Winter, Devon, and the Café!
 
 # Changelog
+
+## Version 1.0.1
+### 09.28.2026
+
+- Added a new 'Statistics' screen, with detailed game insights.† (Statistics are tracked as of v1.0.1.)
+- Replaced weighted random block generation with a more stable "bag" system.
+- Fixed bug where Daily Run would crash upon completion (fetching a "best score" that doesn't exist).
+- Daily Run score now gets properly saved for the day.
+- The mode select screen now shows your best/today's score in each mode, if available.
+- Added some delay between the game over animation and the results screen.
+- Fixed bug where leaving the game results screen wouldn't correctly fade the music.
+- Music volume now gets ducked when inside a second-level menu.
+- Fixed bug where music would fade too early when entering Arcade or Time Attack modes.
+
+Windows/macOS/Linux:
+- Added 'Style' option to swap between Color and PeeDee visual assets.†
+- Fixed bug where window scaling wouldn't apply properly at <2x resolution.
+- Fixed bug where quitting the game through the pause menu wouldn't correctly fade the music.
+- Fixed bug where title screen music wasn't looping at the proper point.
+
+Playdate:
+- Added crank selection to game results screen, and second-level menus in the mode select screen.
+
+† Option only available in English, for now.
 
 ## Version 1.0.0
 ### 09.27.2026
 
 - Initial release, for Falling Block Jam 2026.
+- Fixed bug where adjusting the "Scaling" option would crash the game (referencing a save variable removed in development).
 
 <br>
 <a href="https://raewtf.itch.io/loop-lariat" class="button">Get <i>Loop Lariat</i> on Itch.io</a>
