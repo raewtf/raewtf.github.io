@@ -7,7 +7,7 @@
 		"preview_alt":"Dithered photograph of Adam Savage, wearing a duct tape hat, drinking from a river stream in a lush forest.",
 		"short_desc":"Mmf! It's stagnant...!",
 		"long_desc":"Adam and Jamie go to Duck Island. My first attempt at something resembling a YouTube Poop. Loud-ish sounds and somewhat vulgar content throughout; viewer discretion advised.",
-		"link_youtube":"https://www.youtube.com/watch?v=ZJ8F535VREg",
+		"link_youtube":"https://www.youtube.com/watch?v=ZJ8F535VREg"
 	},
 	{
 		"name":"rae goes to magfest 2026",
@@ -17,7 +17,7 @@
 		"preview_alt":"Dithered photograph reading \"Rae goes to Magfest 2026: a non-encompassing video log\".",
 		"short_desc":"a non-encompassing video log",
 		"long_desc":"A very small snippet of my very sweet time at MAGFest 2026, up the National Harbor in Maryland. The journey had me span the entire country — twice! — and I got to meet a lot of good friends, play a lot of good games, and eat a lot of good food. See you next year!",
-		"link_youtube":"https://www.youtube.com/watch?v=Ev_7QXPzm6g",
+		"link_youtube":"https://www.youtube.com/watch?v=Ev_7QXPzm6g"
 	},
 	{
 		"name":"Cloudburst",
@@ -39,7 +39,7 @@
 		"preview_alt":"Screenshot of Rev Checker. \"Your Playdate is... rev B! You've got a Playdate that was shipped during or after Group 4. You're a powerhouse!\"",
 		"short_desc":"A, or B? Dealer's choice.",
 		"long_desc":"This one-time tool lets you see your Playdate's hardware revision. What's that supposed to mean? Hopefully nothing — it's just a CPU swap that happened during the console's life. But the info is handy for the odd debug! The website has more info about the chip swap, as well as the app download for your Playdate.",
-		"link_browser":"../revchecker",
+		"link_browser":"../revchecker"
 	},
 	{
 		"name":"Crankyboard",
@@ -61,7 +61,7 @@
 		"preview_alt":"Looping animation of a 1-bit, pre-rendered 3D model of a moth spinning around and around.",
 		"short_desc":"[insert spin joke here]",
 		"long_desc":"A super-quick test of 3D pre-rendering on Playdate, featuring a moth in 360 degrees of pure glory. I even made the model myself!",
-		"link_download":"../mothrotatotron3D.pdx.zip",
+		"link_download":"../mothrotatotron3D.pdx.zip"
 	},
 	{
 		"name":"GBGen",
@@ -82,8 +82,8 @@
 		"preview_alt":"Dithered image of an anthro bird, relaxing in a lounge chair along the beachside. There are a couple palm trees along the edges of the frame, and the tide is just coming in.",
 		"short_desc":"So relaxing...",
 		"long_desc":"A small piece of animated CSS art, made for a friend during a Secret Santa event. Chill back and enjoy the waves!",
-		"link_browser":"../beach",
-	}
+		"link_browser":"../beach"
+	},
 	{
 		"name":"Mobile Game Name Generator",
 		"featured":false,
