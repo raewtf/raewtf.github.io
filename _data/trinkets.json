@@ -1,5 +1,15 @@
 [
 	{
+		"name":"MythBusters, Duck!",
+		"featured":true,
+		"date":"10.01.2026",
+		"preview":"../trinkets/quack_preview.png",
+		"preview_alt":"Dithered photograph of Adam Savage, wearing a duct tape hat, drinking from a river stream in a lush forest.",
+		"short_desc":"Mmf! It's stagnant...!",
+		"long_desc":"Adam and Jamie go to Duck Island. My first attempt at something resembling a YouTube Poop. Loud-ish sounds and somewhat vulgar content throughout; viewer discretion advised.",
+		"link_youtube":"https://www.youtube.com/watch?v=ZJ8F535VREg",
+	},
+	{
 		"name":"rae goes to magfest 2026",
 		"featured":true,
 		"date":"01.13.2026",
@@ -55,7 +65,7 @@
 	},
 	{
 		"name":"GBGen",
-		"featured":true,
+		"featured":false,
 		"date":"09.20.2022",
 		"preview":"../trinkets/gbgen_preview.png",
 		"preview_alt":"Logo for GBGen, a quick-and-dirty GBG idea generator. There's a question mark with quizzical eyes.",
@@ -64,6 +74,16 @@
 		"link_browser":"../gbgben",
 		"link_github":"https://github.com/raewtf/raewtf.github.io/tree/main/gbgen"
 	},
+	{
+		"name":"Rosie's Beach Vacation",
+		"featured":false,
+		"date":"07.15.2021",
+		"preview":"../trinkets/beach_preview.png",
+		"preview_alt":"Dithered image of an anthro bird, relaxing in a lounge chair along the beachside. There are a couple palm trees along the edges of the frame, and the tide is just coming in.",
+		"short_desc":"So relaxing...",
+		"long_desc":"A small piece of animated CSS art, made for a friend during a Secret Santa event. Chill back and enjoy the waves!",
+		"link_browser":"../beach",
+	}
 	{
 		"name":"Mobile Game Name Generator",
 		"featured":false,

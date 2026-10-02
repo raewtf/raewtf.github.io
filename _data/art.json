@@ -1,9 +1,10 @@
 [
+	// template
 	{
 		"name":"",
 		"date":"",
 		"in_art":true, // show on the art page too, or only expert mode?
-		"type":"", // commission? sketch? drawing? poster?
+		"type":"", // commission? sketch? drawing? poster? animation?
 		"link_view":"../images/", // direct image link
 		"alt_view":"", // alt text
 		"link_alt1":"../images/", // direct image link
@@ -18,13 +19,148 @@
 		"link_situ":"", // if it's seen somewhere (like a game page), link to it here.
 		"name_situ":"",
 	},
+	// 2026
+	{
+		"name":"Moth Jump Rope",
+		"date":"09.30.2026",
+		"in_art":true,
+		"type":"Animation",
+		"link_view":"../images/20260930_mothjumprope.gif",
+		"alt_view":"Sketchy GIF of an anthro moth — she's wearing a T-shirt, some baggy jeans, and tennis shoes. She's jumping rope; doing some two-legged hops, and then some one-legged hops, subtly bouncing from side to side."
+	},
+	{
+		"name":"Ribbit Stroll",
+		"date":"09.29.2026",
+		"in_art":true,
+		"type":"Commission",
+		"link_view":"../images/20260929_ribbitstroll.png",
+		"alt_view":"Color drawing of Ribbit, from The Amazing Digital Circus — a tall, green anthro frog with a lighter-green countershaded torso, eyelashes, and a red bow tie. She's taking a leisurely stroll through an orange park, with leaves falling around her."
+	},
+	{
+		"name":"Cooling Off",
+		"date":"09.29.2026",
+		"in_art":true,
+		"type":"Sketch",
+		"link_view":"../images/20260929_coolingoff.png",
+		"alt_view":"Sketchy doodle of an anthro moth. She's leaning back against a brick wall, stretching one of her legs up and grabbing her heel with her hand. She's wearing a tanktop, some jorts, and running shoes; and is drinking from a cup of assorted beverage, through a bendy straw. She's staring at the viewer with a perceptibly annoyed expression."
+	},
+	{
+		"name":"Aggie Moth",
+		"date":"09.03.2026",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20260903_aggiemoth.png",
+		"alt_view":"Doodle of an anthro moth. They're standing, and looking off to the side with a sorta ambivalent-lookin' expression. They're wearing a slightly baggy T-shirt, tucked into a pair of waist-high denim shorts."
+	},
+	{
+		"name":"Spaceball",
+		"date":"08.29.2026",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20260829_spaceball.png",
+		"alt_view":""
+	},
+	{
+		"name":"Hard at Work",
+		"date":"08.17.2026",
+		"in_art":true,
+		"type":"Sketch",
+		"link_view":"../images/20260817_hardatwork.png",
+		"alt_view":"Doodle of an anthro moth, laying out on the floor. She's wearing a T-shirt and jorts, and has a lazy expression with her tongue sticking out. Her outstretched arms are typing and mousing on an apple laptop in front of her, which is casting light on her face. There's an open can of soda and bag of chips laid out in arm's reach, as well."
+	},
+	{
+		"name":"Augustravaganza 2026",
+		"date":"08.01.2026",
+		"in_art":true,
+		"type":"Poster",
+		"link_view":"../images/20260801_augustravaganza.png",
+		"alt_view":"Key art for Augustravaganza 2026. It's a top-down view of a beach, with a wave breaking over the top. Inside the wave, there's some text: \"2026 Augustravaganza! Playdate Community Sale. Over 60 games on sale! Runs from August 1st through August 7th, pacific time.\" On the beach, key arts of various Playdate games are buried in the sand. There's text that reads: \"Visit Catalog on your Playdate! Or, head to... play.date/games/tags/on-sale\""
+	},
+	{
+		"name":"Groove Drummer",
+		"date":"07.04.2026",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20260704_drummer.png",
+		"alt_view":"Drummer girl from Rhythm Heaven Groove. She's got her arms crossed, and is staring straight down the barrel of the camera with piercingly-blue eyes. (Like that one meme.)"
+	},
+	{
+		"name":"Gay Machines",
+		"date":"06.12.2026",
+		"in_art":false,
+		"type":"Commission",
+		"link_view":"../images/20260612_gaymachines.png",
+		"alt_view":"Two-panel comic doodle featuring an anthro cat (wearing a big sweater and skirt, with a bow on his head), and an anthro mouse (with ear piercings and a business-casual outfit).
+
+		Panel 1:
+		The two are facing eachother, with the camera at a side angle. The mouse says \"it's pride month, cat. you know what that means.\" The cat is holding a block, and has a slightly confused look on his face. He replies \"huh. what\"
+
+		Panel 2:
+		The mouse is walking away from the cat silently; with a smug expression and his hands behind his back. The cat is more confused now, having set down the block, and is saying \"do you want me to make like. gay machines? what?\". The mouse only responds with \":3\"."
+	},
+	{
+		"name":"Black (Among Us)",
+		"date":"06.12.2026",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20260612_blackamongus.png",
+		"alt_view":"Doodle of Black, a character from Among Us. They're a short being, in a very-dark-gray astronaut suit with a reflective oval-shaped visor; wearing a black choker with spikes. They've got a colorful binky in their mouth and are giving an emphatic thumbs up via disembodied hand."
+	},
+	{
+		"name":"<i>Crank Boy</i> Catalog Key Art #2",
+		"date":"05.24.2026",
+		"in_art":true,
+		"type":"Commission",
+		"link_view":"../images/20260524_crankboy2.png",
+		"alt_view":"1-bit art reminiscent of the original Game Boy's box art, with a stylized shiny Playdate being played by equally-shiny robotic hands in a radical grid background. Flanking the left side is text that reads \"CRANK BOY — FULL-SPEED GB EMULATOR\", and there's a banner on the screen reading \"4 games included!\". In the lower-right corner, there's a brief list of app features — \"Add your own collection!\", \"Download homebrew in-app\", \"Widescreen for select titles\", \"Download hacks/softpatches\"."
+	},
+	{
+		"name":"<i>Crank Boy</i> Catalog Key Art",
+		"date":"05.11.2026",
+		"in_art":true,
+		"type":"Commission",
+		"link_view":"../images/20260511_crankboy.png",
+		"alt_view":"1-bit art depicting a sort of hybrid Playdate/Game Boy, with a crank on the side. The screen says \"CRANK BOY\" in big, bold letters — along the crank, there's text that reads \"full speed GB emulator\"."
+	},
+	{
+		"name":"Pesto Metaphor",
+		"date":"05.19.2026",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20260519_pestobear.png",
+		"alt_view":"A giant red gummy bear. There's a 100x magnifier zooming in on a normal-sized me, gnawing rabidly on the foot. It looks unchanged."
+	},
+	{
+		"name":"Amelia N.",
+		"date":"05.17.2026",
+		"in_art":true,
+		"type":"Drawing",
+		"link_view":"../images/20260517_ameliaN.png",
+		"alt_view":"Amelia N. from the Nintendo Switch News section. She's a polite-looking lady with blue hair and a bright-yellow headband, spherical red earrings, and an earpiece microphone. She's wearing a long orange sweater that extends down to her ankles, and dark-brown boots. She's sitting around on the Nintendo Switch HOME Menu, with a bunch of icons surrounding her."
+	},
+	{
+		"name":"Minecraft Alex",
+		"date":"04.09.2026",
+		"in_art":true,
+		"type":"Sketch",
+		"link_view":"../images/20260429_alex.png",
+		"alt_view":"Drawing of Alex from Minecraft, in some kind of dark cave. She's got red/orange hair, with most of the length tied up in a braid running down her shoulder. She's wearing a green shirt, baggy brown pants and gray boots; and holding a big pickaxe behind her with both hands. She seems exhausted, with one leg kicked back against a nearby block. A Creeper is looking in from the distance."
+	},
+	{
+		"name":"<i>Spilled Mushrooms</i> Expansion Pack 3 Art",
+		"date":"03.04.2025",
+		"in_art":false,
+		"type":"Commission",
+		"link_view":"../images/20260304_pack3promo.png",
+		"alt_view":""
+	},
 	{
 		"name":"Waiting",
 		"date":"02.01.2026",
-		"in_art":true,
+		"in_art":false,
 		"type":"Drawing",
 		"link_view":"../images/20260201_waiting.png",
-		"alt_view":"Sonic the Hedgehog, standing in a stylized Green Hill Zone. His arms are crossed and he's tapping his foot impatiently, as he tends to do.",
+		"alt_view":"Sonic the Hedgehog, standing in a stylized Green Hill Zone. His arms are crossed and he's tapping his foot impatiently, as he tends to do."
 	},
 	{
 		"name":"Dionicio/Diana Ref Sheet",
@@ -32,47 +168,48 @@
 		"in_art":true,
 		"type":"Commission",
 		"link_view":"../images/20260102_dionicioref.png",
-		"alt_view":"Character ref sheet for Dionicio/Diana, a goat therian with dark brown long hair and big slightly-curved horns; wearing a green cowbell collar, a dark-gray hoodie with a design printed on the corner, and a short green skirt. There's some character info: she/he/they pronouns, bisexual/bigender/polyamorous, birthday 09.11.2003, 5'10\" (178cm). \"Silly goat therian\", \"Very kind & friendly\", \"Loves being gay with friends; will always try to help them out no matter what\". \"extra-sensitive horns (you can rub them to calm her down)\", \"slight fangs; green tongue\".",
+		"alt_view":"Character ref sheet for Dionicio/Diana, a goat therian with dark brown long hair and big slightly-curved horns; wearing a green cowbell collar, a dark-gray hoodie with a design printed on the corner, and a short green skirt. There's some character info: she/he/they pronouns, bisexual/bigender/polyamorous, birthday 09.11.2003, 5'10\" (178cm). \"Silly goat therian\", \"Very kind & friendly\", \"Loves being gay with friends; will always try to help them out no matter what\". \"extra-sensitive horns (you can rub them to calm her down)\", \"slight fangs; green tongue\"."
 	},
+	// 2025
 	{
 		"name":"Stick Fall (Procreate Dreams Animation Test)",
 		"date":"12.06.2025",
 		"in_art":false,
 		"type":"Sketch",
 		"link_view":"../images/20251206_stickfall.gif",
-		"alt_view":"",
+		"alt_view":""
 	},
 	{
-		"name":"2025 Playdate Community Awards Poster: <i>RowBot Rally</i>",
+		"name":"2025 Playdate Community Awards: <i>RowBot Rally</i>",
 		"date":"12.05.2025",
 		"in_art":false,
 		"type":"Poster",
 		"link_view":"../images/20251205_pdca2025_rowbot.png",
-		"alt_view":"Consider nominating \"RowBot Rally\" at the 2025 Playdate Community Awards, for \"2025 Playdate GOTY\", \"The CRANKY Award\", \"Accomplishment in Accessibility\", \"Best Action Game\", \"Best Adventure Game\", \"Best Narrative Game\", \"Outstanding Visual Achievement (SDK)\", and \"Best Launch Experience\".",
+		"alt_view":"Consider nominating \"RowBot Rally\" at the 2025 Playdate Community Awards, for \"2025 Playdate GOTY\", \"The CRANKY Award\", \"Accomplishment in Accessibility\", \"Best Action Game\", \"Best Adventure Game\", \"Best Narrative Game\", \"Outstanding Visual Achievement (SDK)\", and \"Best Launch Experience\"."
 	},
 	{
-		"name":"2025 Playdate Community Awards Poster: <i>Cloudburst</i>",
+		"name":"2025 Playdate Community Awards: <i>Cloudburst</i>",
 		"date":"12.05.2025",
 		"in_art":false,
 		"type":"Poster",
 		"link_view":"../images/20251205_pdca2025_cloudburst.png",
-		"alt_view":"Consider nominating \"Cloudburst\" at the 2025 Playdate Community Awards, for \"Accomplishment in Accessibility\", \"Best App or Knickknack\", \"Best Sound Design\", and \"Outstanding Technical Achievement (SDK)\".",
+		"alt_view":"Consider nominating \"Cloudburst\" at the 2025 Playdate Community Awards, for \"Accomplishment in Accessibility\", \"Best App or Knickknack\", \"Best Sound Design\", and \"Outstanding Technical Achievement (SDK)\"."
 	},
 	{
-		"name":"2025 Playdate Community Awards Poster: <i>Mission LunaTrix</i>",
+		"name":"2025 Playdate Community Awards: <i>Mission LunaTrix</i>",
 		"date":"12.05.2025",
 		"in_art":false,
 		"type":"Poster",
 		"link_view":"../images/20251205_pdca2025_lunatrix.png",
-		"alt_view":"Consider nominating \"Mission LunaTrix\" at the 2025 Playdate Community Awards, for \"Best Arcade Game\", \"Best Soundtrack\", and \"Best Sound Design\".",
+		"alt_view":"Consider nominating \"Mission LunaTrix\" at the 2025 Playdate Community Awards, for \"Best Arcade Game\", \"Best Soundtrack\", and \"Best Sound Design\"."
 	},
 	{
-		"name":"2025 Playdate Community Awards Poster: <i>Bona Fido</i>/<i>Traffic Jam</i>",
+		"name":"2025 Playdate Community Awards: <i>Bona Fido</i>/<i>Traffic Jam</i>",
 		"date":"12.05.2025",
 		"in_art":false,
 		"type":"Poster",
 		"link_view":"../images/20251205_pdca2025_bonatraffic.png",
-		"alt_view":"Consider nominating \"Bona Fido\" and \"Traffic Jam\" at the 2025 Playdate Community Awards, for \"Best Arcade Game\".",
+		"alt_view":"Consider nominating \"Bona Fido\" and \"Traffic Jam\" at the 2025 Playdate Community Awards, for \"Best Arcade Game\"."
 	},
 	{
 		"name":"Squashed Moth",
@@ -80,17 +217,17 @@
 		"in_art":false,
 		"type":"Sketch",
 		"link_view":"../images/20251108_squashedmoth.jpg",
-		"alt_view":"Sketch of an anthro moth squashed down to about two inches tall. She looks disheveled.",
+		"alt_view":"Sketch of an anthro moth squashed down to about two inches tall. She looks disheveled."
 	},
 	{
 		"name":"<i>Echo Drop!</i> Catalog Key Art",
 		"date":"11.05.2025",
-		"in_art":true,
+		"in_art":false,
 		"type":"Commission",
 		"link_view":"../images/20251105_echodrop.jpg",
 		"link_situ":"https://play.date/games/echo-drop",
 		"name_situ":"View the game in Playdate Catalog",
-		"alt_view":"",
+		"alt_view":""
 	},
 	{
 		"name":"Pixel RowBot",
@@ -98,7 +235,7 @@
 		"in_art":false,
 		"type":"Drawing",
 		"link_view":"../images/20251024_pixelrowbot.png",
-		"alt_view":"A very small, 1-bit drawing of a robot wearing a fisher hat. It looks a bit goofy as it stands.",
+		"alt_view":"A very small, 1-bit drawing of a robot wearing a fisher hat. It looks a bit goofy as it stands."
 	},
 	{
 		"name":"Epiphyll",
@@ -106,7 +243,7 @@
 		"in_art":true,
 		"type":"Commission",
 		"link_view":"../images/20251011_epiphyll.png",
-		"alt_view":"Humanoid character with orange, semi-long hair — she's wearing a long-sleeve burgundy jacket with white gloves, a white scarf, dark pants with orange shoes, and a pair of goggles on her forehead. She's floating around in space.",
+		"alt_view":"Humanoid character with orange, semi-long hair — she's wearing a long-sleeve burgundy jacket with white gloves, a white scarf, dark pants with orange shoes, and a pair of goggles on her forehead. She's floating around in space."
 	},
 	{
 		"name":"Leveraging Your Cat",
@@ -114,7 +251,7 @@
 		"in_art":false,
 		"type":"Sketch",
 		"link_view":"../images/20251004_leveragingyourcat.png",
-		"alt_view":"Sketchy pixel doodle. A cat sits patiently on the weighted end of a cartoony teeter-totter. An anthro moth is in the midst of an impending fucking suplex elbow drop onto the other end.",
+		"alt_view":"Sketchy pixel doodle. A cat sits patiently on the weighted end of a cartoony teeter-totter. An anthro moth is in the midst of an impending fucking suplex elbow drop onto the other end."
 	},
 	{
 		"name":"Liam",
@@ -122,7 +259,7 @@
 		"in_art":true,
 		"type":"Commission",
 		"link_view":"../images/20250919_liam.png",
-		"alt_view":"Low-ish angle drawing of an orange anthro cat (he/they), staring towards the camera with a smiling expression. They're squatting down near the ground; one hand planted on the floor behind them to keep themselves balanced, and their other hand held up to their face with a 'telephone' gesture. They're wearing a purple tee with a design of yellow and green fruit slices, a black-and-white striped long-sleeve undershirt, dark-gray jeans with a tear on one knee and black-and-red sneakers. They also have a red flower in their hair. The background is teal and green with a grid pattern.",
+		"alt_view":"Low-ish angle drawing of an orange anthro cat (he/they), staring towards the camera with a smiling expression. They're squatting down near the ground; one hand planted on the floor behind them to keep themselves balanced, and their other hand held up to their face with a 'telephone' gesture. They're wearing a purple tee with a design of yellow and green fruit slices, a black-and-white striped long-sleeve undershirt, dark-gray jeans with a tear on one knee and black-and-red sneakers. They also have a red flower in their hair. The background is teal and green with a grid pattern."
 	},
 	{
 		"name":"Angle Moth",
@@ -130,7 +267,7 @@
 		"in_art":false,
 		"type":"Sketch",
 		"link_view":"../images/20250909_anglemoth.png",
-		"alt_view":"",
+		"alt_view":""
 	},
 	{
 		"name":"<i>Crank Defense Force</i> Catalog Key Art",
@@ -140,7 +277,7 @@
 		"link_view":"../images/20250904_cdf.png",
 		"link_situ":"https://play.date/games/crank-defense-force",
 		"name_situ":"View the game in Playdate Catalog",
-		"alt_view":"",
+		"alt_view":""
 	},
 	{
 		"name":"Orchid",
@@ -148,23 +285,23 @@
 		"in_art":true,
 		"type":"Commission",
 		"link_view":"../images/20250813_orchid.png",
-		"alt_view":"Humanoid character with one visible eye, white hair and a flat pony-tail; wearing a yellow and purple split hoodie with oversized sleeves and purple-blue pants. They're doing a backflip through space.",
+		"alt_view":"Humanoid character with one visible eye, white hair and a flat pony-tail; wearing a yellow and purple split hoodie with oversized sleeves and purple-blue pants. They're doing a backflip through space."
 	},
 	{
 		"name":"<i>Spilled Mushrooms</i> Expansion Pack 2 Art",
 		"date":"08.08.2025",
-		"in_art":true,
+		"in_art":false,
 		"type":"Commission",
 		"link_view":"../images/20250808_pack2promo.png",
-		"alt_view":"",
+		"alt_view":""
 	},
 	{
-		"name":"Augustravaganza 2025 Poster",
+		"name":"Augustravaganza 2025",
 		"date":"08.01.2025",
-		"in_art":true,
+		"in_art":false,
 		"type":"Poster",
 		"link_view":"../images/20250801_augustravaganza.png",
-		"alt_view":"Flat, bubbly promotional poster with a yellow background and green accents. \"2025 Playdate Community Augustravaganza! Over 60 games on sale, across all genres and styles! Runs from August 1st to August 7th, pacific time.\" There's a link to the catalog sale page, and a variety of Playdate game thumbnails lining the bottom of the frame.",
+		"alt_view":"Flat, bubbly promotional poster with a yellow background and green accents. \"2025 Playdate Community Augustravaganza! Over 60 games on sale, across all genres and styles! Runs from August 1st to August 7th, pacific time.\" There's a link to the catalog sale page, and a variety of Playdate game thumbnails lining the bottom of the frame."
 	},
 	{
 		"name":"Graintouch Moth",
@@ -172,462 +309,768 @@
 		"in_art":true,
 		"type":"Sketch",
 		"link_view":"../images/20250711_graintouchmoth.png",
-		"alt_view":"Picture of a waving moth doodled in the Graintouch app — it gives the appearance of a printed design, complete with grainy texture and ink misalignment.",
+		"alt_view":"Picture of a waving moth doodled in the Graintouch app — it gives the appearance of a printed design, complete with grainy texture and ink misalignment."
 	},
 	{
 		"name":"Moth Smoothie",
 		"date":"07.04.2025",
 		"in_art":false,
 		"type":"Drawing",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/20250704mothsmoothie.png",
+		"alt_view":""
 	},
 	{
 		"name":"Moth Dance",
 		"date":"07.04.2025",
 		"in_art":false,
 		"type":"Drawing",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/20250704_mothdance.png",
+		"alt_view":""
 	},
 	{
 		"name":"Simple Moth",
 		"date":"06.27.2025",
-		"in_art":true,
+		"in_art":false,
 		"type":"Sketch",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/20250627_moth.jpg",
+		"alt_view":""
 	},
 	{
 		"name":"Mario (it's him!)",
 		"date":"06.27.2025",
-		"in_art":true,
+		"in_art":false,
 		"type":"Sketch",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/20250627_mario.jpg",
+		"alt_view":""
 	},
 	{
 		"name":"Moth Feature Set",
 		"date":"05.26.2025",
-		"in_art":true,
+		"in_art":false,
 		"type":"Sketch",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/20250527_mothfeatureset.jpg",
+		"alt_view":""
 	},
 	{
 		"name":"Full of Soup",
 		"date":"05.26.2025",
-		"in_art":true,
-		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20250526_fullofsoup.jpg",
+		"alt_view":""
 	},
 	{
 		"name":"Robuzz on TV",
 		"date":"05.08.2025",
-		"in_art":true,
+		"in_art":false,
 		"type":"Sketch",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/20250508_robuzzontv.png",
+		"alt_view":""
 	},
 	{
 		"name":"<i>Super Agent</i> Catalog Key Art",
 		"date":"05.08.2025",
 		"in_art":true,
 		"type":"Commission",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/20250508-superagent.png",
+		"alt_view":""
 	},
 	{
 		"name":"Hazy Weather",
 		"date":"05.02.2025",
-		"in_art":true,
+		"in_art":false,
 		"type":"Sketch",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/20250502_hazyweather.png",
+		"alt_view":""
 	},
 	{
 		"name":"King",
 		"date":"05.02.2025",
-		"in_art":true,
+		"in_art":false,
 		"type":"Sketch",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/20250502_king.png",
+		"alt_view":""
 	},
 	{
 		"name":"Quick Moth-Tuber",
 		"date":"04.04.2025",
-		"in_art":true,
+		"in_art":false,
 		"type":"Drawing",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/20250404_vtuberclosed.png",
+		"alt_view":""
+		"link_alt1":"../images/20250404_vtuberopen.png",
+		"name_alt1":"Open Mouth Alt",
+		"alt_alt1":"",
 	},
 	{
 		"name":"That Moth with the Glasses",
 		"date":"03.30.2025",
 		"in_art":true,
-		"type":"Drawing",
-		"link_view":"../images/",
-		"alt_view":"",
+		"type":"Sketch",
+		"link_view":"../images/20250330_mothglasses.png",
+		"alt_view":""
 	},
 	{
 		"name":"<i>Spilled Mushrooms</i> Expansion Pack 1 Art",
 		"date":"03.07.2025",
 		"in_art":true,
 		"type":"Commission",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/20250307_pack1promo.png",
+		"alt_view":""
+	},
+	{
+		"name":"Roxbun",
+		"date":"02.15.2025",
+		"in_art":true,
+		"type":"Drawing",
+		"link_view":"../images/20250215_roxbun.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Movie Night Ad (<i>Sonic the Hedgehog 2</i>)",
+		"date":"01.23.2025",
+		"in_art":false,
+		"type":"Poster",
+		"link_view":"../images/20250123_sonic2ad.png",
+		"alt_view":""
+	},
+	{
+		"name":"Treena",
+		"date":"01.18.2025",
+		"in_art":false,
+		"type":"Drawing",
+		"link_view":"../images/20250118_treena.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Doodle Moth",
+		"date":"01.18.2025",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20250118_doodlemoth.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Community Service",
+		"date":"01.18.2025",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20250118_communityservice.png",
+		"alt_view":""
+	},
+	{
+		"name":"<i>Trackminia</i> Catalog Key Art",
+		"date":"01.15.2025",
+		"in_art":true,
+		"type":"Drawing",
+		"link_view":"../images/20250115_trackminia.png",
+		"alt_view":""
+	},
+	{
+		"name":"Moth Stance",
+		"date":"01.15.2025",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20250115_mothstance.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Movie Night Ad (<i>Sonic the Hedgehog</i>)",
+		"date":"01.10.2025",
+		"in_art":false,
+		"type":"Poster",
+		"link_view":"../images/20250110_sonicad.png",
+		"alt_view":""
+	},
+	{
+		"name":"Tiny Moth's First Day at the Office",
+		"date":"01.08.2025",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20250108_tinymothoffice.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Soundstage Moth",
+		"date":"01.08.2025",
+		"in_art":true,
+		"type":"Drawing",
+		"link_view":"../images/20250108_soundstage.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Not Safe For Work",
+		"date":"01.03.2025",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20250103_notsafeforwork.png",
+		"alt_view":""
+	},
+	{
+		"name":"Rude!",
+		"date":"01.03.2025",
+		"in_art":true,
+		"type":"Sketch",
+		"link_view":"../images/20250103_rudemoth.png",
+		"alt_view":""
+	},
+	// 2024
+	{
+		"name":"Skater Moth",
+		"date":"12.31.2024",
+		"in_art":true,
+		"type":"Sketch",
+		"link_view":"../images/20241231_skatermoth.png",
+		"alt_view":""
+	},
+	{
+		"name":"Upside-Down Moth",
+		"date":"12.28.2024",
+		"in_art":true,
+		"type":"Sketch",
+		"link_view":"../images/20241228_upsidedownmoth.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Moth Sittin' Around",
+		"date":"12.26.2024",
+		"in_art":true,
+		"type":"Sketch",
+		"link_view":"../images/20241226_mothsit.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Rox Bunny",
+		"date":"12.23.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20241213_roxbunny.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"RowBot Bunny Sit",
+		"date":"12.13.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20241213_bunnysit.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Movie Night Ad (<i>Olive, the Other Reindeer</i>)",
+		"date":"12.01.2024",
+		"in_art":false,
+		"type":"Poster",
+		"link_view":"../images/20241201_olivead.png",
+		"alt_view":""
+	},
+	{
+		"name":"2024 Playdate Community Awards: <i>First in... Line?</i>",
+		"date":"12.01.2024",
+		"in_art":false,
+		"type":"Poster",
+		"link_view":"../images/20241201_fycfil.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"2024 Playdate Community Awards: <i>HEXA</i>",
+		"date":"12.01.2024",
+		"in_art":false,
+		"type":"Poster",
+		"link_view":"../images/20241201_fychexa.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Cat and Mouse",
+		"date":"11.28.2024",
+		"in_art":true,
+		"type":"Commission",
+		"link_view":"../images/20241128_catandmouse.png",
+		"alt_view":""
+	},
+	{
+		"name":"Moth Crawl",
+		"date":"11.24.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20241124_mothcrawl.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Fish Bowl Champs T-Shirt Design",
+		"date":"11.15.2024",
+		"in_art":false,
+		"type":"Drawing",
+		"link_view":"../images/20241115_fishbowlchamps.png",
+		"alt_view":""
+	},
+	{
+		"name":"Fish Noods",
+		"date":"10.16.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20241016_fishnoods.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"HEXA 25K \"Master\" Cake Design",
+		"date":"10.07.2024",
+		"in_art":true,
+		"type":"Drawing",
+		"link_view":"../images/20241007_hexacake25.png",
+		"alt_view":""
+		"link_alt1":"../images/20241007_hexacake200.png",
+		"name_alt1":"200K \"Legend\" Alt",
+		"alt_alt1":"",
+	},
+	{
+		"name":"Sketchy Frog",
+		"date":"09.21.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20240921_sketchyfrog.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Moth Sitting Close",
+		"date":"09.21.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20240921_sitmoth.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Delivery Frog",
+		"date":"09.21.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20240921_deliveryfrog.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Haulin'",
+		"date":"09.16.2024",
+		"in_art":false,
+		"type":"Drawing",
+		"link_view":"../images/20240916_haulin.png",
+		"alt_view":""
+	},
+	{
+		"name":"Office Moth",
+		"date":"09.14.2024",
+		"in_art":true,
+		"type":"Drawing",
+		"link_view":"../images/20240914_officemoth.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Cas",
+		"date":"09.07.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20240907_cas.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Checkered Moth",
+		"date":"09.03.2024",
+		"in_art":true,
+		"type":"Sketch",
+		"link_view":"../images/20240903_checkermoth.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Garfield, From Memory",
+		"date":"08.29.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20240829_garfield.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Homer Simpson, From Memory",
+		"date":"08.29.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20240829_homer.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Big Silly Tail",
+		"date":"08.29.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20240829_bigsillytail.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"Moth Wave",
+		"date":"08.29.2024",
+		"in_art":false,
+		"type":"Sketch",
+		"link_view":"../images/20240829_mothwave.jpg",
+		"alt_view":""
+	},
+	{
+		"name":"<i>Spilled Mushrooms</i> Key Art",
+		"date":".2024",
+		"in_art":true,
+		"type":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
 	},
 	{
 		"name":"",
-		"date":"",
+		"date":".2024",
 		"in_art":true,
 		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"link_view":"../images/2024",
+		"alt_view":""
+	},
+	// 2023
+	// 2022
+	// 2021
+	{
+		"name":"Sasha's Cardboard Chair",
+		"date":"11.11.2021",
+		"in_art":false,
+		"type":"Drawing",
+		"link_view":"../images/20211111_sashacardboardchair.png",
+		"alt_view":""
 	},
 	{
-		"name":"",
-		"date":"",
-		"in_art":true,
-		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"name":"<i>Nitro Type</i>: Autumn Overdrive",
+		"date":"10.08.2021",
+		"in_art":false,
+		"type":"Poster",
+		"link_view":"../images/20211008_autumnoverdrive.png",
+		"alt_view":""
 	},
 	{
-		"name":"",
-		"date":"",
-		"in_art":true,
-		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"name":"<i>Nitro Type</i>: Back 2 School 2021",
+		"date":"07.17.2021",
+		"in_art":false,
+		"type":"Poster",
+		"link_view":"../images/20210717_back2school.png",
+		"alt_view":""
 	},
 	{
-		"name":"",
+		"name":"<i>Nitro Type</i>: Summer Trails",
 		"date":"",
-		"in_art":true,
-		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
-	},
-	{
-		"name":"",
-		"date":"",
-		"in_art":true,
-		"type":"",
-		"link_view":"../images/",
-		"alt_view":"",
+		"in_art":false,
+		"type":"Poster",
+		"link_view":"../images/20210602_summertrails.png",
+		"alt_view":""
 	},
 ]
