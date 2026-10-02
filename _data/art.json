@@ -397,7 +397,7 @@
 		"in_art":false,
 		"type":"Drawing",
 		"link_view":"../images/20250404_vtuberclosed.png",
-		"alt_view":""
+		"alt_view":"",
 		"link_alt1":"../images/20250404_vtuberopen.png",
 		"name_alt1":"Open Mouth Alt",
 		"alt_alt1":"",
@@ -617,7 +617,7 @@
 		"in_art":true,
 		"type":"Drawing",
 		"link_view":"../images/20241007_hexacake25.png",
-		"alt_view":""
+		"alt_view":"",
 		"link_alt1":"../images/20241007_hexacake200.png",
 		"name_alt1":"200K \"Legend\" Alt",
 		"alt_alt1":"",
