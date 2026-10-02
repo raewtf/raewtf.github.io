@@ -1,5 +1,4 @@
 [
-	// template
 	{
 		"name":"",
 		"date":"",
@@ -19,7 +18,6 @@
 		"link_situ":"", // if it's seen somewhere (like a game page), link to it here.
 		"name_situ":"",
 	},
-	// 2026
 	{
 		"name":"Moth Jump Rope",
 		"date":"09.30.2026",
@@ -164,7 +162,6 @@
 		"link_view":"../images/20260102_dionicioref.png",
 		"alt_view":"Character ref sheet for Dionicio/Diana, a goat therian with dark brown long hair and big slightly-curved horns; wearing a green cowbell collar, a dark-gray hoodie with a design printed on the corner, and a short green skirt. There's some character info: she/he/they pronouns, bisexual/bigender/polyamorous, birthday 09.11.2003, 5'10\" (178cm). \"Silly goat therian\", \"Very kind & friendly\", \"Loves being gay with friends; will always try to help them out no matter what\". \"extra-sensitive horns (you can rub them to calm her down)\", \"slight fangs; green tongue\"."
 	},
-	// 2025
 	{
 		"name":"Stick Fall (Procreate Dreams Animation Test)",
 		"date":"12.06.2025",
@@ -508,7 +505,6 @@
 		"link_view":"../images/20250103_rudemoth.png",
 		"alt_view":""
 	},
-	// 2024
 	{
 		"name":"Skater Moth",
 		"date":"12.31.2024",
@@ -1032,9 +1028,6 @@
 		"link_view":"../images/2024",
 		"alt_view":""
 	},
-	// 2023
-	// 2022
-	// 2021
 	{
 		"name":"Sasha's Cardboard Chair",
 		"date":"11.11.2021",
@@ -1066,5 +1059,5 @@
 		"type":"Poster",
 		"link_view":"../images/20210602_summertrails.png",
 		"alt_view":""
-	},
+	}
 ]
