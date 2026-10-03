@@ -27,7 +27,6 @@ permalink: pretty
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-thumbnail-img
 collections:
     posts:
       output: true
