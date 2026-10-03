@@ -246,7 +246,7 @@
 		"in_art":true,
 		"focus":"center",
 		"type":"Commission",
-		"link_view":"../images/20251105_echodrop.jpg",
+		"link_view":"../images/20251105_echodrop.png",
 		"link_situ":"https://play.date/games/echo-drop",
 		"name_situ":"View the game in Playdate Catalog",
 		"alt_view":""
@@ -255,8 +255,8 @@
 		"name":"Pixel RowBot",
 		"date":"10.24.2025",
 		"featured":false,
-		"in_art":true,
-		"focus":"top",
+		"in_art":false,
+		"focus":"center",
 		"type":"Drawing",
 		"link_view":"../images/20251024_pixelrowbot.png",
 		"alt_view":"A very small, 1-bit drawing of a robot wearing a fisher hat. It looks a bit goofy as it stands."
