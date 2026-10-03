@@ -418,6 +418,8 @@ header {
 .coming_up h3 {
 	margin: 0 2rem;
 	font-size: 1.25rem;
+	margin-top: 1rem;
+	margin-left: 1rem;
 	line-height: 1rem;
 	color: light-dark(var(--color-on-accent), var(--accent-color));
 }
@@ -450,7 +452,8 @@ header {
 	aspect-ratio: 16 / 10;
 }
 .coming_up.art a {
-	display: unset;
+	display: inline-block;
+	width: unset;
 	margin: 0 2rem;
 	margin-bottom: 1rem;
 }

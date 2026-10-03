@@ -70,10 +70,11 @@ layout: null
 				<div class="coming_up art">
 					<img src="{{ art.link_view }}" alt="{{ art.alt_view }}" style="object-position: center {{ art.focus }};" />
 
-					<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; flex-grow: 1;">
+					<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
 						<h1>{{ art.name }}</h1>
 						<h3>{{ art.date }}</h3>
 					</div>
+					<div style="flex-grow: 1;"></div>
 					{% if art.link_view %}
 						<a href="{{ art.link_view }}">View in Full</a>
 					{% endif %}
@@ -101,10 +102,11 @@ layout: null
 					<div class="coming_up art">
 						<img src="{{ art.link_view }}" alt="{{ art.alt_view }}" style="object-position: center {{ art.focus }};" />
 
-						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem; flex-grow: 1;">
+						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
 							<h1>{{ art.name }}</h1>
 							<h3>{{ art.date }}</h3>
 						</div>
+						<div style="flex-grow: 1;"></div>
 						{% if art.link_view %}
 							<a href="{{ art.link_view }}">View in Full</a>
 						{% endif %}
