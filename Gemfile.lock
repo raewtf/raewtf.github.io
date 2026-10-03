@@ -177,6 +177,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-redirect-from
   jekyll-thumbnail-img
+  mini_magick
 
 BUNDLED WITH
    2.5.10

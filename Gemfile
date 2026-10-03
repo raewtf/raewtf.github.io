@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-redirect-from"
   gem "jekyll-thumbnail-img"
+  gem "mini_magick"
 end
 gem "csv", "~> 3.3"
 
