@@ -11,3 +11,4 @@ group :jekyll_plugins do
   gem "jekyll-redirect-from"
   gem "jekyll-thumbnail-img"
 end
+gem "csv", "~> 3.3"
