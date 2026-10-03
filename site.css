@@ -446,13 +446,13 @@ header {
 	cursor: pointer;
 }
 
-.coming_up .art img {
+.coming_up.art img {
 	aspect-ratio: 16 / 10;
 }
-.coming_up .art h1 {
+.coming_up.art h1 {
 	flex-grow: 1;
 }
-.coming_up .art a {
+.coming_up.art a {
 	margin: 0 2rem;
 	margin-bottom: 1rem;
 }
