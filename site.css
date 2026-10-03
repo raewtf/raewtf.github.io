@@ -451,6 +451,10 @@ header {
 .coming_up.art img {
 	aspect-ratio: 16 / 10;
 }
+.coming_up.art h1 {
+	font-size: 2.5rem;
+	font-weight: 700;
+}
 .coming_up.art a {
 	display: inline-block;
 	width: unset;
