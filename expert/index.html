@@ -143,6 +143,28 @@ layout: null
 				<p>Under construction!</p>
 			</div>
 		</div>
+		{% for art in site.data.art %}
+			<div class="expert_listing">
+				<h2>{{ art.date }}</h2>
+				<div class="expert_name">
+					<p>{{ art.name }}</p>
+					<div class="expert_links">
+						{% if art.link_view %}
+							<a href="{{ art.link_view }}">View</a>
+						{% endif %}
+						{% if art.link_alt1 %}
+							<a href="{{ art.link_alt1 }}">{{ art.name_alt1 }}</a>
+						{% endif %}
+						{% if art.link_alt2 %}
+							<a href="{{ art.link_alt2 }}">{{ art.name_alt2 }}</a>
+						{% endif %}
+						{% if art.link_alt3 %}
+							<a href="{{ art.link_alt3 }}">{{ art.name_alt3 }}</a>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		{% endfor %}
 	</div>
 	<p class="topic_header">Trinkets</p>
 	<div>

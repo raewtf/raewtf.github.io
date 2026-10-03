@@ -4,6 +4,7 @@
 		"date":"09.30.2026",
 		"featured":true,
 		"in_art":true,
+		"focus":"top",
 		"type":"Animation",
 		"link_view":"../images/20260930_mothjumprope.gif",
 		"alt_view":"Sketchy GIF of an anthro moth — she's wearing a T-shirt, some baggy jeans, and tennis shoes. She's jumping rope; doing some two-legged hops, and then some one-legged hops, subtly bouncing from side to side."
@@ -13,6 +14,7 @@
 		"date":"09.29.2026",
 		"featured":true,
 		"in_art":true,
+		"focus":"top",
 		"type":"Commission",
 		"link_view":"../images/20260929_ribbitstroll.png",
 		"alt_view":"Color drawing of Ribbit, from The Amazing Digital Circus — a tall, green anthro frog with a lighter-green countershaded torso, eyelashes, and a red bow tie. She's taking a leisurely stroll through an orange park, with leaves falling around her."
@@ -22,6 +24,7 @@
 		"date":"09.29.2026",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20260929_coolingoff.png",
 		"alt_view":"Sketchy doodle of an anthro moth. She's leaning back against a brick wall, stretching one of her legs up and grabbing her heel with her hand. She's wearing a tanktop, some jorts, and running shoes; and is drinking from a cup of assorted beverage, through a bendy straw. She's staring at the viewer with a perceptibly annoyed expression."
@@ -31,6 +34,7 @@
 		"date":"09.03.2026",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20260903_aggiemoth.png",
 		"alt_view":"Doodle of an anthro moth. They're standing, and looking off to the side with a sorta ambivalent-lookin' expression. They're wearing a slightly baggy T-shirt, tucked into a pair of waist-high denim shorts."
@@ -40,6 +44,7 @@
 		"date":"08.29.2026",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20260829_spaceball.png",
 		"alt_view":"Very messy doodle of a green room. Inside, there's a blue figure, a pipe and a hole on the floor; and a window with some sort of space creature sitting on the windowsill."
@@ -49,6 +54,7 @@
 		"date":"08.17.2026",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20260817_hardatwork.png",
 		"alt_view":"Doodle of an anthro moth, laying out on the floor. She's wearing a T-shirt and jorts, and has a lazy expression with her tongue sticking out. Her outstretched arms are typing and mousing on an apple laptop in front of her, which is casting light on her face. There's an open can of soda and bag of chips laid out in arm's reach, as well."
@@ -58,6 +64,7 @@
 		"date":"08.01.2026",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Poster",
 		"link_view":"../images/20260801_augustravaganza.png",
 		"alt_view":"Key art for Augustravaganza 2026. It's a top-down view of a beach, with a wave breaking over the top. Inside the wave, there's some text: \"2026 Augustravaganza! Playdate Community Sale. Over 60 games on sale! Runs from August 1st through August 7th, pacific time.\" On the beach, key arts of various Playdate games are buried in the sand. There's text that reads: \"Visit Catalog on your Playdate! Or, head to... play.date/games/tags/on-sale\""
@@ -67,6 +74,7 @@
 		"date":"07.04.2026",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20260704_drummer.png",
 		"alt_view":"Drummer girl from Rhythm Heaven Groove. She's got her arms crossed, and is staring straight down the barrel of the camera with piercingly-blue eyes. (Like that one meme.)"
@@ -76,6 +84,7 @@
 		"date":"06.12.2026",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20260612_gaymachines.png",
 		"alt_view":"Two-panel comic doodle featuring an anthro cat (wearing a big sweater and skirt, with a bow on his head), and an anthro mouse (with ear piercings and a business-casual outfit). Panel 1: The two are facing eachother, with the camera at a side angle. The mouse says \"it's pride month, cat. you know what that means.\" The cat is holding a block, and has a slightly confused look on his face. He replies \"huh. what\" Panel 2: The mouse is walking away from the cat silently; with a smug expression and his hands behind his back. The cat is more confused now, having set down the block, and is saying \"do you want me to make like. gay machines? what?\". The mouse only responds with \":3\"."
@@ -85,6 +94,7 @@
 		"date":"06.12.2026",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20260612_blackamongus.png",
 		"alt_view":"Doodle of Black, a character from Among Us. They're a short being, in a very-dark-gray astronaut suit with a reflective oval-shaped visor; wearing a black choker with spikes. They've got a colorful binky in their mouth and are giving an emphatic thumbs up via disembodied hand."
@@ -94,6 +104,7 @@
 		"date":"05.24.2026",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20260524_crankboy2.png",
 		"alt_view":"1-bit art reminiscent of the original Game Boy's box art, with a stylized shiny Playdate being played by equally-shiny robotic hands in a radical grid background. Flanking the left side is text that reads \"CRANK BOY — FULL-SPEED GB EMULATOR\", and there's a banner on the screen reading \"4 games included!\". In the lower-right corner, there's a brief list of app features — \"Add your own collection!\", \"Download homebrew in-app\", \"Widescreen for select titles\", \"Download hacks/softpatches\"."
@@ -103,6 +114,7 @@
 		"date":"05.11.2026",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20260511_crankboy.png",
 		"alt_view":"1-bit art depicting a sort of hybrid Playdate/Game Boy, with a crank on the side. The screen says \"CRANK BOY\" in big, bold letters — along the crank, there's text that reads \"full speed GB emulator\"."
@@ -112,6 +124,7 @@
 		"date":"05.19.2026",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20260519_pestobear.png",
 		"alt_view":"A giant red gummy bear. There's a 100x magnifier zooming in on a normal-sized me, gnawing rabidly on the foot. It looks unchanged."
@@ -121,6 +134,7 @@
 		"date":"05.17.2026",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Drawing",
 		"link_view":"../images/20260517_ameliaN.png",
 		"alt_view":"Amelia N. from the Nintendo Switch News section. She's a polite-looking lady with blue hair and a bright-yellow headband, spherical red earrings, and an earpiece microphone. She's wearing a long orange sweater that extends down to her ankles, and dark-brown boots. She's sitting around on the Nintendo Switch HOME Menu, with a bunch of icons surrounding her."
@@ -130,6 +144,7 @@
 		"date":"04.09.2026",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20260429_alex.png",
 		"alt_view":"Drawing of Alex from Minecraft, in some kind of dark cave. She's got red/orange hair, with most of the length tied up in a braid running down her shoulder. She's wearing a green shirt, baggy brown pants and gray boots; and holding a big pickaxe behind her with both hands. She seems exhausted, with one leg kicked back against a nearby block. A Creeper is looking in from the distance."
@@ -139,6 +154,7 @@
 		"date":"03.04.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20260304_pack3promo.png",
 		"alt_view":"Promotional art for \"Mechanical Mushrooms\". There's text underneath that reads \"Spilled Mushrooms Expansion Pack 3 — New critters! New areas! Free update for current owners; full price increased to $9. https://play.date/g/mushrooms\". Along the sides, a crab and hippo face off against roboticized versions of themselves."
@@ -148,6 +164,7 @@
 		"date":"02.01.2026",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Drawing",
 		"link_view":"../images/20260201_waiting.png",
 		"alt_view":"Sonic the Hedgehog, standing in a stylized Green Hill Zone. His arms are crossed and he's tapping his foot impatiently, as he tends to do."
@@ -157,6 +174,7 @@
 		"date":"02.01.2026",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20260102_dionicioref.png",
 		"alt_view":"Character ref sheet for Dionicio/Diana, a goat therian with dark brown long hair and big slightly-curved horns; wearing a green cowbell collar, a dark-gray hoodie with a design printed on the corner, and a short green skirt. There's some character info: she/he/they pronouns, bisexual/bigender/polyamorous, birthday 09.11.2003, 5'10\" (178cm). \"Silly goat therian\", \"Very kind & friendly\", \"Loves being gay with friends; will always try to help them out no matter what\". \"extra-sensitive horns (you can rub them to calm her down)\", \"slight fangs; green tongue\"."
@@ -166,6 +184,7 @@
 		"date":"12.06.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20251206_stickfall.gif",
 		"alt_view":"A panning camera move — below a blue sky, some non-descript dark blue mounds move with parallax. a stick figure is running across the frontmost one, stumbling and falling onto the floor."
@@ -175,6 +194,7 @@
 		"date":"12.05.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Poster",
 		"link_view":"../images/20251205_pdca2025_rowbot.png",
 		"alt_view":"Consider nominating \"RowBot Rally\" at the 2025 Playdate Community Awards, for \"2025 Playdate GOTY\", \"The CRANKY Award\", \"Accomplishment in Accessibility\", \"Best Action Game\", \"Best Adventure Game\", \"Best Narrative Game\", \"Outstanding Visual Achievement (SDK)\", and \"Best Launch Experience\"."
@@ -184,6 +204,7 @@
 		"date":"12.05.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Poster",
 		"link_view":"../images/20251205_pdca2025_cloudburst.png",
 		"alt_view":"Consider nominating \"Cloudburst\" at the 2025 Playdate Community Awards, for \"Accomplishment in Accessibility\", \"Best App or Knickknack\", \"Best Sound Design\", and \"Outstanding Technical Achievement (SDK)\"."
@@ -193,6 +214,7 @@
 		"date":"12.05.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Poster",
 		"link_view":"../images/20251205_pdca2025_lunatrix.png",
 		"alt_view":"Consider nominating \"Mission LunaTrix\" at the 2025 Playdate Community Awards, for \"Best Arcade Game\", \"Best Soundtrack\", and \"Best Sound Design\"."
@@ -202,6 +224,7 @@
 		"date":"12.05.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Poster",
 		"link_view":"../images/20251205_pdca2025_bonatraffic.png",
 		"alt_view":"Consider nominating \"Bona Fido\" and \"Traffic Jam\" at the 2025 Playdate Community Awards, for \"Best Arcade Game\"."
@@ -211,6 +234,7 @@
 		"date":"11.08.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20251108_squashedmoth.jpg",
 		"alt_view":"Sketch of an anthro moth squashed down to about two inches tall. She looks disheveled."
@@ -220,6 +244,7 @@
 		"date":"11.05.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20251105_echodrop.jpg",
 		"link_situ":"https://play.date/games/echo-drop",
@@ -231,6 +256,7 @@
 		"date":"10.24.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Drawing",
 		"link_view":"../images/20251024_pixelrowbot.png",
 		"alt_view":"A very small, 1-bit drawing of a robot wearing a fisher hat. It looks a bit goofy as it stands."
@@ -240,6 +266,7 @@
 		"date":"10.11.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20251011_epiphyll.png",
 		"alt_view":"Humanoid character with orange, semi-long hair — she's wearing a long-sleeve burgundy jacket with white gloves, a white scarf, dark pants with orange shoes, and a pair of goggles on her forehead. She's floating around in space."
@@ -249,6 +276,7 @@
 		"date":"10.04.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20251004_leveragingyourcat.png",
 		"alt_view":"Sketchy pixel doodle. A cat sits patiently on the weighted end of a cartoony teeter-totter. An anthro moth is in the midst of an impending fucking suplex elbow drop onto the other end."
@@ -258,6 +286,7 @@
 		"date":"09.19.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20250919_liam.png",
 		"alt_view":"Low-ish angle drawing of an orange anthro cat (he/they), staring towards the camera with a smiling expression. They're squatting down near the ground; one hand planted on the floor behind them to keep themselves balanced, and their other hand held up to their face with a 'telephone' gesture. They're wearing a purple tee with a design of yellow and green fruit slices, a black-and-white striped long-sleeve undershirt, dark-gray jeans with a tear on one knee and black-and-red sneakers. They also have a red flower in their hair. The background is teal and green with a grid pattern."
@@ -267,6 +296,7 @@
 		"date":"09.09.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250909_anglemoth.png",
 		"alt_view":""
@@ -276,6 +306,7 @@
 		"date":"09.04.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20250904_cdf.png",
 		"link_situ":"https://play.date/games/crank-defense-force",
@@ -287,6 +318,7 @@
 		"date":"08.13.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20250813_orchid.png",
 		"alt_view":"Humanoid character with one visible eye, white hair and a flat pony-tail; wearing a yellow and purple split hoodie with oversized sleeves and purple-blue pants. They're doing a backflip through space."
@@ -296,6 +328,7 @@
 		"date":"08.08.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20250808_pack2promo.png",
 		"alt_view":"Promotional art for \"Mythical Mushrooms\". There's text underneath that reads \"Spilled Mushrooms Expansion Pack 2 — New critters! New areas! Achievements! Puzzle sharing! Free update for current owners; full price increased to $8. https://play.date/g/mushrooms\". Along the sides, a unicorn, minotaur, and jackalope run off carrying baskets of mushrooms."
@@ -305,6 +338,7 @@
 		"date":"08.01.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Poster",
 		"link_view":"../images/20250801_augustravaganza.png",
 		"alt_view":"Flat, bubbly promotional poster with a yellow background and green accents. \"2025 Playdate Community Augustravaganza! Over 60 games on sale, across all genres and styles! Runs from August 1st to August 7th, pacific time.\" There's a link to the catalog sale page, and a variety of Playdate game thumbnails lining the bottom of the frame."
@@ -314,6 +348,7 @@
 		"date":"07.11.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250711_graintouchmoth.png",
 		"alt_view":"Picture of a waving moth doodled in the Graintouch app — it gives the appearance of a printed design, complete with grainy texture and ink misalignment."
@@ -323,6 +358,7 @@
 		"date":"07.04.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Drawing",
 		"link_view":"../images/20250704mothsmoothie.png",
 		"alt_view":""
@@ -332,6 +368,7 @@
 		"date":"07.04.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Drawing",
 		"link_view":"../images/20250704_mothdance.png",
 		"alt_view":""
@@ -341,6 +378,7 @@
 		"date":"06.27.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250627_moth.jpg",
 		"alt_view":""
@@ -350,6 +388,7 @@
 		"date":"06.27.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250627_mario.jpg",
 		"alt_view":""
@@ -359,6 +398,7 @@
 		"date":"05.26.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250527_mothfeatureset.jpg",
 		"alt_view":""
@@ -368,6 +408,7 @@
 		"date":"05.26.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250526_fullofsoup.jpg",
 		"alt_view":""
@@ -377,6 +418,7 @@
 		"date":"05.08.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250508_robuzzontv.png",
 		"alt_view":""
@@ -386,8 +428,9 @@
 		"date":"05.08.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Commission",
-		"link_view":"../images/20250508-superagent.png",
+		"link_view":"../images/20250508_superagent.png",
 		"alt_view":""
 	},
 	{
@@ -395,6 +438,7 @@
 		"date":"05.02.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250502_hazyweather.png",
 		"alt_view":""
@@ -404,6 +448,7 @@
 		"date":"05.02.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250502_king.png",
 		"alt_view":""
@@ -413,6 +458,7 @@
 		"date":"04.04.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Drawing",
 		"link_view":"../images/20250404_vtuberclosed.png",
 		"alt_view":"A digitally-created paper sketch of a moth with a neutral expression, crudely cut out and attached to a popsicle stick. Her mouth is closed.",
@@ -425,6 +471,7 @@
 		"date":"03.30.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250330_mothglasses.png",
 		"alt_view":"an array of moths wearing glasses. in the center, she stands politely. on the left, she's pushing up her lenses in a way that reflects the light, kind of like every annoying anime character. there's text pointing to her there that reads \"about to be so incorrect\". on the right, she's fitted in nostalgia critic attire, screaming about a moth credit card"
@@ -434,6 +481,7 @@
 		"date":"03.07.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Commission",
 		"link_view":"../images/20250307_pack1promo.png",
 		"alt_view":"Promotional art for \"More Mushrooms\". There's text underneath that reads \"Spilled Mushrooms Expansion Pack 1 — New critters! New areas! Free update for current owners; full price increased to $7. https://play.date/g/mushrooms\". Along the sides, a cow, donkey, turkey, and toucan run off carrying baskets of mushrooms."
@@ -443,6 +491,7 @@
 		"date":"02.15.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Drawing",
 		"link_view":"../images/20250215_roxbun.jpg",
 		"alt_view":""
@@ -452,6 +501,7 @@
 		"date":"01.23.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Poster",
 		"link_view":"../images/20250123_sonic2ad.png",
 		"alt_view":""
@@ -461,6 +511,7 @@
 		"date":"01.18.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Drawing",
 		"link_view":"../images/20250118_treena.jpg",
 		"alt_view":"Character from Jackbox game Champ'd Up. They're wearing a green fighting costume, complete with christmas tree helmet that completely covers the head."
@@ -470,6 +521,7 @@
 		"date":"01.18.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250118_doodlemoth.jpg",
 		"alt_view":"Loose scribble of an anthro moth standing around; she has very scribbly hands and insane digitigrade legs."
@@ -479,6 +531,7 @@
 		"date":"01.18.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250118_communityservice.png",
 		"alt_view":"Doodle of an anthro moth performing community service in an orange jumpsuit. She's speaking something to someone nearby."
@@ -488,6 +541,7 @@
 		"date":"01.15.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Drawing",
 		"link_view":"../images/20250115_trackminia.png",
 		"alt_view":"A car drifts towards the camera along a bridge high up in the sky, during sunset. The word \"Trackminia\" is displayed across the top."
@@ -497,6 +551,7 @@
 		"date":"01.15.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250115_mothstance.jpg",
 		"alt_view":""
@@ -506,6 +561,7 @@
 		"date":"01.10.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Poster",
 		"link_view":"../images/20250110_sonicad.png",
 		"alt_view":""
@@ -515,6 +571,7 @@
 		"date":"01.08.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250108_tinymothoffice.jpg",
 		"alt_view":""
@@ -524,6 +581,7 @@
 		"date":"01.08.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Drawing",
 		"link_view":"../images/20250108_soundstage.jpg",
 		"alt_view":"Drawing of an anthro moth seen from behind, squatting and throwing a peace sign towards the camera on some kind of green screen soundstage."
@@ -533,6 +591,7 @@
 		"date":"01.03.2025",
 		"featured":false,
 		"in_art":false,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250103_notsafeforwork.png",
 		"alt_view":"Doodle of an anthro moth, balancing precariously on a swivel chair."
@@ -542,6 +601,7 @@
 		"date":"01.03.2025",
 		"featured":false,
 		"in_art":true,
+		"focus":"center",
 		"type":"Sketch",
 		"link_view":"../images/20250103_rudemoth.png",
 		"alt_view":"Doodle of an anthro moth, throwing up a middle finger and sticking her tongue out."
