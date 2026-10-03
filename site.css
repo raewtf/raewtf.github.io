@@ -449,12 +449,13 @@ header {
 .coming_up.art img {
 	aspect-ratio: 16 / 10;
 }
-.coming_up.art h1 {
-	flex-grow: 1;
-}
 .coming_up.art a {
+	display: unset;
 	margin: 0 2rem;
 	margin-bottom: 1rem;
+}
+.coming_up.art a:last-child {
+	margin-bottom: 2rem;
 }
 
 .grid {
