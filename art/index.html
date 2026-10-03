@@ -53,8 +53,73 @@
 	<div class="featured_box">
 		<div class="box_content">
 			<h1>Page under construction!</h1>
-			<p>Hello! This page would ordinarily show all the art I've drawn, but I'm currently busy plugging it all into the web database so I can have a nice dynamic gallery view, with alt text for everything. Sorry for the inconvenience as I get this page up and running — feel free to have a look around the rest of the site and see what's cool!</p>
+			<p>Hello! I'm currently busy plugging all of my art into the web database; so I can have a nice dynamic gallery view, with alt text for everything. It'll be more comprehensive soon™! For now, enjoy what's here; and feel free to explore the rest of the site to see other cool stuff!</p>
 		</div>
+	</div>
+</div>
+
+<div class="content">
+	<p class="topic_header">Featured</p>
+	{% for art in site.data.art %}
+		{% if art.in_art == true %}
+			{% if art.featured == true %}
+				<div class="coming_up">
+					<img src="{{ art.link_view }}" alt="{{ art.alt_view }}" />
+
+					<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
+						<h1>{{ art.name }}</h1>
+						<h3>{{ art.date }}</h3>
+					</div>
+					{% if art.link_view %}
+						<a href="{{ art.link_view }}">View in Full</a>
+					{% endif %}
+					{% if art.link_alt1 %}
+						<a href="{{ art.link_alt1 }}">{{ art.name_alt1 }}</a>
+					{% endif %}
+					{% if art.link_alt2 %}
+						<a href="{{ art.link_alt1 }}">{{ art.name_alt2 }}</a>
+					{% endif %}
+					{% if art.link_alt3 %}
+						<a href="{{ art.link_alt3 }}">{{ art.name_alt3 }}</a>
+					{% endif %}
+					{% if art.link_situ %}
+						<a href="{{ art.link_situ }}">{{ art.name_situ }}</a>
+					{% endif %}
+				</div>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+	<p class="topic_header">More Art<a href="../expert">More Art in Expert Mode</a></p>
+	<div class="grid">
+		{% for art in site.data.art %}
+			{% if art.in_art == true %}
+				{% if art.featured == false %}
+					<div class="coming_up">
+						<img src="{{ art.link_view }}" alt="{{ art.alt_view }}" />
+
+						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
+							<h1>{{ art.name }}</h1>
+							<h3>{{ art.date }}</h3>
+						</div>
+						{% if art.link_view %}
+							<a href="{{ art.link_view }}">View in Full</a>
+						{% endif %}
+						{% if art.link_alt1 %}
+							<a href="{{ art.link_alt1 }}">{{ art.name_alt1 }}</a>
+						{% endif %}
+						{% if art.link_alt2 %}
+							<a href="{{ art.link_alt1 }}">{{ art.name_alt2 }}</a>
+						{% endif %}
+						{% if art.link_alt3 %}
+							<a href="{{ art.link_alt3 }}">{{ art.name_alt3 }}</a>
+						{% endif %}
+						{% if art.link_situ %}
+							<a href="{{ art.link_situ }}">{{ art.name_situ }}</a>
+						{% endif %}
+					</div>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
 	</div>
 </div>
 
