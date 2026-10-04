@@ -10,7 +10,7 @@ Long time no...blog! I'm writing in today because I wanna have a single space to
 I know, right?! My first release for personal computers, now on the leading platform for personal computer games. It's kind of a trip! I even got to make a schmancy trailer for the occasion. You can watch that here:
 
 <center>
-<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/fVHMQl7Jqqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe class="image" style="width: 100%;" src="https://www.youtube.com/embed/fVHMQl7Jqqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
 ...and if you haven't yet, you should pick the game up on Steam as well! It's a pretty good game, or so I've heard. (If you wanna wait for a sale or something, putting the game on your wish list helps a bunch too!)

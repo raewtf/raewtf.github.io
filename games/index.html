@@ -57,7 +57,7 @@ layout: null
 </header>
 
 <div class="content">
-	<p class="topic_header">Featured</p>
+	<p class="topic_header" id="featured">Featured</p>
 	{% for game in site.data.games %}
 		{% if game.featured == true %}
 			<div class="featured_box">
@@ -100,7 +100,7 @@ layout: null
 			</div>
 		{% endif %}
 	{% endfor %}
-	<p class="topic_header">More Games</p>
+	<p class="topic_header" id="more">More Games</p>
 	<div class="grid">
 		{% for game in site.data.games %}
 			{% if game.featured == false %}
@@ -144,7 +144,7 @@ layout: null
 			{% endif %}
 		{% endfor %}
 	</div>
-	<p class="topic_header">Where to find my games?</p>
+	<p class="topic_header" id="where">Where to find my games?</p>
 	<div class="featured_box">
 		<div class="box_content">
 			<h1>On-line Storefronts</h1>

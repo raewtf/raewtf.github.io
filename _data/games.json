@@ -35,7 +35,7 @@
 	},
 	{
 		"name":"Labsylle",
-		"featured":true,
+		"featured":false,
 		"date":"02.17.2026",
 		"preview":"../games/labsylle_preview.gif",
 		"preview_alt":"Gameplay of Labsylle. A cursor navigates along a horizontal row of syllabic blocks, swapping them around one-at-a-time to try to reach a target word.",
@@ -82,7 +82,7 @@
 	},
 	{
 		"name":"RowBot Rally",
-		"featured":true,
+		"featured":false,
 		"date":"12.17.2024",
 		"preview":"../games/rowbot_preview.gif",
 		"preview_alt":"Gameplay of RowBot Rally. A boat drives around a river track with flowerbeds on the sides, getting caught in whirlpools. Bugs fly overhead.",

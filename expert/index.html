@@ -98,7 +98,7 @@ layout: null
 </style>
 
 <div class="content">
-	<p class="topic_header">Games<a href="../games">Games Page</a></p>
+	<p class="topic_header" id="games">Games<a href="../games">Games Page</a></p>
 	<div>
 		{% for game in site.data.games %}
 			<div class="expert_listing">
@@ -135,7 +135,7 @@ layout: null
 			</div>
 		{% endfor %}
 	</div>
-	<p class="topic_header">Art<a href="../art">Art Page</a></p>
+	<p class="topic_header" id="art">Art<a href="../art">Art Page</a></p>
 	<div>
 		{% for art in site.data.art %}
 			<div class="expert_listing">
@@ -160,7 +160,7 @@ layout: null
 			</div>
 		{% endfor %}
 	</div>
-	<p class="topic_header">Trinkets<a href="../trinkets">Trinkets Page</a></p>
+	<p class="topic_header" id="trinkets">Trinkets<a href="../trinkets">Trinkets Page</a></p>
 	<div>
 		{% for trinket in site.data.trinkets %}
 			<div class="expert_listing">
@@ -200,7 +200,7 @@ layout: null
 			</div>
 		{% endfor %}
 	</div>
-	<p class="topic_header">Blog Posts<a href="../blog">Blog Page</a></p>
+	<p class="topic_header" id="blog">Blog Posts<a href="../blog">Blog Page</a></p>
 	<div>
 		{% for post in site.posts %}
 			{% if post.visible == 1 %}

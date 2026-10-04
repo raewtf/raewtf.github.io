@@ -16,7 +16,7 @@ It's a sequel to my award-winning Playdate game — the really big one, about ra
 OK, first off, first off. Watch the trailer:
 
 <center>
-<iframe class="image" width="560" height="315" src="https://www.youtube.com/embed/NG569tlnZbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe class="image" style="width: 100%;" src="https://www.youtube.com/embed/NG569tlnZbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </center>
 
 ...then go wishlist it, in Playdate Catalog:

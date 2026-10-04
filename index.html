@@ -55,7 +55,7 @@ layout: null
 </header>
 
 <div class="content">
-	<p class="topic_header">Featured</p>
+	<p class="topic_header" id="featured">Featured</p>
 	<!-- featured game -->
 	{% for game in site.data.games %}
 		{% if game.frontpage == true %}
@@ -144,7 +144,7 @@ layout: null
 	{% endfor %}
 	<div class="side_by_side">
 		<div class="side_1">
-			<p class="topic_header">What's new?<a href="../whatsnew">More</a></p>
+			<p class="topic_header" id="whats_new">What's new?<a href="../whatsnew">More</a></p>
 			<div style="width: 100%; display: flex; flex-direction: column;">
 				{% for new in site.data.whatsnew limit:5 %}
 					<div class="whats_new">
@@ -155,7 +155,7 @@ layout: null
 			</div>
 		</div>
 		<div class="side_2">
-			<p class="topic_header">Coming up...</p>
+			<p class="topic_header" id="coming_up">Coming up...</p>
 			<div class="coming_up">
 				<img src="../games/pesto_preview.gif" alt="Looping animation of 1-bit static." />
 				<h1>Project Pesto...is RowBot Rally 2!</h1>
@@ -169,7 +169,7 @@ layout: null
 			</div>
 		</div>
 	</div>
-	<p class="topic_header">A bit about Rae</p>
+	<p class="topic_header" id="bio">A bit about Rae</p>
 	<div class="featured_box">
 		<div class="box_content">
 			<h1>Hello!</h1>
@@ -177,7 +177,7 @@ layout: null
 		</div>
 		<img class="pfp" src="../lost.png" alt="An anthropomorphic moth peeks their head up from the bottom of the frame, with a question mark over their head." />
 	</div>
-	<p class="topic_header">Latest from the Blog <a href="blog">More Blog Posts</a></p>
+	<p class="topic_header" id="blog">Latest from the Blog <a href="blog">More Blog Posts</a></p>
 	<div class="grid">
 		{% for post in site.posts limit:4 %}
 			{% if post.visible == 1  %}
@@ -193,9 +193,6 @@ layout: null
 		{% endfor %}
 	</div>
 </div>
-
-<style>
-</style>
 
 <footer>
 	<div class="footer_content">

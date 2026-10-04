@@ -1,6 +1,7 @@
 [
 	{
 		"name":"MythBusters, Duck!",
+		"frontpage":true,
 		"featured":true,
 		"date":"10.01.2026",
 		"preview":"../trinkets/quack_preview.png",

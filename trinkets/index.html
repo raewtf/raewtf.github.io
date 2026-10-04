@@ -54,7 +54,7 @@ layout: null
 </header>
 
 <div class="content">
-	<p class="topic_header">Featured</p>
+	<p class="topic_header" id="featured">Featured</p>
 	{% for trinket in site.data.trinkets %}
 		{% if trinket.featured == true %}
 			<div class="featured_box">
@@ -100,7 +100,7 @@ layout: null
 			</div>
 		{% endif %}
 	{% endfor %}
-	<p class="topic_header">More Trinkets</p>
+	<p class="topic_header" id="more">More Trinkets</p>
 	<div class="grid">
 		{% for trinket in site.data.trinkets %}
 			{% if trinket.featured == false %}

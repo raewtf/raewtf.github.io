@@ -63,7 +63,7 @@ layout: null
 </div>
 
 <div class="content">
-	<p class="topic_header">Featured</p>
+	<p class="topic_header" id="featured">Featured</p>
 	{% for art in site.data.art %}
 		{% if art.in_art == true %}
 			{% if art.featured == true %}
@@ -94,7 +94,7 @@ layout: null
 			{% endif %}
 		{% endif %}
 	{% endfor %}
-	<p class="topic_header">More Art<a href="../expert">More Art in Expert Mode</a></p>
+	<p class="topic_header" id="more">More Art<a href="../expert#art">Expert Mode</a></p>
 	<div class="grid">
 		{% for art in site.data.art %}
 			{% if art.in_art == true %}

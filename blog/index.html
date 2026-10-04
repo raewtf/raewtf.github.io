@@ -54,7 +54,7 @@ layout: null
 </header>
 
 <div class="content">
-	<p class="topic_header">Blog Posts<a href="../feed.xml">RSS Feed</a></p>
+	<p class="topic_header" id="posts">Blog Posts<a href="../feed.xml">RSS Feed</a></p>
 	<div class="grid">
 		{% for post in site.posts %}
 			{% if post.visible == 1  %}
