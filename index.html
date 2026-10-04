@@ -85,11 +85,11 @@ layout: null
 					{% if game.link_itch_jam %}
 						<a href="{{ game.link_itch_jam }}">Jam version on Itch.io</a>
 					{% endif %}
-					{% if game.link_github %}
-						<a href="{{ game.link_github }}">Source code on GitHub</a>
-					{% endif %}
 					{% if game.link_demo %}
 						<a href="{{ game.link_demo }}">Try the demo for FREE!</a>
+					{% endif %}
+					{% if game.link_github %}
+						<a href="{{ game.link_github }}">Source code on GitHub</a>
 					{% endif %}
 				</div>
 				<img class="box_image" src="{{ game.preview }}" alt="{{ game.preview_alt }}" />
