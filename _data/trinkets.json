@@ -30,7 +30,8 @@
 		"long_desc":"Curious what the forecast looks like? Easy! But...your laptop's out of reach, your phone's battery is dead, your smart assistant's brain is busted, and your curtains are shut. It's just you, and your Playdate. Well, now you're in luck!",
 		"link_catalog":"https://play.date/games/cloudburst",
 		"link_itch":"https://raewtf.itch.io/cloudburst",
-		"link_github":"https://github.com/raewtf/cloudburst"
+		"link_github":"https://github.com/raewtf/cloudburst",
+		"link_manual":"../manuals/cloudburst"
 	},
 	{
 		"name":"Rev Checker",
@@ -84,6 +85,7 @@
 		"short_desc":"So relaxing...",
 		"long_desc":"A small piece of animated CSS art, made for a friend during a Secret Santa event. Chill back and enjoy the waves!",
 		"link_browser":"../beach"
+		"link_github":"https://github.com/raewtf/raewtf.github.io/tree/main/beach"
 	},
 	{
 		"name":"Mobile Game Name Generator",

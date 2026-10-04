@@ -134,6 +134,9 @@ layout: null
 						{% if game.link_github %}
 							<a href="{{ game.link_github }}">GitHub</a>
 						{% endif %}
+						{% if game.link_manual %}
+							<a href="{{ game.link_manual }}">Manual</a>
+						{% endif %}
 					</div>
 				</div>
 			</div>
@@ -198,6 +201,9 @@ layout: null
 						{% endif %}
 						{% if trinket.link_github %}
 							<a href="{{ trinket.link_github }}">GitHub</a>
+						{% endif %}
+						{% if trinket.link_manual %}
+							<a href="{{ trinket.link_manual }}">Manual</a>
 						{% endif %}
 					</div>
 				</div>

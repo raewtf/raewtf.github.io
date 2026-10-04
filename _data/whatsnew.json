@@ -1,11 +1,19 @@
 [
 	{
+		"date":"10.03.2026",
+		"text":"Many improvements to the website recently, including the introduction of the art page! The database is still a work in progress, but feel free to <a href=\"\">check it out</a>!"
+	},
+	{
 		"date":"10.01.2026",
 		"text":"My PC games are on sale from now until the 8th! Pick up <a href=\"https://s.team/a/4581230\">HEXA on Steam</a>; and then go check out <a href=\"https://itch.io/s/200104/falling-for-puzzles-autumn-sale-2026\">the bundle on Itch.io</a>, with HEXA and Labsylle!"
 	},
 	{
+		"date":"10.01.2026",
+		"text":"I tried my hand at a YouTube Poop, involving the Mythbusters and a whole lot of duck— (quack). You can watch it <a href=\"https://www.youtube.com/watch?v=ZJ8F535VREg\">here</a>."
+	},
+	{
 		"date":"09.29.2026",
-		"text":"Quick patch for HEXA is live now! Make sure you're up-to-date."
+		"text":"Quick bug patch for HEXA is live now! Check out the <a href=\"../manuals/hexa#changelog\">changelog</a>, and make sure you're up-to-date; whichever platform you're playing on."
 	},
 	{
 		"date":"09.27.2026",
@@ -153,7 +161,7 @@
 	},
 	{
 		"date":"02.25.2025",
-		"text":"<a href=\"https://stuffbyrae.itch.io/cloudburst\"><i>Cloudburst<sup>Beta</sup></i></a> is now on Itch! If you have the beta Playdate SDK 2.7.0, try it out for free!"
+		"text":"<a href=\"https://raewtf.itch.io/cloudburst\"><i>Cloudburst<sup>Beta</sup></i></a> is now on Itch! If you have the beta Playdate SDK 2.7.0, try it out for free!"
 	},
 	{
 		"date":"02.20.2025",
@@ -173,7 +181,7 @@
 	},
 	{
 		"date":"01.06.2025",
-		"text":"<a href=\"https://stuffbyrae.itch.io/bona-fido\"><i>Bona Fido</i></a>, my little jam game from last month, comes to Catalog 01.28.25! Yippee!!"
+		"text":"<a href=\"https://raewtf.itch.io/bona-fido\"><i>Bona Fido</i></a>, my little jam game from last month, comes to Catalog 01.28.25! Yippee!!"
 	},
 	{
 		"date":"12.17.2024",
@@ -185,7 +193,7 @@
 	},
 	{
 		"date":"11.26.2024",
-		"text":"<a href=\"https://stuffbyrae.itch.io/bona-fido\"><i>Bona Fido</i></a>, my little jam game from last month, comes to Catalog 02.11.25! Yippee!"
+		"text":"<a href=\"https://raewtf.itch.io/bona-fido\"><i>Bona Fido</i></a>, my little jam game from last month, comes to Catalog 02.11.25! Yippee!"
 	},
 	{
 		"date":"10.31.2024",
@@ -197,11 +205,11 @@
 	},
 	{
 		"date":"10.29.2024",
-		"text":"<a href=\"https://stuffbyrae.itch.io/bona-fido\"><i>Bona Fido</i></a>, my little jam game from earlier in the month, officially got approved for Catalog!"
+		"text":"<a href=\"https://raewtf.itch.io/bona-fido\"><i>Bona Fido</i></a>, my little jam game from earlier in the month, officially got approved for Catalog!"
 	},
 	{
 		"date":"10.13.2024",
-		"text":"I just released <i>Bona Fido</i> for PlayJam 6! <a href=\"https://stuffbyrae.itch.io/bona-fido\">Go check it out!</a> Anyway... back to work on RowBot!"
+		"text":"I just released <i>Bona Fido</i> for PlayJam 6! <a href=\"https://raewtf.itch.io/bona-fido\">Go check it out!</a> Anyway... back to work on RowBot!"
 	},
 	{
 		"date":"08.22.2024",
@@ -237,7 +245,7 @@
 	},
 	{
 		"date":"04.21.2024",
-		"text":"I just released <i>First in...Line?</i> for PlayJam 5 — <a href=\"https://stuffbyrae.itch.io/first-in-line\">go check it out why don't you</a>!"
+		"text":"I just released <i>First in...Line?</i> for PlayJam 5 — <a href=\"https://raewtf.itch.io/first-in-line\">go check it out why don't you</a>!"
 	},
 	{
 		"date":"02.29.2024",

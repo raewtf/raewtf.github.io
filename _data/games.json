@@ -10,6 +10,7 @@
 		"long_desc":"Link lasso-bits, blow up dynamite with extreme caution, and try to wrangle the outlaws of the nefarious Meeple Crew. This <i>spaghetti</i>-western puzzle game was made for 2026's Falling Block Jam.",
 		"link_itch_jam":"https://raewtf.itch.io/loop-lariat",
 		"link_github":"https://github.com/raewtf/loop-lariat",
+		"link_manual":"../manuals/loop-lariat"
 	},
 	{
 		"name":"RowBot Rally 2",
@@ -20,7 +21,7 @@
 		"short_desc":"Turn the tides before they turn you.",
 		"long_desc":"It's the Fish Bowl Champs' latest—and BIGGEST—adventure yet! Solve the mystery of the sudden eclipse, recruit some friends (and even old foes?) to help, and SAVE THE WORLD! ...Or, more importantly, give the townsfolk what they want: high-octane boat racing!",
 		"link_catalog_wishlist":"https://play.date/games/rowbot-rally-2",
-		"link_itch_wishlist":"https://raewtf.itch.io/rowbot-rally-2",
+		"link_itch_wishlist":"https://raewtf.itch.io/rowbot-rally-2"
 	},
 	{
 		"name":"Rae's Solitaire",
@@ -31,7 +32,7 @@
 		"short_desc":"A nice Klondike for your PD",
 		"long_desc":"Lately, I've been getting into solitaire. One night, I thought: \"I wanna play some solitaire on my Playdate\". Then I thought, \"how hard would it be to <i>make</i> it?\" ...So, I made Klondike solitaire for my Playdate! Now, you can play it on yours, too.",
 		"link_catalog":"https://play.date/games/raes-solitaire",
-		"link_github":"https://github.com/raewtf/raes-solitaire",
+		"link_github":"https://github.com/raewtf/raes-solitaire"
 	},
 	{
 		"name":"Labsylle",
@@ -43,7 +44,8 @@
 		"long_desc":"<i>Labsylle</i>'s all about the \"building blocks\" of the English language. Swap around syllable blocks, two at a time, to assemble words. That's it! It'll keep you busy, too; with over 500 curated puzzles, and a whole dictionary of \"Quik-Words\" to experience in 60-second bursts.",
 		"link_catalog":"https://play.date/games/labsylle",
 		"link_itch":"https://raewtf.itch.io/labsylle",
-		"link_github":"https://github.com/raewtf/labsylle"
+		"link_github":"https://github.com/raewtf/labsylle",
+		"link_manual":"../manuals/labsylle"
 	},
 	{
 		"name":"Mission LunaTrix",
@@ -55,7 +57,8 @@
 		"long_desc":"When you find yourself trapped on the surface of an unfamiliar terrain, there's only one thing that can bring you back to terra firma...<i>EPIC SKATE TRICKS</i>.",
 		"link_catalog":"https://play.date/games/mission-lunatrix",
 		"link_itch_jam":"https://raewtf.itch.io/mission-lunatrix",
-		"link_github":"https://github.com/raewtf/mission-lunatrix"
+		"link_github":"https://github.com/raewtf/mission-lunatrix",
+		"link_manual":"../manuals/mission-lunatrix"
 	},
 	{
 		"name":"Traffic Jam",
@@ -66,7 +69,8 @@
 		"short_desc":"On your left! No, my right!",
 		"long_desc":"Watch out for four distinct car types, keep the beat (as well as you can) to an increasing tempo, and try to avoid a nasty collision! Made just for Playdate.",
 		"link_catalog":"https://play.date/games/traffic-jam",
-		"link_github":"https://github.com/raewtf/traffic-jam"
+		"link_github":"https://github.com/raewtf/traffic-jam",
+		"link_manual":"../manuals/traffic-jam"
 	},
 	{
 		"name":"Bona Fido",
@@ -78,7 +82,8 @@
 		"long_desc":"Narrowly dodge enemies, dig up trick-or-treatin' treasures, and bark your way to becoming top dog of the afterlife in this sp00py single-screen platformer.",
 		"link_catalog":"https://play.date/games/bona-fido",
 		"link_itch_jam":"https://raewtf.itch.io/bona-fido",
-		"link_github":"https://github.com/raewtf/bona-fido"
+		"link_github":"https://github.com/raewtf/bona-fido",
+		"link_manual":"../manuals/bona-fido"
 	},
 	{
 		"name":"RowBot Rally",
@@ -90,7 +95,8 @@
 		"long_desc":"When a fleet of evil \"RowBots\" threaten to take over the annual boat-racing tourney, can you and a defective junkyard RowBot of your own put a stop to the Shark Boss's nefarious plans?",
 		"link_catalog":"https://play.date/games/rowbot-rally",
 		"link_github":"https://github.com/raewtf/rowbot-rally",
-		"link_demo":"../rowbot-rally/DEMO.zip"
+		"link_demo":"../rowbot-rally/DEMO.zip",
+		"link_manual":"../manuals/rowbot-rally"
 	},
 	{
 		"name":"HEXA",
@@ -103,7 +109,8 @@
 		"link_steam":"https://store.steampowered.com/app/4581230/HEXA",
 		"link_catalog":"https://play.date/games/hexa",
 		"link_itch":"https://raewtf.itch.io/hexa",
-		"link_github":"https://github.com/raewtf/hexa"
+		"link_github":"https://github.com/raewtf/hexa",
+		"link_manual":"../manuals/hexa"
 	},
 	{
 		"name":"First in... Line?",
@@ -115,6 +122,7 @@
 		"long_desc":"Memorize your lines, then take to the stage and...try not to flub the lead role too hard, in this game made with Playdate's extensive suite of inputs in mind.",
 		"link_catalog":"https://play.date/games/first-in-line",
 		"link_itch_jam":"https://raewtf.itch.io/first-in-line",
-		"link_github":"https://github.com/raewtf/first-in-line"
+		"link_github":"https://github.com/raewtf/first-in-line",
+		"link_manual":"../manuals/first-in-line"
 	},
 ]
