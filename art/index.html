@@ -67,8 +67,8 @@ layout: null
 	{% for art in site.data.art %}
 		{% if art.in_art == true %}
 			{% if art.featured == true %}
-				<div class="coming_up art">
-					<img src="{% thumbnail_img art.link_view 500 %}" alt="{{ art.alt_view }}" style="object-position: center {{ art.focus }};" />
+				<div class="coming_up art featured">
+					<img src="{% thumbnail_img art.link_view 400 %}" alt="{{ art.alt_view }}" style="object-position: center {{ art.focus }};" />
 
 					<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
 						<h1>{{ art.name }}</h1>
@@ -100,7 +100,7 @@ layout: null
 			{% if art.in_art == true %}
 				{% if art.featured == false %}
 					<div class="coming_up art">
-						<img src="{% thumbnail_img art.link_view 500 %}" alt="{{ art.alt_view }}" style="object-position: center {{ art.focus }};" />
+						<img src="{% thumbnail_img art.link_view 400 %}" alt="{{ art.alt_view }}" style="object-position: center {{ art.focus }};" />
 
 						<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
 							<h1>{{ art.name }}</h1>
