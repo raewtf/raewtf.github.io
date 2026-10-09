@@ -178,3 +178,4 @@ To set a user icon, press B on the Title screen, and use the crank to preview th
 
 <br>
 <a href="https://play.date/games/mission-lunatrix" class="button">Buy <i>Mission LunaTrix</i> in Playdate Catalog</a>
+<a href="https://raewtf.itch.io/mission-lunatrix" class="button">Buy <i>Mission LunaTrix</i> on Itch.io</a>

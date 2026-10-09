@@ -207,3 +207,4 @@ Leaderboards refresh automatically at 00:00 midnight GMT, clearing all scores fr
 
 <br>
 <a href="https://play.date/games/cloudburst" class="button">Buy <i>Cloudburst</i> in Playdate Catalog</a>
+<a href="https://raewtf.itch.io/cloudburst" class="button">Get <i>Cloudburst</i> on Itch.io</a>

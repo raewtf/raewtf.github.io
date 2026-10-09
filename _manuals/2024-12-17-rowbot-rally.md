@@ -205,3 +205,4 @@ The options screen allows you to change various settings and accessibility featu
 
 <br>
 <a href="https://play.date/games/rowbot-rally" class="button">Buy <i>RowBot Rally</i> in Playdate Catalog</a>
+<a href="https://raewtf.itch.io/rowbot-rally" class="button">Buy <i>RowBot Rally</i> on Itch.io</a>

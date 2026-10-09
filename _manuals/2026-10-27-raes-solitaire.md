@@ -46,14 +46,6 @@ Standard scoring depends on the moves you make throughout the game, as well as h
 
 ## Klondike: Vegas (Cumulative)
 
-# Settings
-
-## Gameplay
-
-## Rules: Klondike
-
-## Customization
-
 # On-line Capability
 
 ## About On-line Play
@@ -90,3 +82,4 @@ You can view global scores using two primary methods:
 
 <br>
 <a href="https://play.date/games/raes-solitaire" class="button">Buy <i>Rae's Solitaire</i> in Playdate Catalog</a>
+<a href="https://raewtf.itch.io/raes-solitaire" class="button">Buy <i>Rae's Solitaire</i> on Itch.io</a>

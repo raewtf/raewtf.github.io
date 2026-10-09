@@ -1,5 +1,35 @@
 [
 	{
+		"name":"Moth Perspective Practice (Low)",
+		"date":"10.04.2026",
+		"featured":false,
+		"in_art":true,
+		"focus":"top",
+		"type":"Sketch",
+		"link_view":"/images/20261004_mothperspectivelow.jpg",
+		"alt_view":"Doodle of an anthro moth from a particularly low angle. She's being lit from a spotlight up above, which is creating some very harsh shadows, basically entirely covering her up in shade from this particular angle."
+	},
+	{
+		"name":"Moth Perspective Practice (High)",
+		"date":"10.04.2026",
+		"featured":false,
+		"in_art":true,
+		"focus":"top",
+		"type":"Sketch",
+		"link_view":"/images/20261004_mothperspectivehigh.jpg",
+		"alt_view":"Doodle of an anthro moth as seen from a birds-eye perspective; she's staring up at the viewer with big puppy-dog eyes as if to say 'can i please have some of the boiling water you're cooking'. There's a label that says 'five foot twelve vs six foot even'."
+	},
+	{
+		"name":"Moth Perspective Practice (Point)",
+		"date":"10.04.2026",
+		"featured":false,
+		"in_art":true,
+		"focus":"top",
+		"type":"Sketch",
+		"link_view":"/images/20261004_mothperspectivepoint.jpg",
+		"alt_view":"Doodle of an anthro moth, seen from a slightly low-down perspective. She's looking at the sky with a sense of wonder, and pointing up at something."
+	},
+	{
 		"name":"Moth Jump Rope",
 		"date":"09.30.2026",
 		"featured":true,

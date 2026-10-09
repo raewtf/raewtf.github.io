@@ -109,4 +109,5 @@ Playdate:
 - Fixed bug where adjusting the "Scaling" option would crash the game (referencing a save variable removed in development).
 
 <br>
+<a href="https://play.date/games/loop-lariat" class="button">Buy <i>Loop Lariat</i> in Playdate Catalog</a>
 <a href="https://raewtf.itch.io/loop-lariat" class="button">Get <i>Loop Lariat</i> on Itch.io</a>

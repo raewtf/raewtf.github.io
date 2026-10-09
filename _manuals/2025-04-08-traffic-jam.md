@@ -155,3 +155,4 @@ You can view global scores using two primary methods:
 
 <br>
 <a href="https://play.date/games/traffic-jam" class="button">Buy <i>Traffic Jam</i> in Playdate Catalog</a>
+<a href="https://raewtf.itch.io/traffic-jam" class="button">Buy <i>Traffic Jam</i> on Itch.io</a>

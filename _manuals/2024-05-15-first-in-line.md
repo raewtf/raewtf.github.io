@@ -290,3 +290,4 @@ From me to you, thanks for playing, and break a leg! 💖
 
 <br>
 <a href="https://play.date/games/first-in-line" class="button">Buy <i>First in... Line?</i> in Playdate Catalog</a>
+<a href="https://raewtf.itch.io/first-in-line" class="button">Buy <i>First in... Line?</i> on Itch.io</a>
