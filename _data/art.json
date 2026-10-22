@@ -1,5 +1,25 @@
 [
 	{
+		"name":"Graffiti in the Claw Machine",
+		"date":"10.20.2026",
+		"featured":true,
+		"in_art":true,
+		"focus":"top",
+		"type":"Commission",
+		"link_view":"/images/20261020_graffiti.jpg",
+		"alt_view":"Full-color, shaded drawing of Graffiti, a paint-like creature, having mischievously creeped their way into a claw machine through the prize claim door. The claw machine is colorful, neighbored by a change machine and a platformer arcade cabinet, and littered with colorful toys. Graffiti is slithered around the inner walls of the claw machine, and has picked up a plush teddy bear by the arm with their flat, sleeved hand."
+	},
+	{
+		"name":"100% Guarantee",
+		"date":"10.14.2026",
+		"featured":false,
+		"in_art":true,
+		"focus":"top",
+		"type":"Sketch",
+		"link_view":"/images/20261014_guarantee.jpg",
+		"alt_view":"1-bit doodle. There's a sketchy moth giving a huge thumbs up to camera. Surrounding them is a seal, reading 'rae 100% guarantee'. Along the bottom, there's hand-written text that reads 'works on my machine!'."
+	},
+	{
 		"name":"Moth Perspective Practice (Low)",
 		"date":"10.04.2026",
 		"featured":false,
@@ -90,6 +110,16 @@
 		"alt_view":"Doodle of an anthro moth, laying out on the floor. She's wearing a T-shirt and jorts, and has a lazy expression with her tongue sticking out. Her outstretched arms are typing and mousing on an apple laptop in front of her, which is casting light on her face. There's an open can of soda and bag of chips laid out in arm's reach, as well."
 	},
 	{
+		"name":"Lil' Guy",
+		"date":"08.02.2026",
+		"featured":false,
+		"in_art":false,
+		"focus":"center",
+		"type":"Sketch",
+		"link_view":"/images/20260802_lilguy.png",
+		"alt_view":"A small, pixel-art doodle of a little guy in a red cap, with big red gloves and shoes, standing around in a grassy plain."
+	},
+	{
 		"name":"Augustravaganza 2026",
 		"date":"08.01.2026",
 		"featured":false,
@@ -98,6 +128,16 @@
 		"type":"Poster",
 		"link_view":"/images/20260801_augustravaganza.png",
 		"alt_view":"Key art for Augustravaganza 2026. It's a top-down view of a beach, with a wave breaking over the top. Inside the wave, there's some text: '2026 Augustravaganza! Playdate Community Sale. Over 60 games on sale! Runs from August 1st through August 7th, pacific time.' On the beach, key arts of various Playdate games are buried in the sand. There's text that reads: 'Visit Catalog on your Playdate! Or, head to... play.date/games/tags/on-sale'"
+	},
+	{
+		"name":"Fish Spoiler",
+		"date":"07.24.2026",
+		"featured":false,
+		"in_art":false,
+		"focus":"center",
+		"type":"Sketch",
+		"link_view":"/images/20260724_fishspoiler.png",
+		"alt_view":"A swimming orange fish, with a matching orange race-car spoiler."
 	},
 	{
 		"name":"Groove Drummer",
@@ -188,6 +228,16 @@
 		"type":"Commission",
 		"link_view":"/images/20260304_pack3promo.png",
 		"alt_view":"Promotional art for 'Mechanical Mushrooms'. There's text underneath that reads 'Spilled Mushrooms Expansion Pack 3 — New critters! New areas! Free update for current owners; full price increased to $9. https://play.date/g/mushrooms'. Along the sides, a crab and hippo face off against roboticized versions of themselves."
+	},
+	{
+		"name":"Starship",
+		"date":"02.25.2026",
+		"featured":false,
+		"in_art":false,
+		"focus":"top",
+		"type":"Drawing",
+		"link_view":"/images/20260225_starship.png",
+		"alt_view":"1-bit, black-and-white drawing of a spaceship flying through a starfield."
 	},
 	{
 		"name":"Waiting",

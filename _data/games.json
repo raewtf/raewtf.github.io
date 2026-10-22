@@ -1,5 +1,33 @@
 [
 	{
+		"name":"Loop Lariat",
+		"featured":true,
+		"date":"01.27.2027",
+		"preview":"../games/loop_preview.gif",
+		"preview_alt":"Footage of a cowboy-themed puzzle game. The player is connecting separate lasso blocks together to form a continuous loop. The player's trying to capture outlaw blocks by catching them inside of a full lasso loop. There are also dynamite blocks, which explode whatever they're placed down on.",
+		"short_desc":"Yeeeeeee-haw!!",
+		"long_desc":"Link lasso-bits, blow up dynamite with extreme caution, and try to wrangle the outlaws of the nefarious Meeple Crew, in this rootin'-tootin' spaghetti-western block puzzle game.",
+		"link_catalog":"https://play.date/games/loop-lariat",
+		"link_itch":"https://raewtf.itch.io/loop-lariat",
+		"link_itch_jam":"https://raewtf.itch.io/loop-lariat#demo",
+		"link_github":"https://github.com/raewtf/loop-lariat",
+		"link_manual":"../manuals/loop-lariat"
+	},
+	{
+		"name":"Rae's Solitaire",
+		"frontpage":true,
+		"featured":true,
+		"date":"10.27.2026",
+		"preview":"../games/solitaire_preview.gif",
+		"preview_alt":"Gameplay of a 1-bit video version of Klondike Solitaire. The player moves some cards around in the tableau, and flips through the deck some.",
+		"short_desc":"A nice solitaire for your PD",
+		"long_desc":"Lately, I've been getting into solitaire. One night, I thought: \"I wanna play some solitaire on my Playdate\". Then I thought, \"how hard would it be to <i>make</i> it?\" ...So, I made solitaire for my Playdate! Now, you can play it on yours, too.",
+		"link_catalog":"https://play.date/games/raes-solitaire",
+		"link_itch":"https://raewtf.itch.io/raes-solitaire",
+		"link_github":"https://github.com/raewtf/raes-solitaire",
+		"link_manual":"../manuals/raes-solitaire"
+	},
+	{
 		"name":"RowBot Rally 2",
 		"featured":true,
 		"date":"Coming soon",
@@ -9,31 +37,6 @@
 		"long_desc":"It's the Fish Bowl Champs' latest—and BIGGEST—adventure yet! Solve the mystery of the sudden eclipse, recruit some friends (and even old foes?) to help, and SAVE THE WORLD! ...Or, more importantly, give the townsfolk what they want: high-octane boat racing!",
 		"link_catalog_wishlist":"https://play.date/games/rowbot-rally-2",
 		"link_itch_wishlist":"https://raewtf.itch.io/rowbot-rally-2"
-	},
-	{
-		"name":"Loop Lariat",
-		"frontpage":true,
-		"featured":true,
-		"date":"Coming soon",
-		"preview":"../games/loop_preview.gif",
-		"preview_alt":"Footage of a cowboy-themed puzzle game. The player is connecting separate lasso blocks together to form a continuous loop. The player's trying to capture outlaw blocks by catching them inside of a full lasso loop. There are also dynamite blocks, which explode whatever they're placed down on.",
-		"short_desc":"Yeeeeeee-haw!!",
-		"long_desc":"Link lasso-bits, blow up dynamite with extreme caution, and try to wrangle the outlaws of the nefarious Meeple Crew. This <i>spaghetti</i>-western puzzle game was made for 2026's Falling Block Jam.",
-		"link_itch_jam":"https://raewtf.itch.io/loop-lariat#demo",
-		"link_github":"https://github.com/raewtf/loop-lariat",
-		"link_manual":"../manuals/loop-lariat"
-	},
-	{
-		"name":"Rae's Solitaire",
-		"featured":true,
-		"date":"10.27.2026",
-		"preview":"../games/solitaire_preview.gif",
-		"preview_alt":"Gameplay of a 1-bit video version of Klondike Solitaire. The player moves some cards around in the tableau, and flips through the deck some.",
-		"short_desc":"A nice Klondike for your PD",
-		"long_desc":"Lately, I've been getting into solitaire. One night, I thought: \"I wanna play some solitaire on my Playdate\". Then I thought, \"how hard would it be to <i>make</i> it?\" ...So, I made Klondike solitaire for my Playdate! Now, you can play it on yours, too.",
-		"link_catalog":"https://play.date/games/raes-solitaire",
-		"link_itch":"https://raewtf.itch.io/raes-solitaire",
-		"link_github":"https://github.com/raewtf/raes-solitaire"
 	},
 	{
 		"name":"Labsylle",
