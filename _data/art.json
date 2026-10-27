@@ -1,5 +1,15 @@
 [
 	{
+		"name":"Kanna",
+		"date":"10.23.2026",
+		"featured":false,
+		"in_art":true,
+		"focus":"top",
+		"type":"Drawing",
+		"link_view":"/images/20261023_kanna.png",
+		"alt_view":"Drawing of Kanna, from the Blaster Master series. She's got the head of a potted plant, with hair made of large leaves and flowers of various types. she's wearing a watermelon-print shirt and some cool white/pink nets under a shiny rubber jumpsuit; leaning forward and giving a wink/peace sign to the camera."
+	},
+	{
 		"name":"Graffiti in the Claw Machine",
 		"date":"10.20.2026",
 		"featured":true,

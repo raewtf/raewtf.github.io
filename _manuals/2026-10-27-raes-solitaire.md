@@ -57,6 +57,7 @@ Standard scoring depends on the moves you make throughout the game, as well as h
 - Moving a card from a bank back to the tableau: -15 points
 
 - Reversing the deck, in 1-Draw: -100 points
+- Reversing the deck, in 2-Draw: -50 points
 - Reversing the deck, in 3-Draw: -20 points
 
 - Timer bonus: +(700,000 / seconds) points, if the game's taken at least 30 seconds
@@ -69,6 +70,13 @@ For Vegas scoring, you play not with points, but with dollars. For each game, yo
 Vegas (Cumulative) scoring works just like Vegas scoring, except you play with the same pot between games. If you end with a score of $208, playing again will subtract $52 for the new ante, and leave you with $156 to start the next game.
 
 ## Spiderette: Standard
+
+- Revealing a new card in the tableau: +10 points
+
+- Dealing from the deck: -50 points
+
+- Timer bonus: +(700,000 / seconds) points, if the game's taken at least 30 seconds
+- Time penalty: -2 points for every 10 seconds elapsed
 
 ## Yukon: Standard
 
@@ -90,7 +98,27 @@ Vegas (Cumulative) scoring works just like Vegas scoring, except you play with t
 
 # Custom Card Assets
 
-tbd
+This game supports custom card assets, imported through the game's save-data folder. To create your own custom card assets:
+
+1. Create the images. They must be 40 pixels wide, 60 pixels high; and 1-bit only.
+
+> ⚠️ For a custom card back, create one image and name it 'back'. For a custom set of card fronts, create 52 images, and name them by the suit (plural), followed by the numerical value of the card; e.g. "spades1" for an Ace of Spades, "hearts13" for a King of Hearts, "diamonds7" for a Seven of Diamonds, and "clubs11" for a Jack of Clubs.
+
+2. Turn your images into .pdi files that can be read by the system — standard image files like .png or .jpg will not work.
+
+> ⚠️ To create .pdi files, you can either run the images through the `pdc` tool, included in the Playdate SDK; or you can use [this handy web tool](https://pdiconv.ellugar.co/).
+
+3. Access Data Disk Mode on your Playdate by following [these steps](https://help.play.date/games/sideloading/#data-disk-mode), and navigate to <span class="code-span">Data/wtf.rae.solitaire/custom_cards</span>.
+
+4. Create a new folder, name it something unique to your deck (letters only), and drop your card images into it. Don't put 'em outside, or within any sub-folders!
+
+5. Create a JSON file, and place it in the same folder as the card assets. In this JSON file, add strings for `card_alias` (what you want the deck to be called), and `card_maker` (what you want your name to be). Alphanumeric works best for these; recommended maximum character length is 15.
+
+6. Exit Data Disk Mode, launch Rae's Solitaire, and navigate to Settings > Customization.
+
+6. Your card images should be available to use now! They'll be placed at the end of the list of stock cards — scroll through Card Art (Front) and/or Card Art (Back) until you reach your deck.
+
+> ⚠️ If you don't have all the pre-requisite cards for a full deck of fronts, or the card image(s) are the wrong size, then the game will crash with a message letting you know what exactly went wrong. To resolve this crash, you can either rectify the given issue with the custom deck, or remove the custom deck(s) that are causing the crash.
 
 # On-line Capability
 
@@ -104,7 +132,7 @@ This game connects to Playdate's on-line leaderboard API, to enable sending and 
 
 To submit a new score to a global leaderboard, simply finish a game. When you reach the 'Game Complete!' screen, your score will be submitted to the proper leaderboard automatically.
 
-> ⚠️ For games of Klondike, any submission to on-line records will be counted by Standard scoring rules, regardless of in-game scoring selection.
+> ⚠️ Any submission to on-line records will be counted by Standard scoring rules, regardless of in-game scoring selection.
 
 ## Viewing Global Scores
 
@@ -128,16 +156,21 @@ You can view global scores using two primary methods:
 ## Version 1.1.0
 ### 10.27.2026
 
-- Added Spiderette, Yukon, and...?
-- Fixed bug where using the crank to make the first move in a game wouldn't properly start the timer
+- Added new modes: Spiderette, Yukon, and...?
 - Fixed bug where the win function could be run multiple times at the end of a game, potentially messing with stats
+- Fixed bug where using the crank to make the first move in a game wouldn't properly start the timer
+- Fixed saving-related bug that would cause the auto-complete function in Klondike to noticeably impact performance
 - Fixed bug where cursor could be maneuvered during an opening deal
 - Fixed bug where if auto-complete cycled the deck in Klondike, the amount of points taken in 3-Draw mode would be incorrect
 - Fixed bug that could potentially crash the game if a custom card back art was used in-game
+- Added 2-Draw difficulty in Klondike
 - Fixed visual bug in the statistics menu if no games of Klondike had been played yet
+- Fixed visual bug where manually flipping a card wouldn't properly update the length of the score bar
+- Fixed bug where tight stacks of cards weren't properly optimized during drawing, which may have reduced performance
 - Fixed bug in the Global screen where personal best may not have been showing properly-formatted scoring info
 - Fixed bug where 'doink' noise would play rapidly, if the end of a stack is reached while quick-picking
 - Removed ability to undo moves made before a resumed game's suspend point
+- Added 'Invert Screen' customization setting
 - Added 'On-line Participation' toggle, in the Catalog version of the game
 - Fixed potential bug when changing "auto-flip" variable in Klondike, and then re-entering a suspended game
 - Added better support for multiple game modes on the title screen
