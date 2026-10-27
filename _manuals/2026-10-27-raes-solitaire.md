@@ -106,13 +106,13 @@ This game supports custom card assets, imported through the game's save-data fol
 
 2. Turn your images into .pdi files that can be read by the system — standard image files like .png or .jpg will not work.
 
-> ⚠️ To create .pdi files, you can either run the images through the `pdc` tool, included in the Playdate SDK; or you can use [this handy web tool](https://pdiconv.ellugar.co/).
+> ⚠️ To create .pdi files, you can either run the images through the <span class="code-span">pdc</span> tool, included in the Playdate SDK; or you can use [this handy web tool](https://pdiconv.ellugar.co/).
 
 3. Access Data Disk Mode on your Playdate by following [these steps](https://help.play.date/games/sideloading/#data-disk-mode), and navigate to <span class="code-span">Data/wtf.rae.solitaire/custom_cards</span>.
 
 4. Create a new folder, name it something unique to your deck (letters only), and drop your card images into it. Don't put 'em outside, or within any sub-folders!
 
-5. Create a JSON file, and place it in the same folder as the card assets. In this JSON file, add strings for `card_alias` (what you want the deck to be called), and `card_maker` (what you want your name to be). Alphanumeric works best for these; recommended maximum character length is 15.
+5. Create a JSON file, and place it in the same folder as the card assets. In this JSON file, add strings for <span class="code-span">card_alias</span> (what you want the deck to be called), and <span class="code-span">card_maker</span> (what you want your name to be). Alphanumeric works best for these; recommended maximum character length is 15.
 
 6. Exit Data Disk Mode, launch Rae's Solitaire, and navigate to Settings > Customization.
 
