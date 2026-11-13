@@ -1,5 +1,15 @@
 [
 	{
+		"name":"Game: Sus",
+		"featured":true,
+		"date":"10.30.2026",
+		"preview":"../trinkets/sus_preview.png",
+		"preview_alt":"Dithered photograph of Adam Savage, wearing a duct tape hat, drinking from a river stream in a lush forest.",
+		"short_desc":"****out, ****out, ****out.",
+		"long_desc":"The Game participants enter a battle of wits, skill, the median voter, ...and sus. Another YouTube Poop! Loud-ish sounds and somewhat vulgar content throughout; viewer discretion advised.",
+		"link_youtube":"https://www.youtube.com/watch?v=eJjhDew68XQ"
+	},
+	{
 		"name":"MythBusters, Duck!",
 		"featured":true,
 		"date":"10.01.2026",

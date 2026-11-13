@@ -9,7 +9,7 @@ redirect_from: /blog/raes-solitaire-manual/
 
 > For having fun or killing time; patience is a virtue.
 
-Hi! My name's Rae. Lately, I've been getting into solitaire (patience, card solitaire, what-have-you). One night, I thought: "I wanna play some solitaire on my Playdate". Then I thought, "how hard would it be to *make* it?" ...So, I made solitaire for my Playdate! Now, you can play it on yours too.
+Hi! My name's Rae. Lately, I've been getting into solitaire (patience, card solitaire, what-have-you). One night, I thought: "I wanna play some solitaire on my Playdate". Then I thought, "hard would it be to *make* it?" ...So, I made solitaire for my Playdate! Now, you can play it on yours too.
 
 It's robust, and ridiculously customizable. You can freely adjust your play settings to suit your play style, choose from a variety of pre-set visual settings, or even draw and import your own deck of cards! It's got some nice features made with Playdate in mind, too — easy undo, extensive use of the Playdate's crank to make your life easier, and an automatic suspend feature that lets you pick a game up where you left off. There's Klondike, Spiderette, Yukon, maybe more...it's solitaire! I hope you enjoy it!
 
@@ -147,11 +147,23 @@ You can view global scores using two primary methods:
 - Art, code, music, and SFX — [Rae](https://rae.wtf)
 - [Pixolde](https://fontenddev.com/fonts/pixolde/) font — [Font End Dev](https://fontenddev.com/)
 - xorshift PRNG implementation — [Eli Piilonen](https://bsky.app/profile/2darray.bsky.social) (2DArray)
-- Additional card art — Powerdive Games, Toad, Scenic Route Software, Synaptic Sugar, Tijn and Jazzie, and gurtt
+- Additional card art — Powerdive Games, Toad, Scenic Route Software, Synaptic Sugar, Tijn and Jazzie, gurtt, and DPS2004 (Daphne S.)
 - Playtesters — Tijn, BT, Ophelia Bee, TheOddLinguist, hekhound, James Gameboy, Kirkpad, David Hepworth, librarian.bmp, Kell Antari
 - Thanks — potch, Kenney, the Café, Panic, and you!
 
 # Changelog
+
+## Version 1.1.1
+### ???
+
+- Fixed bug where, in Klondike and Spiderette, arbitrary stacks could be sorted into banks if the first card was a valid match
+- Added 'Folded' deck (front and back) to the base card roster, from DPS2004 (Daphne S.)
+- Fixed bug where clicking on an empty deck in Klondike would add a move, although no action was taken
+- Fixed potential crash where the 'change category' SFX may be accidentally overwritten during a game
+- Added missing scoring info for 2-Draw games in Klondike's tutorial slides
+- Fixed wording for 'On-line Participation' toggle in Settings ('OFF', not 'ON')
+- Fixed wording for 'Control Bar' toggle in Settings ('Toggle', not 'Change')
+- Added 'doink' sound when clicking on an empty deck in Klondike
 
 ## Version 1.1.0
 ### 10.27.2026

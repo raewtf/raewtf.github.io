@@ -1,5 +1,15 @@
 [
 	{
+		"name":"Moth Says Hello",
+		"date":"11.13.2026",
+		"featured":true,
+		"in_art":true,
+		"focus":"top",
+		"type":"Drawing",
+		"link_view":"/images/20261113_mothsayshello.png",
+		"alt_view":"Doodle of an anthro moth. She's wearing a T-shirt, jean shorts, and some sneakers. She's looking at the viewer, leaned forward with one hand on her knee, and is waving 'hello'."
+	},
+	{
 		"name":"Kanna",
 		"date":"10.23.2026",
 		"featured":false,
