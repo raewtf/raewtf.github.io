@@ -157,6 +157,7 @@ You can view global scores using two primary methods:
 ### ???
 
 - Fixed bug where, in Klondike and Spiderette, arbitrary stacks could be sorted into banks if the first card was a valid match
+- Fixed bug where, in Spiderette, undoing moves in a particular way would cause issues with scoring
 - Added 'Folded' deck (front and back) to the base card roster, from DPS2004 (Daphne S.)
 - Fixed bug where clicking on an empty deck in Klondike would add a move, although no action was taken
 - Fixed potential crash where the 'change category' SFX may be accidentally overwritten during a game
